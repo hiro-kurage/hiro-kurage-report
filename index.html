@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hiro Kurage Report</title>
+<style>
+  :root {
+    --bg:        #F5F9FB;
+    --surface:   #FFFFFF;
+    --border:    #DDE8EE;
+    --text-main: #1A2838;
+    --text-sub:  #627383;
+    --accent:    #0AADBD;
+    --accent-lt: #E4F7FA;
+    --accent-dk: #088E9C;
+    --muted-bg:  #EEF3F6;
+    --muted-text:#9AAAB8;
+    --shadow:    0 2px 12px rgba(10,90,110,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:        #111820;
+      --surface:   #1C2733;
+      --border:    #2A3B4A;
+      --text-main: #E8F0F5;
+      --text-sub:  #7E9BB0;
+      --accent:    #0DCFE2;
+      --accent-lt: #0D2F35;
+      --accent-dk: #3FE0ED;
+      --muted-bg:  #1A2530;
+      --muted-text:#4A6070;
+      --shadow:    0 2px 12px rgba(0,0,0,0.3);
+    }
+  }
+  :root[data-theme="light"] {
+    --bg:#F5F9FB; --surface:#FFFFFF; --border:#DDE8EE;
+    --text-main:#1A2838; --text-sub:#627383;
+    --accent:#0AADBD; --accent-lt:#E4F7FA; --accent-dk:#088E9C;
+    --muted-bg:#EEF3F6; --muted-text:#9AAAB8;
+    --shadow:0 2px 12px rgba(10,90,110,0.08);
+  }
+  :root[data-theme="dark"] {
+    --bg:#111820; --surface:#1C2733; --border:#2A3B4A;
+    --text-main:#E8F0F5; --text-sub:#7E9BB0;
+    --accent:#0DCFE2; --accent-lt:#0D2F35; --accent-dk:#3FE0ED;
+    --muted-bg:#1A2530; --muted-text:#4A6070;
+    --shadow:0 2px 12px rgba(0,0,0,0.3);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
+    background: var(--bg);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: var(--shadow);
+  }
+  .site-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  .logo-mark {
+    width: 32px; height: 32px;
+    background: var(--accent);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; color: #fff; font-weight: 800; letter-spacing: -1px;
+  }
+  .site-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-main);
+    letter-spacing: 0.02em;
+  }
+  .theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: var(--text-sub);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: border-color 0.2s;
+  }
+  .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* ── Hero ── */
+  .hero {
+    padding: 5rem 2rem 3.5rem;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-lt);
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 {
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    font-weight: 800;
+    line-height: 1.2;
+    text-wrap: balance;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+  }
+  .hero h1 span {
+    color: var(--accent);
+  }
+  .hero p {
+    font-size: 1rem;
+    color: var(--text-sub);
+    line-height: 1.7;
+    text-wrap: balance;
+  }
+
+  /* ── Cards ── */
+  .cards-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 2rem 5rem;
+    width: 100%;
+  }
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 2rem 1.75rem;
+    text-decoration: none;
+    color: var(--text-main);
+    transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .card:not(.card--disabled):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(10,100,120,0.13);
+    border-color: var(--accent);
+  }
+  .card:not(.card--disabled):hover .card-arrow {
+    transform: translateX(4px);
+    color: var(--accent);
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--accent);
+    opacity: 0;
+    transition: opacity 0.18s;
+  }
+  .card:not(.card--disabled):hover::before { opacity: 1; }
+
+  .card--disabled {
+    background: var(--muted-bg);
+    border-color: var(--border);
+    box-shadow: none;
+    cursor: default;
+    opacity: 0.65;
+  }
+  .card-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+  .card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .card-desc {
+    font-size: 0.875rem;
+    color: var(--text-sub);
+    line-height: 1.6;
+    flex: 1;
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+  }
+  .card-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 10px;
+  }
+  .badge--active {
+    background: var(--accent-lt);
+    color: var(--accent-dk);
+  }
+  .badge--soon {
+    background: var(--muted-bg);
+    color: var(--muted-text);
+  }
+  .card-arrow {
+    color: var(--text-sub);
+    font-size: 1.1rem;
+    transition: transform 0.18s, color 0.18s;
+  }
+
+  /* ── Footer ── */
+  footer {
+    margin-top: auto;
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--muted-text);
+  }
+
+  @media (max-width: 480px) {
+    .hero { padding: 3rem 1.25rem 2rem; }
+    .cards-section { padding: 0.75rem 1.25rem 3rem; }
+    .card { padding: 1.5rem 1.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="site-logo" href="index.html">
+    <div class="logo-mark">HK</div>
+    <span class="site-name">Hiro Kurage Report</span>
+  </a>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="テーマ切替">☀ / ☾</button>
+</header>
+
+<main>
+  <section class="hero">
+    <span class="hero-eyebrow">Personal Report</span>
+    <h1>FX Trading &<br><span>EA Performance</span></h1>
+    <p>自動売買EAの運用成績・損益推移を記録・可視化する個人レポートサイト。</p>
+  </section>
+
+  <section class="cards-section">
+    <div class="cards-grid">
+
+      <a class="card" href="dashboard.html">
+        <div class="card-icon">📊</div>
+        <div class="card-title">FXダッシュボード</div>
+        <div class="card-desc">EA別・口座別の損益推移グラフ、月次サマリ、勝率などをまとめて確認。</div>
+        <div class="card-footer">
+          <span class="card-badge badge--active">公開中</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+      <div class="card card--disabled">
+        <div class="card-icon">🤖</div>
+        <div class="card-title">AI活用情報</div>
+        <div class="card-desc">Claude・ChatGPTなどAIツールの活用事例・プロンプトのまとめ。</div>
+        <div class="card-footer">
+          <span class="card-badge badge--soon">準備中</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </div>
+
+      <div class="card card--disabled">
+        <div class="card-icon">📈</div>
+        <div class="card-title">EAロジック解説</div>
+        <div class="card-desc">運用中EAのエントリーロジック・バックテスト結果・考察メモ。</div>
+        <div class="card-footer">
+          <span class="card-badge badge--soon">準備中</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Hiro Kurage Report &nbsp;·&nbsp; Personal use only</p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    const root = document.documentElement;
+    const current = root.getAttribute('data-theme') || 'light';
+    root.setAttribute('data-theme', current === 'light' ? 'dark' : 'light');
+    localStorage.setItem('theme', root.getAttribute('data-theme'));
+  }
+  (function() {
+    const saved = localStorage.getItem('theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</body>
+</html>

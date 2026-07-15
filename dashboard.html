@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FXダッシュボード | Hiro Kurage Report</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg:        #F5F9FB;
+    --surface:   #FFFFFF;
+    --border:    #DDE8EE;
+    --text-main: #1A2838;
+    --text-sub:  #627383;
+    --accent:    #0AADBD;
+    --accent-lt: #E4F7FA;
+    --accent-dk: #088E9C;
+    --muted-bg:  #EEF3F6;
+    --muted-text:#9AAAB8;
+    --shadow:    0 2px 12px rgba(10,90,110,0.08);
+    --pos:       #16A34A;
+    --pos-lt:    #DCFCE7;
+    --neg:       #DC2626;
+    --neg-lt:    #FEE2E2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#111820; --surface:#1C2733; --border:#2A3B4A;
+      --text-main:#E8F0F5; --text-sub:#7E9BB0;
+      --accent:#0DCFE2; --accent-lt:#0D2F35; --accent-dk:#3FE0ED;
+      --muted-bg:#1A2530; --muted-text:#4A6070;
+      --shadow:0 2px 12px rgba(0,0,0,0.3);
+      --pos:#22C55E; --pos-lt:#14532D;
+      --neg:#F87171; --neg-lt:#450A0A;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg:#F5F9FB; --surface:#FFFFFF; --border:#DDE8EE;
+    --text-main:#1A2838; --text-sub:#627383;
+    --accent:#0AADBD; --accent-lt:#E4F7FA; --accent-dk:#088E9C;
+    --muted-bg:#EEF3F6; --muted-text:#9AAAB8;
+    --shadow:0 2px 12px rgba(10,90,110,0.08);
+    --pos:#16A34A; --pos-lt:#DCFCE7; --neg:#DC2626; --neg-lt:#FEE2E2;
+  }
+  :root[data-theme="dark"] {
+    --bg:#111820; --surface:#1C2733; --border:#2A3B4A;
+    --text-main:#E8F0F5; --text-sub:#7E9BB0;
+    --accent:#0DCFE2; --accent-lt:#0D2F35; --accent-dk:#3FE0ED;
+    --muted-bg:#1A2530; --muted-text:#4A6070;
+    --shadow:0 2px 12px rgba(0,0,0,0.3);
+    --pos:#22C55E; --pos-lt:#14532D; --neg:#F87171; --neg-lt:#450A0A;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
+    background: var(--bg);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: var(--shadow);
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .site-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+  .logo-mark {
+    width: 30px; height: 30px;
+    background: var(--accent);
+    border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; color: #fff; font-weight: 800; letter-spacing: -1px;
+  }
+  .site-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-sub);
+  }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.875rem;
+    color: var(--text-sub);
+  }
+  .breadcrumb span { color: var(--muted-text); }
+  .page-title-header {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+  .theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: var(--text-sub);
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* ── Main layout ── */
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 2rem 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  .section-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted-text);
+    margin-bottom: 0.9rem;
+  }
+
+  /* ── KPI cards ── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  .kpi-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: var(--shadow);
+  }
+  .kpi-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--text-sub);
+    margin-bottom: 0.6rem;
+  }
+  .kpi-value {
+    font-size: 1.65rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .kpi-value.pos { color: var(--pos); }
+  .kpi-value.neg { color: var(--neg); }
+  .kpi-sub {
+    font-size: 0.75rem;
+    color: var(--text-sub);
+    margin-top: 0.4rem;
+  }
+
+  /* ── Chart panel ── */
+  .chart-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem 1.75rem;
+    box-shadow: var(--shadow);
+  }
+  .chart-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .chart-panel-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+  .chart-panel-sub {
+    font-size: 0.75rem;
+    color: var(--text-sub);
+    margin-top: 2px;
+  }
+  .chart-wrap {
+    position: relative;
+    height: 280px;
+  }
+
+  /* ── EA performance table ── */
+  .ea-table-wrap {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    font-variant-numeric: tabular-nums;
+  }
+  th {
+    text-align: left;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--text-sub);
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-main);
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--muted-bg); }
+  .td-name { font-weight: 600; }
+  .td-pl.pos { color: var(--pos); font-weight: 700; }
+  .td-pl.neg { color: var(--neg); font-weight: 700; }
+  .td-bar-cell { width: 120px; }
+  .td-bar-wrap { height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+  .td-bar { height: 100%; border-radius: 3px; }
+  .td-bar.pos { background: var(--pos); }
+  .td-bar.neg { background: var(--neg); }
+
+  /* ── Period tab ── */
+  .period-tabs {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .tab-btn {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: none;
+    color: var(--text-sub);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .tab-btn.active {
+    background: var(--accent-lt);
+    color: var(--accent-dk);
+    border-color: var(--accent);
+  }
+  .tab-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
+
+  /* ── Footer ── */
+  footer {
+    margin-top: auto;
+    border-top: 1px solid var(--border);
+    padding: 1.25rem 2rem;
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--muted-text);
+  }
+
+  @media (max-width: 600px) {
+    main { padding: 1.25rem 1rem 3rem; }
+    .chart-wrap { height: 220px; }
+    th, td { padding: 0.6rem 0.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <a class="site-logo" href="index.html">
+      <div class="logo-mark">HK</div>
+      <span class="site-name">Hiro Kurage Report</span>
+    </a>
+    <div class="breadcrumb">
+      <span>/</span>
+      <span class="page-title-header">FXダッシュボード</span>
+    </div>
+  </div>
+  <button class="theme-toggle" onclick="toggleTheme()">☀ / ☾</button>
+</header>
+
+<main>
+
+  <!-- KPI cards -->
+  <section id="kpi-section">
+    <div class="section-title">サマリ</div>
+    <div class="kpi-grid" id="kpi-grid"></div>
+  </section>
+
+  <!-- Cumulative P&L chart -->
+  <section>
+    <div class="chart-panel">
+      <div class="chart-panel-header">
+        <div>
+          <div class="chart-panel-title">累積損益推移（EA別）</div>
+          <div class="chart-panel-sub">日次累積 · 全期間</div>
+        </div>
+        <div class="period-tabs" id="period-tabs">
+          <button class="tab-btn" data-period="1m">1ヶ月</button>
+          <button class="tab-btn" data-period="3m">3ヶ月</button>
+          <button class="tab-btn active" data-period="all">全期間</button>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="cumChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- EA performance table -->
+  <section>
+    <div class="chart-panel">
+      <div class="chart-panel-header">
+        <div>
+          <div class="chart-panel-title">EA別パフォーマンス</div>
+          <div class="chart-panel-sub" id="table-sub">全期間</div>
+        </div>
+      </div>
+      <div class="ea-table-wrap">
+        <table id="ea-table">
+          <thead>
+            <tr>
+              <th>EA名</th>
+              <th>総損益（円）</th>
+              <th>取引数</th>
+              <th>勝率</th>
+              <th>最大DD（円）</th>
+              <th style="width:120px">損益バー</th>
+            </tr>
+          </thead>
+          <tbody id="ea-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p id="footer-generated">Hiro Kurage Report &nbsp;·&nbsp; Personal use only</p>
+</footer>
+
+<script>
+// ── theme ──────────────────────────────────────────
+function toggleTheme() {
+  const root = document.documentElement;
+  const cur = root.getAttribute('data-theme') || 'light';
+  root.setAttribute('data-theme', cur === 'light' ? 'dark' : 'light');
+  localStorage.setItem('theme', root.getAttribute('data-theme'));
+  if (window._cumChart) {
+    updateChartTheme(window._cumChart);
+    window._cumChart.update();
+  }
+}
+(function() {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+})();
+
+function getCssVar(v) {
+  return getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+}
+function updateChartTheme(chart) {
+  const gridColor = getCssVar('--border');
+  const textColor = getCssVar('--text-sub');
+  chart.options.scales.x.ticks.color = textColor;
+  chart.options.scales.y.ticks.color = textColor;
+  chart.options.scales.x.grid.color = gridColor;
+  chart.options.scales.y.grid.color = gridColor;
+}
+
+// ── palette ────────────────────────────────────────
+const PALETTE = [
+  '#0AADBD','#F59E0B','#8B5CF6','#10B981','#EF4444',
+  '#3B82F6','#F97316','#EC4899'
+];
+
+// ── data processing ────────────────────────────────
+let RAW = null;
+let currentPeriod = 'all';
+let cumChart = null;
+
+function dateStr(yyyymmdd) {
+  const s = String(yyyymmdd);
+  return `${s.slice(0,4)}/${s.slice(4,6)}/${s.slice(6,8)}`;
+}
+function parseDate(yyyymmdd) {
+  const s = String(yyyymmdd);
+  return new Date(+s.slice(0,4), +s.slice(4,6)-1, +s.slice(6,8));
+}
+
+function filterByPeriod(trades, period) {
+  if (period === 'all') return trades;
+  const now = new Date();
+  const cutoff = new Date(now);
+  if (period === '1m') cutoff.setMonth(cutoff.getMonth() - 1);
+  if (period === '3m') cutoff.setMonth(cutoff.getMonth() - 3);
+  return trades.filter(t => parseDate(t.date) >= cutoff);
+}
+
+function buildDailyCumulative(trades, accounts) {
+  const dates = [...new Set(trades.map(t => t.date))].sort();
+  const accountMap = {};
+  accounts.forEach(a => { accountMap[a.id] = []; });
+
+  const runningSum = {};
+  accounts.forEach(a => { runningSum[a.id] = 0; });
+
+  dates.forEach(d => {
+    accounts.forEach(a => {
+      const dayPl = trades
+        .filter(t => t.date === d && t.accountId === a.id)
+        .reduce((s, t) => s + t.pl, 0);
+      runningSum[a.id] += dayPl;
+      accountMap[a.id].push(runningSum[a.id]);
+    });
+  });
+
+  return { labels: dates.map(dateStr), accountMap };
+}
+
+function buildEaStats(trades, accounts) {
+  return accounts.map(a => {
+    const at = trades.filter(t => t.accountId === a.id);
+    const totalPl = at.reduce((s, t) => s + t.pl, 0);
+    const wins = at.filter(t => t.pl > 0).length;
+    const winRate = at.length ? Math.round(wins / at.length * 100) : 0;
+
+    let running = 0, peak = 0, maxDD = 0;
+    at.sort((x, y) => x.date < y.date ? -1 : 1).forEach(t => {
+      running += t.pl;
+      if (running > peak) peak = running;
+      const dd = peak - running;
+      if (dd > maxDD) maxDD = dd;
+    });
+
+    return { ...a, totalPl, trades: at.length, winRate, maxDD };
+  });
+}
+
+function fmt(n) {
+  return (n >= 0 ? '+' : '') + n.toLocaleString('ja-JP') + '円';
+}
+function fmtAbs(n) {
+  return Math.abs(n).toLocaleString('ja-JP') + '円';
+}
+
+// ── KPI ────────────────────────────────────────────
+function renderKpi(trades, accounts) {
+  const totalPl = trades.reduce((s, t) => s + t.pl, 0);
+  const bestEa = accounts.map(a => ({
+    name: a.name,
+    pl: trades.filter(t => t.accountId === a.id).reduce((s, t) => s + t.pl, 0)
+  })).sort((a, b) => b.pl - a.pl)[0];
+
+  const totalTrades = trades.length;
+  const wins = trades.filter(t => t.pl > 0).length;
+  const winRate = totalTrades ? Math.round(wins / totalTrades * 100) : 0;
+
+  const grid = document.getElementById('kpi-grid');
+  grid.innerHTML = `
+    <div class="kpi-card">
+      <div class="kpi-label">総合損益</div>
+      <div class="kpi-value ${totalPl >= 0 ? 'pos' : 'neg'}">${fmt(totalPl)}</div>
+      <div class="kpi-sub">全EA合計</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">総取引数</div>
+      <div class="kpi-value">${totalTrades}</div>
+      <div class="kpi-sub">勝率 ${winRate}%</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">稼働EA数</div>
+      <div class="kpi-value">${accounts.length}</div>
+      <div class="kpi-sub">口座</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">トップEA</div>
+      <div class="kpi-value pos" style="font-size:1.2rem">${bestEa?.name || '-'}</div>
+      <div class="kpi-sub">${bestEa ? fmt(bestEa.pl) : ''}</div>
+    </div>
+  `;
+}
+
+// ── Chart ──────────────────────────────────────────
+function renderChart(trades, accounts, period) {
+  const { labels, accountMap } = buildDailyCumulative(trades, accounts);
+  const ctx = document.getElementById('cumChart').getContext('2d');
+
+  const datasets = accounts.map((a, i) => ({
+    label: a.name,
+    data: accountMap[a.id],
+    borderColor: PALETTE[i % PALETTE.length],
+    backgroundColor: PALETTE[i % PALETTE.length] + '18',
+    borderWidth: 2,
+    pointRadius: 0,
+    pointHoverRadius: 4,
+    tension: 0.3,
+    fill: false,
+  }));
+
+  if (window._cumChart) {
+    window._cumChart.data.labels = labels;
+    window._cumChart.data.datasets = datasets;
+    updateChartTheme(window._cumChart);
+    window._cumChart.update();
+    return;
+  }
+
+  window._cumChart = new Chart(ctx, {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            boxWidth: 12,
+            padding: 16,
+            font: { size: 11 },
+            color: getCssVar('--text-sub'),
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y.toLocaleString('ja-JP')}円`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: getCssVar('--text-sub'),
+            font: { size: 10 },
+            maxTicksLimit: 10,
+          },
+          grid: { color: getCssVar('--border') }
+        },
+        y: {
+          ticks: {
+            color: getCssVar('--text-sub'),
+            font: { size: 10 },
+            callback: v => v.toLocaleString('ja-JP') + '円'
+          },
+          grid: { color: getCssVar('--border') }
+        }
+      }
+    }
+  });
+}
+
+// ── Table ──────────────────────────────────────────
+function renderTable(trades, accounts) {
+  const stats = buildEaStats(trades, accounts).sort((a, b) => b.totalPl - a.totalPl);
+  const maxAbs = Math.max(...stats.map(s => Math.abs(s.totalPl)), 1);
+
+  const tbody = document.getElementById('ea-tbody');
+  tbody.innerHTML = stats.map(s => {
+    const pos = s.totalPl >= 0;
+    const barW = Math.round(Math.abs(s.totalPl) / maxAbs * 100);
+    return `<tr>
+      <td class="td-name">${s.name}</td>
+      <td class="td-pl ${pos ? 'pos' : 'neg'}">${fmt(s.totalPl)}</td>
+      <td>${s.trades}</td>
+      <td>${s.winRate}%</td>
+      <td>${s.maxDD > 0 ? '-' + fmtAbs(s.maxDD) : '-'}</td>
+      <td class="td-bar-cell">
+        <div class="td-bar-wrap">
+          <div class="td-bar ${pos ? 'pos' : 'neg'}" style="width:${barW}%"></div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+// ── Period tabs ────────────────────────────────────
+document.getElementById('period-tabs').addEventListener('click', e => {
+  const btn = e.target.closest('.tab-btn');
+  if (!btn || !RAW) return;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentPeriod = btn.dataset.period;
+  const filtered = filterByPeriod(RAW.trades, currentPeriod);
+  const labels = { '1m': '直近1ヶ月', '3m': '直近3ヶ月', 'all': '全期間' };
+  document.getElementById('table-sub').textContent = labels[currentPeriod];
+  renderChart(filtered, RAW.accounts, currentPeriod);
+  renderTable(filtered, RAW.accounts);
+  renderKpi(filtered, RAW.accounts);
+});
+
+// ── Init ───────────────────────────────────────────
+fetch('data/trades.json')
+  .then(r => r.json())
+  .then(data => {
+    RAW = data;
+    const trades = filterByPeriod(data.trades, 'all');
+    renderKpi(trades, data.accounts);
+    renderChart(trades, data.accounts, 'all');
+    renderTable(trades, data.accounts);
+    if (data.generated) {
+      const d = new Date(data.generated);
+      const s = `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+      document.getElementById('footer-generated').textContent =
+        `Hiro Kurage Report · Personal use only · データ更新: ${s}`;
+    }
+  })
+  .catch(err => {
+    console.error('Failed to load trades.json:', err);
+    document.getElementById('kpi-grid').innerHTML =
+      '<div style="color:var(--neg);padding:1rem">データ読み込みエラー。trades.jsonを確認してください。</div>';
+  });
+</script>
+</body>
+</html>
