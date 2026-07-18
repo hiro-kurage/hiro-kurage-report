@@ -29,21 +29,52 @@
   header {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 14px 20px;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 60px;
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
-    background: var(--bg);
+    background: #161b22;
     z-index: 10;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
   }
-  header h1 {
-    font-size: 15px;
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .site-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+  .logo-mark {
+    width: 30px; height: 30px;
+    background: #0AADBD;
+    border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; color: #fff; font-weight: 800; letter-spacing: -1px;
+  }
+  .site-name {
+    font-size: 0.875rem;
     font-weight: 600;
-    letter-spacing: .02em;
+    color: var(--muted);
+  }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+  .page-title-header {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text);
   }
   #updated {
-    margin-left: auto;
     font-size: 11px;
     color: var(--muted);
   }
@@ -172,10 +203,20 @@
 </style>
 
 <header>
-  <a href="index.html" style="color:var(--muted);text-decoration:none;font-size:12px;white-space:nowrap;">← トップ</a>
-  <h1>🤖 Orca Automations</h1>
-  <button id="refresh-btn" onclick="loadStatus()">↻ 更新</button>
-  <span id="updated">—</span>
+  <div class="header-left">
+    <a class="site-logo" href="index.html">
+      <div class="logo-mark">HK</div>
+      <span class="site-name">Hiro Kurage Report</span>
+    </a>
+    <div class="breadcrumb">
+      <span>/</span>
+      <span class="page-title-header">Orca Kanban</span>
+    </div>
+  </div>
+  <div style="display:flex;align-items:center;gap:12px;">
+    <button id="refresh-btn" onclick="loadStatus()">↻ 更新</button>
+    <span id="updated">—</span>
+  </div>
 </header>
 
 <div id="board"><div id="error-msg" style="display:none"></div></div>
