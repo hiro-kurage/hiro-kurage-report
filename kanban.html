@@ -185,9 +185,9 @@ const PATH   = 'data/orca-status.json';
 const API    = `https://api.github.com/repos/${REPO}/contents/${PATH}`;
 
 const COLS = [
+  { key: 'waiting',   label: '⏳ 待機中',  cls: 'col-waiting'   },
   { key: 'running',   label: '🔄 実行中',  cls: 'col-running'   },
   { key: 'completed', label: '✅ 完了',    cls: 'col-completed' },
-  { key: 'waiting',   label: '⏳ 待機中',  cls: 'col-waiting'   },
   { key: 'failed',    label: '❌ 失敗',    cls: 'col-failed'    },
   { key: 'disabled',  label: '🔕 無効',    cls: 'col-disabled'  },
 ];
