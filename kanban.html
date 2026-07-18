@@ -1,0 +1,295 @@
+<!doctype html>
+<title>Orca Automations — Kanban</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root {
+    --bg:        #0d1117;
+    --surface:   #161b22;
+    --border:    #30363d;
+    --text:      #e6edf3;
+    --muted:     #8b949e;
+    --completed: #3fb950;
+    --running:   #58a6ff;
+    --waiting:   #8b949e;
+    --failed:    #f85149;
+    --disabled:  #484f58;
+    --col-w:     260px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 13px;
+    min-height: 100vh;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+  }
+  header h1 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .02em;
+  }
+  #updated {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  #refresh-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 4px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background .15s;
+  }
+  #refresh-btn:hover { background: #21262d; }
+  #refresh-btn:disabled { opacity: .5; cursor: default; }
+
+  #board {
+    display: flex;
+    gap: 14px;
+    padding: 16px 20px;
+    overflow-x: auto;
+    align-items: flex-start;
+    min-height: calc(100vh - 53px);
+  }
+
+  .column {
+    flex: 0 0 var(--col-w);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .col-header {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 2px 6px;
+    border-bottom: 2px solid;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+  .col-header .count {
+    margin-left: auto;
+    font-size: 11px;
+    background: var(--border);
+    border-radius: 10px;
+    padding: 1px 7px;
+    font-weight: 400;
+    color: var(--muted);
+  }
+
+  .col-completed .col-header { border-color: var(--completed); color: var(--completed); }
+  .col-running   .col-header { border-color: var(--running);   color: var(--running);   }
+  .col-waiting   .col-header { border-color: var(--waiting);   color: var(--waiting);   }
+  .col-failed    .col-header { border-color: var(--failed);    color: var(--failed);    }
+  .col-disabled  .col-header { border-color: var(--disabled);  color: var(--disabled);  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 10px 10px 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    border-radius: 8px 0 0 8px;
+  }
+  .col-completed .card::before { background: var(--completed); }
+  .col-running   .card::before { background: var(--running); }
+  .col-waiting   .card::before { background: var(--waiting); }
+  .col-failed    .card::before { background: var(--failed); }
+  .col-disabled  .card::before { background: var(--disabled); }
+
+  .card-name {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+  .card-meta {
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .pill {
+    background: #21262d;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    white-space: nowrap;
+  }
+  .card-time {
+    font-size: 10px;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .card-output {
+    font-family: 'SFMono-Regular', Consolas, monospace;
+    font-size: 10px;
+    color: #adbac7;
+    background: #0d1117;
+    border-radius: 4px;
+    padding: 5px 7px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 1.5;
+    max-height: 72px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  #error-msg {
+    padding: 40px 20px;
+    color: var(--failed);
+    font-size: 13px;
+  }
+</style>
+
+<header>
+  <h1>🤖 Orca Automations</h1>
+  <button id="refresh-btn" onclick="loadStatus()">↻ 更新</button>
+  <span id="updated">—</span>
+</header>
+
+<div id="board"><div id="error-msg" style="display:none"></div></div>
+
+<script>
+const REPO   = 'hiro-kurage/hiro-kurage-report';
+const PATH   = 'data/orca-status.json';
+const API    = `https://api.github.com/repos/${REPO}/contents/${PATH}`;
+
+const COLS = [
+  { key: 'running',   label: '🔄 実行中',  cls: 'col-running'   },
+  { key: 'completed', label: '✅ 完了',    cls: 'col-completed' },
+  { key: 'waiting',   label: '⏳ 待機中',  cls: 'col-waiting'   },
+  { key: 'failed',    label: '❌ 失敗',    cls: 'col-failed'    },
+  { key: 'disabled',  label: '🔕 無効',    cls: 'col-disabled'  },
+];
+
+function classify(a) {
+  if (!a.enabled) return 'disabled';
+  const s = (a.last_run || {}).status || '';
+  if (s === 'running')   return 'running';
+  if (s === 'completed') return 'completed';
+  if (s === 'failed' || s === 'error') return 'failed';
+  return 'waiting';
+}
+
+function fmtTime(iso) {
+  if (!iso) return null;
+  const d = new Date(iso);
+  const now = new Date();
+  const diff = Math.floor((now - d) / 60000);
+  if (diff < 1)   return 'たった今';
+  if (diff < 60)  return `${diff}分前`;
+  if (diff < 1440) return `${Math.floor(diff/60)}時間前`;
+  return d.toLocaleDateString('ja-JP', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+}
+
+function makeCard(a) {
+  const lr    = a.last_run || {};
+  const time  = fmtTime(lr.started_at);
+  const dur   = lr.duration_seconds != null ? `${lr.duration_seconds}s` : null;
+  const out   = (lr.output || '').trim();
+
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `
+    <div class="card-name">${escHtml(a.name)}</div>
+    <div class="card-meta">
+      <span class="pill">${escHtml(a.provider || '')}</span>
+      ${a.schedule ? `<span class="pill">${escHtml(a.schedule)}</span>` : ''}
+      ${dur        ? `<span class="pill">${dur}</span>` : ''}
+    </div>
+    ${time ? `<div class="card-time">最終実行: ${time}</div>` : ''}
+    ${out  ? `<div class="card-output">${escHtml(out)}</div>` : ''}
+  `;
+  return card;
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+async function loadStatus() {
+  const btn = document.getElementById('refresh-btn');
+  btn.disabled = true;
+  btn.textContent = '読込中…';
+
+  try {
+    const res  = await fetch(API + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const meta = await res.json();
+    const bytes = Uint8Array.from(atob(meta.content.replace(/\n/g, '')), c => c.charCodeAt(0));
+    const json = JSON.parse(new TextDecoder('utf-8').decode(bytes));
+
+    render(json);
+  } catch(e) {
+    document.getElementById('error-msg').textContent = '取得失敗: ' + e.message;
+    document.getElementById('error-msg').style.display = 'block';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '↻ 更新';
+  }
+}
+
+function render(data) {
+  document.getElementById('error-msg').style.display = 'none';
+
+  const ts = new Date(data.updated_at);
+  document.getElementById('updated').textContent =
+    '最終更新: ' + ts.toLocaleString('ja-JP', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+
+  // カラムごとに仕分け
+  const buckets = {};
+  COLS.forEach(c => buckets[c.key] = []);
+  (data.automations || []).forEach(a => {
+    const k = classify(a);
+    if (buckets[k]) buckets[k].push(a);
+  });
+
+  // ボード再描画
+  const board = document.getElementById('board');
+  board.innerHTML = '';
+  COLS.forEach(col => {
+    const items = buckets[col.key];
+    const div = document.createElement('div');
+    div.className = `column ${col.cls}`;
+    div.innerHTML = `
+      <div class="col-header">
+        ${col.label}
+        <span class="count">${items.length}</span>
+      </div>`;
+    items.forEach(a => div.appendChild(makeCard(a)));
+    board.appendChild(div);
+  });
+}
+
+loadStatus();
+</script>
