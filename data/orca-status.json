@@ -1,0 +1,170 @@
+{
+  "updated_at": "2026-07-18T09:30:33.748925+00:00",
+  "automations": [
+    {
+      "id": "78608daa-b39b-4d8c-9a2f-b22ebd3d2bf1",
+      "name": "Account Profit Calc",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784383200000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-17T14:00:44.967000+00:00",
+        "completed_at": "2026-07-17T14:01:26.393000+00:00",
+        "duration_seconds": 41,
+        "output": "本日の成績を更新しました。\n\n更新ファイル:\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-17 Real Trade 成績.md`\n\n本日増減:\nJPY `+2,042円`\nUSD `+0.59 USD`\n推定残高 `1,916,272円`\n\nDiscordにも `c…"
+      }
+    },
+    {
+      "id": "8bee4cde-8c60-407a-b380-c11a10026613",
+      "name": "EA Profit Calc",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784385000000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-17T14:30:45.052000+00:00",
+        "completed_at": "2026-07-17T14:31:38.626000+00:00",
+        "duration_seconds": 54,
+        "output": "全口座・全EAのEA-PO実績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-17 EA-PO実績.md`\n\n集計は10口座、EA/Magic No. は49件。総合計は `+510,558円`、`+64.35 USD` です。未割当の…"
+      }
+    },
+    {
+      "id": "c2438fed-3546-4de3-9719-66f7e77f68b7",
+      "name": "Market Analysis",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784417400000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-17T23:30:05.117000+00:00",
+        "completed_at": "2026-07-17T23:32:55.256000+00:00",
+        "duration_seconds": 170,
+        "output": "ブリッジEAチェック完了、Discordにも通知を送りました。\n\n**結果サマリー**\n- **USDJPYmicro**: ノーポジション。市場は週末クローズ中（土曜08:30 JST）で新規発注対象外。仮に開いていても日足は上昇トレンド継続だが現在値がbearish OB帯内で上値抵抗、H1は方向感乏しく「待ち」判断\n- **EURUSDmicro**: SELL 0.01lot（ticket…"
+      }
+    },
+    {
+      "id": "20dc2272-c829-454f-be67-4849e52e8c42",
+      "name": "Market Analysis-2",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784520000000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-17T04:00:44.034000+00:00",
+        "completed_at": "2026-07-17T04:06:54.690000+00:00",
+        "duration_seconds": 371,
+        "output": "ブリッジEAチェックが完了し、Discordに通知しました。\n\n**結果サマリー（13:05 JST時点）**\n\n- **USDJPYmicro**: ノーポジション、**待ち**継続。日足は長期上昇トレンド＋中東地政学リスク（原油高）で強気材料が2つあるが、①現在値が弱気OB帯（162.289-162.385）内で上値抵抗継続、②直近のCHoCH[up]がBOS未確認のまま丸1日近く経過し信頼度…"
+      }
+    },
+    {
+      "id": "6e9ff36d-d51f-419f-9496-b1b45e617c26",
+      "name": "Market Analysis-3",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784538000000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-17T09:00:44.390000+00:00",
+        "completed_at": "2026-07-17T09:04:34.782000+00:00",
+        "duration_seconds": 230,
+        "output": "ブリッジEAチェックが完了し、Discordへ通知しました。\n\n**結果サマリー（18:00 JST時点）**\n- **USDJPYmicro**: ノーポジション、**待ち継続**。日足は長期上昇トレンドだが、現在値が弱気Order Block帯の中にあり上値抵抗が続いていること、直近のCHoCH[up]がBOS未確認のまま信頼度が低いこと、加えて中東情勢の急変（原油急騰＋トランプ大統領によるホ…"
+      }
+    },
+    {
+      "id": "3d6f4aed-488c-4a1d-842b-3f7b6ed32075",
+      "name": "Market Analysis-4",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784556600000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-17T14:10:44.971000+00:00",
+        "completed_at": "2026-07-17T14:13:33.516000+00:00",
+        "duration_seconds": 169,
+        "output": "ブリッジEAチェックとDiscord通知が完了した。\n\n**結論**\n- **USDJPYmicro**: 待ち（新規エントリーなし）。日足は上昇トレンド継続だが、H1/SMC構造が新たにCHoCH[down]（07/17 09:00）へ転換し方向感が矛盾。現在値がbearish OB×bullish FVGの拮抗帯にあり、円ショート過剰のスクイーズ警戒・金曜夜の週末持ち越しリスクも重なるため見送…"
+      }
+    },
+    {
+      "id": "bb76daca-919c-46ef-af05-f7610e688192",
+      "name": "ブログ記事の作成",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784943000000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-18T03:01:32.435000+00:00",
+        "completed_at": "2026-07-18T03:05:44.069000+00:00",
+        "duration_seconds": 252,
+        "output": "Obsidianフォルダに保存しました。\n\n**`20260718_forex_blog_W29.md`**（2026年7月第3週：7/13〜7/17）\n\n- **EA実績**: 週間合計 約−12,774円。平均足EA（+18,743円）とSagitariusマイクロ（+8,041円）が牽引した一方、GWJPN・XTRD（USDJPYスイング系）が火曜CPIショックで揃って−2万円台の損失\n- …"
+      }
+    },
+    {
+      "id": "2d4a2789-ba67-4eb8-a363-882f889aebbc",
+      "name": "今週のチャート作成",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784939400000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-18T02:52:06.885000+00:00",
+        "completed_at": "2026-07-18T02:52:40.425000+00:00",
+        "duration_seconds": 34,
+        "output": "完了しました。\n\n- `2026-07-18-USDJPY.png` / `2026-07-18-EURUSD.png`（H1+日足チャート、SMA付き）をObsidianフォルダ（`iclouddriver`）に保存\n- Discordに「Claudeチャート作成完了」を送信済み"
+      }
+    },
+    {
+      "id": "99888acb-b93d-4ef7-9e89-0fd0e799028a",
+      "name": "収益の更新",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784441700000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-18T06:15:18.091000+00:00",
+        "completed_at": "2026-07-18T06:15:58.777000+00:00",
+        "duration_seconds": 41,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n記録ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-18 Real Trade 成績.md`\n\n結果:\n- 本日増減: `±0円 / ±0 USD`\n- 含み損益: `-294円`\n- 含み損益込み推定残高: `1,…"
+      }
+    },
+    {
+      "id": "34c3aedc-1660-4f78-a9fd-a7944f4854c8",
+      "name": "残高推移グラフの作成",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784941200000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-18T02:37:57.627000+00:00",
+        "completed_at": "2026-07-18T02:38:10.277000+00:00",
+        "duration_seconds": 13,
+        "output": "2026年7月分の残高推移グラフを生成し、Obsidianフォルダに保存しました。\n\n- 保存先: `iclouddriver/2026-07 残高推移.jpg`\n- 期間: 7/1〜7/18（当月最新データまで）\n- 月初比: -0.56%、前日比: -0.02%"
+      }
+    },
+    {
+      "id": "6caaeeb1-5578-43db-88f0-3e0df02da1fc",
+      "name": "週次成績の取りまとめ",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784937600000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-18T02:52:30.278000+00:00",
+        "completed_at": "2026-07-18T02:52:56.697000+00:00",
+        "duration_seconds": 26,
+        "output": "作成しました。\n\nファイル: [2026-W29 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W29 週次成績.md>)\n\n概要:\n- 対象期間: 2026-07-13（月）〜 2026-07-17（金）\n- 円建て週次増減: `-13,942円`\n- U…"
+      }
+    }
+  ]
+}
