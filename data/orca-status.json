@@ -1,24 +1,9 @@
 {
-  "updated_at": "2026-07-18T10:00:03.901457+00:00",
+  "updated_at": "2026-07-18T10:15:04.387146+00:00",
   "automations": [
     {
-      "id": "78608daa-b39b-4d8c-9a2f-b22ebd3d2bf1",
-      "name": "Account Profit Calc",
-      "provider": "",
-      "enabled": true,
-      "schedule": "",
-      "next_run": 1784383200000,
-      "last_run": {
-        "status": "completed",
-        "started_at": "2026-07-17T14:00:44.967000+00:00",
-        "completed_at": "2026-07-17T14:01:26.393000+00:00",
-        "duration_seconds": 41,
-        "output": "本日の成績を更新しました。\n\n更新ファイル:\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-17 Real Trade 成績.md`\n\n本日増減:\nJPY `+2,042円`\nUSD `+0.59 USD`\n推定残高 `1,916,272円`\n\nDiscordにも `c…"
-      }
-    },
-    {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
-      "name": "EA Profit Calc",
+      "name": "EA別損益集計",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -134,6 +119,21 @@
         "completed_at": "2026-07-18T06:15:58.777000+00:00",
         "duration_seconds": 41,
         "output": "本日の成績を含み損益込みで更新しました。\n\n記録ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-18 Real Trade 成績.md`\n\n結果:\n- 本日増減: `±0円 / ±0 USD`\n- 含み損益: `-294円`\n- 含み損益込み推定残高: `1,…"
+      }
+    },
+    {
+      "id": "78608daa-b39b-4d8c-9a2f-b22ebd3d2bf1",
+      "name": "口座別損益集計",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784383200000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-17T14:00:44.967000+00:00",
+        "completed_at": "2026-07-17T14:01:26.393000+00:00",
+        "duration_seconds": 41,
+        "output": "本日の成績を更新しました。\n\n更新ファイル:\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-17 Real Trade 成績.md`\n\n本日増減:\nJPY `+2,042円`\nUSD `+0.59 USD`\n推定残高 `1,916,272円`\n\nDiscordにも `c…"
       }
     },
     {
