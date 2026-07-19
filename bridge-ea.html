@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIに裁量トレードをさせてみた話 — Hiro Kurage Report</title>
+<style>
+  :root {
+    --bg:        #F5F9FB;
+    --surface:   #FFFFFF;
+    --border:    #DDE8EE;
+    --text-main: #1A2838;
+    --text-sub:  #627383;
+    --accent:    #0AADBD;
+    --accent-lt: #E4F7FA;
+    --accent-dk: #088E9C;
+    --muted-bg:  #EEF3F6;
+    --muted-text:#9AAAB8;
+    --shadow:    0 2px 12px rgba(10,90,110,0.08);
+    --code-bg:   #F0F5F8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:        #111820;
+      --surface:   #1C2733;
+      --border:    #2A3B4A;
+      --text-main: #E8F0F5;
+      --text-sub:  #7E9BB0;
+      --accent:    #0DCFE2;
+      --accent-lt: #0D2F35;
+      --accent-dk: #3FE0ED;
+      --muted-bg:  #1A2530;
+      --muted-text:#4A6070;
+      --shadow:    0 2px 12px rgba(0,0,0,0.3);
+      --code-bg:   #0D1B24;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg:#F5F9FB; --surface:#FFFFFF; --border:#DDE8EE;
+    --text-main:#1A2838; --text-sub:#627383;
+    --accent:#0AADBD; --accent-lt:#E4F7FA; --accent-dk:#088E9C;
+    --muted-bg:#EEF3F6; --muted-text:#9AAAB8;
+    --shadow:0 2px 12px rgba(10,90,110,0.08);
+    --code-bg:#F0F5F8;
+  }
+  :root[data-theme="dark"] {
+    --bg:#111820; --surface:#1C2733; --border:#2A3B4A;
+    --text-main:#E8F0F5; --text-sub:#7E9BB0;
+    --accent:#0DCFE2; --accent-lt:#0D2F35; --accent-dk:#3FE0ED;
+    --muted-bg:#1A2530; --muted-text:#4A6070;
+    --shadow:0 2px 12px rgba(0,0,0,0.3);
+    --code-bg:#0D1B24;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
+    background: var(--bg);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: var(--shadow);
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .site-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+  .logo-mark {
+    width: 30px; height: 30px;
+    background: var(--accent);
+    border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; color: #fff; font-weight: 800; letter-spacing: -1px;
+  }
+  .site-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-sub);
+  }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.875rem;
+    color: var(--text-sub);
+  }
+  .breadcrumb span { color: var(--muted-text); }
+  .page-title-header {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+  .theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: var(--text-sub);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: border-color 0.2s;
+  }
+  .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* ── Article ── */
+  main {
+    flex: 1;
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 3rem 2rem 5rem;
+    width: 100%;
+  }
+
+  .article-eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-lt);
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 1.25rem;
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    margin-bottom: 0.75rem;
+  }
+
+  .article-meta {
+    font-size: 0.8rem;
+    color: var(--muted-text);
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-left: 0.75rem;
+    border-left: 3px solid var(--accent);
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.85;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  strong { color: var(--text-main); font-weight: 700; }
+
+  ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  li {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--text-main);
+    margin-bottom: 0.25rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    font-size: 0.875rem;
+    overflow-x: auto;
+    display: block;
+  }
+  th {
+    background: var(--muted-bg);
+    color: var(--text-sub);
+    font-weight: 600;
+    text-align: left;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+  }
+  td {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+    color: var(--text-main);
+  }
+  tr:nth-child(even) td { background: var(--muted-bg); }
+
+  code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+    font-size: 0.85em;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    color: var(--accent-dk);
+  }
+
+  .arch-diagram {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.25rem 0;
+    font-family: 'SFMono-Regular', Consolas, monospace;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: var(--text-sub);
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  .callout {
+    background: var(--accent-lt);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 1.25rem 0;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text-main);
+  }
+
+  .trouble-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+  }
+  .trouble-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+  }
+  .trouble-body {
+    font-size: 0.875rem;
+    line-height: 1.75;
+    color: var(--text-sub);
+    margin: 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--muted-text);
+  }
+
+  @media (max-width: 480px) {
+    main { padding: 2rem 1.25rem 3rem; }
+    header { padding: 0 1.25rem; }
+    .site-name { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <a class="site-logo" href="index.html">
+      <div class="logo-mark">HK</div>
+      <span class="site-name">Hiro Kurage Report</span>
+    </a>
+    <div class="breadcrumb">
+      <span>/</span>
+      <span class="page-title-header">AIに裁量トレードをさせてみた話</span>
+    </div>
+  </div>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="テーマ切替">☀ / ☾</button>
+</header>
+
+<main>
+  <span class="article-eyebrow">EA開発 / AI活用</span>
+  <h1>AIに「裁量トレード」をさせてみた話<br>— RemoteBridgeEAの仕組み</h1>
+  <div class="article-meta">2026年7月 &nbsp;·&nbsp; Hiro Kurage</div>
+
+  <h2>はじめに</h2>
+  <p>うちの口座では、以前からルールベースの自動売買EA「DWV_Martin」が24時間休まず働いてくれています。複数の売買シグナルを重み付き多数決にかけ、カレンダー効果まで加味した、いわば「勤勉な機械」です。</p>
+  <p>今回作ったのはこれとは全く別物で、<strong>Claude（AI）が毎回相場を見て、その都度エントリー・決済を判断する「裁量ブリッジEA」</strong>です。名付けて RemoteBridgeEA。</p>
+  <p>MT4のEAというと「一度作ったロジックが延々と回り続ける」イメージが強いと思いますが、こちらのEAは自分では何も考えません。相場を分析して「買う」「売る」「様子見」を決めるのは全部Claude側で、EAはその指示をただ機械的に実行するだけの「手足」です。人間のトレーダーが裁量で判断し、注文執行だけシステムに任せる——それに近いことをAIにやらせてみた、という話です。</p>
+
+  <h2>全体像</h2>
+  <p>登場人物は3つだけです。</p>
+  <div class="arch-diagram">ユーザー（Hiro）
+      │
+      ▼
+  Claude（頭脳）
+  相場分析 → 買う/売る/様子見
+      │  instructions.csv（指示）
+      ▼
+  Google Drive（橋）
+      │  status.csv（口座状況）
+      │  ohlc.csv（ローソク足）
+      ▼
+  MT4 EA on VPS（手足）
+  指示を機械的に実行</div>
+  <p>ClaudeはMT4に直接アクセスできませんし、MT4のEA（MQL4）はインターネット越しにAIと会話する機能を持っていません。そこで間にGoogle Driveを挟み、テキストファイルのやり取りだけで両者をつなぐ、という原始的といえば原始的な方法を取っています。</p>
+
+  <h2>仕組みの詳細</h2>
+  <p>やり取りするファイルは3つだけです。</p>
+  <table>
+    <tr><th>ファイル</th><th>向き</th><th>中身</th></tr>
+    <tr><td><code>instructions.csv</code></td><td>Claude → EA</td><td>エントリー・決済・SL変更などの指示</td></tr>
+    <tr><td><code>status.csv</code></td><td>EA → Claude</td><td>口座残高・保有ポジションの状況</td></tr>
+    <tr><td><code>ohlc.csv</code></td><td>EA → Claude</td><td>直近48本のH1（1時間足）ローソク足データ</td></tr>
+  </table>
+  <p>MT4のEAは自分のいる場所（<code>MQL4\Files</code>フォルダ）の外を直接読み書きできないという制約があるので、Windows側の<code>mklink /J</code>（ジャンクション）という機能を使って、そのフォルダをまるごとGoogle Driveの同期フォルダに繋げています。EA自身は「いつも通りローカルのファイルを読み書きしているだけ」のつもりですが、実体はクラウド経由でMacにいるClaudeとやり取りしている、という仕掛けです。</p>
+  <div class="callout">Claudeは1日4回（8:30・13:00・18:00・23:10）自動的に起動し、この3つのファイルを読み書きしながら判断を下します。</div>
+
+  <h2>Claudeの判断ロジック</h2>
+  <p>毎回のチェックでClaudeが見ているのは、大きく4つの材料です。</p>
+  <ol>
+    <li><strong>ファンダメンタルズ</strong>: その都度Web検索で、金融政策・経済指標・要人発言など直近のニュースを確認</li>
+    <li><strong>テクニカル</strong>: 移動平均線（SMA10/30、SMA20/50/200）とRSIでトレンドと過熱感を判断</li>
+    <li><strong>Smart Money Concepts（SMC）構造分析</strong>: 機関投資家目線の値動き解析。BOS（構造継続）・CHoCH（トレンド転換）・FVG（価格の非効率）・Order Block（反応しやすい価格帯）・流動性プール（ストップ狩りの標的になりやすい水準）を自作スクリプトで検出</li>
+    <li><strong>他資産相関</strong>: 日経225・S&amp;P500・原油(WTI)との相関を都度計算。実測ではEUR/USD×S&amp;P500が最も強く安定した相関（直近60日で+0.6程度）を示していて、地味に一番効く材料だったりします</li>
+  </ol>
+  <p>これらを踏まえて「動機薄→0.01ロット」「動機強→0.02ロット」「根拠不足→様子見」の3段階でロットサイズまで判断します。当初は「全部の材料が揃うまで待つ」姿勢で運用していましたが、それだと保守的になりすぎて機会を逃すことが分かってきたので、今は「主要な根拠が2つ以上揃えば動く」くらいのバランスに調整しています。</p>
+
+  <h2>安全装置</h2>
+  <p>裁量とはいえ実弾（実口座・実資金）が動くので、いくつかガードレールを敷いています。</p>
+  <ul>
+    <li>1通貨ペアにつき同時に1ポジションまで</li>
+    <li>新規エントリーには必ずSL・TPを設定</li>
+    <li>「USDJPY買い＋EURUSD売り」のような同じテーマへの二重ベットを避ける</li>
+    <li>金曜夜の新規エントリーは、週末持ち越し・月曜窓開けギャップのリスクがあるため慎重に判断</li>
+    <li>想定外の急変時は非常停止コマンドで全ポジション決済＋EA停止</li>
+  </ul>
+
+  <h2>自動化とDiscord通知</h2>
+  <p>当初は「エントリーする前に必ずチャットで私に確認する」運用にしていましたが、1日4回の自動実行の途中で承認待ちのまま止まってしまう、という問題が起きました（無人で動いているのに人間の返事を待っている状態になってしまうわけです）。そこで今は、エントリーの可否はClaudeが判断して即座に実行し、結果だけDiscordに通知する形に変えました。</p>
+  <ul>
+    <li>エントリー送信後、約定を確認できるまで最大3回まで自動リトライ</li>
+    <li>成功しても失敗しても、必ずDiscordに通知</li>
+    <li>「何かあれば人間がMT4を見て手動で対処する」という最終防波堤だけは残す</li>
+  </ul>
+
+  <h2>開発中にハマった話</h2>
+  <p>実際にやってみると、想定していなかった落とし穴がいくつもありました。</p>
+
+  <div class="trouble-block">
+    <div class="trouble-title">⚠️ MQL4のファイルI/Oが無限ループでMT4を凍結させた事件</div>
+    <p class="trouble-body">指示ファイルを読み込む処理で、改行コードの扱いを間違えたところ、Windows側で無限ループに入りMT4全体がフリーズしました。原因は、Macで書いたファイルの改行コード（LF）と、MQL4が期待する改行コードの扱いの違い。読み込み方式をより頑健なものに変更し、念のため反復回数の上限も設けて再発防止しています。</p>
+  </div>
+
+  <div class="trouble-block">
+    <div class="trouble-title">⚠️ サーバー時刻とUTCのズレで「即座に期限切れ」になった事件</div>
+    <p class="trouble-body">MT4の<code>TimeCurrent()</code>はブローカーのサーバー時刻を返しますが、これはUTCと一致しません（実測でGMT+3相当）。この時差に気づかず指示にタイムスタンプを付けたところ、送った瞬間に「期限切れ」と判定されて無視される、という事態に。今はEA側がステータスファイルに自分の時刻を書き出し、Claudeは必ずその値を基準に次の指示を作るようにしています。</p>
+  </div>
+
+  <div class="trouble-block">
+    <div class="trouble-title">⚠️ 利益確定のつもりが損切りになった事件</div>
+    <p class="trouble-body">ポジションのSL（損切りライン）を建値の上に動かして利益を確保する「MODIFY」指示を送ったところ、実は計算式の仕様上、常に建値の<strong>下</strong>にSLが置かれる作りになっていました。翌日、そのポジションはストップ狩りに遭い、本来なら守れたはずの利益を守れないまま小幅な損失で決済されてしまいました。地味に一番効いた失敗です。</p>
+  </div>
+
+  <div class="trouble-block">
+    <div class="trouble-title">⚠️ ロンドンオープン直後のストップ狩り</div>
+    <p class="trouble-body">上の損切りが発生した時間帯を調べてみると、ちょうどロンドン市場の始まる時間と重なっていました。セッションの切り替わりで流動性が急増するタイミングは、直近高値・安値がまさに「刈り取られやすい」水準になる、という典型的なパターンだったようです。</p>
+  </div>
+
+  <h2>おわりに</h2>
+  <p>「AIに裁量トレードをさせる」というと大げさに聞こえますが、実態は「Claudeが分析して指示ファイルを書く」「MT4がそれを読んで注文する」という、地味なファイルのやり取りの積み重ねです。派手なアルゴリズムよりも、タイムゾーンのズレや改行コードといった地味な落とし穴の方が、実際には厄介だったというのが正直な感想です。</p>
+  <p>まだ発展途上ですが、判断材料を増やしたり、判断基準を調整したりしながら少しずつ育てています。今後の運用成績もまた別記事で追っていければと思います。</p>
+</main>
+
+<footer>
+  <p>Hiro Kurage Report &nbsp;·&nbsp; Personal use only</p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    const root = document.documentElement;
+    const current = root.getAttribute('data-theme') || 'light';
+    root.setAttribute('data-theme', current === 'light' ? 'dark' : 'light');
+    localStorage.setItem('theme', root.getAttribute('data-theme'));
+  }
+  (function() {
+    const saved = localStorage.getItem('theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</body>
+</html>
