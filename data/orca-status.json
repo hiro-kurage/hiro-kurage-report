@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T02:15:04.123645+00:00",
+  "updated_at": "2026-07-19T02:30:04.380928+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -90,6 +90,15 @@
         "duration_seconds": 252,
         "output": "Obsidianフォルダに保存しました。\n\n**`20260718_forex_blog_W29.md`**（2026年7月第3週：7/13〜7/17）\n\n- **EA実績**: 週間合計 約−12,774円。平均足EA（+18,743円）とSagitariusマイクロ（+8,041円）が牽引した一方、GWJPN・XTRD（USDJPYスイング系）が火曜CPIショックで揃って−2万円台の損失\n- …"
       }
+    },
+    {
+      "id": "9d165f15-fd17-46cc-98be-fa71b2f4b0a8",
+      "name": "マーケット分析",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784432700000,
+      "last_run": null
     },
     {
       "id": "2d4a2789-ba67-4eb8-a363-882f889aebbc",
