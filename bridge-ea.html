@@ -227,18 +227,20 @@
     color: var(--accent-dk);
   }
 
-  .arch-diagram {
-    background: var(--code-bg);
+  .arch-figure { margin: 1.5rem 0; }
+  .arch-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #fff;
     border: 1px solid var(--border);
     border-radius: 10px;
-    padding: 1.5rem;
-    margin: 1.25rem 0;
-    font-family: 'SFMono-Regular', Consolas, monospace;
-    font-size: 0.85rem;
-    line-height: 1.7;
+  }
+  .arch-figure figcaption {
+    margin-top: 0.5rem;
     color: var(--text-sub);
-    overflow-x: auto;
-    white-space: pre;
+    font-size: 0.75rem;
+    text-align: center;
   }
 
   .callout {
@@ -314,20 +316,17 @@
   <p>MT4のEAというと「一度作ったロジックが延々と回り続ける」イメージが強いと思いますが、こちらのEAは自分では何も考えません。相場を分析して「買う」「売る」「様子見」を決めるのは全部Claude側で、EAはその指示をただ機械的に実行するだけの「手足」です。人間のトレーダーが裁量で判断し、注文執行だけシステムに任せる——それに近いことをAIにやらせてみた、という話です。</p>
 
   <h2>全体像</h2>
+  <p>まず構成図を見てもらうのが早いと思います。</p>
+  <figure class="arch-figure">
+    <img src="remotebridgeea-diagram.png" alt="Claude、Google Drive、MT4 EAをつなぐRemoteBridgeEAの全体構成図" width="2048" height="1227">
+    <figcaption>RemoteBridgeEA 全体構成図</figcaption>
+  </figure>
   <p>登場人物は3つだけです。</p>
-  <div class="arch-diagram">ユーザー（Hiro）
-      │
-      ▼
-  Claude（頭脳）
-  相場分析 → 買う/売る/様子見
-      │  instructions.csv（指示）
-      ▼
-  Google Drive（橋）
-      │  status.csv（口座状況）
-      │  ohlc.csv（ローソク足）
-      ▼
-  MT4 EA on VPS（手足）
-  指示を機械的に実行</div>
+  <ul>
+    <li><strong>Claude</strong>: 相場を分析し「買う/売る/様子見」を判断する頭脳</li>
+    <li><strong>Google Drive</strong>: ClaudeとMT4の間をつなぐ「橋」</li>
+    <li><strong>MT4 EA</strong>: VPS上で24時間稼働し、指示を機械的に実行するだけの「手足」</li>
+  </ul>
   <p>ClaudeはMT4に直接アクセスできませんし、MT4のEA（MQL4）はインターネット越しにAIと会話する機能を持っていません。そこで間にGoogle Driveを挟み、テキストファイルのやり取りだけで両者をつなぐ、という原始的といえば原始的な方法を取っています。</p>
 
   <h2>仕組みの詳細</h2>
