@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-19T06:30:04.601382+00:00",
+  "updated_at": "2026-07-19T06:45:05.546336+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
-      "name": "EA別損益集計",
+      "name": "EA別損益集計(codex)",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -17,23 +17,8 @@
       }
     },
     {
-      "id": "c2438fed-3546-4de3-9719-66f7e77f68b7",
-      "name": "Market Analysis",
-      "provider": "",
-      "enabled": true,
-      "schedule": "",
-      "next_run": 1784503800000,
-      "last_run": {
-        "status": "completed",
-        "started_at": "2026-07-19T06:23:44.818000+00:00",
-        "completed_at": "2026-07-19T06:25:52.930000+00:00",
-        "duration_seconds": 128,
-        "output": "ブリッジEAのチェックが完了しました。\n\n**状況サマリー（2026-07-19 15:24 JST時点）**\n- 市場は週末クローズ中（土曜昼から更新停止、月曜朝まで再開待ち）\n- USDJPYmicro: ノーポジション、待ち継続\n- EURUSDmicro: SELL 0.01（ticket 129037681、建値1.14443、含み益+1.00）を継続保有、変更なし\n\n**注意点**: …"
-      }
-    },
-    {
       "id": "20dc2272-c829-454f-be67-4849e52e8c42",
-      "name": "Market Analysis-2",
+      "name": "Market Analysis-2(claude)",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -48,7 +33,7 @@
     },
     {
       "id": "6e9ff36d-d51f-419f-9496-b1b45e617c26",
-      "name": "Market Analysis-3",
+      "name": "Market Analysis-3(claude)",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -63,7 +48,7 @@
     },
     {
       "id": "3d6f4aed-488c-4a1d-842b-3f7b6ed32075",
-      "name": "Market Analysis-4",
+      "name": "Market Analysis-4(claude)",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -77,8 +62,23 @@
       }
     },
     {
+      "id": "c2438fed-3546-4de3-9719-66f7e77f68b7",
+      "name": "Market Analysis(claude)",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784503800000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-19T06:23:44.818000+00:00",
+        "completed_at": "2026-07-19T06:25:52.930000+00:00",
+        "duration_seconds": 128,
+        "output": "ブリッジEAのチェックが完了しました。\n\n**状況サマリー（2026-07-19 15:24 JST時点）**\n- 市場は週末クローズ中（土曜昼から更新停止、月曜朝まで再開待ち）\n- USDJPYmicro: ノーポジション、待ち継続\n- EURUSDmicro: SELL 0.01（ticket 129037681、建値1.14443、含み益+1.00）を継続保有、変更なし\n\n**注意点**: …"
+      }
+    },
+    {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
-      "name": "ブログ記事の作成",
+      "name": "ブログ記事の作成(claude)",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -92,8 +92,17 @@
       }
     },
     {
+      "id": "7a991f80-fa02-4886-8e6d-b592c7f2e92e",
+      "name": "マーケット分析(gemini)08:15",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784502900000,
+      "last_run": null
+    },
+    {
       "id": "9d165f15-fd17-46cc-98be-fa71b2f4b0a8",
-      "name": "マーケット分析",
+      "name": "マーケット分析(gemini)12:45",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -107,8 +116,26 @@
       }
     },
     {
+      "id": "45a69dc1-9b13-4634-b45d-5fdcfb5373ef",
+      "name": "マーケット分析(gemini)17:45",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784450700000,
+      "last_run": null
+    },
+    {
+      "id": "bc3cf731-5735-4072-b05d-8c49886857b4",
+      "name": "マーケット分析(gemini)22:45",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784468700000,
+      "last_run": null
+    },
+    {
       "id": "2d4a2789-ba67-4eb8-a363-882f889aebbc",
-      "name": "今週のチャート作成",
+      "name": "今週のチャート作成(claude)",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -123,7 +150,7 @@
     },
     {
       "id": "99888acb-b93d-4ef7-9e89-0fd0e799028a",
-      "name": "収益の更新",
+      "name": "口座別収益集計(codex)15:00",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -138,7 +165,7 @@
     },
     {
       "id": "78608daa-b39b-4d8c-9a2f-b22ebd3d2bf1",
-      "name": "口座別損益集計",
+      "name": "口座別損益集計(codex)23:00",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -153,7 +180,7 @@
     },
     {
       "id": "34c3aedc-1660-4f78-a9fd-a7944f4854c8",
-      "name": "残高推移グラフの作成",
+      "name": "残高推移グラフの作成(claude)",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -168,7 +195,7 @@
     },
     {
       "id": "6caaeeb1-5578-43db-88f0-3e0df02da1fc",
-      "name": "週次成績の取りまとめ",
+      "name": "週次成績の取りまとめ(claude)",
       "provider": "",
       "enabled": true,
       "schedule": "",
