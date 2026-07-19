@@ -12,6 +12,7 @@
     --completed: #3fb950;
     --running:   #58a6ff;
     --waiting:   #8b949e;
+    --waiting-today: #d4a017;
     --failed:    #f85149;
     --disabled:  #484f58;
     --col-w:     260px;
@@ -151,6 +152,7 @@
   .col-completed .card::before { background: var(--completed); }
   .col-running   .card::before { background: var(--running); }
   .col-waiting   .card::before { background: var(--waiting); }
+  .col-waiting   .card.waiting-today::before { background: var(--waiting-today); }
   .col-failed    .card::before { background: var(--failed); }
   .col-disabled  .card::before { background: var(--disabled); }
 
@@ -283,7 +285,7 @@ function sortByNextRun(items) {
   });
 }
 
-function makeCard(a) {
+function makeCard(a, colKey) {
   const lr    = a.last_run || {};
   const time  = fmtTime(lr.started_at);
   const dur   = lr.duration_seconds != null ? `${lr.duration_seconds}s` : null;
@@ -292,7 +294,8 @@ function makeCard(a) {
   const nextRunStr = fmtNextRun(a.next_run);
 
   const card = document.createElement('div');
-  card.className = 'card';
+  const todayScheduled = colKey === 'waiting' && a.next_run && isToday(a.next_run);
+  card.className = 'card' + (todayScheduled ? ' waiting-today' : '');
   card.innerHTML = `
     <div class="card-name">${escHtml(a.name)}</div>
     <div class="card-meta">
@@ -359,7 +362,7 @@ function render(data) {
         ${col.label}
         <span class="count">${items.length}</span>
       </div>`;
-    items.forEach(a => div.appendChild(makeCard(a)));
+    items.forEach(a => div.appendChild(makeCard(a, col.key)));
     board.appendChild(div);
   });
 }
