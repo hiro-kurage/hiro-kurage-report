@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T06:45:05.546336+00:00",
+  "updated_at": "2026-07-19T07:00:06.615329+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -149,6 +149,24 @@
       }
     },
     {
+      "id": "9fe0afed-1d44-474f-9b4f-619e9fa6e1aa",
+      "name": "口座別収益集計(codex)09:00",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784505600000,
+      "last_run": null
+    },
+    {
+      "id": "3d653a4a-2e5b-4d29-a99c-d3614895822f",
+      "name": "口座別収益集計(codex)12:00",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784516400000,
+      "last_run": null
+    },
+    {
       "id": "99888acb-b93d-4ef7-9e89-0fd0e799028a",
       "name": "口座別収益集計(codex)15:00",
       "provider": "",
@@ -162,6 +180,15 @@
         "duration_seconds": 42,
         "output": "本日の成績を含み損益込みで更新しました。\n\n更新ファイル: [2026-07-19 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-19 Real Trade 成績.md>)\n\n結果は、日次増減 `±0円 / ±0 USD`、含み損益 …"
       }
+    },
+    {
+      "id": "96730b9a-eb30-4b38-85f8-292e6de02259",
+      "name": "口座別収益集計(codex)19:00",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1784455200000,
+      "last_run": null
     },
     {
       "id": "78608daa-b39b-4d8c-9a2f-b22ebd3d2bf1",
