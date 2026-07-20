@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T03:00:05.482636+00:00",
+  "updated_at": "2026-07-20T03:15:05.802193+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -187,8 +187,14 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784516400000,
-      "last_run": null
+      "next_run": 1784602800000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-20T03:00:07.226000+00:00",
+        "completed_at": "2026-07-20T03:00:49.532000+00:00",
+        "duration_seconds": 42,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n更新先: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-20 Real Trade 成績.md`\n\n主な結果:\n- 本日増減: `−1,930円` / `±0 USD`\n- 含み損益: `−270円`\n- 含み損益込み推定残高…"
+      }
     },
     {
       "id": "99888acb-b93d-4ef7-9e89-0fd0e799028a",
