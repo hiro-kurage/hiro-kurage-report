@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T14:00:06.113402+00:00",
+  "updated_at": "2026-07-20T14:15:06.269862+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784556600000,
+      "next_run": 1784643000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-17T14:10:44.971000+00:00",
-        "completed_at": "2026-07-17T14:13:33.516000+00:00",
-        "duration_seconds": 169,
-        "output": "ブリッジEAチェックとDiscord通知が完了した。\n\n**結論**\n- **USDJPYmicro**: 待ち（新規エントリーなし）。日足は上昇トレンド継続だが、H1/SMC構造が新たにCHoCH[down]（07/17 09:00）へ転換し方向感が矛盾。現在値がbearish OB×bullish FVGの拮抗帯にあり、円ショート過剰のスクイーズ警戒・金曜夜の週末持ち越しリスクも重なるため見送…"
+        "started_at": "2026-07-20T14:10:30.293000+00:00",
+        "completed_at": "2026-07-20T14:14:35.870000+00:00",
+        "duration_seconds": 246,
+        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**判断サマリー（23:13 JST時点）**\n- **USDJPYmicro**: ノーポジション継続。CHoCH[up]+BOS[up]・日足長期上昇トレンド・原油急伸（ブレント90.97ドル、+3.3%）・中東情勢悪化（米兵2名死亡確認）・オーダーブックのショートスクイーズ示唆（新規買い74%＋既存ショート71%）と、強気の根拠が…"
       }
     },
     {
@@ -145,10 +145,10 @@
       "next_run": 1784641500000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-20T13:57:58.484000+00:00",
-        "completed_at": "2026-07-20T13:58:38.256000+00:00",
-        "duration_seconds": 40,
-        "output": "今日の為替レポートを作成し、Obsidianに保存しました。また、推奨取引マトリクスの要約をDiscordへ正常に通知しました。\n\n作成したレポートファイル：\n*   [2026-07-20マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-…"
+        "started_at": "2026-07-20T14:02:51.860000+00:00",
+        "completed_at": "2026-07-20T14:03:30.931000+00:00",
+        "duration_seconds": 39,
+        "output": "本日のFXマーケット状況レポートを作成し、Obsidianに保存しました。また、Discordへの通知送信も完了しております。\n\n### 作成したレポート\n* [2026-07-20マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-2…"
       }
     },
     {
@@ -232,13 +232,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784556000000,
+      "next_run": 1784642400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-19T14:00:21.270000+00:00",
-        "completed_at": "2026-07-19T14:01:10.891000+00:00",
-        "duration_seconds": 50,
-        "output": "本日の成績を更新しました。\n\n作成/更新ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-19 Real Trade 成績.md`\n\n増減合計は `±0円（JPY） / ±0 USD` でした。  \nDiscordにも `codex：口座成績の更新完了` を送信…"
+        "started_at": "2026-07-20T14:00:30.275000+00:00",
+        "completed_at": "2026-07-20T14:01:06.767000+00:00",
+        "duration_seconds": 36,
+        "output": "本日の成績を更新しました。\n\n作成/更新ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-20 Real Trade 成績.md`\n\n確認結果は、JPY増減 `-1,494円`、USD増減 `±0 USD` でした。Discordにも `codex：口座成績の更…"
       }
     },
     {
