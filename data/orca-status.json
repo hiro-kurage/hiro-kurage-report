@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T06:45:06.272179+00:00",
+  "updated_at": "2026-07-20T07:00:06.099812+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -25,10 +25,10 @@
       "next_run": 1784606400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-20T04:00:07.305000+00:00",
-        "completed_at": "2026-07-20T04:00:09.427000+00:00",
-        "duration_seconds": 2,
-        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-claude % cclaude '--dangerously-skip-permiss…"
+        "started_at": "2026-07-20T06:57:01.628000+00:00",
+        "completed_at": "2026-07-20T06:59:11.789000+00:00",
+        "duration_seconds": 130,
+        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**サマリー（15:57 JST時点）**\n- **USDJPYmicro**: ノーポジション継続。SMC構造はCHoCH[up]+BOS[up]で強気シグナルだが、EURUSDでSELL保有中のため同一テーマ（ドル高）の二重ベット回避を優先し見送り（15:18時点の判断から変化なし）\n- **EURUSDmicro**: SELL …"
       }
     },
     {
