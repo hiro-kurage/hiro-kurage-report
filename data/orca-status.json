@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T08:45:05.530251+00:00",
+  "updated_at": "2026-07-21T09:00:06.255911+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784623500000,
+      "next_run": 1784709900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-20T08:45:07.807000+00:00",
-        "completed_at": "2026-07-20T08:45:17.874000+00:00",
+        "started_at": "2026-07-21T08:45:32.078000+00:00",
+        "completed_at": "2026-07-21T08:45:42.545000+00:00",
         "duration_seconds": 10,
-        "output": "%                                                                               \n \n\nhiro@yasuhironoMacBook-Air Orca % aagy '--dangerously-skip-permissions' --prompt- \ni\ninteractive '今日の為替レポートをObsidian…"
+        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air Antigravity % aagy '--dangerously-skip-permission…"
       }
     },
     {
