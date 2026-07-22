@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T23:30:07.991848+00:00",
+  "updated_at": "2026-07-22T23:45:09.268380+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784763000000,
+      "next_run": 1784849400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-21T23:30:16.682000+00:00",
-        "completed_at": "2026-07-21T23:37:21.340000+00:00",
-        "duration_seconds": 425,
-        "output": "ブリッジEAのチェックとDiscord通知が完了しました。\n\n**結論**\n- **USDJPY**: ノーポジション継続（見送り）。長期上昇トレンド・原油高/中東ファンダ・SMC構造（BOS継続）は強気材料が揃うが、H1 RSIが87.0の極度の買われ過ぎ、かつ163円の介入トリップワイヤーを上抜けている点、さらにEURUSD SELL保有中で二重ベットになる点から見送り。\n- **EURUSD…"
+        "started_at": "2026-07-22T23:30:22.025000+00:00",
+        "completed_at": "2026-07-22T23:33:22.123000+00:00",
+        "duration_seconds": 180,
+        "output": "ブリッジEAチェックとDiscord通知、どちらも完了しました。\n\n- ポジション: USDJPYは見送り継続、EURUSD SELLは含み益+6.00で継続保有\n- 注意点: EURUSDのH1構造がBOS[up]でSELLポジションへの逆行シグナルが強まっているため、本日21:45JSTのECB理事会通過後は特に注視\n- Obsidian「2026-07-23 Trade日記.md」に詳細記録…"
       }
     },
     {
