@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T14:00:09.089219+00:00",
+  "updated_at": "2026-07-22T14:15:13.437461+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784729400000,
+      "next_run": 1784815800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-21T14:10:15.898000+00:00",
-        "completed_at": "2026-07-21T14:13:25.920000+00:00",
-        "duration_seconds": 190,
-        "output": "ブリッジEAチェック完了しました。\n\n**判断サマリ（23:10 JST時点）**\n- **USDJPYmicro**: ノーポジション継続、新規エントリー見送り。長期上昇トレンド・原油高/中東ファンダ・SMC構造(BOS継続)と強気材料はあるものの、H1 RSIが85.9まで急伸し極度の買われ過ぎ、現在値162.857がマーケットレポートの介入警戒レジスタンス帯（162.80〜162.85）の只…"
+        "started_at": "2026-07-22T14:10:18.233000+00:00",
+        "completed_at": "2026-07-22T14:13:42.270000+00:00",
+        "duration_seconds": 204,
+        "output": "ブリッジEAチェック完了、Discordへも通知しました。\n\n**判断サマリー（23:10 JST）**\n- **USDJPY**: ノーポジション継続、見送り。日足は長期上昇トレンド継続だが、H1 SMC構造が新規CHoCH[down]で押し目転換。オーダーブックはショートスクイーズ示唆（強気材料）が出ているものの、EURUSD SELL保有中のため二重ベット回避を優先、介入警戒（163円接近）…"
       }
     },
     {
@@ -232,13 +232,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784728800000,
+      "next_run": 1784815200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-21T14:00:15.846000+00:00",
-        "completed_at": "2026-07-21T14:00:54.705000+00:00",
-        "duration_seconds": 39,
-        "output": "本日の口座成績を更新し、Discordにも送信しました。\n\n更新ファイル: [2026-07-21 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-21 Real Trade 成績.md>)\n\n本日増減は `+6,263円`、`+1.8…"
+        "started_at": "2026-07-22T14:00:18.210000+00:00",
+        "completed_at": "2026-07-22T14:01:05.252000+00:00",
+        "duration_seconds": 47,
+        "output": "本日の成績を更新し、Discord に `codex：口座成績の更新完了` を送信しました。\n\n更新ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-22 Real Trade 成績.md`\n\n本日増減は `+9,230円`、`+2.96 USD`、推定残高は …"
       }
     },
     {
