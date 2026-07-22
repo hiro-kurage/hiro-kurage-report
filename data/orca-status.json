@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T15:04:06.196691+00:00",
+  "updated_at": "2026-07-22T15:15:07.805543+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -8,7 +8,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1784817000000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-22T14:30:18.270000+00:00",
+        "completed_at": "2026-07-22T14:33:03.475000+00:00",
+        "duration_seconds": 165,
+        "output": "完了しました。\n\n`2026-07-22 EA-PO実績.md` を更新済みです。対象は全10口座・49EA/Magic No.で、総合計は `+524,870円 / +69.11 USD`、前日比は `+9,266円 / +3.61 USD` でした。\n\nDiscordにも `codex：全EAの実績更新完了` を送信済みです。"
+      }
     },
     {
       "id": "20dc2272-c829-454f-be67-4849e52e8c42",
@@ -17,7 +23,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1784779200000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-22T04:00:17.236000+00:00",
+        "completed_at": "2026-07-22T04:02:53.529000+00:00",
+        "duration_seconds": 156,
+        "output": "ブリッジEAチェックが完了し、Discordに完了通知を送りました。\n\n**結果サマリ (13:00 JST時点)**\n\n| 銘柄 | 判断 | 理由 |\n|---|---|---|\n| USDJPYmicro | 見送り（待ち） | 長期上昇トレンド・SMC構造BOS継続で強気材料はあるが、H1 RSI73.6で買われ過ぎ、163円の介入トリップワイヤーを超過、かつEURUSD SELL保有中の…"
+      }
     },
     {
       "id": "6e9ff36d-d51f-419f-9496-b1b45e617c26",
@@ -26,7 +38,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1784797200000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-22T09:00:17.724000+00:00",
+        "completed_at": "2026-07-22T09:03:05.054000+00:00",
+        "duration_seconds": 167,
+        "output": "ブリッジEAチェック完了しました。\n\n**判断: 両ペアとも変更なし（現状維持）**\n\n- **USDJPYmicro**: ノーポジション継続、新規エントリー見送り。日足の長期上昇トレンド・SMC構造(BOS継続)自体は強気材料だが、①直近高値163.228からの押し目でH1 RSIが28.4まで急低下し新規BOSの追認もない、②EURUSDで既にSELL（ドル高テーマ）を保有中のため、USDJ…"
+      }
     },
     {
       "id": "3d6f4aed-488c-4a1d-842b-3f7b6ed32075",
@@ -50,7 +68,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1784763000000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-21T23:30:16.682000+00:00",
+        "completed_at": "2026-07-21T23:37:21.340000+00:00",
+        "duration_seconds": 425,
+        "output": "ブリッジEAのチェックとDiscord通知が完了しました。\n\n**結論**\n- **USDJPY**: ノーポジション継続（見送り）。長期上昇トレンド・原油高/中東ファンダ・SMC構造（BOS継続）は強気材料が揃うが、H1 RSIが87.0の極度の買われ過ぎ、かつ163円の介入トリップワイヤーを上抜けている点、さらにEURUSD SELL保有中で二重ベットになる点から見送り。\n- **EURUSD…"
+      }
     },
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -104,7 +128,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1784796300000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-22T08:45:17.695000+00:00",
+        "completed_at": "2026-07-22T08:45:54.344000+00:00",
+        "duration_seconds": 37,
+        "output": "本日（2026年7月22日）のFXマーケット分析および環境認識レポートを作成し、Obsidianディレクトリへ保存いたしました。また、Discordへの要約通知も正常に送信完了しています。\n\n---\n\n### レポートの保存先\n* [2026-07-22マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsid…"
+      }
     },
     {
       "id": "bc3cf731-5735-4072-b05d-8c49886857b4",
@@ -113,7 +143,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1784814300000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-22T13:45:18.194000+00:00",
+        "completed_at": "2026-07-22T13:45:46.100000+00:00",
+        "duration_seconds": 28,
+        "output": "本日のFXマーケット分析レポートを作成し、Obsidianに保存いたしました。また、要約をDiscordに通知完了しています。\n\n---\n\n### 📄 保存したレポート\n* 保存先: [2026-07-22マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriv…"
+      }
     },
     {
       "id": "2d4a2789-ba67-4eb8-a363-882f889aebbc",
@@ -122,7 +158,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1784939400000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-07-18T02:52:06.885000+00:00",
+        "completed_at": "2026-07-18T02:52:40.425000+00:00",
+        "duration_seconds": 34,
+        "output": "完了しました。\n\n- `2026-07-18-USDJPY.png` / `2026-07-18-EURUSD.png`（H1+日足チャート、SMA付き）をObsidianフォルダ（`iclouddriver`）に保存\n- Discordに「Claudeチャート作成完了」を送信済み"
+      }
     },
     {
       "id": "9fe0afed-1d44-474f-9b4f-619e9fa6e1aa",
