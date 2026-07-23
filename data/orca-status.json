@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T04:00:08.779804+00:00",
+  "updated_at": "2026-07-23T04:15:09.146211+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784779200000,
+      "next_run": 1784865600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-22T04:00:17.236000+00:00",
-        "completed_at": "2026-07-22T04:02:53.529000+00:00",
-        "duration_seconds": 156,
-        "output": "ブリッジEAチェックが完了し、Discordに完了通知を送りました。\n\n**結果サマリ (13:00 JST時点)**\n\n| 銘柄 | 判断 | 理由 |\n|---|---|---|\n| USDJPYmicro | 見送り（待ち） | 長期上昇トレンド・SMC構造BOS継続で強気材料はあるが、H1 RSI73.6で買われ過ぎ、163円の介入トリップワイヤーを超過、かつEURUSD SELL保有中の…"
+        "started_at": "2026-07-23T04:00:20.421000+00:00",
+        "completed_at": "2026-07-23T04:03:45.116000+00:00",
+        "duration_seconds": 205,
+        "output": "ブリッジEAのチェックが完了しました。要点は以下の通りです。\n\n**ポジション状況**\n- USDJPYmicro: ノーポジション継続\n- EURUSDmicro: SELL 0.01lot継続保有（ticket 129037681、含み益+2.00、価格はやや逆行中）\n\n**判断**\n- **USDJPY**: 長期上昇トレンド・SMC構造up継続に加え、オーダーブックで「既存Short偏重＋…"
       }
     },
     {
