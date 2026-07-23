@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T23:30:08.921004+00:00",
+  "updated_at": "2026-07-23T23:45:09.576384+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784849400000,
+      "next_run": 1784935800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-22T23:30:22.025000+00:00",
-        "completed_at": "2026-07-22T23:33:22.123000+00:00",
-        "duration_seconds": 180,
-        "output": "ブリッジEAチェックとDiscord通知、どちらも完了しました。\n\n- ポジション: USDJPYは見送り継続、EURUSD SELLは含み益+6.00で継続保有\n- 注意点: EURUSDのH1構造がBOS[up]でSELLポジションへの逆行シグナルが強まっているため、本日21:45JSTのECB理事会通過後は特に注視\n- Obsidian「2026-07-23 Trade日記.md」に詳細記録…"
+        "started_at": "2026-07-23T23:30:24.477000+00:00",
+        "completed_at": "2026-07-23T23:33:18.048000+00:00",
+        "duration_seconds": 174,
+        "output": "ブリッジEAチェック完了、Discordに通知も送信しました。\n\n**結論**\n- **USDJPY**: 新規エントリー見送り。理由は①既存EURUSD SELLと同一テーマ（ドルロング）の二重ベットになる、②RSI14=73.6で過熱かつ164円の介入警戒ライン目前、③SMC構造がCHoCH往復でレンジ気味、の3点。\n- **EURUSD**: 保有中のSELL（0.01lot, entry …"
       }
     },
     {
