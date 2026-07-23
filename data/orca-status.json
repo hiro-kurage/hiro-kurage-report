@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T13:45:09.275964+00:00",
+  "updated_at": "2026-07-23T14:00:09.027221+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -142,13 +142,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784814300000,
+      "next_run": 1784900700000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-22T13:45:18.194000+00:00",
-        "completed_at": "2026-07-22T13:45:46.100000+00:00",
-        "duration_seconds": 28,
-        "output": "本日のFXマーケット分析レポートを作成し、Obsidianに保存いたしました。また、要約をDiscordに通知完了しています。\n\n---\n\n### 📄 保存したレポート\n* 保存先: [2026-07-22マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriv…"
+        "started_at": "2026-07-23T13:45:23.613000+00:00",
+        "completed_at": "2026-07-23T13:45:52.414000+00:00",
+        "duration_seconds": 29,
+        "output": "本日のFXマーケット状況レポートを作成し、Obsidianに保存いたしました。また、Discordへの要約通知も正常に完了しております。\n\n### 📁 保存先ファイル\n[2026-07-23マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-…"
       }
     },
     {
