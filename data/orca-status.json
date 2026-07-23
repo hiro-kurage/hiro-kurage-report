@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T14:00:09.027221+00:00",
+  "updated_at": "2026-07-23T14:15:09.537616+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784815800000,
+      "next_run": 1784902200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-22T14:10:18.233000+00:00",
-        "completed_at": "2026-07-22T14:13:42.270000+00:00",
-        "duration_seconds": 204,
-        "output": "ブリッジEAチェック完了、Discordへも通知しました。\n\n**判断サマリー（23:10 JST）**\n- **USDJPY**: ノーポジション継続、見送り。日足は長期上昇トレンド継続だが、H1 SMC構造が新規CHoCH[down]で押し目転換。オーダーブックはショートスクイーズ示唆（強気材料）が出ているものの、EURUSD SELL保有中のため二重ベット回避を優先、介入警戒（163円接近）…"
+        "started_at": "2026-07-23T14:10:23.673000+00:00",
+        "completed_at": "2026-07-23T14:14:26.905000+00:00",
+        "duration_seconds": 243,
+        "output": "I'll wait for the fill confirmation to come back, then continue with the diary/log entries and Discord notification."
       }
     },
     {
@@ -232,13 +232,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784815200000,
+      "next_run": 1784901600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-22T14:00:18.210000+00:00",
-        "completed_at": "2026-07-22T14:01:05.252000+00:00",
-        "duration_seconds": 47,
-        "output": "本日の成績を更新し、Discord に `codex：口座成績の更新完了` を送信しました。\n\n更新ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-22 Real Trade 成績.md`\n\n本日増減は `+9,230円`、`+2.96 USD`、推定残高は …"
+        "started_at": "2026-07-23T14:00:23.646000+00:00",
+        "completed_at": "2026-07-23T14:01:29.832000+00:00",
+        "duration_seconds": 66,
+        "output": "本日の成績を更新しました。\n\n記録先: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-23 Real Trade 成績.md`\n\n増減は `+7,360円`、`±0 USD`、本日推定残高は `1,938,404円` です。Discord へも `codex：口座成績の…"
       }
     },
     {
