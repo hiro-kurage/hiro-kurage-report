@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T04:00:08.834060+00:00",
+  "updated_at": "2026-07-24T04:15:12.780375+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1784865600000,
+      "next_run": 1785124800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-23T04:00:20.421000+00:00",
-        "completed_at": "2026-07-23T04:03:45.116000+00:00",
-        "duration_seconds": 205,
-        "output": "ブリッジEAのチェックが完了しました。要点は以下の通りです。\n\n**ポジション状況**\n- USDJPYmicro: ノーポジション継続\n- EURUSDmicro: SELL 0.01lot継続保有（ticket 129037681、含み益+2.00、価格はやや逆行中）\n\n**判断**\n- **USDJPY**: 長期上昇トレンド・SMC構造up継続に加え、オーダーブックで「既存Short偏重＋…"
+        "started_at": "2026-07-24T04:00:24.816000+00:00",
+        "completed_at": "2026-07-24T04:04:15.142000+00:00",
+        "duration_seconds": 230,
+        "output": "ブリッジEAチェック完了しました。要点は以下の通りです。\n\n**現状ポジション**\n- USDJPYmicro: ポジションなし\n- EURUSDmicro: SELL 0.01lot（entry 1.13699、SL 1.13999、TP 1.13199、含み損-2.00）\n\n**判断**\n- **EURUSD: 保有継続、変更なし** — ファンダ（ECB据え置き＋ドル全面高）・テクニカル（日…"
       }
     },
     {
