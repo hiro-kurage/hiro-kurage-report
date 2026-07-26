@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T14:30:06.186517+00:00",
+  "updated_at": "2026-07-26T14:45:06.279219+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -7,13 +7,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785076200000,
+      "next_run": 1785162600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-25T14:30:38.178000+00:00",
-        "completed_at": "2026-07-25T14:32:24.511000+00:00",
-        "duration_seconds": 106,
-        "output": "全口座・全EAのEA-PO実績を更新しました。\n\n作成ファイル:\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-25 EA-PO実績.md`\n\n集計は10口座・49 EA/Magic No.で、総合計はJPY `+535,143円`、USD `+70.64 USD` で…"
+        "started_at": "2026-07-26T14:30:07.367000+00:00",
+        "completed_at": "2026-07-26T14:31:24.373000+00:00",
+        "duration_seconds": 77,
+        "output": "全口座・全EAのEA-PO実績を更新しました。\n\n出力先: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-26 EA-PO実績.md`\n\n集計は10口座・49EA、総合計は `+535,143円` / `+70.64 USD` です。Magic No.未割当の未決済ポジ…"
       }
     },
     {
