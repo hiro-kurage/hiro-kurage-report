@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T14:00:05.581571+00:00",
+  "updated_at": "2026-07-27T14:15:06.273415+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785161400000,
+      "next_run": 1785247800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-24T14:10:26.052000+00:00",
-        "completed_at": "2026-07-24T14:13:54.314000+00:00",
-        "duration_seconds": 208,
-        "output": "ブリッジEAチェック完了、Discordに通知しました。\n\n**結果サマリー(23:10 JST)**\n- 両ペアともポジションなし\n- **USDJPY: 見送り** — 日足は上昇トレンドだが、H1のSMC構造は直近CHoCH+BOSで下降継続と逆方向に交錯、RSI14も中立\n- **EURUSD: 見送り** — 逆に日足は下降トレンドだが、H1のSMC構造は上昇継続と逆方向に交錯、RSI1…"
+        "started_at": "2026-07-27T14:10:47.544000+00:00",
+        "completed_at": "2026-07-27T14:14:01.765000+00:00",
+        "duration_seconds": 194,
+        "output": "EAチェック完了しました。\n\n**判断サマリー（23:12 JST時点）**\n- **USDJPYmicro**（SELL 0.02lot、含み損-2.00）: SMC構造がBOS×5に強化され下降ラベル継続。RSIは60.9まで反発したが現在値はbearish FVG内の「戻り高値」圏で根拠は健在 → **現行維持**\n- **EURUSDmicro**（PENDING SELL指値1.1430…"
       }
     },
     {
@@ -232,13 +232,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785160800000,
+      "next_run": 1785247200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-26T14:00:07.308000+00:00",
-        "completed_at": "2026-07-26T14:01:14.887000+00:00",
-        "duration_seconds": 68,
-        "output": "本日の口座成績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-26 Real Trade 成績.md`\n\n本日推定残高は **1,941,658円** です。Discord へ「codex：口座成績の更新完了」と推定残高を送信済みです。"
+        "started_at": "2026-07-27T14:00:47.522000+00:00",
+        "completed_at": "2026-07-27T14:01:57.542000+00:00",
+        "duration_seconds": 70,
+        "output": "本日の成績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-27 Real Trade 成績.md`\n\n本日推定残高は **1,942,104円** です。Discordにも以下を送信済みです。\n\n```text\ncodex：口座成績の更…"
       }
     },
     {
