@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T04:00:05.628385+00:00",
+  "updated_at": "2026-07-27T04:15:06.265271+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785124800000,
+      "next_run": 1785211200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-24T04:00:24.816000+00:00",
-        "completed_at": "2026-07-24T04:04:15.142000+00:00",
-        "duration_seconds": 230,
-        "output": "ブリッジEAチェック完了しました。要点は以下の通りです。\n\n**現状ポジション**\n- USDJPYmicro: ポジションなし\n- EURUSDmicro: SELL 0.01lot（entry 1.13699、SL 1.13999、TP 1.13199、含み損-2.00）\n\n**判断**\n- **EURUSD: 保有継続、変更なし** — ファンダ（ECB据え置き＋ドル全面高）・テクニカル（日…"
+        "started_at": "2026-07-27T04:00:08.822000+00:00",
+        "completed_at": "2026-07-27T04:03:29.678000+00:00",
+        "duration_seconds": 201,
+        "output": "95秒の待機が完了するのを待っています。"
       }
     },
     {
