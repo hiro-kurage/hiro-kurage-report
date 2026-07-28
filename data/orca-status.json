@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T14:15:06.804849+00:00",
+  "updated_at": "2026-07-28T14:30:06.066512+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -54,11 +54,11 @@
       "schedule": "",
       "next_run": 1785334200000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-07-28T14:10:50.056000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-07-28T14:15:58.462000+00:00",
+        "duration_seconds": 308,
+        "output": "ブリッジEAチェック完了し、Discordに通知を送りました。\n\n**結論**\n- **USDJPY**: ポジションなし。新規エントリーは**見送り**（H1 SMC構造が16時間で5回もCHoCH反転しBOS未確認のノイズ状態／163.80〜164円の介入警戒帯に接近／FOMC結果発表まで約28時間／EURUSDの既存SELLポジションと合わせるとドル高への二重ベットになるため）\n- **EU…"
       }
     },
     {
