@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T14:00:06.294314+00:00",
+  "updated_at": "2026-07-28T14:15:06.804849+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785247800000,
+      "next_run": 1785334200000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-07-27T14:10:47.544000+00:00",
-        "completed_at": "2026-07-27T14:14:01.765000+00:00",
-        "duration_seconds": 194,
-        "output": "EAチェック完了しました。\n\n**判断サマリー（23:12 JST時点）**\n- **USDJPYmicro**（SELL 0.02lot、含み損-2.00）: SMC構造がBOS×5に強化され下降ラベル継続。RSIは60.9まで反発したが現在値はbearish FVG内の「戻り高値」圏で根拠は健在 → **現行維持**\n- **EURUSDmicro**（PENDING SELL指値1.1430…"
+        "status": "dispatched",
+        "started_at": "2026-07-28T14:10:50.056000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
@@ -232,13 +232,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785247200000,
+      "next_run": 1785333600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-27T14:00:47.522000+00:00",
-        "completed_at": "2026-07-27T14:01:57.542000+00:00",
-        "duration_seconds": 70,
-        "output": "本日の成績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-27 Real Trade 成績.md`\n\n本日推定残高は **1,942,104円** です。Discordにも以下を送信済みです。\n\n```text\ncodex：口座成績の更…"
+        "started_at": "2026-07-28T14:00:50.033000+00:00",
+        "completed_at": "2026-07-28T14:01:55.044000+00:00",
+        "duration_seconds": 65,
+        "output": "本日の成績を更新しました。\n\n出力先: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-28 Real Trade 成績.md`\n\n本日増減は `+490円 / ±0 USD`、推定残高は `1,942,594円` です。Discordにも「codex：口座成績の更新完了…"
       }
     },
     {
