@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T14:00:06.330757+00:00",
+  "updated_at": "2026-07-29T14:15:06.776124+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -61,13 +61,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785334200000,
+      "next_run": 1785420600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-28T14:10:50.056000+00:00",
-        "completed_at": "2026-07-28T14:15:58.462000+00:00",
-        "duration_seconds": 308,
-        "output": "ブリッジEAチェック完了し、Discordに通知を送りました。\n\n**結論**\n- **USDJPY**: ポジションなし。新規エントリーは**見送り**（H1 SMC構造が16時間で5回もCHoCH反転しBOS未確認のノイズ状態／163.80〜164円の介入警戒帯に接近／FOMC結果発表まで約28時間／EURUSDの既存SELLポジションと合わせるとドル高への二重ベットになるため）\n- **EU…"
+        "started_at": "2026-07-29T14:10:52.622000+00:00",
+        "completed_at": "2026-07-29T14:14:22.530000+00:00",
+        "duration_seconds": 210,
+        "output": "ブリッジEAチェック完了、Discordにも送信しました。\n\n**判断サマリー（23:11 JST時点）**\n- **USDJPYmicro**: ポジション無し。H1構造は下向きだが日足は強い上昇トレンドで対立、加えてFOMC結果発表まで約4時間弱（利上げ確率30%超）に迫っているため**新規エントリーは見送り**\n- **EURUSDmicro**: PENDING SELL(指値1.1430…"
       }
     },
     {
@@ -241,13 +241,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785333600000,
+      "next_run": 1785420000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-28T14:00:50.033000+00:00",
-        "completed_at": "2026-07-28T14:01:55.044000+00:00",
-        "duration_seconds": 65,
-        "output": "本日の成績を更新しました。\n\n出力先: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-28 Real Trade 成績.md`\n\n本日増減は `+490円 / ±0 USD`、推定残高は `1,942,594円` です。Discordにも「codex：口座成績の更新完了…"
+        "started_at": "2026-07-29T14:00:52.600000+00:00",
+        "completed_at": "2026-07-29T14:02:09.916000+00:00",
+        "duration_seconds": 77,
+        "output": "本日の成績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-29 Real Trade 成績.md`\n\n本日増減は `+1,762円`、推定残高は `1,944,356円` です。  \nDiscordにも「codex：口座成績の更新完了」…"
       }
     },
     {
