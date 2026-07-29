@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T13:00:07.822619+00:00",
+  "updated_at": "2026-07-29T13:15:07.339642+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -15,6 +15,15 @@
         "duration_seconds": 95,
         "output": "完了しました。\n\n更新ファイル:\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-28 EA-PO実績.md`\n\n確認結果:\n全10口座・49EA、JPY合計 `+536,197円`、USD合計 `+70.64 USD`、未割当オープンポジションなし。\n\nDiscordに…"
       }
+    },
+    {
+      "id": "2972cc74-d95f-48af-9ea1-72f836088031",
+      "name": "FOMC後チェック(claude)7/30 5:00",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1785355200000,
+      "last_run": null
     },
     {
       "id": "20dc2272-c829-454f-be67-4849e52e8c42",
