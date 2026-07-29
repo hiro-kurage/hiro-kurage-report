@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T14:30:07.027239+00:00",
+  "updated_at": "2026-07-29T14:45:06.845238+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -7,13 +7,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785335400000,
+      "next_run": 1785421800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-28T14:30:50.086000+00:00",
-        "completed_at": "2026-07-28T14:32:25.025000+00:00",
-        "duration_seconds": 95,
-        "output": "完了しました。\n\n更新ファイル:\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-28 EA-PO実績.md`\n\n確認結果:\n全10口座・49EA、JPY合計 `+536,197円`、USD合計 `+70.64 USD`、未割当オープンポジションなし。\n\nDiscordに…"
+        "started_at": "2026-07-29T14:30:52.655000+00:00",
+        "completed_at": "2026-07-29T14:32:19.951000+00:00",
+        "duration_seconds": 87,
+        "output": "全口座・全EAのEA-PO実績を更新しました。\n\n作成ファイル：\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-29 EA-PO実績.md`\n\n概要：\n- 対象：10口座、49EA\n- JPY合計：+537,955円\n- USD合計：+70.64 USD\n- 前日比合計…"
       }
     },
     {
