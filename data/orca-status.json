@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T00:00:06.753383+00:00",
+  "updated_at": "2026-07-30T00:15:10.114594+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -187,13 +187,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785369600000,
+      "next_run": 1785456000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-29T00:00:51.079000+00:00",
-        "completed_at": "2026-07-29T00:01:56.353000+00:00",
-        "duration_seconds": 65,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n記録ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-29 Real Trade 成績.md`\n\n含み損益: `-3円`  \n含み損益込み推定残高: `1,942,591円`\n\nDiscordには以下を送信済みです。\n…"
+        "started_at": "2026-07-30T00:00:53.730000+00:00",
+        "completed_at": "2026-07-30T00:02:24.982000+00:00",
+        "duration_seconds": 91,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n記録ファイル: [2026-07-30 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-30 Real Trade 成績.md>)\n\n含み損益: `+2円`  \n含み損益込み推定残高: `1,…"
       }
     },
     {
