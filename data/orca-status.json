@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T20:00:07.330611+00:00",
+  "updated_at": "2026-07-30T20:15:07.066563+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785441600000,
+      "next_run": 1785528000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-29T20:00:53.289000+00:00",
-        "completed_at": "2026-07-29T20:04:08.487000+00:00",
-        "duration_seconds": 195,
-        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-claude % cclaude '--dangerously-skip-permiss…"
+        "started_at": "2026-07-30T20:00:55.980000+00:00",
+        "completed_at": "2026-07-30T20:03:43.007000+00:00",
+        "duration_seconds": 167,
+        "output": "ブリッジEAチェック完了、Discordにも通知済みです。\n\n**要点**\n- 両ペアともポジションなし、新規エントリーは**見送り(待ち)**\n- USDJPYは前日23時台に約320pips急落。政府・日銀の為替介入がほぼ確実視される報道あり(160円→157円台)。RSI14=16.9で極端な売られすぎ\n- EURUSDはその連れ高でRSI14=75.0の極端な買われすぎ\n- 最大の焦点は*…"
       }
     },
     {
