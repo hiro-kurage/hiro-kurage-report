@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T03:45:06.881785+00:00",
+  "updated_at": "2026-07-31T04:00:07.308708+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785469500000,
+      "next_run": 1785555900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-30T03:45:54.162000+00:00",
-        "completed_at": "2026-07-30T03:46:34.322000+00:00",
-        "duration_seconds": 40,
-        "output": "本日の為替分析レポートを作成し、Obsidianに保存いたしました。あわせて、要約メッセージをDiscordへ送信完了しております。\n\n### 📄 保存先ファイル\n* [2026-07-30マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-…"
+        "started_at": "2026-07-31T03:45:56.825000+00:00",
+        "completed_at": "2026-07-31T03:46:26.987000+00:00",
+        "duration_seconds": 30,
+        "output": "本日の為替マーケット分析レポートを作成し、Obsidianへ保存およびDiscordへの通知を完了いたしました。\n\n### 📁 保存先ファイル\n- [2026-07-31マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-07-31%E3%8…"
       }
     },
     {
