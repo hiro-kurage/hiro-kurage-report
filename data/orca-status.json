@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T14:15:07.889434+00:00",
+  "updated_at": "2026-07-31T14:30:07.237484+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -69,11 +69,11 @@
       "schedule": "",
       "next_run": 1785766200000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-07-31T14:10:57.944000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-07-31T14:15:20.155000+00:00",
+        "duration_seconds": 262,
+        "output": "ブリッジEAチェック完了、Discord通知も送信しました。\n\n**結果サマリ**\n- **EURUSDmicro**: 前回チェック(18:03)時点で保有していたBUYポジション(ticket129508316)が、今回のチェックで消滅を検知。H1足がSL水準(建値1.15147)を明確に下抜けており、建値SLヒットとほぼ確実(XM確定メール未着のため推定扱いでtrade_log/日記に記録、…"
       }
     },
     {
