@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T01:30:07.495483+00:00",
+  "updated_at": "2026-08-01T01:45:07.693447+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785547800000,
+      "next_run": 1786152600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-25T01:30:27.662000+00:00",
-        "completed_at": "2026-07-25T01:36:31.802000+00:00",
-        "duration_seconds": 364,
-        "output": "ブログ記事を作成し、Obsidianフォルダに保存しました。\n\n**保存先**: `.../iclouddriver/20260725_forex_blog_W30.md`\n\n**使用データ**\n- チャート: `2026-07-25-USDJPY.png` / `2026-07-25-EURUSD.png`\n- EA成績: `2026-W30 週次成績.md`（週間合計 約+25,125円、全1…"
+        "started_at": "2026-08-01T01:30:59.325000+00:00",
+        "completed_at": "2026-08-01T01:34:34.063000+00:00",
+        "duration_seconds": 215,
+        "output": "ブログ記事を作成し、Obsidianフォルダに保存しました。\n\n**保存先**: `iclouddriver/20260801_forex_blog_W31.md`\n\n**構成**:\n- **EA週次実績**: 7/24→7/31の週次成績（`2026-W31 週次成績.md`）を使用。週間合計+8,392円、Sagitariusマイクロが+6,777円のエース、10口座全てプラス/変化なしという…"
       }
     },
     {
