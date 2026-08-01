@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T00:30:07.557730+00:00",
+  "updated_at": "2026-08-01T00:45:07.633607+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -172,13 +172,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785544200000,
+      "next_run": 1786149000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-25T00:30:27.414000+00:00",
-        "completed_at": "2026-07-25T00:32:25.773000+00:00",
-        "duration_seconds": 118,
-        "output": "完了しました。\n\n- `2026-07-25-USDJPY.png`、`2026-07-25-EURUSD.png`（H1+日足の並べチャート、SMA付き）をObsidianフォルダに保存\n- Discordに「Claudeチャート作成完了」を送信済み"
+        "started_at": "2026-08-01T00:30:59.218000+00:00",
+        "completed_at": "2026-08-01T00:31:40.432000+00:00",
+        "duration_seconds": 41,
+        "output": "完了しました。\n\n- USDJPY・EURUSDのH1+日足チャートを生成し、Obsidianフォルダ（`iclouddriver`）に `2026-08-01-USDJPY.png` / `2026-08-01-EURUSD.png` として保存\n- Discordに「Claudeチャート作成完了」を送信済み"
       }
     },
     {
