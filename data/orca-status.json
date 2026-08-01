@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T23:30:08.659071+00:00",
+  "updated_at": "2026-08-01T23:45:07.832461+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -84,11 +84,11 @@
       "schedule": "",
       "next_run": 1785713400000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-01T23:30:01.765000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-01T23:33:42.582000+00:00",
+        "duration_seconds": 221,
+        "output": "ブリッジEAチェック完了しました。\n\n**結論: 両ペアとも新規エントリーなし（待ち）**\n\n- USDJPYmicro / EURUSDmicro ともにノーポジション、状況は本日05:02の前回チェックから変化なし\n- 現在は日曜08:32 JSTでFX市場は週末クローズ中（金曜23:00 server時刻の足を最後に新規確定足なし）のため、そもそも新規ポジションは持てない局面\n- 直近1週間…"
       }
     },
     {
