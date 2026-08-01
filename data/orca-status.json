@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T08:30:07.455256+00:00",
+  "updated_at": "2026-08-01T08:45:08.035321+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -142,13 +142,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785573900000,
+      "next_run": 1785660300000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-07-31T08:45:57.307000+00:00",
-        "completed_at": "2026-07-31T08:46:37.197000+00:00",
-        "duration_seconds": 40,
-        "output": "本日の為替レポートを作成し、Obsidianディレクトリに保存するとともにDiscordへの通知を完了いたしました。\n\n---\n\n### レポートの概要・推奨取引マトリクス\n\n#### 市場概況\n- **USD/JPY (ドル/円)**: 160.00～160.70円付近。日米金利差を背景とするドル買い圧力が継続しているものの、160円台後半では本邦財務省による為替介入への警戒感が強く上値が抑えら…"
+        "status": "dispatched",
+        "started_at": "2026-08-01T08:45:00.111000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
