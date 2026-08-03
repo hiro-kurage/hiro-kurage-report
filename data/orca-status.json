@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T09:00:09.407092+00:00",
+  "updated_at": "2026-08-03T09:15:09.128657+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785747600000,
+      "next_run": 1785834000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-07-31T09:00:57.317000+00:00",
-        "completed_at": "2026-07-31T09:06:36.047000+00:00",
-        "duration_seconds": 339,
-        "output": "ScheduleWakeupは/loopモード専用でした。バックグラウンドタスクの完了通知を待ちます。"
+        "started_at": "2026-08-03T09:00:23.692000+00:00",
+        "completed_at": "2026-08-03T09:03:40.882000+00:00",
+        "duration_seconds": 197,
+        "output": "Monitorとウェイクアップを待っています。結果が届き次第、約定確認・日記記録・Discord通知まで進めます。"
       }
     },
     {
