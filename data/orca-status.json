@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T13:15:10.136622+00:00",
+  "updated_at": "2026-08-03T13:30:08.985653+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -107,6 +107,21 @@
       }
     },
     {
+      "id": "bc3cf731-5735-4072-b05d-8c49886857b4",
+      "name": "マーケット分析(codex)22:45",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1785764700000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-08-02T13:45:21.612000+00:00",
+        "completed_at": "2026-08-02T13:45:30.845000+00:00",
+        "duration_seconds": 9,
+        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air Antigravity % aagy '--dangerously-skip-permission…"
+      }
+    },
+    {
       "id": "7a991f80-fa02-4886-8e6d-b592c7f2e92e",
       "name": "マーケット分析(gemini)08:15",
       "provider": "",
@@ -148,21 +163,6 @@
         "started_at": "2026-08-03T08:45:23.643000+00:00",
         "completed_at": "2026-08-03T08:45:34.830000+00:00",
         "duration_seconds": 11,
-        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air Antigravity % aagy '--dangerously-skip-permission…"
-      }
-    },
-    {
-      "id": "bc3cf731-5735-4072-b05d-8c49886857b4",
-      "name": "マーケット分析(gemini)22:45",
-      "provider": "",
-      "enabled": true,
-      "schedule": "",
-      "next_run": 1785764700000,
-      "last_run": {
-        "status": "completed",
-        "started_at": "2026-08-02T13:45:21.612000+00:00",
-        "completed_at": "2026-08-02T13:45:30.845000+00:00",
-        "duration_seconds": 9,
         "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air Antigravity % aagy '--dangerously-skip-permission…"
       }
     },
