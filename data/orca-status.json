@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T14:00:09.648912+00:00",
+  "updated_at": "2026-08-04T14:15:07.771726+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785852600000,
+      "next_run": 1785939000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-03T14:10:14.089000+00:00",
-        "completed_at": "2026-08-03T14:12:42.570000+00:00",
-        "duration_seconds": 148,
-        "output": "EAチェック完了、Discordにも通知を送りました。\n\n- **USDJPYmicro**: SELL 0.02lot保有継続（建値156.934、現在156.535、含み益+8）。日足下降トレンド・SMC下降構造（BOS未更新）・現在値上のOB抵抗と根拠は維持されており、SL/TP変更なし\n- **EURUSDmicro**: ノーポジション継続。SMC構造はupだがCHoCh高値から反落し明…"
+        "started_at": "2026-08-04T14:10:16.562000+00:00",
+        "completed_at": "2026-08-04T14:14:20.257000+00:00",
+        "duration_seconds": 244,
+        "output": "ブリッジEAチェックが完了しました。\n\n**結果サマリー（23:13 JST）**\n- USDJPYmicro・EURUSDmicro: いずれもノーポジション\n- USDJPYmicro: SMC構造がCHoCH→BOSで上昇転換したが、現在値はそのブレイク水準を割って押し戻し。日足下降トレンド・ファンダの戻り売りバイアスと方向が対立 → **待ち**\n- EURUSDmicro: SMC下降確…"
       }
     },
     {
@@ -247,13 +247,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785852000000,
+      "next_run": 1785938400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-03T14:00:14.066000+00:00",
-        "completed_at": "2026-08-03T14:01:20.572000+00:00",
+        "started_at": "2026-08-04T14:00:16.546000+00:00",
+        "completed_at": "2026-08-04T14:01:23.088000+00:00",
         "duration_seconds": 67,
-        "output": "本日の成績を更新し、Discordへ送信しました。\n\n記録ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-03 Real Trade 成績.md`\n\n本日増減: `+716円`\n推定残高: `1,950,505円`\n\nDiscord送信結果: `✅ Disco…"
+        "output": "本日のReal Trade成績を更新しました。\n\n記録ファイル: [2026-08-04 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-04 Real Trade 成績.md>)\n\n本日増減は `+1,125円 / ±0 USD`、本…"
       }
     },
     {
