@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T13:45:10.913051+00:00",
+  "updated_at": "2026-08-05T14:00:09.591681+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -157,13 +157,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785937500000,
+      "next_run": 1786023900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-04T13:45:16.588000+00:00",
-        "completed_at": "2026-08-04T13:50:31.498000+00:00",
-        "duration_seconds": 315,
-        "output": "完了しました。\n\nObsidianの同日ファイルを上書き済みです: [2026-08-04マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-04マーケット状況.md>)\n\nDiscordにも `codex:マーケット分析完了` を送信し、成功しました…"
+        "started_at": "2026-08-05T13:45:47.545000+00:00",
+        "completed_at": "2026-08-05T13:46:24.273000+00:00",
+        "duration_seconds": 37,
+        "output": "最新のFXマーケット分析を完了し、Obsidianフォルダへの上書き保存およびDiscordへの通知送信を完了いたしました。\n\n### 📊 マーケット分析の要約 (2026年8月5日 22:45 JST)\n\n- **USD/JPY (ドル円)**: 157.00〜157.70円台で揉み合い推移。日米協調介入後の警戒感や日銀追加利上げ観測が上値を抑える一方、金利差（キャリートレード）による底堅さも継…"
       }
     },
     {
