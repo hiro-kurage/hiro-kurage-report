@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T20:00:07.527314+00:00",
+  "updated_at": "2026-08-05T20:15:07.581690+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785960000000,
+      "next_run": 1786046400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-04T20:00:17.282000+00:00",
-        "completed_at": "2026-08-04T20:05:14.527000+00:00",
-        "duration_seconds": 297,
-        "output": "ブリッジEAチェック完了、Discordに通知しました。\n\n**結果サマリー(05:04 JST)**\n- 両ペアともノーポジション\n- **USDJPYmicro（待ち）**: 介入警戒ゾーン(157円超)+日足下降トレンド+bearish OB/FVGの3根拠は下方向で一致するが、H1のSMC構造は直近BOSで上昇確定済みという対立があり見送り。158.00-158.20への上昇があれば根拠が…"
+        "started_at": "2026-08-05T20:00:48.310000+00:00",
+        "completed_at": "2026-08-05T20:03:52.183000+00:00",
+        "duration_seconds": 184,
+        "output": "ブリッジEAチェック完了しました。\n\n**現状**\n- USDJPYmicro: ノーポジション → 待ち継続（日足下降トレンド＆介入警戒ゾーン近接 vs H1/SMC上昇構造の対立、明日8/7のNFP前で見送り）\n- EURUSDmicro: BUY 0.02lot保有中（ticket129649488、含み益+4.00）→ SMC構造(CHoCH+BOS連続)が崩れていないため保有継続、SL/…"
       }
     },
     {
