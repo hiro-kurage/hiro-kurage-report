@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T20:00:07.763017+00:00",
+  "updated_at": "2026-08-06T20:15:07.787220+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786046400000,
+      "next_run": 1786132800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-05T20:00:48.310000+00:00",
-        "completed_at": "2026-08-05T20:03:52.183000+00:00",
-        "duration_seconds": 184,
-        "output": "ブリッジEAチェック完了しました。\n\n**現状**\n- USDJPYmicro: ノーポジション → 待ち継続（日足下降トレンド＆介入警戒ゾーン近接 vs H1/SMC上昇構造の対立、明日8/7のNFP前で見送り）\n- EURUSDmicro: BUY 0.02lot保有中（ticket129649488、含み益+4.00）→ SMC構造(CHoCH+BOS連続)が崩れていないため保有継続、SL/…"
+        "started_at": "2026-08-06T20:00:50.919000+00:00",
+        "completed_at": "2026-08-06T20:11:20.375000+00:00",
+        "duration_seconds": 629,
+        "output": "**ブリッジEAチェック完了、Discord通知送信済みです。**\n\nサマリー:\n- **EURUSDmicro**: 保有中だったBUYポジション(ticket129649488)を決済しました。08/06 19:00にCHoCH[down](構造転換)が確定し、RSI14も26.4まで低下してエントリー根拠だったBOS上昇構造が崩壊。加えて本日21:30JSTに米雇用統計(NFP)を控えるため…"
       }
     },
     {
