@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T04:00:08.676135+00:00",
+  "updated_at": "2026-08-06T04:15:08.049578+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1785988800000,
+      "next_run": 1786075200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-05T04:00:18.175000+00:00",
-        "completed_at": "2026-08-05T04:05:36.474000+00:00",
-        "duration_seconds": 318,
-        "output": "ブリッジEAチェック完了、Discordに通知も送りました。\n\n**結果サマリー**\n- **USDJPYmicro**: ノーポジション継続。RSI14=50.2で中立、H1 SMAも横ばい。SMC構造は\"up\"ラベルだが直近はbearish OB(157.05-157.86)内に押し戻され失速しており、根拠不足のため**待ち**。\n- **EURUSDmicro**: 新規**ENTRY_BU…"
+        "started_at": "2026-08-06T04:00:49.215000+00:00",
+        "completed_at": "2026-08-06T04:03:09.765000+00:00",
+        "duration_seconds": 141,
+        "output": "ブリッジEAチェック完了、Discord通知も送信しました。\n\n**結論（13:01 JST時点）**\n- **USDJPYmicro**: ノーポジション → **待ち継続**。bearish OB/FVG(157.78-157.95/157.56-158.87)内で上値抑制、日足はSMA20/50/200すべて下、加えて本日夜の米雇用関連指標・明日08/07 21:30 NFPを控え方向感なし…"
       }
     },
     {
