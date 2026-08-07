@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T23:30:08.394127+00:00",
+  "updated_at": "2026-08-07T23:45:09.116792+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786145400000,
+      "next_run": 1786231800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-06T23:30:49.266000+00:00",
-        "completed_at": "2026-08-06T23:33:02.663000+00:00",
-        "duration_seconds": 133,
-        "output": "ブリッジEAチェック完了です。\n\n**結果サマリー（08:31 JST時点）**\n- USDJPYmicro / EURUSDmicro ともにノーポジション\n- USDJPY: RSI14=78.2で極端な過熱継続、SMC構造は上昇トレンド維持だが158.80台定着には未到達\n- EURUSD: CHoCH[down]は残るが継続を裏付けるBOSがまだ無く、RSIも41.1まで中立化\n- 本日2…"
+        "started_at": "2026-08-07T23:30:53.965000+00:00",
+        "completed_at": "2026-08-07T23:32:23.008000+00:00",
+        "duration_seconds": 89,
+        "output": "ブリッジEAチェック完了、Discordにも通知済みです。\n\n- USDJPY・EURUSDともノーポジション、EA疎通は正常（前回チェックで見られたEURUSD側の更新停滞も解消）\n- 相場は週末クローズ中でH1確定足に変化なし、05:01チェックからの新規材料もなし（ドル安テーマは継続だが方向転換なし）\n- 引き続き新規エントリーは見送り。次回は月曜の値動き再開後に再判断\n- Obsidian…"
       }
     },
     {
