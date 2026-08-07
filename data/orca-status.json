@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T23:15:08.048894+00:00",
+  "updated_at": "2026-08-07T23:30:08.394127+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -112,13 +112,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786144500000,
+      "next_run": 1786230900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-06T23:15:51.252000+00:00",
-        "completed_at": "2026-08-06T23:19:18.708000+00:00",
-        "duration_seconds": 207,
-        "output": "完了しました。\n\nObsidianに本日分を上書き保存しました: [2026-08-07マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-07マーケット状況.md>)\n\nDiscordにも `codex:マーケット分析完了` を送信済みです。スクリプ…"
+        "started_at": "2026-08-07T23:15:53.969000+00:00",
+        "completed_at": "2026-08-07T23:19:12.085000+00:00",
+        "duration_seconds": 198,
+        "output": "完了しました。\n\nObsidianにレポートを保存済みです: [2026-08-08マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-08マーケット状況.md>)\n\nDiscordにも `codex:マーケット分析完了` を送信し、送信成功を確認しま…"
       }
     },
     {
