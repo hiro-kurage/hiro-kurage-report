@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T03:00:08.896219+00:00",
+  "updated_at": "2026-08-08T03:15:08.082486+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -202,13 +202,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786158000000,
+      "next_run": 1786244400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-07T03:00:51.685000+00:00",
-        "completed_at": "2026-08-07T03:01:57.470000+00:00",
-        "duration_seconds": 66,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n記録ファイル: [2026-08-07 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-07 Real Trade 成績.md>)\n\n含み損益込み推定残高は **1,950,026円** です…"
+        "started_at": "2026-08-08T03:00:54.324000+00:00",
+        "completed_at": "2026-08-08T03:01:57.978000+00:00",
+        "duration_seconds": 64,
+        "output": "完了しました。\n\n`2026-08-08 Real Trade 成績.md` を含み損益込みで更新済みです。  \n含み損益：`-40円`  \n含み損益込み推定残高：`1,957,127円`\n\nDiscordにも `codex：成績更新完了` と推定残高を送信済みです。"
       }
     },
     {
