@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T20:00:08.278588+00:00",
+  "updated_at": "2026-08-08T20:15:08.679920+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786219200000,
+      "next_run": 1786305600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-07T20:00:53.572000+00:00",
-        "completed_at": "2026-08-07T20:05:22.030000+00:00",
-        "duration_seconds": 268,
-        "output": "ブリッジEAチェック完了、Discordにも通知済みです。\n\n**結果サマリー**\n- 両ペアともノーポジション（前回チェック分のUSDJPY SELL・EURUSD BUYは既に決済済み）\n- ファンダ（協調介入後の上値重さ）・日足テクニカル・SMC構造（USDJPY: CHoCH down確定／EURUSD: CHoCH up確定）・相関の4根拠が「USDJPY売り／EURUSD買い」で一致し…"
+        "started_at": "2026-08-08T20:00:56.271000+00:00",
+        "completed_at": "2026-08-08T20:03:25.361000+00:00",
+        "duration_seconds": 149,
+        "output": "ブリッジEAチェック完了、Discordに通知も送信しました。\n\n**結論: 両ペースとも待ち（新規エントリーなし）**\n\n- USDJPYmicro / EURUSDmicro ともにノーポジション、EA疎通も正常\n- 現在は週末クローズ中（最終確定H1足は8/7 22:00）のため、市場自体が開いておらず執行不可\n- ファンダは米雇用統計の下振れでドル全面安基調、EURUSDはやや強気・USD…"
       }
     },
     {
