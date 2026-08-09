@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T00:00:08.276315+00:00",
+  "updated_at": "2026-08-09T00:15:08.677787+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -187,13 +187,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786233600000,
+      "next_run": 1786320000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-08T00:00:53.972000+00:00",
-        "completed_at": "2026-08-08T00:02:06.833000+00:00",
-        "duration_seconds": 73,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n更新先: [2026-08-08 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-08 Real Trade 成績.md>)\n\n結果:\n- 本日増減: `±0円 / ±0 USD`\n- 含み損…"
+        "started_at": "2026-08-09T00:00:56.689000+00:00",
+        "completed_at": "2026-08-09T00:01:58.518000+00:00",
+        "duration_seconds": 62,
+        "output": "更新完了しました。\n\n[2026-08-09 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-09 Real Trade 成績.md>) を含み損益込みで更新済みです。取得失敗はありません。\n\n本日増減：`±0円 / ±0 USD`  …"
       }
     },
     {
