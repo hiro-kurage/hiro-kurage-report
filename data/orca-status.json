@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T11:45:08.017640+00:00",
+  "updated_at": "2026-08-09T12:00:09.015313+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -107,21 +107,6 @@
       }
     },
     {
-      "id": "7a991f80-fa02-4886-8e6d-b592c7f2e92e",
-      "name": "マーケット分析(codex)08:15",
-      "provider": "",
-      "enabled": true,
-      "schedule": "",
-      "next_run": 1786317300000,
-      "last_run": {
-        "status": "completed",
-        "started_at": "2026-08-08T23:15:56.585000+00:00",
-        "completed_at": "2026-08-08T23:19:08.607000+00:00",
-        "duration_seconds": 192,
-        "output": "マーケット分析をObsidianに保存しました。\n\n[2026-08-09マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-09マーケット状況.md>)\n\nDiscordにも `codex:マーケット分析完了` を送信済みです。"
-      }
-    },
-    {
       "id": "9d165f15-fd17-46cc-98be-fa71b2f4b0a8",
       "name": "マーケット分析(codex)12:45",
       "provider": "",
@@ -149,6 +134,21 @@
         "completed_at": "2026-08-09T08:48:59.995000+00:00",
         "duration_seconds": 213,
         "output": "マーケット分析を上書き保存しました: [2026-08-09マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-09マーケット状況.md>)\n\n内容確認済みです。スキャル/スイング、リスク注意、分析時刻、価格基準時点、出典リンクを入れています。\n\nDi…"
+      }
+    },
+    {
+      "id": "7a991f80-fa02-4886-8e6d-b592c7f2e92e",
+      "name": "マーケット分析(gemini)08:15",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1786317300000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-08-08T23:15:56.585000+00:00",
+        "completed_at": "2026-08-08T23:19:08.607000+00:00",
+        "duration_seconds": 192,
+        "output": "マーケット分析をObsidianに保存しました。\n\n[2026-08-09マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-09マーケット状況.md>)\n\nDiscordにも `codex:マーケット分析完了` を送信済みです。"
       }
     },
     {
