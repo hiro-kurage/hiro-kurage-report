@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EA パフォーマンス | Hiro Kurage Report</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg:        #F5F9FB;
+    --surface:   #FFFFFF;
+    --border:    #DDE8EE;
+    --text-main: #1A2838;
+    --text-sub:  #627383;
+    --accent:    #0AADBD;
+    --accent-lt: #E4F7FA;
+    --accent-dk: #088E9C;
+    --muted-bg:  #EEF3F6;
+    --muted-text:#9AAAB8;
+    --shadow:    0 2px 12px rgba(10,90,110,0.08);
+    --pos:       #16A34A;
+    --neg:       #DC2626;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#111820; --surface:#1C2733; --border:#2A3B4A;
+      --text-main:#E8F0F5; --text-sub:#7E9BB0;
+      --accent:#0DCFE2; --accent-lt:#0D2F35; --accent-dk:#3FE0ED;
+      --muted-bg:#1A2530; --muted-text:#4A6070;
+      --shadow:0 2px 12px rgba(0,0,0,0.3);
+      --pos:#4ADE80; --neg:#F87171;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg:#F5F9FB; --surface:#FFFFFF; --border:#DDE8EE;
+    --text-main:#1A2838; --text-sub:#627383;
+    --accent:#0AADBD; --accent-lt:#E4F7FA; --accent-dk:#088E9C;
+    --muted-bg:#EEF3F6; --muted-text:#9AAAB8;
+    --shadow:0 2px 12px rgba(10,90,110,0.08);
+    --pos:#16A34A; --neg:#DC2626;
+  }
+  :root[data-theme="dark"] {
+    --bg:#111820; --surface:#1C2733; --border:#2A3B4A;
+    --text-main:#E8F0F5; --text-sub:#7E9BB0;
+    --accent:#0DCFE2; --accent-lt:#0D2F35; --accent-dk:#3FE0ED;
+    --muted-bg:#1A2530; --muted-text:#4A6070;
+    --shadow:0 2px 12px rgba(0,0,0,0.3);
+    --pos:#4ADE80; --neg:#F87171;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
+    background: var(--bg);
+    color: var(--text-main);
+    min-height: 100vh;
+  }
+
+  /* Header */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px; position: sticky; top: 0; z-index: 100;
+    box-shadow: var(--shadow);
+  }
+  .header-left { display: flex; align-items: center; gap: 1rem; }
+  .site-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .logo-mark {
+    width: 32px; height: 32px; background: var(--accent); border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; color: #fff; font-weight: 800; letter-spacing: -1px;
+  }
+  .site-name { font-size: 1rem; font-weight: 700; color: var(--text-main); }
+  .breadcrumb { display: flex; align-items: center; gap: 0.4rem; font-size: 0.875rem; color: var(--muted-text); }
+  .page-title-header { font-size: 0.9rem; font-weight: 700; color: var(--text-main); }
+  .header-right { display: flex; align-items: center; gap: 10px; }
+  .theme-toggle, .refresh-btn {
+    background: none; border: 1px solid var(--border); border-radius: 6px;
+    padding: 5px 10px; color: var(--text-sub); cursor: pointer; font-size: 0.82rem;
+    transition: border-color .2s;
+  }
+  .theme-toggle:hover, .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+  #updated { font-size: 11px; color: var(--muted-text); }
+
+  /* Layout */
+  .layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: calc(100vh - 60px);
+  }
+
+  /* Sidebar */
+  .sidebar {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    padding: 1rem 0;
+  }
+  .sidebar-title {
+    font-size: 0.7rem; font-weight: 700; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--muted-text);
+    padding: 0 1rem 0.5rem;
+  }
+  .acct-group { margin-bottom: 0.25rem; }
+  .acct-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.4rem 1rem;
+    font-size: 0.78rem; font-weight: 700; color: var(--text-sub);
+    cursor: pointer; user-select: none;
+    transition: background .15s;
+  }
+  .acct-header:hover { background: var(--muted-bg); }
+  .acct-toggle { font-size: 10px; color: var(--muted-text); }
+  .ea-list { padding: 0 0.5rem 0.5rem; }
+  .ea-item {
+    display: flex; align-items: center; gap: 8px;
+    padding: 4px 0.5rem; border-radius: 6px;
+    cursor: pointer; transition: background .12s;
+  }
+  .ea-item:hover { background: var(--muted-bg); }
+  .ea-swatch {
+    width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0;
+  }
+  .ea-label { font-size: 0.75rem; color: var(--text-main); flex: 1; line-height: 1.3; }
+  .ea-pl {
+    font-size: 0.72rem; font-weight: 600; font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .ea-pl.pos { color: var(--pos); }
+  .ea-pl.neg { color: var(--neg); }
+  .ea-checkbox { width: 13px; height: 13px; accent-color: var(--accent); flex-shrink: 0; }
+
+  .sidebar-actions {
+    padding: 0.5rem 1rem;
+    display: flex; gap: 6px;
+    border-top: 1px solid var(--border);
+    margin-top: 0.5rem;
+  }
+  .sidebar-actions button {
+    flex: 1; font-size: 0.72rem; padding: 4px 6px;
+    border: 1px solid var(--border); border-radius: 5px;
+    background: none; color: var(--text-sub); cursor: pointer;
+    transition: background .15s;
+  }
+  .sidebar-actions button:hover { background: var(--muted-bg); }
+
+  /* Main */
+  .main { padding: 1.25rem 1.5rem; overflow: hidden; }
+  .chart-wrap {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.25rem;
+    box-shadow: var(--shadow);
+  }
+  .chart-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .chart-title { font-size: 0.95rem; font-weight: 700; }
+  .chart-sub { font-size: 0.78rem; color: var(--text-sub); margin-top: 2px; }
+  .chart-container { position: relative; height: calc(100vh - 220px); min-height: 300px; }
+
+  /* Summary table */
+  .summary-wrap {
+    margin-top: 1.25rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden; box-shadow: var(--shadow);
+  }
+  .summary-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  .summary-table th {
+    background: var(--muted-bg); padding: 8px 12px;
+    text-align: left; font-weight: 600; color: var(--text-sub);
+    font-size: 0.72rem; letter-spacing: .04em; text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  .summary-table th.num, .summary-table td.num { text-align: right; }
+  .summary-table td {
+    padding: 7px 12px; border-bottom: 1px solid var(--border);
+    color: var(--text-main); vertical-align: middle;
+  }
+  .summary-table tr:last-child td { border-bottom: none; }
+  .summary-table tr:hover td { background: var(--muted-bg); }
+  .pos { color: var(--pos); font-weight: 600; }
+  .neg { color: var(--neg); font-weight: 600; }
+  .swatch-cell { display: flex; align-items: center; gap: 6px; }
+  .tbl-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+  @media (max-width: 700px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { border-right: none; border-bottom: 1px solid var(--border); max-height: 45vh; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <a class="site-logo" href="index.html">
+      <div class="logo-mark">HK</div>
+      <span class="site-name">Hiro Kurage Report</span>
+    </a>
+    <div class="breadcrumb">
+      <span>/</span>
+      <span class="page-title-header">EA パフォーマンス</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <span id="updated">—</span>
+    <button class="refresh-btn" onclick="loadData()">↻ 更新</button>
+    <button class="theme-toggle" onclick="toggleTheme()">☀ / ☾</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-title">EA 選択</div>
+    <div id="ea-groups"></div>
+    <div class="sidebar-actions">
+      <button onclick="selectAll()">全選択</button>
+      <button onclick="selectNone()">全解除</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="chart-wrap">
+      <div class="chart-header">
+        <div>
+          <div class="chart-title">EA別 確定損益 累計推移</div>
+          <div class="chart-sub" id="chart-sub">—</div>
+        </div>
+      </div>
+      <div class="chart-container">
+        <canvas id="chart"></canvas>
+      </div>
+    </div>
+
+    <div class="summary-wrap">
+      <table class="summary-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>EA名</th>
+            <th>口座</th>
+            <th class="num">累計損益</th>
+            <th class="num">最終日</th>
+          </tr>
+        </thead>
+        <tbody id="summary-body"></tbody>
+      </table>
+    </div>
+  </main>
+</div>
+
+<script>
+const REPO = 'hiro-kurage/hiro-kurage-report';
+const PATH = 'data/ea-po-data.json';
+const API  = `https://api.github.com/repos/${REPO}/contents/${PATH}`;
+
+// 49色パレット（口座ごとに色相グループ分け）
+const PALETTE = [
+  '#0AADBD','#0D9AA9','#3DD5E5','#7EEAF3','#B2F5FA',  // cyan group
+  '#6366F1','#818CF8','#A5B4FC','#4F46E5','#C7D2FE',  // indigo
+  '#10B981','#34D399','#6EE7B7','#059669','#A7F3D0',  // green
+  '#F59E0B','#FBBF24','#FCD34D','#D97706','#FEF3C7',  // amber
+  '#EF4444','#F87171','#FCA5A5','#DC2626','#FEE2E2',  // red
+  '#8B5CF6','#A78BFA','#C4B5FD','#7C3AED','#DDD6FE',  // violet
+  '#EC4899','#F472B6','#FBCFE8','#DB2777','#FCE7F3',  // pink
+  '#14B8A6','#2DD4BF','#99F6E4','#0F766E','#CCFBF1',  // teal
+  '#F97316','#FB923C','#FED7AA','#EA580C','#FFEDD5',  // orange
+  '#64748B','#94A3B8','#CBD5E1','#475569','#E2E8F0',  // slate
+];
+
+let allData = null;
+let chart   = null;
+let colorMap = {};
+
+// ---- Data load -----------------------------------------------------------
+
+async function loadData() {
+  document.getElementById('updated').textContent = '読込中…';
+  try {
+    const res  = await fetch(API + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const meta  = await res.json();
+    const bytes = Uint8Array.from(atob(meta.content.replace(/\n/g, '')), c => c.charCodeAt(0));
+    allData = JSON.parse(new TextDecoder('utf-8').decode(bytes));
+    init();
+  } catch(e) {
+    document.getElementById('updated').textContent = '取得失敗: ' + e.message;
+  }
+}
+
+// ---- Init ----------------------------------------------------------------
+
+function init() {
+  const ts = new Date(allData.updated_at);
+  document.getElementById('updated').textContent =
+    '更新: ' + ts.toLocaleString('ja-JP', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+
+  document.getElementById('chart-sub').textContent =
+    `基準日: ${allData.base_date} — ${allData.dates.at(-1)}（${allData.dates.length}日間）`;
+
+  // 色割り当て
+  allData.eas.forEach((ea, i) => {
+    colorMap[ea.key] = PALETTE[i % PALETTE.length];
+  });
+
+  buildSidebar();
+  buildChart();
+  buildTable();
+}
+
+// ---- Sidebar -------------------------------------------------------------
+
+function buildSidebar() {
+  // 口座グループ
+  const groups = {};
+  allData.eas.forEach(ea => {
+    const g = ea.account_name;
+    if (!groups[g]) groups[g] = [];
+    groups[g].push(ea);
+  });
+
+  const container = document.getElementById('ea-groups');
+  container.innerHTML = '';
+
+  Object.entries(groups).forEach(([acctName, eas]) => {
+    const div = document.createElement('div');
+    div.className = 'acct-group';
+
+    const hdr = document.createElement('div');
+    hdr.className = 'acct-header';
+    hdr.innerHTML = `<span>${acctName} <span style="color:var(--muted-text);font-weight:400">(${eas.length})</span></span><span class="acct-toggle" id="toggle-${slugify(acctName)}">▾</span>`;
+    hdr.onclick = () => toggleGroup(acctName);
+    div.appendChild(hdr);
+
+    const list = document.createElement('div');
+    list.className = 'ea-list';
+    list.id = `group-${slugify(acctName)}`;
+
+    eas.forEach(ea => {
+      const last = getLastValue(ea);
+      const item = document.createElement('label');
+      item.className = 'ea-item';
+      item.innerHTML = `
+        <input type="checkbox" class="ea-checkbox" checked data-key="${ea.key}" onchange="onCheck()">
+        <span class="ea-swatch" style="background:${colorMap[ea.key]}"></span>
+        <span class="ea-label">${escHtml(ea.ea_name)}</span>
+        <span class="ea-pl ${last >= 0 ? 'pos' : 'neg'}">${fmtPL(last)}</span>
+      `;
+      list.appendChild(item);
+    });
+
+    div.appendChild(list);
+    container.appendChild(div);
+  });
+}
+
+function slugify(s) { return s.replace(/[^\w]/g, '_'); }
+
+function toggleGroup(acctName) {
+  const el = document.getElementById(`group-${slugify(acctName)}`);
+  const toggle = document.getElementById(`toggle-${slugify(acctName)}`);
+  const hidden = el.style.display === 'none';
+  el.style.display = hidden ? '' : 'none';
+  toggle.textContent = hidden ? '▾' : '▸';
+}
+
+// ---- Chart ---------------------------------------------------------------
+
+function buildChart() {
+  const dates = allData.dates;
+  const checked = getCheckedKeys();
+
+  const datasets = allData.eas
+    .filter(ea => checked.has(ea.key))
+    .map(ea => ({
+      label: ea.ea_name,
+      data: ea.series.map(s => s.cumulative_jpy),
+      borderColor: colorMap[ea.key],
+      backgroundColor: colorMap[ea.key] + '22',
+      borderWidth: 1.5,
+      pointRadius: 0,
+      pointHoverRadius: 4,
+      tension: 0.2,
+      spanGaps: true,
+    }));
+
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark' ||
+    (!document.documentElement.hasAttribute('data-theme') &&
+     window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const gridColor = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.06)';
+  const tickColor = isDark ? '#7E9BB0' : '#627383';
+
+  const ctx = document.getElementById('chart').getContext('2d');
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: { labels: dates, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => ` ${ctx.dataset.label}: ${fmtPL(ctx.parsed.y)}`,
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: gridColor },
+          ticks: {
+            color: tickColor, maxTicksLimit: 10,
+            callback: (_, i) => dates[i]?.slice(5),
+          }
+        },
+        y: {
+          grid: { color: gridColor },
+          ticks: {
+            color: tickColor,
+            callback: v => fmtPL(v),
+          }
+        }
+      }
+    }
+  });
+}
+
+function onCheck() {
+  buildChart();
+  buildTable();
+}
+
+function getCheckedKeys() {
+  const set = new Set();
+  document.querySelectorAll('.ea-checkbox:checked').forEach(el => set.add(el.dataset.key));
+  return set;
+}
+
+function selectAll()  { document.querySelectorAll('.ea-checkbox').forEach(el => el.checked = true);  onCheck(); }
+function selectNone() { document.querySelectorAll('.ea-checkbox').forEach(el => el.checked = false); onCheck(); }
+
+// ---- Table ---------------------------------------------------------------
+
+function buildTable() {
+  const checked = getCheckedKeys();
+  const tbody = document.getElementById('summary-body');
+  tbody.innerHTML = '';
+
+  const eas = allData.eas
+    .filter(ea => checked.has(ea.key))
+    .map(ea => ({ ea, last: getLastValue(ea) }))
+    .sort((a, b) => b.last - a.last);
+
+  eas.forEach(({ ea, last }) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><div class="swatch-cell"><div class="tbl-swatch" style="background:${colorMap[ea.key]}"></div></div></td>
+      <td>${escHtml(ea.ea_name)}</td>
+      <td style="color:var(--text-sub);font-size:0.75rem">${escHtml(ea.account_name)}</td>
+      <td class="num ${last >= 0 ? 'pos' : 'neg'}">${fmtPL(last)}</td>
+      <td class="num" style="color:var(--muted-text);font-size:0.72rem">${allData.dates.at(-1)}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// ---- Helpers -------------------------------------------------------------
+
+function getLastValue(ea) {
+  for (let i = ea.series.length - 1; i >= 0; i--) {
+    if (ea.series[i].cumulative_jpy !== null) return ea.series[i].cumulative_jpy;
+  }
+  return 0;
+}
+
+function fmtPL(v) {
+  if (v == null) return '—';
+  const s = Math.round(v).toLocaleString('ja-JP');
+  return (v >= 0 ? '+' : '') + s + '円';
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function toggleTheme() {
+  const root = document.documentElement;
+  const cur = root.getAttribute('data-theme') || 'light';
+  root.setAttribute('data-theme', cur === 'light' ? 'dark' : 'light');
+  localStorage.setItem('theme', root.getAttribute('data-theme'));
+  buildChart();
+}
+
+(function() {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+})();
+
+loadData();
+</script>
+</body>
+</html>
