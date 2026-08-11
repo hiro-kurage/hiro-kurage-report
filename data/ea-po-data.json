@@ -1,0 +1,7590 @@
+{
+  "updated_at": "2026-08-11T19:45:33.381168+09:00",
+  "base_date": "2026-07-06",
+  "dates": [
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-11",
+    "2026-07-12",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-18",
+    "2026-07-19",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-26",
+    "2026-07-27",
+    "2026-07-28",
+    "2026-07-29",
+    "2026-07-30",
+    "2026-07-31",
+    "2026-08-01",
+    "2026-08-02",
+    "2026-08-03",
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-09",
+    "2026-08-10"
+  ],
+  "eas": [
+    {
+      "key": "57836_20201007",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20201007",
+      "ea_name": "-Sagitarius AUDJPY",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 524
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 524
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 791
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 1062
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 1062
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 1062
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 1321
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 1321
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 1656
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 1919
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 1919
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 1919
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 1919
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 2193
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 2193
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 2722
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 2983
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 3774
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 3774
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 3774
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 3774
+        }
+      ]
+    },
+    {
+      "key": "57836_20230918",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20230918",
+      "ea_name": "Gemini EURUSD 6P 1min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57836_20230919",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20230919",
+      "ea_name": "Gemini6P long",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57836_20230920",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20230920",
+      "ea_name": "Gemini6P short",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57836_20231104",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20231104",
+      "ea_name": "SagitariusX1 2P 1H",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -478
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 207
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 914
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 914
+        }
+      ]
+    },
+    {
+      "key": "57836_20250608",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20250608",
+      "ea_name": "Macd-cross0",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57836_20251012",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20251012",
+      "ea_name": "x15M USDJPY",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 9
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 13
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 13
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 13
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 13
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 13
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 17
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 17
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 17
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 17
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 17
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 17
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 17
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 21
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 25
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 30
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 30
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 30
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 30
+        }
+      ]
+    },
+    {
+      "key": "57836_20251013",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20251013",
+      "ea_name": "x15M EURUSD",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57836_20260522",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260522",
+      "ea_name": "GOLD PO",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 313
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 333
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 450
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 466
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 466
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 466
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 466
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 505
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 538
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 6590
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 6590
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 6590
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 6590
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 6590
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 6655
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 6744
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 6788
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 6851
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 6851
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 6851
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 6851
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 6891
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 6988
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 7027
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 7038
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 7038
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 7038
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 7038
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 7271
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 7300
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 7337
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 7429
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 7429
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 7429
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 7429
+        }
+      ]
+    },
+    {
+      "key": "57836_20260523",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260523",
+      "ea_name": "EURUSD PO",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 11
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 11
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 20
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 32
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 32
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 32
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 32
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 53
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 53
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 81
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 130
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 130
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 130
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 130
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 130
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 142
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 142
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 201
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 201
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 201
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 201
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 201
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 201
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 201
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 228
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 228
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 228
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 255
+        }
+      ]
+    },
+    {
+      "key": "57836_20260524",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260524",
+      "ea_name": "USDJPY PO",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 5
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 18
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 24
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 29
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 29
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 29
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 29
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 29
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 72
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 72
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 73
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 73
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 73
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 73
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 80
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 86
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 86
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 86
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 86
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 86
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 93
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 93
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 103
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 109
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 109
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 109
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 109
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 109
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 129
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 150
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 163
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 170
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 170
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 170
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 170
+        }
+      ]
+    },
+    {
+      "key": "57836_20260525",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260525",
+      "ea_name": "GOLD1m PO",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 1347
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 1753
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 2066
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 2145
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 2145
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 2145
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 2304
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 2605
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 3131
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 3527
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 3596
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 3596
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 3596
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 3758
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 4004
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 7639
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 8529
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 8670
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 8670
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 8670
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 8826
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 9283
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 10926
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 15175
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 15175
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 15175
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 15175
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 15869
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 16760
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 17668
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 18798
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 19044
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 19044
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 19044
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 19533
+        }
+      ]
+    },
+    {
+      "key": "57836_20260607",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260607",
+      "ea_name": "BRK USDJPY",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -2
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -7
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 9
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 9
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 9
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 9
+        }
+      ]
+    },
+    {
+      "key": "57836_20260705",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260705",
+      "ea_name": "DWV USDJPY",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -5
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 1
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 2
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 2
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 2
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 2
+        }
+      ]
+    },
+    {
+      "key": "57836_20260777",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260777",
+      "ea_name": "ブリッジEA USDJPY",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": -6
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": -6
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": -6
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": -6
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": -6
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -18
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -25
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -25
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -25
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -25
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -25
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -25
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -3
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -22
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -22
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -22
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -22
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -22
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -22
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -22
+        }
+      ]
+    },
+    {
+      "key": "57836_20260778",
+      "account_name": "Sagitariusマイクロ",
+      "account_id": "57836",
+      "currency": "JPY",
+      "magic": "20260778",
+      "ea_name": "ブリッジEA EURUSD",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -4
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -4
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -4
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -4
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -4
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -4
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 5
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -10
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -16
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -16
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -16
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -16
+        }
+      ]
+    },
+    {
+      "key": "57888_1101",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "1101",
+      "ea_name": "一盃口",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57888_1302",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "1302",
+      "ea_name": "九連宝燈v2",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": -4310
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": -6833
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": -6594
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": -6594
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": -6594
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": -6594
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -4761
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -8248
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -8248
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -7559
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -7559
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -7559
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -9489
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -9489
+        }
+      ]
+    },
+    {
+      "key": "57888_1402",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "1402",
+      "ea_name": "緑一色v2",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57888_1503",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "1503",
+      "ea_name": "純正九連宝燈v3",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57888_1701",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "1701",
+      "ea_name": "大車輪",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57888_1801",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "1801",
+      "ea_name": "清一色",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57888_2002",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "2002",
+      "ea_name": "九連宝燈20v2",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57888_20251124",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "20251124",
+      "ea_name": "Sagitarius6p",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 130
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 385
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 385
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 385
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 385
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 520
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 649
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 771
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 903
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 903
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 903
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 903
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 903
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 967
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 1094
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 1349
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 1478
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 1563
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 1563
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 1563
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 1563
+        }
+      ]
+    },
+    {
+      "key": "57888_20261123",
+      "account_name": "NanGan(朝スキャ）",
+      "account_id": "57888",
+      "currency": "JPY",
+      "magic": "20261123",
+      "ea_name": "Sagitarius6p",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 191
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 191
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 191
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 191
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 683
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 728
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 728
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 875
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 1093
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 1093
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 1093
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 1093
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 1375
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 2123
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 2123
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 2709
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 2880
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 3053
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 3053
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 3053
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 3053
+        }
+      ]
+    },
+    {
+      "key": "57893_20201008",
+      "account_name": "Gold-V EA",
+      "account_id": "57893",
+      "currency": "JPY",
+      "magic": "20201008",
+      "ea_name": "SagitariusR GOLD 15min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "57893_20201009",
+      "account_name": "Gold-V EA",
+      "account_id": "57893",
+      "currency": "JPY",
+      "magic": "20201009",
+      "ea_name": "SagitariusR GOLD 2",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": -6683
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": -6683
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": -6361
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": -6361
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": -6361
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": -6361
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": -5375
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -4861
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -4861
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -4599
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -4109
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -4109
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -4109
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -4109
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -3524
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -2766
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -2766
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -1472
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -1220
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -948
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -948
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -948
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -948
+        }
+      ]
+    },
+    {
+      "key": "57956_20201008",
+      "account_name": "平均足EA",
+      "account_id": "57956",
+      "currency": "JPY",
+      "magic": "20201008",
+      "ea_name": "Sagitarius Gold 15min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 1592
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 1592
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 1592
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 1592
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 6570
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 15985
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 15985
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 17281
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 20335
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 20335
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 20335
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 20335
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 22334
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 24521
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 24521
+        }
+      ]
+    },
+    {
+      "key": "58132_20231119",
+      "account_name": "XTRDスタンダード",
+      "account_id": "58132",
+      "currency": "JPY",
+      "magic": "20231119",
+      "ea_name": "Sagitarius X1M 60min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 1450
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 1450
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 1450
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 1450
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 1450
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 1450
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -4949
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -4949
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -4949
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -7658
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -7658
+        }
+      ]
+    },
+    {
+      "key": "58132_20231120",
+      "account_name": "XTRDスタンダード",
+      "account_id": "58132",
+      "currency": "JPY",
+      "magic": "20231120",
+      "ea_name": "Sagitarius X1S 60min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -5239
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -5239
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -5239
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -5718
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -5718
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -5718
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -5718
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -4538
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -4538
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -2415
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -2415
+        }
+      ]
+    },
+    {
+      "key": "58132_20231122",
+      "account_name": "XTRDスタンダード",
+      "account_id": "58132",
+      "currency": "JPY",
+      "magic": "20231122",
+      "ea_name": "Sagitarius X1P 60min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 1170
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -5209
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -5209
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -5209
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -5778
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -5778
+        }
+      ]
+    },
+    {
+      "key": "70617_20231120",
+      "account_name": "RKTN スタンダード",
+      "account_id": "70617",
+      "currency": "JPY",
+      "magic": "20231120",
+      "ea_name": "SagitariusX1S 1h",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "70617_20240105",
+      "account_name": "RKTN スタンダード",
+      "account_id": "70617",
+      "currency": "JPY",
+      "magic": "20240105",
+      "ea_name": "SagitariusX1M 1h",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "70617_20240205",
+      "account_name": "RKTN スタンダード",
+      "account_id": "70617",
+      "currency": "JPY",
+      "magic": "20240205",
+      "ea_name": "Gemini1 4h",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "70617_20250630",
+      "account_name": "RKTN スタンダード",
+      "account_id": "70617",
+      "currency": "JPY",
+      "magic": "20250630",
+      "ea_name": "Gemini6P 1min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "70618_20201008",
+      "account_name": "GWJPNスタンダード",
+      "account_id": "70618",
+      "currency": "JPY",
+      "magic": "20201008",
+      "ea_name": "Sagitarius 1P 1h",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -11897
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -11897
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -11897
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -11597
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -11597
+        }
+      ]
+    },
+    {
+      "key": "70618_20231120",
+      "account_name": "GWJPNスタンダード",
+      "account_id": "70618",
+      "currency": "JPY",
+      "magic": "20231120",
+      "ea_name": "Sagitarius 1PS 1h",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -5948
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -5948
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -5948
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -5808
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -5808
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -5808
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -5808
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -4288
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -4288
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -1490
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -1490
+        }
+      ]
+    },
+    {
+      "key": "70618_20231122",
+      "account_name": "GWJPNスタンダード",
+      "account_id": "70618",
+      "currency": "JPY",
+      "magic": "20231122",
+      "ea_name": "Sagitarius 1PP 1h",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -5948
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -5948
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -5948
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -5738
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -5738
+        }
+      ]
+    },
+    {
+      "key": "70618_20240104",
+      "account_name": "GWJPNスタンダード",
+      "account_id": "70618",
+      "currency": "JPY",
+      "magic": "20240104",
+      "ea_name": "MA-KS 1P 4h",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "70618_20250423",
+      "account_name": "GWJPNスタンダード",
+      "account_id": "70618",
+      "currency": "JPY",
+      "magic": "20250423",
+      "ea_name": "Gemini 6P 1min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "70618_20251019",
+      "account_name": "GWJPNスタンダード",
+      "account_id": "70618",
+      "currency": "JPY",
+      "magic": "20251019",
+      "ea_name": "GMMA 15min",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 139
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 139
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 139
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 139
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 139
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 268
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 399
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 523
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 654
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 654
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 654
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 654
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 654
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 654
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 785
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 785
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 918
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 1793
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 1793
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 1793
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 1793
+        }
+      ]
+    },
+    {
+      "key": "70618_40510",
+      "account_name": "GWJPNスタンダード",
+      "account_id": "70618",
+      "currency": "JPY",
+      "magic": "40510",
+      "ea_name": "Nangan 第４弾 5m",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": -483
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": -705
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": -705
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": -705
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": -705
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": -972
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": -972
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": -972
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": -972
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": -972
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": -972
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": -972
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": -1224
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": -153
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": -153
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": -153
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": -153
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": -153
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": -153
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": -153
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": -402
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": -402
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": -402
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": -402
+        }
+      ]
+    },
+    {
+      "key": "79151_110",
+      "account_name": "C-GROUP",
+      "account_id": "79151",
+      "currency": "JPY",
+      "magic": "110",
+      "ea_name": "ManhattanLong",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "79151_20201008",
+      "account_name": "C-GROUP",
+      "account_id": "79151",
+      "currency": "JPY",
+      "magic": "20201008",
+      "ea_name": "gemini 5m",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 129
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 400
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 623
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 623
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 623
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 623
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 753
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 1013
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 1147
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 1279
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 1410
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 1410
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 1410
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 1410
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 1410
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 1542
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 1684
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 1684
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 1684
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 1684
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 1839
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 1943
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 1943
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 1943
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 1943
+        }
+      ]
+    },
+    {
+      "key": "79151_220",
+      "account_name": "C-GROUP",
+      "account_id": "79151",
+      "currency": "JPY",
+      "magic": "220",
+      "ea_name": "ManhattanShort",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 0
+        }
+      ]
+    },
+    {
+      "key": "83075_20201008",
+      "account_name": "X-MGR",
+      "account_id": "83075",
+      "currency": "USD",
+      "magic": "20201008",
+      "ea_name": "eurusd",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 90
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 219
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 219
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 219
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 219
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 219
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 219
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 362
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 362
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 456
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 456
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 456
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 456
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 456
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 590
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 590
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 718
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 818
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 818
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 818
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 818
+        }
+      ]
+    },
+    {
+      "key": "83075_20261123",
+      "account_name": "X-MGR",
+      "account_id": "83075",
+      "currency": "USD",
+      "magic": "20261123",
+      "ea_name": "GOLD",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 1658
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 1658
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 1816
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 1816
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 1816
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 1816
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 2293
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 2622
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 2622
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 2747
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 2747
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 2747
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 2747
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 2747
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 3035
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 3374
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 3374
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 3491
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 3619
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 3619
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 3619
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 3619
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 3619
+        }
+      ]
+    },
+    {
+      "key": "83076_20201008",
+      "account_name": "H-Sagitarius",
+      "account_id": "83076",
+      "currency": "JPY",
+      "magic": "20201008",
+      "ea_name": "20201008",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 1014
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 1014
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 1137
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 1137
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 1137
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 1137
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 1502
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 1943
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 1943
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 2066
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 2462
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 2462
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 2462
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 2462
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 2759
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 3095
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 3095
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 3714
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 3862
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 3954
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 3954
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 3954
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 3954
+        }
+      ]
+    },
+    {
+      "key": "83076_20261008",
+      "account_name": "H-Sagitarius",
+      "account_id": "83076",
+      "currency": "JPY",
+      "magic": "20261008",
+      "ea_name": "20261008",
+      "series": [
+        {
+          "date": "2026-07-06",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-07",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-07-08",
+          "cumulative_jpy": 116
+        },
+        {
+          "date": "2026-07-09",
+          "cumulative_jpy": 251
+        },
+        {
+          "date": "2026-07-10",
+          "cumulative_jpy": 251
+        },
+        {
+          "date": "2026-07-11",
+          "cumulative_jpy": 251
+        },
+        {
+          "date": "2026-07-12",
+          "cumulative_jpy": 251
+        },
+        {
+          "date": "2026-07-13",
+          "cumulative_jpy": 381
+        },
+        {
+          "date": "2026-07-14",
+          "cumulative_jpy": 527
+        },
+        {
+          "date": "2026-07-15",
+          "cumulative_jpy": 662
+        },
+        {
+          "date": "2026-07-16",
+          "cumulative_jpy": 662
+        },
+        {
+          "date": "2026-07-17",
+          "cumulative_jpy": 767
+        },
+        {
+          "date": "2026-07-18",
+          "cumulative_jpy": 767
+        },
+        {
+          "date": "2026-07-19",
+          "cumulative_jpy": 767
+        },
+        {
+          "date": "2026-07-20",
+          "cumulative_jpy": 767
+        },
+        {
+          "date": "2026-07-21",
+          "cumulative_jpy": 767
+        },
+        {
+          "date": "2026-07-22",
+          "cumulative_jpy": 898
+        },
+        {
+          "date": "2026-07-23",
+          "cumulative_jpy": 1029
+        },
+        {
+          "date": "2026-07-24",
+          "cumulative_jpy": 1029
+        },
+        {
+          "date": "2026-07-25",
+          "cumulative_jpy": 1029
+        },
+        {
+          "date": "2026-07-26",
+          "cumulative_jpy": 1029
+        },
+        {
+          "date": "2026-07-27",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-07-28",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-07-29",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-07-30",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-07-31",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-08-01",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-08-02",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-08-03",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-08-04",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-08-05",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-08-06",
+          "cumulative_jpy": 1157
+        },
+        {
+          "date": "2026-08-07",
+          "cumulative_jpy": 1235
+        },
+        {
+          "date": "2026-08-08",
+          "cumulative_jpy": 1235
+        },
+        {
+          "date": "2026-08-09",
+          "cumulative_jpy": 1235
+        },
+        {
+          "date": "2026-08-10",
+          "cumulative_jpy": 1235
+        }
+      ]
+    }
+  ]
+}
