@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T19:45:33.381168+09:00",
+  "updated_at": "2026-08-11T19:58:14.619889+09:00",
   "base_date": "2026-07-06",
   "dates": [
     "2026-07-06",
@@ -47,6 +47,8 @@
       "currency": "JPY",
       "magic": "20201007",
       "ea_name": "-Sagitarius AUDJPY",
+      "win_rate": 68.95,
+      "pf": 1.27,
       "series": [
         {
           "date": "2026-07-06",
@@ -201,6 +203,8 @@
       "currency": "JPY",
       "magic": "20230918",
       "ea_name": "Gemini EURUSD 6P 1min",
+      "win_rate": 70.11,
+      "pf": 1.2,
       "series": [
         {
           "date": "2026-07-06",
@@ -355,6 +359,8 @@
       "currency": "JPY",
       "magic": "20230919",
       "ea_name": "Gemini6P long",
+      "win_rate": 68.89,
+      "pf": 0.74,
       "series": [
         {
           "date": "2026-07-06",
@@ -509,6 +515,8 @@
       "currency": "JPY",
       "magic": "20230920",
       "ea_name": "Gemini6P short",
+      "win_rate": 70.63,
+      "pf": 1.35,
       "series": [
         {
           "date": "2026-07-06",
@@ -663,6 +671,8 @@
       "currency": "JPY",
       "magic": "20231104",
       "ea_name": "SagitariusX1 2P 1H",
+      "win_rate": 35.48,
+      "pf": 1.41,
       "series": [
         {
           "date": "2026-07-06",
@@ -817,6 +827,8 @@
       "currency": "JPY",
       "magic": "20250608",
       "ea_name": "Macd-cross0",
+      "win_rate": 32.43,
+      "pf": 0.94,
       "series": [
         {
           "date": "2026-07-06",
@@ -971,6 +983,8 @@
       "currency": "JPY",
       "magic": "20251012",
       "ea_name": "x15M USDJPY",
+      "win_rate": 64.83,
+      "pf": 1.33,
       "series": [
         {
           "date": "2026-07-06",
@@ -1125,6 +1139,8 @@
       "currency": "JPY",
       "magic": "20251013",
       "ea_name": "x15M EURUSD",
+      "win_rate": 62.65,
+      "pf": 0.17,
       "series": [
         {
           "date": "2026-07-06",
@@ -1279,6 +1295,8 @@
       "currency": "JPY",
       "magic": "20260522",
       "ea_name": "GOLD PO",
+      "win_rate": 58.08,
+      "pf": 4.76,
       "series": [
         {
           "date": "2026-07-06",
@@ -1433,6 +1451,8 @@
       "currency": "JPY",
       "magic": "20260523",
       "ea_name": "EURUSD PO",
+      "win_rate": 49.3,
+      "pf": 0.79,
       "series": [
         {
           "date": "2026-07-06",
@@ -1587,6 +1607,8 @@
       "currency": "JPY",
       "magic": "20260524",
       "ea_name": "USDJPY PO",
+      "win_rate": 61.25,
+      "pf": 2.53,
       "series": [
         {
           "date": "2026-07-06",
@@ -1741,6 +1763,8 @@
       "currency": "JPY",
       "magic": "20260525",
       "ea_name": "GOLD1m PO",
+      "win_rate": 56.69,
+      "pf": 0.84,
       "series": [
         {
           "date": "2026-07-06",
@@ -1895,6 +1919,8 @@
       "currency": "JPY",
       "magic": "20260607",
       "ea_name": "BRK USDJPY",
+      "win_rate": 57.14,
+      "pf": 2.07,
       "series": [
         {
           "date": "2026-07-06",
@@ -2049,6 +2075,8 @@
       "currency": "JPY",
       "magic": "20260705",
       "ea_name": "DWV USDJPY",
+      "win_rate": 60.0,
+      "pf": 1.8,
       "series": [
         {
           "date": "2026-07-06",
@@ -2203,6 +2231,8 @@
       "currency": "JPY",
       "magic": "20260777",
       "ea_name": "ブリッジEA USDJPY",
+      "win_rate": 14.29,
+      "pf": 0.46,
       "series": [
         {
           "date": "2026-07-06",
@@ -2357,6 +2387,8 @@
       "currency": "JPY",
       "magic": "20260778",
       "ea_name": "ブリッジEA EURUSD",
+      "win_rate": 28.57,
+      "pf": 0.6,
       "series": [
         {
           "date": "2026-07-06",
@@ -2511,6 +2543,8 @@
       "currency": "JPY",
       "magic": "1101",
       "ea_name": "一盃口",
+      "win_rate": 61.67,
+      "pf": 1.06,
       "series": [
         {
           "date": "2026-07-06",
@@ -2665,6 +2699,8 @@
       "currency": "JPY",
       "magic": "1302",
       "ea_name": "九連宝燈v2",
+      "win_rate": 70.68,
+      "pf": 1.3,
       "series": [
         {
           "date": "2026-07-06",
@@ -2819,6 +2855,8 @@
       "currency": "JPY",
       "magic": "1402",
       "ea_name": "緑一色v2",
+      "win_rate": 68.83,
+      "pf": 1.11,
       "series": [
         {
           "date": "2026-07-06",
@@ -2973,6 +3011,8 @@
       "currency": "JPY",
       "magic": "1503",
       "ea_name": "純正九連宝燈v3",
+      "win_rate": 70.24,
+      "pf": 0.57,
       "series": [
         {
           "date": "2026-07-06",
@@ -3127,6 +3167,8 @@
       "currency": "JPY",
       "magic": "1701",
       "ea_name": "大車輪",
+      "win_rate": 67.24,
+      "pf": 1.01,
       "series": [
         {
           "date": "2026-07-06",
@@ -3281,6 +3323,8 @@
       "currency": "JPY",
       "magic": "1801",
       "ea_name": "清一色",
+      "win_rate": 70.81,
+      "pf": 0.8,
       "series": [
         {
           "date": "2026-07-06",
@@ -3435,6 +3479,8 @@
       "currency": "JPY",
       "magic": "2002",
       "ea_name": "九連宝燈20v2",
+      "win_rate": 73.1,
+      "pf": 0.31,
       "series": [
         {
           "date": "2026-07-06",
@@ -3589,6 +3635,8 @@
       "currency": "JPY",
       "magic": "20251124",
       "ea_name": "Sagitarius6p",
+      "win_rate": 76.64,
+      "pf": 1.34,
       "series": [
         {
           "date": "2026-07-06",
@@ -3743,6 +3791,8 @@
       "currency": "JPY",
       "magic": "20261123",
       "ea_name": "Sagitarius6p",
+      "win_rate": 73.29,
+      "pf": 2.5,
       "series": [
         {
           "date": "2026-07-06",
@@ -3897,6 +3947,8 @@
       "currency": "JPY",
       "magic": "20201008",
       "ea_name": "SagitariusR GOLD 15min",
+      "win_rate": 63.16,
+      "pf": 1.5,
       "series": [
         {
           "date": "2026-07-06",
@@ -4051,6 +4103,8 @@
       "currency": "JPY",
       "magic": "20201009",
       "ea_name": "SagitariusR GOLD 2",
+      "win_rate": 65.33,
+      "pf": 1.43,
       "series": [
         {
           "date": "2026-07-06",
@@ -4205,6 +4259,8 @@
       "currency": "JPY",
       "magic": "20201008",
       "ea_name": "Sagitarius Gold 15min",
+      "win_rate": 64.65,
+      "pf": 1.63,
       "series": [
         {
           "date": "2026-07-06",
@@ -4359,6 +4415,8 @@
       "currency": "JPY",
       "magic": "20231119",
       "ea_name": "Sagitarius X1M 60min",
+      "win_rate": 68.75,
+      "pf": 1.28,
       "series": [
         {
           "date": "2026-07-06",
@@ -4513,6 +4571,8 @@
       "currency": "JPY",
       "magic": "20231120",
       "ea_name": "Sagitarius X1S 60min",
+      "win_rate": 64.96,
+      "pf": 1.35,
       "series": [
         {
           "date": "2026-07-06",
@@ -4667,6 +4727,8 @@
       "currency": "JPY",
       "magic": "20231122",
       "ea_name": "Sagitarius X1P 60min",
+      "win_rate": 73.53,
+      "pf": 1.47,
       "series": [
         {
           "date": "2026-07-06",
@@ -4821,6 +4883,8 @@
       "currency": "JPY",
       "magic": "20231120",
       "ea_name": "SagitariusX1S 1h",
+      "win_rate": 65.45,
+      "pf": 1.09,
       "series": [
         {
           "date": "2026-07-06",
@@ -4975,6 +5039,8 @@
       "currency": "JPY",
       "magic": "20240105",
       "ea_name": "SagitariusX1M 1h",
+      "win_rate": 67.86,
+      "pf": 1.18,
       "series": [
         {
           "date": "2026-07-06",
@@ -5129,6 +5195,8 @@
       "currency": "JPY",
       "magic": "20240205",
       "ea_name": "Gemini1 4h",
+      "win_rate": 68.0,
+      "pf": 4.77,
       "series": [
         {
           "date": "2026-07-06",
@@ -5283,6 +5351,8 @@
       "currency": "JPY",
       "magic": "20250630",
       "ea_name": "Gemini6P 1min",
+      "win_rate": 79.06,
+      "pf": 1.2,
       "series": [
         {
           "date": "2026-07-06",
@@ -5437,6 +5507,8 @@
       "currency": "JPY",
       "magic": "20201008",
       "ea_name": "Sagitarius 1P 1h",
+      "win_rate": 77.19,
+      "pf": 1.91,
       "series": [
         {
           "date": "2026-07-06",
@@ -5591,6 +5663,8 @@
       "currency": "JPY",
       "magic": "20231120",
       "ea_name": "Sagitarius 1PS 1h",
+      "win_rate": 69.81,
+      "pf": 1.51,
       "series": [
         {
           "date": "2026-07-06",
@@ -5745,6 +5819,8 @@
       "currency": "JPY",
       "magic": "20231122",
       "ea_name": "Sagitarius 1PP 1h",
+      "win_rate": 76.92,
+      "pf": 2.15,
       "series": [
         {
           "date": "2026-07-06",
@@ -5899,6 +5975,8 @@
       "currency": "JPY",
       "magic": "20240104",
       "ea_name": "MA-KS 1P 4h",
+      "win_rate": 30.0,
+      "pf": 0.48,
       "series": [
         {
           "date": "2026-07-06",
@@ -6053,6 +6131,8 @@
       "currency": "JPY",
       "magic": "20250423",
       "ea_name": "Gemini 6P 1min",
+      "win_rate": 74.63,
+      "pf": 1.23,
       "series": [
         {
           "date": "2026-07-06",
@@ -6207,6 +6287,8 @@
       "currency": "JPY",
       "magic": "20251019",
       "ea_name": "GMMA 15min",
+      "win_rate": 78.82,
+      "pf": 2.19,
       "series": [
         {
           "date": "2026-07-06",
@@ -6361,6 +6443,8 @@
       "currency": "JPY",
       "magic": "40510",
       "ea_name": "Nangan 第４弾 5m",
+      "win_rate": 43.24,
+      "pf": 1.0,
       "series": [
         {
           "date": "2026-07-06",
@@ -6515,6 +6599,8 @@
       "currency": "JPY",
       "magic": "110",
       "ea_name": "ManhattanLong",
+      "win_rate": 48.78,
+      "pf": 0.11,
       "series": [
         {
           "date": "2026-07-06",
@@ -6669,6 +6755,8 @@
       "currency": "JPY",
       "magic": "20201008",
       "ea_name": "gemini 5m",
+      "win_rate": 67.84,
+      "pf": 0.66,
       "series": [
         {
           "date": "2026-07-06",
@@ -6823,6 +6911,8 @@
       "currency": "JPY",
       "magic": "220",
       "ea_name": "ManhattanShort",
+      "win_rate": 58.54,
+      "pf": 2.38,
       "series": [
         {
           "date": "2026-07-06",
@@ -6977,6 +7067,8 @@
       "currency": "USD",
       "magic": "20201008",
       "ea_name": "eurusd",
+      "win_rate": 69.77,
+      "pf": 1.47,
       "series": [
         {
           "date": "2026-07-06",
@@ -7131,6 +7223,8 @@
       "currency": "USD",
       "magic": "20261123",
       "ea_name": "GOLD",
+      "win_rate": 58.11,
+      "pf": 1.48,
       "series": [
         {
           "date": "2026-07-06",
@@ -7285,6 +7379,8 @@
       "currency": "JPY",
       "magic": "20201008",
       "ea_name": "20201008",
+      "win_rate": 59.38,
+      "pf": 1.37,
       "series": [
         {
           "date": "2026-07-06",
@@ -7439,6 +7535,8 @@
       "currency": "JPY",
       "magic": "20261008",
       "ea_name": "20261008",
+      "win_rate": 66.67,
+      "pf": 1.48,
       "series": [
         {
           "date": "2026-07-06",
