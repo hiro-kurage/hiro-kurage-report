@@ -176,6 +176,8 @@
     white-space: nowrap;
   }
   .summary-table th.num, .summary-table td.num { text-align: right; }
+  .pf-good { color: var(--pos); font-weight: 600; }
+  .pf-bad  { color: var(--neg); font-weight: 600; }
   .summary-table td {
     padding: 7px 12px; border-bottom: 1px solid var(--border);
     color: var(--text-main); vertical-align: middle;
@@ -243,6 +245,8 @@
             <th></th>
             <th>EA名</th>
             <th>口座</th>
+            <th class="num">勝率</th>
+            <th class="num">PF</th>
             <th class="num">累計損益</th>
             <th class="num">最終日</th>
           </tr>
@@ -342,14 +346,15 @@ function buildSidebar() {
 
     eas.forEach(ea => {
       const last = getLastValue(ea);
+      if (last === 0) return;  // 累計0は非表示
       const item = document.createElement('label');
       item.className = 'ea-item';
-      item.innerHTML = `
-        <input type="checkbox" class="ea-checkbox" checked data-key="${ea.key}" onchange="onCheck()">
-        <span class="ea-swatch" style="background:${colorMap[ea.key]}"></span>
-        <span class="ea-label">${escHtml(ea.ea_name)}</span>
-        <span class="ea-pl ${last >= 0 ? 'pos' : 'neg'}">${fmtPL(last)}</span>
-      `;
+      item.innerHTML = [
+        '<input type="checkbox" class="ea-checkbox" checked data-key="' + ea.key + '" onchange="onCheck()">',
+        '<span class="ea-swatch" style="background:' + colorMap[ea.key] + '"></span>',
+        '<span class="ea-label">' + escHtml(ea.ea_name) + '</span>',
+        '<span class="ea-pl ' + (last >= 0 ? 'pos' : 'neg') + '">' + fmtPL(last) + '</span>',
+      ].join('');
       list.appendChild(item);
     });
 
@@ -459,13 +464,18 @@ function buildTable() {
 
   eas.forEach(({ ea, last }) => {
     const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><div class="swatch-cell"><div class="tbl-swatch" style="background:${colorMap[ea.key]}"></div></div></td>
-      <td>${escHtml(ea.ea_name)}</td>
-      <td style="color:var(--text-sub);font-size:0.75rem">${escHtml(ea.account_name)}</td>
-      <td class="num ${last >= 0 ? 'pos' : 'neg'}">${fmtPL(last)}</td>
-      <td class="num" style="color:var(--muted-text);font-size:0.72rem">${allData.dates.at(-1)}</td>
-    `;
+    const wr = ea.win_rate != null ? ea.win_rate.toFixed(1) + '%' : '—';
+    const pf = ea.pf != null ? ea.pf.toFixed(2) : '—';
+    const pfClass = ea.pf == null ? '' : ea.pf >= 1.0 ? 'pf-good' : 'pf-bad';
+    tr.innerHTML = [
+      '<td><div class="swatch-cell"><div class="tbl-swatch" style="background:' + colorMap[ea.key] + '"></div></div></td>',
+      '<td>' + escHtml(ea.ea_name) + '</td>',
+      '<td style="color:var(--text-sub);font-size:0.75rem">' + escHtml(ea.account_name) + '</td>',
+      '<td class="num" style="color:var(--text-sub)">' + wr + '</td>',
+      '<td class="num ' + pfClass + '">' + pf + '</td>',
+      '<td class="num ' + (last >= 0 ? 'pos' : 'neg') + '">' + fmtPL(last) + '</td>',
+      '<td class="num" style="color:var(--muted-text);font-size:0.72rem">' + allData.dates.at(-1) + '</td>',
+    ].join('');
     tbody.appendChild(tr);
   });
 }
