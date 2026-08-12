@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T20:00:07.991295+00:00",
+  "updated_at": "2026-08-12T20:15:08.857389+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786564800000,
+      "next_run": 1786651200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-11T20:00:43.608000+00:00",
-        "completed_at": "2026-08-11T20:02:51.270000+00:00",
-        "duration_seconds": 128,
-        "output": "ブリッジEAチェック完了しました。\n\n**結果サマリー(05:02 JST時点)**\n- USDJPY / EURUSD ともに**ノーポジション**、EA疎通も正常\n- 本日21:30 JSTに**米CPI**発表を控えており(市場予想は鈍化・タムな内容)、両ペアともSMC構造(USDJPY:up継続、EURUSD:down継続、いずれもBOS×3で信頼度高い)はあるものの、\n  - USDJP…"
+        "started_at": "2026-08-12T20:00:46.459000+00:00",
+        "completed_at": "2026-08-12T20:08:05.340000+00:00",
+        "duration_seconds": 439,
+        "output": "ブリッジEAチェック完了、Discordへ通知も送信しました。\n\n**サマリー**\n- 前回ポジション（USDJPY SELL、08/12 23:14エントリー）は今回のチェックでSLヒット済みと判明（-30pips推定、正式メール未着のため後日確定要）\n- USDJPY: SMC構造（CHoCH up）が未確認、日足フレームも対立しており待ち判断\n- EURUSD: SMC構造がCHoCH→BO…"
       }
     },
     {
