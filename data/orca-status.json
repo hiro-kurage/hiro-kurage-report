@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T20:00:07.561339+00:00",
+  "updated_at": "2026-08-13T20:15:07.843512+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786651200000,
+      "next_run": 1786737600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-12T20:00:46.459000+00:00",
-        "completed_at": "2026-08-12T20:08:05.340000+00:00",
-        "duration_seconds": 439,
-        "output": "ブリッジEAチェック完了、Discordへ通知も送信しました。\n\n**サマリー**\n- 前回ポジション（USDJPY SELL、08/12 23:14エントリー）は今回のチェックでSLヒット済みと判明（-30pips推定、正式メール未着のため後日確定要）\n- USDJPY: SMC構造（CHoCH up）が未確認、日足フレームも対立しており待ち判断\n- EURUSD: SMC構造がCHoCH→BO…"
+        "started_at": "2026-08-13T20:00:49.297000+00:00",
+        "completed_at": "2026-08-13T20:03:53.245000+00:00",
+        "duration_seconds": 184,
+        "output": "ブリッジEAチェック完了、Discordにも通知済みです。\n\n**結論: 両ペアとも保有継続（新規エントリー・決済・SL/TP変更なし）**\n\n- **USDJPY** SELL 0.01lot（entry 159.404, SL 159.704, TP 158.854, 含み損-1.00）: CHoCH[down]構造は維持しているが、価格が直近のBOS[up]ピボット159.536に再接近して…"
       }
     },
     {
