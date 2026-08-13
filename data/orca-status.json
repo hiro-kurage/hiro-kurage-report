@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T23:30:07.692079+00:00",
+  "updated_at": "2026-08-13T23:45:07.717069+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786663800000,
+      "next_run": 1786750200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-12T23:30:46.845000+00:00",
-        "completed_at": "2026-08-12T23:33:57.960000+00:00",
-        "duration_seconds": 191,
-        "output": "ブリッジEAチェックを完了し、Discordに「Claude：EAチェック完了」を送信しました。\n\n**判断サマリー（08:30頃JST時点）**\n- **USDJPY**: ノーポジション。SMC構造でCHoCH[up]→BOS[up]（08/12 21:00 @159.536）が新たに確定したものの、価格は既にそのブレイク水準から反落し、直上のbearish OB/FVG帯の下端で足踏み中。日…"
+        "started_at": "2026-08-13T23:30:49.722000+00:00",
+        "completed_at": "2026-08-13T23:34:36.957000+00:00",
+        "duration_seconds": 227,
+        "output": "ブリッジEAチェック完了しました。\n\n**結論: 両ペイン保有継続、SL/TP変更なし**\n\n- **USDJPYmicro** SELL 0.01lot（含み損-1.00、誤差レベル）: H1構造に新たに`CHoCH[up]@159.553`が出現（前回05:02チェック時は未検出）が、BOS[up]の追認なし。直上のbearish FVG(159.543-160.155)と160円の介入警戒ゾ…"
       }
     },
     {
