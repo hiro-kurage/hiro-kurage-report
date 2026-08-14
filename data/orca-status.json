@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T04:00:07.927025+00:00",
+  "updated_at": "2026-08-14T04:15:08.174785+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786680000000,
+      "next_run": 1786939200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-13T04:00:47.378000+00:00",
-        "completed_at": "2026-08-13T04:02:40.382000+00:00",
-        "duration_seconds": 113,
-        "output": "ブリッジEAチェック完了、Discordに通知も送信しました。\n\n**判断サマリー（13:00頃JST時点）**\n- **USDJPYmicro**: ノーポジション継続。SMC構造はBOS[up]確定済みだが、価格がブレイク水準(159.536)から反落しbearish OB/FVG帯の下で足踏み中で、根拠が実質1つにとどまるため**待ち継続**\n- **EURUSDmicro**: SELL …"
+        "started_at": "2026-08-14T04:00:50.176000+00:00",
+        "completed_at": "2026-08-14T04:03:50.430000+00:00",
+        "duration_seconds": 180,
+        "output": "ブリッジEAチェック完了、Discordにも通知を送りました。\n\n**結論: 両ペインとも保有継続、SL/TP変更なし**\n\n- **USDJPY SELL**（entry 159.404, 現在159.441）: RSIは46→53.5→57.6と上昇継続でやや気がかりだが、現在値はbearish OB(159.386-159.449)内にあり上値抑制構造は健在。反証ライン(159.55超え定着…"
       }
     },
     {
