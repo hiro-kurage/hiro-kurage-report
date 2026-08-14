@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T14:00:08.090362+00:00",
+  "updated_at": "2026-08-14T14:15:08.741606+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786716600000,
+      "next_run": 1786975800000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-08-13T14:10:48.629000+00:00",
-        "completed_at": "2026-08-13T14:14:44.785000+00:00",
-        "duration_seconds": 236,
-        "output": "ブリッジEAチェック完了、Discordに通知送信しました。\n\n**判断サマリー**\n- 両ペアともポジション保有中のため新規エントリーなし、指示送信もなし\n- **USDJPY** SELL 0.01lot（含み益+2.00）: 本日のソフトPPI（前月比0.0%、予想+0.2%未達）と弱い新規失業保険申請（209K、予想204K超過）はいずれもドル安/円高方向で、SMC構造（CHoCH dow…"
+        "status": "dispatched",
+        "started_at": "2026-08-14T14:10:51.418000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
@@ -247,13 +247,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786716000000,
+      "next_run": 1786802400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-13T14:00:48.590000+00:00",
-        "completed_at": "2026-08-13T14:01:58.586000+00:00",
-        "duration_seconds": 70,
-        "output": "本日の成績を更新しました。\n\n記録ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-13 Real Trade 成績.md`\n\n推定残高は **1,971,193円** です。  \nDiscordにも `codex：口座成績の更新完了` と推定残高を送信済みです…"
+        "started_at": "2026-08-14T14:00:51.407000+00:00",
+        "completed_at": "2026-08-14T14:02:02.589000+00:00",
+        "duration_seconds": 71,
+        "output": "本日の成績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-14 Real Trade 成績.md`\n\n本日推定残高は **1,976,544円** です。  \nDiscordにも「codex：口座成績の更新完了」と推定残高を送信済みです…"
       }
     },
     {
