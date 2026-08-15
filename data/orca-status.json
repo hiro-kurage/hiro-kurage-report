@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T23:30:07.873276+00:00",
+  "updated_at": "2026-08-15T23:45:08.003168+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786836600000,
+      "next_run": 1786923000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-14T23:30:52.457000+00:00",
-        "completed_at": "2026-08-14T23:32:13.063000+00:00",
-        "duration_seconds": 81,
-        "output": "ブリッジEAチェック完了しました。\n\n**結果サマリー（08:31 JST時点）**\n- USDJPYmicro / EURUSDmicro ともにポジションなし、EA疎通正常\n- 土曜のFX市場週末クローズ中で、前回05:02チェックからデータ・構造ともに実質変化なし\n- USDJPY: down構造（CHoCH、BOS未追認）、EURUSD: up構造（CHoCH、BOS未追認、RSI71.9…"
+        "started_at": "2026-08-15T23:30:55.316000+00:00",
+        "completed_at": "2026-08-15T23:32:15.811000+00:00",
+        "duration_seconds": 80,
+        "output": "ブリッジEAチェック完了、Discordに通知も送信しました。\n\n**結果**: USDJPY/EURUSDともポジションなし・新規エントリーは見送り（待ち）\n- 市場は日曜のため引き続き休場中、両ペアとも05:02時点の前回チェックから状況変化なし\n- ホルムズ海峡情勢（対立継続、方向感材料としては未確定）を含め新規の判断材料も出ていない\n- SMC構造はUSDJPY=down／EURUSD=u…"
       }
     },
     {
