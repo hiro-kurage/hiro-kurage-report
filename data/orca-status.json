@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T14:30:07.818757+00:00",
+  "updated_at": "2026-08-15T14:45:07.965205+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -7,13 +7,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786804200000,
+      "next_run": 1786890600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-14T14:30:51.453000+00:00",
-        "completed_at": "2026-08-14T14:32:14.991000+00:00",
-        "duration_seconds": 84,
-        "output": "完了しました。\n\n2026-08-14分のEA-PO実績を更新済みです。\n\n`/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-14 EA-PO実績.md`\n\n集計は全10口座・49EA、総合計は `+569,196円` / `+76.26 USD`、前日比合計は `+5,3…"
+        "started_at": "2026-08-15T14:30:54.273000+00:00",
+        "completed_at": "2026-08-15T14:32:15.946000+00:00",
+        "duration_seconds": 82,
+        "output": "完了しました。\n\n`2026-08-15 EA-PO実績.md` を更新済みです。  \n対象は10口座・49 EA/Magic No.、総合計は `+569,391円` / `+76.26 USD` でした。\n\nDiscordにも指定どおり、\n\n`codex：全EAの実績更新完了`\n\nを送信済みです。"
       }
     },
     {
