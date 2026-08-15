@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T20:00:07.708020+00:00",
+  "updated_at": "2026-08-15T20:15:07.392671+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786824000000,
+      "next_run": 1786910400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-14T20:00:52.130000+00:00",
-        "completed_at": "2026-08-14T20:03:23.374000+00:00",
-        "duration_seconds": 151,
-        "output": "ブリッジEAチェック完了、Discordに「Claude：EAチェック完了」を送信しました。\n\n**結果サマリー（05:02頃JST）:**\n- 両ペアともポジションなし（USDJPYは08/14夜にTP_HIT +55pips、EURUSDはSL_HIT -45pipsで既に決済済み）\n- 現在は土曜早朝で市場は週末クローズ中\n- USDJPY: down構造（BOS未追認）、EURUSD: u…"
+        "started_at": "2026-08-15T20:00:54.866000+00:00",
+        "completed_at": "2026-08-15T20:03:39.944000+00:00",
+        "duration_seconds": 165,
+        "output": "ブリッジEAチェックが完了しました。要点：\n\n- **両ペアともポジションなし**。前回（08/13送信）のUSDJPY SELL(TP_HIT)、EURUSD SELL(SL_HIT)は既にtrade_log.csvに記録済み\n- **判断: USDJPY / EURUSDともに「待ち」**（新規エントリーなし）\n  - 両ペアとも直近1日単位で方向が入れ替わる往来相場で、SMC構造イベントがB…"
       }
     },
     {
