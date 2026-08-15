@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T01:30:07.031671+00:00",
+  "updated_at": "2026-08-15T01:45:10.439537+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786757400000,
+      "next_run": 1787362200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-08T01:30:54.208000+00:00",
-        "completed_at": "2026-08-08T01:34:47.792000+00:00",
-        "duration_seconds": 234,
-        "output": "ブログ記事を作成し、Obsidianフォルダに保存しました。\n\n**保存先**: `iclouddriver/20260808_forex_blog_W32.md`\n\n**使用した素材**\n- チャート: `2026-08-08-USDJPY.png` / `2026-08-08-EURUSD.png`（H1・日足）\n- EA週次成績: `2026-W32 週次成績.md`（週間合計+7,378円…"
+        "started_at": "2026-08-15T01:30:52.722000+00:00",
+        "completed_at": "2026-08-15T01:34:04.078000+00:00",
+        "duration_seconds": 191,
+        "output": "ブログ記事を作成し、Obsidianフォルダに保存しました。\n\n**`20260815_forex_blog_W33.md`**（2026年8月第3週 8/10〜8/14）\n\n- **チャート**: `2026-08-15-USDJPY.png` / `2026-08-15-EURUSD.png`（本日日付）を読み取り\n- **EA週次成績**: `2026-W33 週次成績.md` を使用（全1…"
       }
     },
     {
