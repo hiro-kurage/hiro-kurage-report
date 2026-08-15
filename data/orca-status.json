@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T00:30:08.017229+00:00",
+  "updated_at": "2026-08-15T00:45:08.017736+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -172,13 +172,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786753800000,
+      "next_run": 1787358600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-08T00:30:54+00:00",
-        "completed_at": "2026-08-08T00:31:38.589000+00:00",
-        "duration_seconds": 45,
-        "output": "完了しました。\n\n- チャート生成: USDJPY・EURUSD(H1+日足)をそれぞれ生成\n- 保存先: Obsidianの`iclouddriver`フォルダに `2026-08-08-USDJPY.png` / `2026-08-08-EURUSD.png` として保存(既存の命名慣習に合わせました)\n- Discord通知: 「Claudeチャート作成完了」を送信済み"
+        "started_at": "2026-08-15T00:30:52.669000+00:00",
+        "completed_at": "2026-08-15T00:31:36.462000+00:00",
+        "duration_seconds": 44,
+        "output": "完了しました。\n\n- `2026-08-15-USDJPY.png`\n- `2026-08-15-EURUSD.png`\n\nをObsidianフォルダ（`iclouddriver`）に保存し、Discordに「Claudeチャート作成完了」を送信しました。\n\n*（金曜東京時間22:00時点までのH1データが最新で、現在は土曜のため市場は休場中です）*"
       }
     },
     {
