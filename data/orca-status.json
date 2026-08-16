@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T20:00:07.311014+00:00",
+  "updated_at": "2026-08-16T20:15:07.866064+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786910400000,
+      "next_run": 1786996800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-15T20:00:54.866000+00:00",
-        "completed_at": "2026-08-15T20:03:39.944000+00:00",
-        "duration_seconds": 165,
-        "output": "ブリッジEAチェックが完了しました。要点：\n\n- **両ペアともポジションなし**。前回（08/13送信）のUSDJPY SELL(TP_HIT)、EURUSD SELL(SL_HIT)は既にtrade_log.csvに記録済み\n- **判断: USDJPY / EURUSDともに「待ち」**（新規エントリーなし）\n  - 両ペアとも直近1日単位で方向が入れ替わる往来相場で、SMC構造イベントがB…"
+        "started_at": "2026-08-16T20:00:57.758000+00:00",
+        "completed_at": "2026-08-16T20:03:17.938000+00:00",
+        "duration_seconds": 140,
+        "output": "ブリッジEAチェック完了しました。\n\n**結論: 両ペースとも待ち（新規エントリーなし）**\n\n- **ポジション**: USDJPYmicro / EURUSDmicro とも現在ポジションなし\n- **市場状況**: 05:02 JST時点はまだオセアニア市場オープン前で、Drive上のstatus.csvも週末最終値から更新されていない（正常、ティック未着のため）\n- **テクニカル/SMC…"
       }
     },
     {
