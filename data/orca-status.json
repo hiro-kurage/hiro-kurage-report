@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T14:00:07.755962+00:00",
+  "updated_at": "2026-08-17T14:15:07.332779+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786975800000,
+      "next_run": 1787062200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-14T14:10:51.418000+00:00",
-        "completed_at": "2026-08-14T14:15:34.661000+00:00",
-        "duration_seconds": 283,
-        "output": "ブリッジEAチェック完了、Discordに通知しました。\n\n**サマリー（23:11 JST時点）**\n- 両ペアともポジションなし。18:03チェック時点では両方SELL保有中でしたが、その間に決済されていました。\n- **USDJPYmicro**（ticket=129909562）: 21:00台にTP到達と推定（+55.0pips）。米7月小売売上高（-0.6% vs予想+0.1%の大幅下…"
+        "started_at": "2026-08-17T14:10:59.931000+00:00",
+        "completed_at": "2026-08-17T14:13:57.957000+00:00",
+        "duration_seconds": 178,
+        "output": "ブリッジEAチェック完了、Discord通知も送信しました。\n\n**結果サマリー（23:11 JST時点）**\n- **USDJPY**: ポジションなし。SMC構造でBOS[down]確定（CHoCH[down]に続いて弱気根拠が強化）だが、EURUSD買いポジション保有中のため「ドル安」同一テーマの二重ベットを避けて**待ち**\n- **EURUSD**: BUY 0.02lot保有継続（en…"
       }
     },
     {
@@ -247,13 +247,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1786975200000,
+      "next_run": 1787061600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-16T14:00:56.999000+00:00",
-        "completed_at": "2026-08-16T14:02:11.851000+00:00",
-        "duration_seconds": 75,
-        "output": "本日の成績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-16 Real Trade 成績.md`\n\n推定残高は `1,976,730円` です。  \nDiscordにも「codex：口座成績の更新完了」と推定残高を送信済みです。"
+        "started_at": "2026-08-17T14:00:59.873000+00:00",
+        "completed_at": "2026-08-17T14:02:09.490000+00:00",
+        "duration_seconds": 70,
+        "output": "本日の成績を更新しました。\n\n作成ファイル: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-17 Real Trade 成績.md`\n\n推定残高は **1,985,721円** です。  \nDiscordにも「codex：口座成績の更新完了」と推定残高を送信済みです。"
       }
     },
     {
