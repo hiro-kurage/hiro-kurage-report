@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T08:45:07.739733+00:00",
+  "updated_at": "2026-08-18T09:00:08.359170+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -54,11 +54,11 @@
       "schedule": "",
       "next_run": 1787043600000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-08-17T09:00:59.290000+00:00",
-        "completed_at": "2026-08-17T09:03:52.791000+00:00",
-        "duration_seconds": 174,
-        "output": "ブリッジEAチェック完了、Discordに通知送信済みです。\n\n**判断サマリー（18:03 JST）**\n- **EURUSD**（BUY 0.02lot保有中, ticket=129964613）: 保有継続。RSI14=73.2と過熱・上値抵抗ゾーン(1.1610-1.1620)接近だが、H1 SMA配列はなお強気で、単発CHoCH[down]も価格続伸で事実上否定されている。TP(1.16…"
+        "status": "dispatched",
+        "started_at": "2026-08-18T09:00:02.088000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787042700000,
+      "next_run": 1787129100000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-18T08:45:02.072000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-18T08:49:13.180000+00:00",
+        "duration_seconds": 251,
+        "output": "マーケット分析を上書き保存しました。\n\n保存先: [2026-08-18マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-18マーケット状況.md>)\n\nDiscordにも `codex:マーケット分析完了` を送信済みです。"
       }
     },
     {
