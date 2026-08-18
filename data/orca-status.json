@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T03:00:08.822779+00:00",
+  "updated_at": "2026-08-18T03:15:07.890854+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -204,11 +204,11 @@
       "schedule": "",
       "next_run": 1787108400000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-18T03:00:01.409000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-18T03:00:59.167000+00:00",
+        "duration_seconds": 58,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n更新ファイル: [2026-08-18 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-18 Real Trade 成績.md>)\n\n推定残高は **1,986,380円** です。  \nDi…"
       }
     },
     {
