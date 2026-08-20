@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T23:30:07.893820+00:00",
+  "updated_at": "2026-08-20T23:45:08.092312+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787268600000,
+      "next_run": 1787355000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-19T23:30:28.778000+00:00",
-        "completed_at": "2026-08-19T23:30:31.084000+00:00",
-        "duration_seconds": 2,
-        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-claude % cclaude '--dangerously-skip-permiss…"
+        "started_at": "2026-08-20T23:30:15.810000+00:00",
+        "completed_at": "2026-08-20T23:34:21.971000+00:00",
+        "duration_seconds": 246,
+        "output": "ブリッジEAチェック完了、Discordに通知も送信しました。\n\n**結果サマリー**\n- **USDJPY**: ポジションなし。BOS up確定も過去3回反落起点のOB帯(159.076-159.212)内での早期反落で方向対立継続 → **待ち**\n- **EURUSD**: BUY 0.02lot保有中（含み益+4.00円）。新規CHoCH downはBOSフォロースルーなく既に無効化、日…"
       }
     },
     {
