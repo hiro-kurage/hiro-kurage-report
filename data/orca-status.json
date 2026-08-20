@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T14:45:07.386162+00:00",
+  "updated_at": "2026-08-20T15:00:07.736696+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787237100000,
+      "next_run": 1787323500000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-19T14:45:29.732000+00:00",
-        "completed_at": "2026-08-19T14:45:31.580000+00:00",
-        "duration_seconds": 2,
-        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-claude % cclaude '--dangerously-skip-permiss…"
+        "started_at": "2026-08-20T14:45:14.794000+00:00",
+        "completed_at": "2026-08-20T14:45:33.078000+00:00",
+        "duration_seconds": 18,
+        "output": "EA-PO推移グラフを更新しました（49 EA、46日分のデータ、GitHubへpush済み）。Discordにも通知を送信しました。\n\n確認URL: https://hiro-kurage.github.io/hiro-kurage-report/ea-po.html"
       }
     },
     {
