@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T12:22:28.265160+00:00",
+  "updated_at": "2026-08-20T12:30:10.219046+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -128,7 +128,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1787283900000,
-      "last_run": null
+      "last_run": {
+        "status": "dispatched",
+        "started_at": "2026-08-20T03:45:21.092000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
+      }
     },
     {
       "id": "45a69dc1-9b13-4634-b45d-5fdcfb5373ef",
@@ -137,7 +143,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1787301900000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-08-20T08:45:21.712000+00:00",
+        "completed_at": "2026-08-20T08:48:22.338000+00:00",
+        "duration_seconds": 181,
+        "output": "マーケット分析をObsidianへ上書きし、Discordへ「codex:マーケット分析完了」を送信しました。\n\n[2026-08-20マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-20マーケット状況.md>)\n\n- スキャル：USD/JPYは1…"
+      }
     },
     {
       "id": "7a991f80-fa02-4886-8e6d-b592c7f2e92e",
@@ -146,7 +158,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1787267700000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-08-19T23:15:30.784000+00:00",
+        "completed_at": "2026-08-19T23:16:32.799000+00:00",
+        "duration_seconds": 62,
+        "output": "本日の最新マーケット状況（USD/JPY・EUR/USD）の分析を行い、Obsidianフォルダへレポートを保存・上書きいたしました。また、Discordへの通知送信も完了しました。\n\n---\n\n### 📊 本日の市場分析サマリー（2026-08-20 08:15 JST）\n\n- **USD/JPY（158.45円付近 / 下落優勢）**:\n  - 米財務省による米国債バイバック増額発表に伴う米1…"
+      }
     },
     {
       "id": "bc3cf731-5735-4072-b05d-8c49886857b4",
@@ -155,7 +173,13 @@
       "enabled": true,
       "schedule": "",
       "next_run": 1787233500000,
-      "last_run": null
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-08-19T13:45:29.598000+00:00",
+        "completed_at": "2026-08-19T13:46:57.721000+00:00",
+        "duration_seconds": 88,
+        "output": "最新のマーケット分析を実施し、Obsidianフォルダのレポートファイルを上書き更新した上で、Discordへの通知送信を完了しました。\n\n---\n\n### 📊 マーケット分析サマリー（2026-08-19 22:45 JST）\n\n- **USD/JPY（現在値: 159.30円近辺）**:\n  - 明朝 03:00 (JST) の米FOMC議事要旨公表を控え、小幅な値動き。160.00円手前では…"
+      }
     },
     {
       "id": "2d4a2789-ba67-4eb8-a363-882f889aebbc",
