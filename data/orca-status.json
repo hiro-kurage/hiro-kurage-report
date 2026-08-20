@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T14:15:09.359118+00:00",
+  "updated_at": "2026-08-20T14:30:08.320222+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -84,11 +84,11 @@
       "schedule": "",
       "next_run": 1787321400000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-20T14:10:14.742000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-20T14:18:04.813000+00:00",
+        "duration_seconds": 470,
+        "output": "この作業はすべて完了済みです。\n\n- EURUSDmicro ENTRY_BUY(instruction_id=1787245773)は初回送信で約定成功済み（ticket=130145493, entry=1.16738, SL=1.16489, TP=1.17089）\n- Discord確定通知「✅ EURUSD ENTRY_BUY 0.02lot エントリー確定」送信済み\n- Trade日記…"
       }
     },
     {
