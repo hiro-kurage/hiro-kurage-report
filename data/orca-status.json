@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T12:45:07.536285+00:00",
+  "updated_at": "2026-08-21T13:00:08.075892+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -249,11 +249,11 @@
       "schedule": "",
       "next_run": 1787392800000,
       "last_run": {
-        "status": "dispatched",
-        "started_at": "2026-08-21T10:00:17.032000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "status": "completed",
+        "started_at": "2026-08-21T12:49:02.957000+00:00",
+        "completed_at": "2026-08-21T12:50:06.809000+00:00",
+        "duration_seconds": 64,
+        "output": "本日の成績を更新し、Discordへの通知も完了しました。\n\n- 本日増減：−50,354円／+2.00 USD\n- 含み損益：−8,300円\n- 含み損益込み推定残高：1,933,843円\n- Discord送信：成功\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddrive…"
       }
     },
     {
