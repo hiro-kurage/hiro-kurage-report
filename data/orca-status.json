@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T03:45:07.823376+00:00",
+  "updated_at": "2026-08-21T04:00:07.980103+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,10 +127,10 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787283900000,
+      "next_run": 1787370300000,
       "last_run": {
         "status": "dispatched",
-        "started_at": "2026-08-20T03:45:21.092000+00:00",
+        "started_at": "2026-08-21T03:45:16.256000+00:00",
         "completed_at": null,
         "duration_seconds": null,
         "output": ""
