@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T20:00:07.900959+00:00",
+  "updated_at": "2026-08-22T20:15:07.371595+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787428800000,
+      "next_run": 1787515200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-21T20:00:52.671000+00:00",
-        "completed_at": "2026-08-21T20:03:27.819000+00:00",
-        "duration_seconds": 155,
-        "output": "ブリッジEAチェック完了です。\n\n**結果**: USDJPY・EURUSDともポジションなし、今回は**両ペアとも待ち（新規エントリーなし）**と判断しました。\n- USDJPY: ファンダ(日本CPI加速→9月BOJ利上げ観測)・SMC(CHoCH down転換)・日足トレンドが下方向で揃うが、BOSフォロースルー未確定＋H1は横ばいで方向感弱い\n- EURUSD: 日足は強気だが直近H1のS…"
+        "started_at": "2026-08-22T20:00:28.245000+00:00",
+        "completed_at": "2026-08-22T20:00:30.248000+00:00",
+        "duration_seconds": 2,
+        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoAir test-claude % cclaude '--dangerously-skip-permissions' 'ブ…"
       }
     },
     {
