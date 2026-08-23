@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T20:00:04.720886+00:00",
+  "updated_at": "2026-08-23T20:15:04.533843+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787515200000,
+      "next_run": 1787601600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-22T20:00:28.245000+00:00",
-        "completed_at": "2026-08-22T20:00:30.248000+00:00",
-        "duration_seconds": 2,
-        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoAir test-claude % cclaude '--dangerously-skip-permissions' 'ブ…"
+        "started_at": "2026-08-23T20:00:39.860000+00:00",
+        "completed_at": "2026-08-23T20:00:40.878000+00:00",
+        "duration_seconds": 1,
+        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-claude % cclaude '--dangerously-skip-permiss…"
       }
     },
     {
