@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T20:00:05.496295+00:00",
+  "updated_at": "2026-08-24T20:15:07.640943+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787601600000,
+      "next_run": 1787688000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-23T20:00:39.860000+00:00",
-        "completed_at": "2026-08-23T20:00:40.878000+00:00",
-        "duration_seconds": 1,
-        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-claude % cclaude '--dangerously-skip-permiss…"
+        "started_at": "2026-08-24T20:00:37.271000+00:00",
+        "completed_at": "2026-08-24T20:04:54.692000+00:00",
+        "duration_seconds": 257,
+        "output": "ブリッジEAチェックが完了しました。\n\n**判断サマリー（2026-08-25 05:00頃JST）**\n- **USDJPYmicro**: SELL 0.01lot保有継続（entry159.051, SL159.508, TP158.348）。含み損は約-1円とごく小幅。ベアリッシュOrderBlock密集帯内にとどまり上値重いシナリオは崩れていないため、決済・SL変更なし\n- **EURU…"
       }
     },
     {
