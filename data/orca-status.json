@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T14:00:05.011634+00:00",
+  "updated_at": "2026-08-24T14:15:05.216603+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787580600000,
+      "next_run": 1787667000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-21T14:10:51.997000+00:00",
-        "completed_at": "2026-08-21T14:14:35.118000+00:00",
-        "duration_seconds": 223,
-        "output": "ブリッジEAチェックが完了しました。\n\n**結果サマリー:**\n- **EURUSDmicro**: 保有していたBUY 0.02lot(ticket=130145493)がTP到達(1.17089)で決済。含み益+10円前後だったポジションがTP_HITで確定利食い。XM確認メール未着のため決済時刻は推定値、trade_log.csvに記録済み(翌朝メール確認後に確定予定)\n- **USDJPY…"
+        "started_at": "2026-08-24T14:10:36.645000+00:00",
+        "completed_at": "2026-08-24T14:13:42.713000+00:00",
+        "duration_seconds": 186,
+        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**結果サマリー(23:10頃JST)**\n- **USDJPY**: SELL 0.01lot保有中(entry 159.051, SL 159.508, TP 158.348, 現在値159.14付近)。SMC構造がCHoCH upに転換したが、BOS up未確認・価格はまだベアリッシュOB密集帯(159.08-159.21)＋介入…"
       }
     },
     {
@@ -262,13 +262,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787580000000,
+      "next_run": 1787666400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-23T14:00:39.098000+00:00",
-        "completed_at": "2026-08-23T14:01:39.999000+00:00",
-        "duration_seconds": 61,
-        "output": "本日の口座成績を更新し、Discordへ送信しました。\n\n- 本日増減：±0円／±0 USD\n- 推定残高：**1,942,143円**\n- Discord送信：完了"
+        "started_at": "2026-08-24T14:00:36.597000+00:00",
+        "completed_at": "2026-08-24T14:01:39.037000+00:00",
+        "duration_seconds": 62,
+        "output": "本日の口座成績を更新し、Discordへ送信しました。\n\n- 本日増減：+1,237円／+2.02 USD\n- 推定残高：1,943,703円\n- Discord通知：送信成功\n- [本日の成績記録](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-24 Real Tra…"
       }
     },
     {
