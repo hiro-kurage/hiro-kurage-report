@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T23:15:04.609464+00:00",
+  "updated_at": "2026-08-24T23:30:05.411327+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -157,13 +157,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787613300000,
+      "next_run": 1787699700000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-23T23:15:40.255000+00:00",
-        "completed_at": "2026-08-23T23:16:54.539000+00:00",
-        "duration_seconds": 74,
-        "output": "最新のマーケット分析を実施し、Obsidianフォルダへレポートを保存（上書き）した上で、Discordへの通知を完了しました。\n\n---\n\n### 📊 保存先ファイル\n- **ファイルパス**: [2026-08-24マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/icl…"
+        "started_at": "2026-08-24T23:15:37.595000+00:00",
+        "completed_at": "2026-08-24T23:16:39.502000+00:00",
+        "duration_seconds": 62,
+        "output": "本日の最新マーケット動向（USD/JPY、EUR/USD）の分析を行い、Obsidianフォルダへレポートを書き込みました。また、Discordへの完了通知も送信完了しています。\n\n---\n\n### 📊 推奨取引マトリクス（2026-08-25 朝刊版）\n\n| 通貨ペア | スタイル | ベット方向 | 推奨エントリ値 | 損切り目安 | 利確目安 |\n|---|---|---|---|---|-…"
       }
     },
     {
