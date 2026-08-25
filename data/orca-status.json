@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T00:00:05.294235+00:00",
+  "updated_at": "2026-08-25T00:15:05.322341+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -202,13 +202,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787616000000,
+      "next_run": 1787702400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-24T00:00:40.367000+00:00",
-        "completed_at": "2026-08-24T00:03:14.824000+00:00",
-        "duration_seconds": 154,
-        "output": "本日の成績を更新し、Discord通知も完了しました。\n\n- 本日増減：−683円\n- 含み損益：−5,254円（未決済5件）\n- 含み損益込み推定残高：1,936,206円\n- [更新ファイル](/Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-24%20Real%20…"
+        "started_at": "2026-08-25T00:00:37.658000+00:00",
+        "completed_at": "2026-08-25T00:01:40.131000+00:00",
+        "duration_seconds": 62,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n- 本日増減：+149円\n- 含み損益：−2,520円\n- 推定残高：1,941,332円\n- 取得失敗：なし\n- Discord通知：送信完了\n\n[更新した成績ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-25 …"
       }
     },
     {
