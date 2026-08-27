@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T12:00:05.489228+00:00",
+  "updated_at": "2026-08-27T12:15:04.715152+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -9,11 +9,11 @@
       "schedule": "",
       "next_run": 1787841000000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-26T14:30:41.668000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-27T12:08:34.759000+00:00",
+        "duration_seconds": 77873,
+        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-codex % \n\nhiro@yasuhironoMacBook-Air test-co…"
       }
     },
     {
@@ -129,11 +129,11 @@
       "schedule": "",
       "next_run": 1787888700000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-27T03:45:42.967000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-27T12:08:40.368000+00:00",
+        "duration_seconds": 30177,
+        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-codex % ccodex '--dangerously-bypass-approva…"
       }
     },
     {
@@ -144,11 +144,11 @@
       "schedule": "",
       "next_run": 1787906700000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-27T08:45:43.388000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-27T12:08:46.137000+00:00",
+        "duration_seconds": 12183,
+        "output": ";2;138;138;138;49m•king•ingngg30WWo•Wor•WorkWorki•Workin•Working•Working1•WorkingWorking•orking•rking•kinging•ngg2WWo•Wor•Work•WorkiWorkin•Working•Working3Working•Working•orking•rking•kinging•ngg4WWo•…"
       }
     },
     {
@@ -264,11 +264,11 @@
       "schedule": "",
       "next_run": 1787839200000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-08-26T14:00:41.629000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-08-27T12:08:29.192000+00:00",
+        "duration_seconds": 79668,
+        "output": "%                                                                                                                       \n \n\nhiro@yasuhironoMacBook-Air test-codex % ccodex '--dangerously-bypass-approva…"
       }
     },
     {
