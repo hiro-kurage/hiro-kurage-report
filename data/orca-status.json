@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T23:30:05.083233+00:00",
+  "updated_at": "2026-08-27T23:45:04.841984+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787873400000,
+      "next_run": 1787959800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-26T23:30:42.537000+00:00",
-        "completed_at": "2026-08-26T23:33:47.842000+00:00",
-        "duration_seconds": 185,
-        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**結果サマリー（両ペアとも「待ち」）**\n- USDJPY・EURUSDともポジションなし（フラット）、新規指示は送信せず\n- USDJPY: レンジ相場＋H1構造(CHoCH up)未確定＋介入警戒が対立、RSIは67.7とやや高め\n- EURUSD: 日足は強気配列(SMA20/50/200すべて上)だがH1構造は下方転換確定(C…"
+        "started_at": "2026-08-27T23:30:38.218000+00:00",
+        "completed_at": "2026-08-27T23:32:52.515000+00:00",
+        "duration_seconds": 134,
+        "output": "ブリッジEAチェックが完了しました。\n\n**結論**\n- USDJPYmicro: ポジションなし、待ち継続（テクニカル/SMC構造が対立中、23:00 JSTのウォーシュFRB議長ジャクソンホール講演待ち）\n- EURUSDmicro: BUY 0.02保有中（entry 1.16509 / SL 1.16209 / TP 1.17109、含み損益ほぼフラット）を継続保有、SL/TP変更なし。日…"
       }
     },
     {
