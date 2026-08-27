@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T11:45:05.040287+00:00",
+  "updated_at": "2026-08-27T12:00:05.489228+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -48,7 +48,7 @@
     },
     {
       "id": "20dc2272-c829-454f-be67-4849e52e8c42",
-      "name": "Market Analysis-2(claude)",
+      "name": "Market Analysis(claude)13:00",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -63,7 +63,7 @@
     },
     {
       "id": "6e9ff36d-d51f-419f-9496-b1b45e617c26",
-      "name": "Market Analysis-3(claude)",
+      "name": "Market Analysis(claude)18:00",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -78,7 +78,7 @@
     },
     {
       "id": "3d6f4aed-488c-4a1d-842b-3f7b6ed32075",
-      "name": "Market Analysis-4(claude)",
+      "name": "Market Analysis(claude)23:10",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -93,7 +93,7 @@
     },
     {
       "id": "c2438fed-3546-4de3-9719-66f7e77f68b7",
-      "name": "Market Analysis(claude)",
+      "name": "Market Analysis(claude)8:30",
       "provider": "",
       "enabled": true,
       "schedule": "",
@@ -249,11 +249,11 @@
       "schedule": "",
       "next_run": 1787911200000,
       "last_run": {
-        "status": "dispatched",
-        "started_at": "2026-08-27T10:00:43.573000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "status": "completed",
+        "started_at": "2026-08-27T11:58:23.516000+00:00",
+        "completed_at": "2026-08-27T11:59:27.312000+00:00",
+        "duration_seconds": 64,
+        "output": "本日の成績を更新し、Discord通知も完了しました。\n\n- 本日増減：+1,499円\n- 含み損益：−917円\n- 含み損益込み推定残高：1,949,606円\n- Discord送信：成功\n\n更新ファイル：[2026-08-27 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents…"
       }
     },
     {
