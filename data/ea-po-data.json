@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T23:45:44.062999+09:00",
+  "updated_at": "2026-08-28T23:33:45.247182+09:00",
   "base_date": "2026-07-06",
   "dates": [
     "2026-07-06",
@@ -51,7 +51,8 @@
     "2026-08-22",
     "2026-08-23",
     "2026-08-26",
-    "2026-08-27"
+    "2026-08-27",
+    "2026-08-28"
   ],
   "eas": [
     {
@@ -262,6 +263,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": -616
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": -616
         }
       ]
@@ -475,6 +480,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -686,6 +695,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -899,6 +912,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -1110,6 +1127,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 322
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 322
         }
       ]
@@ -1323,6 +1344,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -1534,6 +1559,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": -1098
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": -1098
         }
       ]
@@ -1747,6 +1776,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -1757,8 +1790,8 @@
       "currency": "JPY",
       "magic": "20260522",
       "ea_name": "GOLD PO",
-      "win_rate": 57.56,
-      "pf": 3.89,
+      "win_rate": 57.8,
+      "pf": 3.9,
       "series": [
         {
           "date": "2026-07-06",
@@ -1959,6 +1992,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 9853
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 9894
         }
       ]
     },
@@ -2170,6 +2207,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 365
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 365
         }
       ]
@@ -2383,6 +2424,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 424
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 424
         }
       ]
     },
@@ -2393,8 +2438,8 @@
       "currency": "JPY",
       "magic": "20260525",
       "ea_name": "GOLD1m PO",
-      "win_rate": 57.14,
-      "pf": 1.05,
+      "win_rate": 57.15,
+      "pf": 1.06,
       "series": [
         {
           "date": "2026-07-06",
@@ -2595,6 +2640,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 39679
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 40276
         }
       ]
     },
@@ -2806,6 +2855,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": -71
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": -71
         }
       ]
@@ -3019,6 +3072,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 30
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 30
         }
       ]
     },
@@ -3231,6 +3288,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": -27
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": -27
         }
       ]
     },
@@ -3241,8 +3302,8 @@
       "currency": "JPY",
       "magic": "20260778",
       "ea_name": "ブリッジEA EURUSD",
-      "win_rate": 36.36,
-      "pf": 1.11,
+      "win_rate": 33.33,
+      "pf": 0.87,
       "series": [
         {
           "date": "2026-07-06",
@@ -3443,6 +3504,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": -2
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": -12
         }
       ]
     },
@@ -3654,6 +3719,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -3867,6 +3936,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": -18096
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": -18096
         }
       ]
     },
@@ -4078,6 +4151,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -4291,6 +4368,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -4502,6 +4583,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -4715,6 +4800,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -4926,6 +5015,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -5139,6 +5232,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 2241
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 2241
         }
       ]
     },
@@ -5350,6 +5447,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 6924
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 6924
         }
       ]
@@ -5563,6 +5664,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -5774,6 +5879,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 3962
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 3962
         }
       ]
@@ -5987,6 +6096,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 44983
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 44983
         }
       ]
     },
@@ -6198,6 +6311,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": -15606
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": -15606
         }
       ]
@@ -6411,6 +6528,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": -9323
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": -9323
         }
       ]
     },
@@ -6622,6 +6743,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": -13726
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": -13726
         }
       ]
@@ -6835,6 +6960,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -7046,6 +7175,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -7259,6 +7392,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -7470,6 +7607,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -7683,6 +7824,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": -26490
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": -26490
         }
       ]
     },
@@ -7894,6 +8039,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": -7926
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": -7926
         }
       ]
@@ -8107,6 +8256,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": -13184
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": -13184
         }
       ]
     },
@@ -8318,6 +8471,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -8531,6 +8688,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -8743,6 +8904,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 2721
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 2721
         }
       ]
     },
@@ -8753,8 +8918,8 @@
       "currency": "JPY",
       "magic": "40510",
       "ea_name": "Nangan 第４弾 5m",
-      "win_rate": 43.24,
-      "pf": 1.0,
+      "win_rate": 43.75,
+      "pf": 1.01,
       "series": [
         {
           "date": "2026-07-06",
@@ -8955,6 +9120,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": -402
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": -105
         }
       ]
     },
@@ -9166,6 +9335,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -9379,6 +9552,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 2612
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 2612
         }
       ]
     },
@@ -9590,6 +9767,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 0
         }
       ]
@@ -9803,6 +9984,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 1467
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 1467
         }
       ]
     },
@@ -10014,6 +10199,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 5226
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 5226
         }
       ]
@@ -10227,6 +10416,10 @@
         {
           "date": "2026-08-27",
           "cumulative_jpy": 6064
+        },
+        {
+          "date": "2026-08-28",
+          "cumulative_jpy": 6064
         }
       ]
     },
@@ -10438,6 +10631,10 @@
         },
         {
           "date": "2026-08-27",
+          "cumulative_jpy": 1775
+        },
+        {
+          "date": "2026-08-28",
           "cumulative_jpy": 1775
         }
       ]
