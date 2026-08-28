@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T20:00:05.540238+00:00",
+  "updated_at": "2026-08-28T20:15:05.486862+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787947200000,
+      "next_run": 1788033600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-27T20:00:37.853000+00:00",
-        "completed_at": "2026-08-27T20:08:06.178000+00:00",
-        "duration_seconds": 448,
-        "output": "その処理はすでに完了しています。\n\n先ほどのMonitorタスクでinstruction_id=1787871711の約定を確認済みで、以下すべて実施しました。\n\n- **約定確認**: status.csvで`last_processed_id=1787871711`一致＋ポジション出現を確認（ticket=130395326, entry=1.16509, SL=1.16209, TP=1.1…"
+        "started_at": "2026-08-28T20:00:40.210000+00:00",
+        "completed_at": "2026-08-28T20:03:20.410000+00:00",
+        "duration_seconds": 160,
+        "output": "ブリッジEAチェック完了しました。\n\n**結果サマリー**\n- USDJPYmicro / EURUSDmicro: ともにポジションなし、新規エントリーも**見送り**\n- 理由: 23:00のウォーシュFRB議長ジャクソンホール講演後、USDJPYは160円台へ急伸(RSI72.4で過熱)、EURUSDは1.158台へ急落(RSI21.6で売られすぎ)。SMC構造判定がこの急変動に追いついてお…"
       }
     },
     {
