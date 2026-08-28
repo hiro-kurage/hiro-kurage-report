@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T10:00:04.702822+00:00",
+  "updated_at": "2026-08-28T10:15:05.422878+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -247,13 +247,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787911200000,
+      "next_run": 1787997600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-27T11:58:23.516000+00:00",
-        "completed_at": "2026-08-27T11:59:27.312000+00:00",
-        "duration_seconds": 64,
-        "output": "本日の成績を更新し、Discord通知も完了しました。\n\n- 本日増減：+1,499円\n- 含み損益：−917円\n- 含み損益込み推定残高：1,949,606円\n- Discord送信：成功\n\n更新ファイル：[2026-08-27 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents…"
+        "started_at": "2026-08-28T10:00:39.191000+00:00",
+        "completed_at": "2026-08-28T10:01:51.322000+00:00",
+        "duration_seconds": 72,
+        "output": "本日の成績を更新し、Discordへの通知も完了しました。\n\n- 本日確定損益：+638円\n- 含み損益：-805円\n- 含み損益込み推定残高：1,950,375円\n- Discord送信内容：「codex：成績更新完了」＋推定残高"
       }
     },
     {
