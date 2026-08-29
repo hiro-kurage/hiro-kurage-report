@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T08:45:06.110113+00:00",
+  "updated_at": "2026-08-29T09:00:05.679057+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -142,13 +142,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1787993100000,
+      "next_run": 1788079500000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-28T08:45:39.127000+00:00",
-        "completed_at": "2026-08-28T08:47:52.323000+00:00",
-        "duration_seconds": 133,
-        "output": "マーケット分析を更新し、Obsidianへ上書き保存しました。\n\n[2026-08-28マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-28マーケット状況.md>)\n\n要点：23:00 JSTのウォーシュFRB議長講演前は新規取引を控え、講演後に米…"
+        "started_at": "2026-08-29T08:45:41.531000+00:00",
+        "completed_at": "2026-08-29T08:49:38.895000+00:00",
+        "duration_seconds": 237,
+        "output": "マーケット分析を更新し、Obsidianへ上書きしました。\n\n[2026-08-29マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-29マーケット状況.md>)\n\nDiscordへ「codex:マーケット分析完了」を送信済みです。"
       }
     },
     {
