@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T09:00:05.271935+00:00",
+  "updated_at": "2026-08-31T09:15:05.457645+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788166800000,
+      "next_run": 1788253200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-28T09:00:39.168000+00:00",
-        "completed_at": "2026-08-28T09:02:23.760000+00:00",
-        "duration_seconds": 105,
-        "output": "ブリッジEAチェック完了、Discordにも通知済みです。\n\n**結論（18:00 JST時点）**\n- **USDJPYmicro**: ポジションなし。日足フレーム対立（SMA50下向き vs SMA20/200上向き）・SMC構造も転換未確定で待ち継続（終日変化なし）\n- **EURUSDmicro**: BUY 0.02lot保有中（entry 1.16509, SL 1.16209, T…"
+        "started_at": "2026-08-31T09:00:17.247000+00:00",
+        "completed_at": "2026-08-31T09:02:41.191000+00:00",
+        "duration_seconds": 144,
+        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**結果サマリ（18:00 JST）**\n- **USDJPYmicro**: ポジションなし・待ち。160円台への到達がBloombergでも介入警戒として報じられており（次トリガー161円）、また既にEURUSDでドル高方向のポジションを保有中のため、ここで買いを追加すると同一テーマ（ドル高）への二重ベットになる。見送り。\n- **…"
       }
     },
     {
