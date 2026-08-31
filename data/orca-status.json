@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T14:15:05.181607+00:00",
+  "updated_at": "2026-08-31T14:30:05.145168+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -86,9 +86,9 @@
       "last_run": {
         "status": "completed",
         "started_at": "2026-08-31T14:10:17.836000+00:00",
-        "completed_at": "2026-08-31T14:10:18.860000+00:00",
-        "duration_seconds": 1,
-        "output": "ordに「Claude：EAチェック完了」と送って'"
+        "completed_at": "2026-08-31T14:16:31.235000+00:00",
+        "duration_seconds": 373,
+        "output": "ブリッジEAチェック完了しました。\n\n**結果サマリー（23:15 JST）**\n- **EURUSDmicro**: 保有中だったSELL 0.02lot（entry 1.15907）を**CLOSE**。エントリー根拠だったSMC下方構造・RSI売られ過ぎ・FVG抵抗が軒並み反転（RSI 24.6→61.8、CHoCH up出現、抵抗FVGを上抜け）したため、SL到達を待たず建値付近（実現損益…"
       }
     },
     {
