@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T23:30:05.328607+00:00",
+  "updated_at": "2026-08-31T23:45:05.590749+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788219000000,
+      "next_run": 1788305400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-30T23:30:16.195000+00:00",
-        "completed_at": "2026-08-30T23:34:10.196000+00:00",
-        "duration_seconds": 234,
-        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**結果サマリー**\n- USDJPYmicro / EURUSDmicro ともにポジションなし、EA正常稼働中（異常なし）\n- 判断：**両ペアとも「待ち」**（新規エントリーなし）\n  - USDJPY: 160.20〜160.50の介入警戒ゾーン接近＋H1 RSI過熱(76.3)がショート材料だが、Warsh FRB議長のタカ派…"
+        "started_at": "2026-08-31T23:30:18.860000+00:00",
+        "completed_at": "2026-08-31T23:32:41.500000+00:00",
+        "duration_seconds": 143,
+        "output": "ブリッジEAチェック完了、Discordにも通知を送信しました。\n\n**結果サマリー**\n- **USDJPYmicro**: ポジションなし、待ち継続。日銀9月利上げ観測（約8割）は円高材料だが、SMC構造はCHoCH[up]止まりでBOS未確認、日足SMAも方向不一致のため根拠不足で見送り\n- **EURUSDmicro**: BUY 0.01lot保有中（ticket 130462443, …"
       }
     },
     {
