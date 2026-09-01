@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T14:00:05.443736+00:00",
+  "updated_at": "2026-09-01T14:15:04.858180+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788271800000,
+      "next_run": 1788358200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-31T14:10:17.836000+00:00",
-        "completed_at": "2026-08-31T14:16:31.235000+00:00",
-        "duration_seconds": 373,
-        "output": "ブリッジEAチェック完了しました。\n\n**結果サマリー（23:15 JST）**\n- **EURUSDmicro**: 保有中だったSELL 0.02lot（entry 1.15907）を**CLOSE**。エントリー根拠だったSMC下方構造・RSI売られ過ぎ・FVG抵抗が軒並み反転（RSI 24.6→61.8、CHoCH up出現、抵抗FVGを上抜け）したため、SL到達を待たず建値付近（実現損益…"
+        "started_at": "2026-09-01T14:10:18.477000+00:00",
+        "completed_at": "2026-09-01T14:12:51.418000+00:00",
+        "duration_seconds": 153,
+        "output": "ブリッジEAチェック完了しました（23:10 JST時点）。\n\n**結論**\n- **USDJPYmicro**: ポジションなし、待ち継続（新規エントリーなし）\n  - JOLTS(8月7.36M、予想7.40M未達)・ISM製造業PMI(54.6、7月55.6から低下)とも予想下振れでドルやや軟化材料だが、SMC構造はCHoCH[up]止まりでBOS未確認、直上に介入警戒ゾーン(160.10-…"
       }
     },
     {
@@ -262,13 +262,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788271200000,
+      "next_run": 1788357600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-31T14:00:17.878000+00:00",
-        "completed_at": "2026-08-31T14:01:36.996000+00:00",
-        "duration_seconds": 79,
-        "output": "本日の口座成績を更新し、Discordへの通知も完了しました。\n\n- 本日増減：+34円\n- 推定残高：1,951,537円\n- Discord：送信成功\n- [成績記録](/Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-31%20Real%20Trade%20成績.m…"
+        "started_at": "2026-09-01T14:00:18.475000+00:00",
+        "completed_at": "2026-09-01T14:01:14.964000+00:00",
+        "duration_seconds": 56,
+        "output": "本日の口座成績を更新し、Discordへ送信しました。\n\n- 本日増減：+1,913円\n- 推定残高：1,953,450円\n- Discord通知：送信成功\n- [更新ファイル](/Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-01%20Real%20Trade%20成…"
       }
     },
     {
