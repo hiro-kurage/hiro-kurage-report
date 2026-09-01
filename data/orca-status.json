@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T03:45:05.399114+00:00",
+  "updated_at": "2026-09-01T04:00:05.333286+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788234300000,
+      "next_run": 1788320700000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-31T03:45:16.648000+00:00",
-        "completed_at": "2026-08-31T03:48:35.404000+00:00",
-        "duration_seconds": 199,
-        "output": "マーケット分析を完了しました。\n\n- [Obsidianレポート](/Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-08-31マーケット状況.md)へ上書き済み\n- Discordへ「codex:マーケット分析完了」を送信済み\n- 短期は米金利高によるドル優位。ただしUSD/…"
+        "started_at": "2026-09-01T03:45:19.352000+00:00",
+        "completed_at": "2026-09-01T03:50:36.209000+00:00",
+        "duration_seconds": 317,
+        "output": "マーケット分析を完了しました。\n\n- [Obsidianレポート](/Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-01マーケット状況.md)\n- Discordへ「codex:マーケット分析完了」を送信済みです。\n\n短期はUSD/JPYの160円付近での失速、スイング…"
       }
     },
     {
