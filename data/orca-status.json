@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T14:45:05.270780+00:00",
+  "updated_at": "2026-09-02T15:00:06.163699+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -22,13 +22,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788360300000,
+      "next_run": 1788446700000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-01T14:45:20.495000+00:00",
-        "completed_at": "2026-09-01T14:45:35.843000+00:00",
+        "started_at": "2026-09-02T14:45:41.081000+00:00",
+        "completed_at": "2026-09-02T14:45:55.938000+00:00",
         "duration_seconds": 15,
-        "output": "EA-PO推移グラフを更新し（49EA・55日分）、Discordに完了通知を送信しました。確認はこちら: https://hiro-kurage.github.io/hiro-kurage-report/ea-po.html"
+        "output": "EA-PO推移グラフの更新が完了しました（49 EA、56日分、GitHub Pagesにpush済み）。Discordへの通知も送信済みです。\n\n確認URL: https://hiro-kurage.github.io/hiro-kurage-report/ea-po.html"
       }
     },
     {
