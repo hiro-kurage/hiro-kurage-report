@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T20:00:05.556275+00:00",
+  "updated_at": "2026-09-02T20:15:05.274953+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788379200000,
+      "next_run": 1788465600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-01T20:00:28.619000+00:00",
-        "completed_at": "2026-09-01T20:03:17.622000+00:00",
-        "duration_seconds": 169,
-        "output": "ブリッジEAチェック完了、Discordにも通知済みです。\n\n**結論**\n- **USDJPYmicro**：待ち（新規エントリーなし）。SMC構造はCHoCH→BOSで上昇確定と強気材料だが、H1 RSI14=71.6で過熱・直近20日レンジ上限160.26付近に到達、かつ09/04未明(JST)のNFPが目前で非対称なタイミングのため見送り\n- **EURUSDmicro**：保有継続（変更…"
+        "started_at": "2026-09-02T20:00:39.632000+00:00",
+        "completed_at": "2026-09-02T20:08:06.545000+00:00",
+        "duration_seconds": 447,
+        "output": "この件はすでに完了しています。\n\n先ほどのやり取りで、USDJPY SELL指示（instruction_id=1788390105）は約定確認まで完了済みです。\n\n- **約定確認**: last_processed_id=1788390105一致、ポジション出現を確認（1回目送信で成功）\n- **ticket**: 130543992\n- **entry_price**: 158.702\n- …"
       }
     },
     {
