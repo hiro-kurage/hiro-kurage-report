@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T05:30:05.526065+00:00",
+  "updated_at": "2026-09-03T05:45:05.591838+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -285,6 +285,15 @@
         "duration_seconds": 70,
         "output": "本日の口座成績を更新し、Discordへ通知しました。\n\n- 本日増減：+933円\n- 推定残高：1,954,383円\n- Discord送信：成功\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-02 Real Trade 成績.md>)"
       }
+    },
+    {
+      "id": "7289b23c-f07d-4743-bdfc-02aa73583fb9",
+      "name": "朝のブリーフィング",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1788477000000,
+      "last_run": null
     },
     {
       "id": "34c3aedc-1660-4f78-a9fd-a7944f4854c8",
