@@ -133,18 +133,23 @@
   .ea-checkbox { width: 13px; height: 13px; accent-color: var(--accent); flex-shrink: 0; }
 
   .sidebar-actions {
-    padding: 0.5rem 1rem;
-    display: flex; gap: 6px;
+    padding: 0.5rem 1rem 0.75rem;
+    display: flex; flex-direction: column; gap: 5px;
     border-top: 1px solid var(--border);
     margin-top: 0.5rem;
   }
+  .sidebar-actions .btn-row { display: flex; gap: 5px; }
   .sidebar-actions button {
-    flex: 1; font-size: 0.72rem; padding: 4px 6px;
+    flex: 1; font-size: 0.7rem; padding: 4px 4px;
     border: 1px solid var(--border); border-radius: 5px;
     background: none; color: var(--text-sub); cursor: pointer;
-    transition: background .15s;
+    transition: background .15s; white-space: nowrap;
   }
   .sidebar-actions button:hover { background: var(--muted-bg); }
+  .sidebar-actions button.btn-accent {
+    border-color: var(--accent); color: var(--accent);
+  }
+  .sidebar-actions button.btn-accent:hover { background: var(--accent-lt); }
 
   /* Main */
   .main { padding: 1.25rem 1.5rem; overflow: hidden; }
@@ -220,8 +225,18 @@
     <div class="sidebar-title">EA 選択</div>
     <div id="ea-groups"></div>
     <div class="sidebar-actions">
-      <button onclick="selectAll()">全選択</button>
-      <button onclick="selectNone()">全解除</button>
+      <div class="btn-row">
+        <button onclick="selectAll()">全選択</button>
+        <button onclick="selectNone()">全解除</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn-accent" onclick="selectTop10('pl')">損益TOP10</button>
+        <button class="btn-accent" onclick="selectTop10('worst')">損益WORST10</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn-accent" onclick="selectTop10('wr')">勝率TOP10</button>
+        <button class="btn-accent" onclick="selectTop10('pf')">PF TOP10</button>
+      </div>
     </div>
   </aside>
 
@@ -449,6 +464,34 @@ function getCheckedKeys() {
 
 function selectAll()  { document.querySelectorAll('.ea-checkbox').forEach(el => el.checked = true);  onCheck(); }
 function selectNone() { document.querySelectorAll('.ea-checkbox').forEach(el => el.checked = false); onCheck(); }
+
+function selectTop10(mode) {
+  // チェックボックスがあるEAのみ対象（累計0除外済み）
+  const checkboxes = document.querySelectorAll('.ea-checkbox');
+  const keys = new Set([...checkboxes].map(el => el.dataset.key));
+  const candidates = allData.eas.filter(ea => keys.has(ea.key));
+
+  let sorted;
+  if (mode === 'pl') {
+    sorted = candidates.slice().sort((a, b) => getLastValue(b) - getLastValue(a));
+  } else if (mode === 'worst') {
+    sorted = candidates.slice().sort((a, b) => getLastValue(a) - getLastValue(b));
+  } else if (mode === 'wr') {
+    sorted = candidates.slice().sort((a, b) => {
+      const av = a.win_rate ?? -Infinity, bv = b.win_rate ?? -Infinity;
+      return bv - av;
+    });
+  } else if (mode === 'pf') {
+    sorted = candidates.slice().sort((a, b) => {
+      const av = a.pf ?? -Infinity, bv = b.pf ?? -Infinity;
+      return bv - av;
+    });
+  }
+
+  const top10 = new Set(sorted.slice(0, 10).map(ea => ea.key));
+  checkboxes.forEach(el => { el.checked = top10.has(el.dataset.key); });
+  onCheck();
+}
 
 // ---- Table ---------------------------------------------------------------
 
