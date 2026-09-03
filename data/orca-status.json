@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T13:00:05.681215+00:00",
+  "updated_at": "2026-09-03T13:15:05.912963+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788440400000,
+      "next_run": 1788444000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-03T12:00:43.375000+00:00",
-        "completed_at": "2026-09-03T12:03:41.159000+00:00",
-        "duration_seconds": 178,
-        "output": "マーケットウォッチを実行し、Obsidianへ追記しました。\n\n- 重要度：★★★★★\n- USD/JPY：156.36を割り156.22付近へ。弱気判断を維持・強化\n- EUR/USD：Neutralを維持\n- EA Risk：EXTREME\n- 注視：156.00割れ、米指標・Waller理事発言後の急反発\n\n保存先：[2026-09-03 マーケットウォッチ.md](</Users/hiro…"
+        "started_at": "2026-09-03T13:00:43.432000+00:00",
+        "completed_at": "2026-09-03T13:02:19.293000+00:00",
+        "duration_seconds": 96,
+        "output": "マーケットウォッチを実行し、重要な変化をObsidianへ追記しました。\n\n- 重要度: ★★★★★\n- USD/JPY: Bearish維持。Waller理事の据え置き示唆でドルの金利面の支えが後退\n- EUR/USD: Neutral維持、上方バイアスを強化\n- EA Risk: EXTREME\n- 次の焦点: 23:00 JSTの米ISM非製造業\n\n保存先: [2026-09-03 マーケッ…"
       }
     },
     {
