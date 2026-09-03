@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T07:00:05.784022+00:00",
+  "updated_at": "2026-09-03T07:15:05.230534+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788418800000,
+      "next_run": 1788422400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-03T06:00:42.736000+00:00",
-        "completed_at": "2026-09-03T06:03:01.566000+00:00",
-        "duration_seconds": 139,
-        "output": "マーケットウォッチを実行し、Obsidianへ追記しました。\n\n- 重要度: ★★★★☆\n- USD/JPY: 短期Bearishを維持・強化。157.50円の攻防を注視\n- EUR/USD: Neutral継続\n- EA Risk: HIGH\n- 実弾介入は未確認\n\n保存先: [2026-09-03 マーケットウォッチ.md](</Users/hiro/Library/Mobile Docume…"
+        "started_at": "2026-09-03T07:00:42.795000+00:00",
+        "completed_at": "2026-09-03T07:01:58.033000+00:00",
+        "duration_seconds": 75,
+        "output": "2026年9月3日 16:01 JST確認。重要な変化はありません。Obsidianは更新していません。"
       }
     },
     {
