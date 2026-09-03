@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T08:45:05.487814+00:00",
+  "updated_at": "2026-09-03T09:00:05.409480+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -157,13 +157,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788425100000,
+      "next_run": 1788511500000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-02T08:45:29.984000+00:00",
-        "completed_at": "2026-09-02T08:53:37.476000+00:00",
-        "duration_seconds": 487,
-        "output": "マーケット分析をObsidianへ上書きし、Discordにも「codex:マーケット分析完了」を送信しました。\n\n[2026-09-02マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-02マーケット状況.md>)\n\n短期はUSD/JPYの159.…"
+        "started_at": "2026-09-03T08:45:42.952000+00:00",
+        "completed_at": "2026-09-03T08:51:07.243000+00:00",
+        "duration_seconds": 324,
+        "output": "マーケット分析を更新しました。\n\n- [2026-09-03マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-03マーケット状況.md>)\n- 短期：USD/JPYは戻り売り優先\n- スイング：USD/JPY戻り売り、EUR/USDはブレイク確認待ち…"
       }
     },
     {
