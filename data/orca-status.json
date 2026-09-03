@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T23:30:05.865649+00:00",
+  "updated_at": "2026-09-03T23:45:05.960812+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788478200000,
+      "next_run": 1788564600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-02T23:30:42.029000+00:00",
-        "completed_at": "2026-09-02T23:32:35.603000+00:00",
-        "duration_seconds": 114,
-        "output": "ブリッジEAチェック完了しました。\n\n**結果サマリー**\n- USDJPYmicro: SELLポジション保有中（0.02lot, entry158.702, SL159.001, TP158.101）を継続。BOJタカ派＋介入警戒のファンダ、下方構造(CHoCH→BOS)継続のSMC、下向きSMA/RSIの3根拠が前回チェックから変わらず整合的なため、指示変更なし\n- EURUSDmicro:…"
+        "started_at": "2026-09-03T23:30:44.591000+00:00",
+        "completed_at": "2026-09-03T23:32:31.329000+00:00",
+        "duration_seconds": 107,
+        "output": "## 結果\n\n**ブリッジEAチェック完了（08:30 JST）**\n\n- USDJPYmicro / EURUSDmicro とも保有ポジションなし、EA正常稼働、未処理指示なし\n- USDJPY: 下降構造継続（CHoCH+BOS連続）、SMA下向き、RSI36.6（極端な売られ過ぎは解消）\n- EURUSD: 上昇構造継続（CHoCH+BOS連続）、SMA上向き、RSI59.9（買われ過ぎは…"
       }
     },
     {
