@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T20:00:05.530919+00:00",
+  "updated_at": "2026-09-03T20:15:06.111196+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788465600000,
+      "next_run": 1788552000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-02T20:00:39.632000+00:00",
-        "completed_at": "2026-09-02T20:08:06.545000+00:00",
-        "duration_seconds": 447,
-        "output": "この件はすでに完了しています。\n\n先ほどのやり取りで、USDJPY SELL指示（instruction_id=1788390105）は約定確認まで完了済みです。\n\n- **約定確認**: last_processed_id=1788390105一致、ポジション出現を確認（1回目送信で成功）\n- **ticket**: 130543992\n- **entry_price**: 158.702\n- …"
+        "started_at": "2026-09-03T20:00:44.204000+00:00",
+        "completed_at": "2026-09-03T20:03:16.446000+00:00",
+        "duration_seconds": 152,
+        "output": "ブリッジEAチェック完了しました。Discordに「Claude：EAチェック完了」を送信済みです。\n\n**結論: 両ペアとも待ち（新規エントリーなし）**\n\n- **ポジション**: USDJPY/EURUSDともに現在ポジションなし、EA正常稼働\n- **USDJPY**: ファンダ(BOJタカ派・円キャリー巻き戻し)・テクニカル(下降SMA)・SMC(下方構造継続)がSELL方向で揃うが、H…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788465600000,
+      "next_run": 1788469200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-03T19:00:44.095000+00:00",
-        "completed_at": "2026-09-03T19:01:27.470000+00:00",
-        "duration_seconds": 43,
-        "output": "2026-09-04 04:01 JST時点で確認しました。\n\n重要な変化はありません。前回判断（USD/JPY弱気、EUR/USD短期強気、EA Risk EXTREME）を維持し、Obsidianは更新していません。"
+        "started_at": "2026-09-03T20:00:44.266000+00:00",
+        "completed_at": "2026-09-03T20:01:34.515000+00:00",
+        "duration_seconds": 50,
+        "output": "2026年9月4日 05:01 JSTに確認しました。重要な変化はありません。Obsidianノートは更新していません。"
       }
     },
     {
