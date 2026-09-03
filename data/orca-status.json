@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T09:00:05.409480+00:00",
+  "updated_at": "2026-09-03T09:15:05.334836+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788426000000,
+      "next_run": 1788512400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-02T09:00:29.999000+00:00",
-        "completed_at": "2026-09-02T09:03:48.140000+00:00",
-        "duration_seconds": 198,
-        "output": "ブリッジEAチェックとDiscord通知、完了しました。\n\n**判断サマリー（18:00 JST時点）**\n- **USDJPY**: ポジションなし・待ち継続。ファンダ/SMCとも戻り売り推奨ゾーン(159.85〜160.00)に現在値(159.68〜159.82)がまだ届いておらず、21:15のADP雇用統計まで約3時間とイベント直前のため見送り\n- **EURUSD**: SELL 0.02…"
+        "started_at": "2026-09-03T09:00:42.989000+00:00",
+        "completed_at": "2026-09-03T09:03:17.947000+00:00",
+        "duration_seconds": 155,
+        "output": "ブリッジEAチェック完了、Discordに通知送信済みです。\n\n**結果サマリー（18:01 JST時点）**\n- USDJPYmicro／EURUSDmicroともにポジションなし。今朝05:03に建てたUSDJPY SELL（0.02lot）は13:05チェック時点でTP到達済み（+60.1pips推定）\n- 今回は両ペアとも**待ち**判断\n  - USDJPY: ファンダ・SMA・SMC構…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788426000000,
+      "next_run": 1788429600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-03T08:00:42.941000+00:00",
-        "completed_at": "2026-09-03T08:02:04.803000+00:00",
-        "duration_seconds": 82,
-        "output": "2026-09-03 17:01 JST確認。重要な変化はありません。Obsidianは更新していません。"
+        "started_at": "2026-09-03T09:00:43.050000+00:00",
+        "completed_at": "2026-09-03T09:03:11.297000+00:00",
+        "duration_seconds": 148,
+        "output": "マーケットウォッチを実行し、Obsidianへ追記しました。\n\n- 重要度：★★★★★\n- EA Risk：EXTREME\n- USD/JPY：一時156.36、短期Bearishを一段強化\n- EUR/USD：1.1605付近、Neutral維持\n- 主因：日銀9月利上げのほぼ完全な織り込みと円キャリー解消\n- 実弾介入：新たな公式確認なし\n\n保存先：[2026-09-03 マーケットウォッチ.…"
       }
     },
     {
