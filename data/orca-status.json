@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T13:45:05.914377+00:00",
+  "updated_at": "2026-09-04T14:00:05.917222+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -187,13 +187,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788529500000,
+      "next_run": 1788615900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-03T13:45:43.510000+00:00",
-        "completed_at": "2026-09-03T13:48:50.964000+00:00",
-        "duration_seconds": 187,
-        "output": "最新のFXマーケット分析（2026年9月3日 22:48 JST 夜間更新版）を実施し、Obsidianフォルダ内のファイルを上書き更新しました。また、ご指定の通りDiscordへの通知送信も完了いたしました。\n\n---\n\n### 保存先ファイル\n- [2026-09-03マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iClou…"
+        "started_at": "2026-09-04T13:45:33.739000+00:00",
+        "completed_at": "2026-09-04T13:48:43.797000+00:00",
+        "duration_seconds": 190,
+        "output": "最新のマーケット分析（21:30発表の米8月雇用統計通過後・NY前場の最新動向）を実施し、Obsidianフォルダの該当ファイルを上書き更新いたしました。また、Discordへの通知送信も完了しております。\n\n---\n\n### 保存先レポート\n- 保存ファイル: [2026-09-04マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents…"
       }
     },
     {
