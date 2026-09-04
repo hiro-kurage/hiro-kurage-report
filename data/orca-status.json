@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T08:45:06.077049+00:00",
+  "updated_at": "2026-09-04T09:00:05.884145+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -157,13 +157,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788511500000,
+      "next_run": 1788597900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-03T08:45:42.952000+00:00",
-        "completed_at": "2026-09-03T08:51:07.243000+00:00",
-        "duration_seconds": 324,
-        "output": "マーケット分析を更新しました。\n\n- [2026-09-03マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-03マーケット状況.md>)\n- 短期：USD/JPYは戻り売り優先\n- スイング：USD/JPY戻り売り、EUR/USDはブレイク確認待ち…"
+        "started_at": "2026-09-04T08:45:45.510000+00:00",
+        "completed_at": "2026-09-04T08:50:48.229000+00:00",
+        "duration_seconds": 303,
+        "output": "マーケット分析を更新しました。\n\n- [2026-09-04マーケット状況.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-04マーケット状況.md>)\n- 短期：USD/JPYは戻り売り、EUR/USDは押し目買いを優先\n- 米雇用統計前のため、発表直後の初動追…"
       }
     },
     {
