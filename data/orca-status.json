@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T06:00:05.317171+00:00",
+  "updated_at": "2026-09-04T06:15:05.988958+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788501600000,
+      "next_run": 1788505200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-04T05:00:45.200000+00:00",
-        "completed_at": "2026-09-04T05:02:21.746000+00:00",
-        "duration_seconds": 97,
-        "output": "2026-09-04 14:01 JSTに確認しました。USD/JPY・EUR/USDとも前回判断を変える重要な変化はありません。Obsidianは更新していません。"
+        "started_at": "2026-09-04T06:00:45.284000+00:00",
+        "completed_at": "2026-09-04T06:01:36.951000+00:00",
+        "duration_seconds": 52,
+        "output": "2026-09-04 15:01 JST確認。重要な変化はありません。Obsidianは更新していません。"
       }
     },
     {
