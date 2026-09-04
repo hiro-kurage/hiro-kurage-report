@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T23:30:05.514166+00:00",
+  "updated_at": "2026-09-04T23:45:06.303139+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788564600000,
+      "next_run": 1788651000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-03T23:30:44.591000+00:00",
-        "completed_at": "2026-09-03T23:32:31.329000+00:00",
-        "duration_seconds": 107,
-        "output": "## 結果\n\n**ブリッジEAチェック完了（08:30 JST）**\n\n- USDJPYmicro / EURUSDmicro とも保有ポジションなし、EA正常稼働、未処理指示なし\n- USDJPY: 下降構造継続（CHoCH+BOS連続）、SMA下向き、RSI36.6（極端な売られ過ぎは解消）\n- EURUSD: 上昇構造継続（CHoCH+BOS連続）、SMA上向き、RSI59.9（買われ過ぎは…"
+        "started_at": "2026-09-04T23:30:35.121000+00:00",
+        "completed_at": "2026-09-04T23:31:58.286000+00:00",
+        "duration_seconds": 83,
+        "output": "ブリッジEAチェック完了です。\n\n- 両ペース（USDJPYmicro / EURUSDmicro）ともポジションなし、EA正常稼働中\n- 市場は週末クローズ中（最終確定足は9/4 23:00で停止）。約3.5時間前の05:01チェックから状況変化なし\n- 結論：両ペアとも「待ち」（市場クローズのため執行不可能）。次回は月曜オープン後に週末材料・窓開けを確認予定\n- Trade日記に08:31時点…"
       }
     },
     {
@@ -127,7 +127,7 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788566400000,
+      "next_run": 1788706800000,
       "last_run": {
         "status": "completed",
         "started_at": "2026-09-04T23:00:35.018000+00:00",
