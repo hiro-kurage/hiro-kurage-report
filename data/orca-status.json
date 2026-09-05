@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T00:00:05.958101+00:00",
+  "updated_at": "2026-09-05T00:15:05.653420+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -217,13 +217,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788566400000,
+      "next_run": 1788652800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-04T00:00:44.706000+00:00",
-        "completed_at": "2026-09-04T00:01:52.452000+00:00",
-        "duration_seconds": 68,
-        "output": "本日の成績を更新し、Discordへ送信しました。\n\n- 本日増減：+149円\n- 含み損益：−3円\n- 含み損益込み推定残高：1,956,480円\n- Discord送信：成功\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-04 Real Tra…"
+        "started_at": "2026-09-05T00:00:35.250000+00:00",
+        "completed_at": "2026-09-05T00:01:51.162000+00:00",
+        "duration_seconds": 76,
+        "output": "本日（9/5）の成績を含み損益込みで更新しました。\n\n- 推定残高：**1,957,653円**\n- 含み損益：0円（未決済なし）\n- 前日比：±0円\n\nDiscordへ「codex：成績更新完了」と推定残高を送信しました。"
       }
     },
     {
@@ -322,13 +322,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788566400000,
+      "next_run": 1789171200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-08-29T00:00:40.748000+00:00",
-        "completed_at": "2026-08-29T00:01:10.252000+00:00",
-        "duration_seconds": 30,
-        "output": "今週の口座週成績 `2026-W35` を作成しました。\n\n- 円建て：**+8,873円**\n- USD建て：**+2.02 USD**\n- 推定残高ベース：**+9,037円**\n- 最大利益：Sagitariusマイクロ **+7,922円**\n- 最大損失：NanGan(朝スキャ） **−237円**\n\n[2026-W35 週次成績.md](</Users/hiro/Library/Mob…"
+        "started_at": "2026-09-05T00:00:35.309000+00:00",
+        "completed_at": "2026-09-05T00:01:13.998000+00:00",
+        "duration_seconds": 39,
+        "output": "[2026-W36 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W36 週次成績.md>)をObsidianに作成しました。対象は **8/31〜9/4**、既存の日次記録から集計しています。\n\n- 円建て週次損益：**+6,473円**\n- USD建て：…"
       }
     }
   ]
