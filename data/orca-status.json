@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T14:30:05.391139+00:00",
+  "updated_at": "2026-09-06T14:45:06.248940+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -7,13 +7,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788705000000,
+      "next_run": 1788791400000,
       "last_run": {
-        "status": "skipped_unavailable",
-        "started_at": "2026-09-06T01:20:52.001000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "status": "completed",
+        "started_at": "2026-09-06T14:30:05.607000+00:00",
+        "completed_at": "2026-09-06T14:31:00.262000+00:00",
+        "duration_seconds": 55,
+        "output": "[2026-09-06 EA-PO実績](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-06 EA-PO実績.md>)を更新しました。\n\n- 全10口座・49EA\n- 合計収益：+548,932円／+86.16 USD\n- 未割当の未決済ポジション：なし\n\nDiscor…"
       }
     },
     {
