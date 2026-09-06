@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T20:00:06.016308+00:00",
+  "updated_at": "2026-09-06T20:15:05.567241+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788724800000,
+      "next_run": 1788811200000,
       "last_run": {
-        "status": "skipped_unavailable",
-        "started_at": "2026-09-06T01:20:52.051000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "status": "completed",
+        "started_at": "2026-09-06T20:00:06.344000+00:00",
+        "completed_at": "2026-09-06T20:04:08.700000+00:00",
+        "duration_seconds": 242,
+        "output": "ブリッジEAチェック完了です。\n\n**結論: 両ペースとも待ち（新規エントリーなし）**\n\n- USDJPYmicro / EURUSDmicroともにポジションなし、EA正常稼働（未処理指示なし）\n- 週末にイラン原油タンカー攻撃（米CENTCOM）が発生、月曜は米レーバーデーで薄商い、市場は週明け直後でH1新規足がまだ形成中（有効な値動きデータが乏しい）\n- USDJPYは日足が全SMAの下（…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788724800000,
+      "next_run": 1788728400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-06T19:00:06.152000+00:00",
-        "completed_at": "2026-09-06T19:00:47.408000+00:00",
-        "duration_seconds": 41,
-        "output": "2026-09-07 04:02 JST確認：前回判断を変える重要な変化なし。"
+        "started_at": "2026-09-06T20:00:06.410000+00:00",
+        "completed_at": "2026-09-06T20:00:43.703000+00:00",
+        "duration_seconds": 37,
+        "output": "2026-09-07 05:00 JST確認：ドル円・ユーロドルとも、前回判断を変える重要な変化なし。[直近市場報道](https://www.investing.com/news/economy-news/asian-shares-climb-ahead-of-us-jobs-data-feds-waller-soothes-bonds-4888786)"
       }
     },
     {
