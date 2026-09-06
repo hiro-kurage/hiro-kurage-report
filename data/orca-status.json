@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T22:00:05.400966+00:00",
+  "updated_at": "2026-09-06T22:15:05.886242+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788732000000,
+      "next_run": 1788735600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-06T21:00:06.521000+00:00",
-        "completed_at": "2026-09-06T21:01:19.501000+00:00",
-        "duration_seconds": 73,
-        "output": "2026-09-07 06:01 JST点検：確認できた範囲で、前回判断を変える重要な変化なし。Obsidianの更新はありません。\n\n週明けの最新レートは取得できず、価格急変の判定は保留です。"
+        "started_at": "2026-09-06T22:00:06.618000+00:00",
+        "completed_at": "2026-09-06T22:02:05.618000+00:00",
+        "duration_seconds": 119,
+        "output": "07:00 JSTに実行し、[Obsidianの記録](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-07 マーケットウォッチ.md>)へ追記しました。\n\n- **重要度★4／EAリスクHIGH**\n- イランの航行制限区域の拡張計画を追加確認し、警戒を強化。[AP報道…"
       }
     },
     {
