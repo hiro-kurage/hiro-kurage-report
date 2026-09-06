@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T08:45:06.246253+00:00",
+  "updated_at": "2026-09-06T09:00:06.125543+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -157,13 +157,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788684300000,
+      "next_run": 1788770700000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-05T08:45:36.194000+00:00",
-        "completed_at": "2026-09-05T08:47:54.528000+00:00",
-        "duration_seconds": 138,
-        "output": "[マーケット分析レポート](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-05マーケット状況.md>)を17:47 JST時点で上書きしました。\n\n短期は週末休場のため待機、週明けの戻り売り条件を整理。スイングは日足の下抜け確認を優先しています。\n\nDiscordへ「c…"
+        "started_at": "2026-09-06T08:45:04.915000+00:00",
+        "completed_at": "2026-09-06T08:47:36.839000+00:00",
+        "duration_seconds": 152,
+        "output": "[マーケット分析](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-06マーケット状況.md>)を17:47時点で上書きしました。\n\n短期は週明けの窓開け確認を優先、スイングは日足の条件成立待ちとしています。\n\nDiscordへ「codex:マーケット分析完了」を送信しま…"
       }
     },
     {
