@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T23:30:05.879259+00:00",
+  "updated_at": "2026-09-06T23:45:05.545605+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788737400000,
+      "next_run": 1788823800000,
       "last_run": {
-        "status": "skipped_unavailable",
-        "started_at": "2026-09-06T01:20:52.096000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "status": "completed",
+        "started_at": "2026-09-06T23:30:06.872000+00:00",
+        "completed_at": "2026-09-06T23:33:24.229000+00:00",
+        "duration_seconds": 197,
+        "output": "ブリッジEAチェック完了しました。\n\n**結果サマリー**\n- 現状: USDJPYmicro・EURUSDmicroともポジションなし、EA正常稼働\n- 判断: **両ペア「待ち」**（新規エントリーなし）\n  - USDJPY: 日足が全SMA下で中期下降トレンドなのに、H1のSMCはCHoCh[up]のみでBOS未確認と対立。加えて米レーバーデーの薄商い＋ホルムズ海峡情勢のヘッドラインリスク…"
       }
     },
     {
