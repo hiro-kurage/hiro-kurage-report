@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T03:45:05.972672+00:00",
+  "updated_at": "2026-09-07T04:00:06.097524+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -142,13 +142,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788752700000,
+      "next_run": 1788839100000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-06T03:45:04.335000+00:00",
-        "completed_at": "2026-09-06T03:47:31.504000+00:00",
-        "duration_seconds": 147,
-        "output": "[Obsidianの本日レポート](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-06マーケット状況.md>)に保存しました。本日分は未作成だったため新規保存です。\n\n短期は週明けの窓開け確認を優先し、スイングは重要価格帯の突破確認後としています。\n\nDiscordへ「…"
+        "started_at": "2026-09-07T03:45:07.448000+00:00",
+        "completed_at": "2026-09-07T03:49:53.794000+00:00",
+        "duration_seconds": 286,
+        "output": "[本日のマーケット分析](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-07マーケット状況.md>)をObsidianに上書きしました。\n\n短期は反転確認待ち、スイングはECB・米CPI後の方向確認を優先する内容です。\n\nDiscordへ「codex:マーケット分析完了…"
       }
     },
     {
