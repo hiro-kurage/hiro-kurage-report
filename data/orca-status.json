@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T11:00:05.604266+00:00",
+  "updated_at": "2026-09-07T11:15:05.411500+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788778800000,
+      "next_run": 1788782400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T10:00:08.406000+00:00",
-        "completed_at": "2026-09-07T10:01:01.420000+00:00",
-        "duration_seconds": 53,
-        "output": "2026-09-07 19:03 JST確認：前回18:01の判断を変える重要な変化なし。"
+        "started_at": "2026-09-07T11:00:08.525000+00:00",
+        "completed_at": "2026-09-07T11:01:05.355000+00:00",
+        "duration_seconds": 57,
+        "output": "2026-09-07 20:01 JST確認。前回18:01から、判断を変更する重要な変化なし。Obsidianは更新していません。[直近の為替報道](https://fx.minkabu.jp/news/378329)"
       }
     },
     {
