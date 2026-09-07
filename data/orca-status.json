@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T04:00:06.097524+00:00",
+  "updated_at": "2026-09-07T04:15:05.854457+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788753600000,
+      "next_run": 1788840000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-04T04:00:45.051000+00:00",
-        "completed_at": "2026-09-04T04:03:32.498000+00:00",
-        "duration_seconds": 167,
-        "output": "Discordへ「Claude：EAチェック完了」を送信済みです。\n\nチェック結果サマリー:\n- 両ペアともポジションなし、EA正常稼働\n- USDJPY：抵抗帯156.30〜156.70に到達、SMC構造は下降継続（BOS連続更新）で戻り売りの好条件が揃いつつあるが、H1 RSI14=73.6と過熱気味\n- EURUSD：SMC構造は上昇継続もRSI46.5と中立で勢いに乏しい\n- 両ペースとも…"
+        "started_at": "2026-09-07T04:00:07.484000+00:00",
+        "completed_at": "2026-09-07T04:02:53.046000+00:00",
+        "duration_seconds": 166,
+        "output": "ブリッジEAチェックが完了しました。\n\n**結果: USDJPY / EURUSD ともに「待ち」（新規エントリーなし）**\n\n- 両ペアともポジションなし、EA正常稼働中\n- USDJPY: 日足は全SMA下で中期下降トレンド、H1 SMCはCHoCh[up]のみでBOS未確認と日足/H1が対立。現値156.0付近はファンダ想定の反転売り帯(156.20-156.30)・反転買い帯(155.75…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788753600000,
+      "next_run": 1788757200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T03:00:07.341000+00:00",
-        "completed_at": "2026-09-07T03:00:58.677000+00:00",
-        "duration_seconds": 51,
-        "output": "2026年9月7日 12:00 JST確認：前回（07:00）から判断を変える重要な変化なし。USD/JPY・EUR/USDともNeutralを維持します。[確認資料（Reuters）](https://au.marketscreener.com/news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-ce785bdbdd8…"
+        "started_at": "2026-09-07T04:00:07.546000+00:00",
+        "completed_at": "2026-09-07T04:01:06.428000+00:00",
+        "duration_seconds": 59,
+        "output": "2026年9月7日 13:02 JST確認：前回判断を変更する重要な変化なし。[確認資料（Reuters）](https://au.marketscreener.com/news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-ce785bdbdd8ff723)"
       }
     },
     {
