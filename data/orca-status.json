@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T16:00:06.180184+00:00",
+  "updated_at": "2026-09-07T16:15:05.762329+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788796800000,
+      "next_run": 1788800400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T15:00:08.971000+00:00",
-        "completed_at": "2026-09-07T15:02:28.162000+00:00",
-        "duration_seconds": 139,
-        "output": "マーケットウォッチを実行し、以下へ保存しました。\n\n[2026-09-08 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-08 マーケットウォッチ.md>)\n\n- 判定: Material Development\n- 重要度: ★★★★★\n-…"
+        "started_at": "2026-09-07T16:00:09.075000+00:00",
+        "completed_at": "2026-09-07T16:01:32.561000+00:00",
+        "duration_seconds": 83,
+        "output": "2026-09-08 01:01 JST時点で確認しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：154円台で推移。前回の「低位定着・介入再警戒」を変更する動きなし。[Investing.com](https://jp.investing.com/currencies/usd-jpy)\n- EUR/USD：1.162円台でレンジ内。Neutral…"
       }
     },
     {
