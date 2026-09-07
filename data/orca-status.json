@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T08:00:06.303525+00:00",
+  "updated_at": "2026-09-07T08:15:06.050122+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788768000000,
+      "next_run": 1788771600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T07:00:07.861000+00:00",
-        "completed_at": "2026-09-07T07:01:48.531000+00:00",
-        "duration_seconds": 101,
-        "output": "16:01 JSTに実行し、[Obsidianの記録](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-07 マーケットウォッチ.md>)へ追記しました。\n\n- **重要度★4／EA Risk HIGHを維持**\n- [ホルムズ海峡の通航減少の報道](https://ww…"
+        "started_at": "2026-09-07T08:00:08.097000+00:00",
+        "completed_at": "2026-09-07T08:01:02.495000+00:00",
+        "duration_seconds": 54,
+        "output": "2026-09-07 17:02 JST確認：前回16:01から、判断を変える重要な変化は確認できませんでした。Obsidianの更新はありません。[為替概況](https://minkabu.jp/news/4612454)・[中東続報](https://www.marketscreener.com/news/iran-says-to-announce-new-restricted-zone-i…"
       }
     },
     {
