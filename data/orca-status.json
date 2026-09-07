@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T19:00:05.685501+00:00",
+  "updated_at": "2026-09-07T19:15:06.169605+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788807600000,
+      "next_run": 1788811200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T18:00:09.328000+00:00",
-        "completed_at": "2026-09-07T18:01:02.494000+00:00",
-        "duration_seconds": 53,
-        "output": "マーケットウォッチを実行しました（2026-09-08 03:00 JST）。\n\n**判定：NO MATERIAL CHANGE**  \n前回の「USD/JPYはBearish・介入再警戒、EUR/USDはNeutral、EA Risk EXTREME」を変更する新材料は確認できませんでした。\n\n- USD/JPY：154.35付近、日中安値154.06。前回の円高・低位定着警戒を維持。[Inve…"
+        "started_at": "2026-09-07T19:00:09.449000+00:00",
+        "completed_at": "2026-09-07T19:01:05.292000+00:00",
+        "duration_seconds": 56,
+        "output": "2026年9月8日 04:00 JST時点で確認しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY: 154.35（前回154.47）で、引き続き弱気・介入再警戒。\n- EUR/USD: 1.1624（前回1.1614）で、Neutral継続。\n- Fed・BOJ・ECB、介入、地政学で前回判断を変える新材料は確認できませんでした。\n- 前回同様、米…"
       }
     },
     {
