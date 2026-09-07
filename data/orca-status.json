@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T11:15:05.411500+00:00",
+  "updated_at": "2026-09-07T11:30:06.301995+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -125,7 +125,7 @@
       "id": "e674caa9-15af-4d73-a119-6c308dc54feb",
       "name": "マーケットウォッチ",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1788782400000,
       "last_run": {
