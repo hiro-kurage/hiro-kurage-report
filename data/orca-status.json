@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T09:00:05.824741+00:00",
+  "updated_at": "2026-09-07T09:15:05.877674+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788771600000,
+      "next_run": 1788858000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-04T09:00:45.524000+00:00",
-        "completed_at": "2026-09-04T09:03:16.679000+00:00",
-        "duration_seconds": 151,
-        "output": "ブリッジEAチェック完了しました。\n\n**結論: USDJPYmicro・EURUSDmicroともに待ち（新規エントリーなし）**\n\n- 両ペアともポジションなし、EA正常稼働中\n- 21:30 JSTに米8月雇用統計（NFP、予想+5.3万人程度・弱含み）が控えており、残り約3.5時間\n- テクニカル/SMC構造は「USDJPY下方構造＋EURUSD上方構造」で一致しているが、これは実質「ドル…"
+        "started_at": "2026-09-07T09:00:08.258000+00:00",
+        "completed_at": "2026-09-07T09:02:44.726000+00:00",
+        "duration_seconds": 156,
+        "output": "ブリッジEAチェックとDiscord通知が完了しました。\n\n**結論: 両ペアとも「待ち」（新規エントリーなし）**\n\n- ポジション: USDJPYmicro / EURUSDmicroとも保有なし、EA正常稼働\n- 直近1時間でドル円が155円割れ→154.30台まで急落（円買い＋ドル売り、ホルムズ海峡情勢・日銀利上げ前倒し観測が背景）。ユーロドルはその波及で1.1636まで上昇\n- この急落…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788771600000,
+      "next_run": 1788775200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T08:00:08.097000+00:00",
-        "completed_at": "2026-09-07T08:01:02.495000+00:00",
-        "duration_seconds": 54,
-        "output": "2026-09-07 17:02 JST確認：前回16:01から、判断を変える重要な変化は確認できませんでした。Obsidianの更新はありません。[為替概況](https://minkabu.jp/news/4612454)・[中東続報](https://www.marketscreener.com/news/iran-says-to-announce-new-restricted-zone-i…"
+        "started_at": "2026-09-07T09:00:08.322000+00:00",
+        "completed_at": "2026-09-07T09:02:19.466000+00:00",
+        "duration_seconds": 131,
+        "output": "18:01 JSTに実行し、[Obsidianの記録](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-07 マーケットウォッチ.md>)へ追記しました。重要度は★4です。\n\nドル円は154円台への下落を確認し、支持帯割れ後の動きを警戒する判断へ更新。ユーロドルは中立、E…"
       }
     },
     {
