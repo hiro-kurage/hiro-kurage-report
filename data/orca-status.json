@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T10:00:06.256653+00:00",
+  "updated_at": "2026-09-07T10:15:06.253794+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788775200000,
+      "next_run": 1788778800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T09:00:08.322000+00:00",
-        "completed_at": "2026-09-07T09:02:19.466000+00:00",
-        "duration_seconds": 131,
-        "output": "18:01 JSTに実行し、[Obsidianの記録](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-07 マーケットウォッチ.md>)へ追記しました。重要度は★4です。\n\nドル円は154円台への下落を確認し、支持帯割れ後の動きを警戒する判断へ更新。ユーロドルは中立、E…"
+        "started_at": "2026-09-07T10:00:08.406000+00:00",
+        "completed_at": "2026-09-07T10:01:01.420000+00:00",
+        "duration_seconds": 53,
+        "output": "2026-09-07 19:03 JST確認：前回18:01の判断を変える重要な変化なし。"
       }
     },
     {
@@ -262,13 +262,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788775200000,
+      "next_run": 1788861600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-06T10:00:04.955000+00:00",
-        "completed_at": "2026-09-06T10:01:07.406000+00:00",
-        "duration_seconds": 62,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n- 本日増減：±0円\n- 含み損益：±0円\n- 推定残高：1,957,653円\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-06 Real Trade 成績.md>)\n\nDiscordへの送信も完了しま…"
+        "started_at": "2026-09-07T10:00:08.475000+00:00",
+        "completed_at": "2026-09-07T10:01:33.065000+00:00",
+        "duration_seconds": 85,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n- 本日増減：+29,555円／+3.00 USD\n- 含み損益：−257円\n- 推定残高：1,987,431円\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-07 Real Trade 成績.md>)\n…"
       }
     },
     {
