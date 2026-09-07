@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T13:45:05.696306+00:00",
+  "updated_at": "2026-09-07T14:00:05.467333+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -125,15 +125,15 @@
       "id": "e674caa9-15af-4d73-a119-6c308dc54feb",
       "name": "マーケットウォッチ",
       "provider": "",
-      "enabled": false,
+      "enabled": true,
       "schedule": "",
-      "next_run": 1788782400000,
+      "next_run": 1788789600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T11:00:08.525000+00:00",
-        "completed_at": "2026-09-07T11:01:05.355000+00:00",
-        "duration_seconds": 57,
-        "output": "2026-09-07 20:01 JST確認。前回18:01から、判断を変更する重要な変化なし。Obsidianは更新していません。[直近の為替報道](https://fx.minkabu.jp/news/378329)"
+        "started_at": "2026-09-07T13:54:08.870000+00:00",
+        "completed_at": "2026-09-07T13:56:03.406000+00:00",
+        "duration_seconds": 115,
+        "output": "マーケットウォッチを実行し、重要変化を確認したためObsidianへ追記しました。\n\n- ドル円：154.45円、155円割れ継続。Bearish USD/JPYを維持\n- 中東情勢：ホルムズ海峡の通航低下と報復警告を追加確認\n- EUR/USD：1.1626、Neutral維持\n- 重要度：★★★★☆\n- EA Risk：HIGH\n\n保存先：[2026-09-07 マーケットウォッチ.md](<…"
       }
     },
     {
@@ -187,13 +187,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788788700000,
+      "next_run": 1788875100000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-06T13:45:05.518000+00:00",
-        "completed_at": "2026-09-06T13:46:52.559000+00:00",
-        "duration_seconds": 107,
-        "output": "最新の市場データおよびSNS（X）センチメントの分析を行い、Obsidianフォルダ内のレポートファイルを上書き更新しました。また、ご指定の通りDiscordへの通知送信も完了しました。\n\n---\n\n### 保存先ファイル\n- [`2026-09-06マーケット状況.md`](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsid…"
+        "started_at": "2026-09-07T13:45:08.855000+00:00",
+        "completed_at": "2026-09-07T13:47:18.687000+00:00",
+        "duration_seconds": 130,
+        "output": "最新のマーケット分析を実施し、Obsidianフォルダ内のファイルを夜間更新版として上書き保存しました。また、Discordへの通知送信も完了しました。\n\n---\n\n### 分析サマリー（2026-09-07 22:45 JST）\n\n- **USD/JPY (現値 154.36円付近)**:\n  - ロンドン序盤に155.00円を割り込み、一時 **154.06円**（約半年ぶりの安値水準）まで急…"
       }
     },
     {
