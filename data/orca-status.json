@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T13:00:06.318835+00:00",
+  "updated_at": "2026-09-08T13:15:06.325035+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788872400000,
+      "next_run": 1788876000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T12:00:11.704000+00:00",
-        "completed_at": "2026-09-08T12:01:11.057000+00:00",
-        "duration_seconds": 59,
-        "output": "マーケットウォッチを実行しました（2026-09-08 21:00 JST）。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：154.32、日中レンジ152.89–154.42\n- EUR/USD：1.1609、日中レンジ1.1608–1.1636\n- 既存の「円高・キャリー巻き戻し」「中東情勢によるEA Risk EXTREME」の判断を維持\n- Obs…"
+        "started_at": "2026-09-08T13:00:11.804000+00:00",
+        "completed_at": "2026-09-08T13:01:15.795000+00:00",
+        "duration_seconds": 64,
+        "output": "マーケットウォッチを実行しました（2026-09-08 22:00 JST）。\n\n**判定：NO MATERIAL CHANGE**\n\nUSD/JPYは153.95円前後、EUR/USDは1.1616前後で、前回18:00 JSTの判断（USD/JPY Bearish、EUR/USD Neutral、EA Risk EXTREME）を変更するほどの新材料・価格異常は確認されませんでした。中東情勢・…"
       }
     },
     {
