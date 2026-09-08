@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T01:00:06.520780+00:00",
+  "updated_at": "2026-09-08T01:15:06.265294+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788829200000,
+      "next_run": 1788832800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T00:00:10.151000+00:00",
-        "completed_at": "2026-09-08T00:01:06.059000+00:00",
-        "duration_seconds": 56,
-        "output": "マーケットウォッチを実行しました。\n\n**判定：NO MATERIAL CHANGE**（2026-09-08 09:00 JST）\n\n- USD/JPY：154.43円前後。前回記録の154.47円からほぼ横ばい。\n- EUR/USD：1.1614前後。前回記録から変化なし。\n- 介入・Fed・BOJ・ECBの新たな政策変更は確認できず、既存の介入再警戒・中東情勢・原油高リスクを維持。\n- 次の…"
+        "started_at": "2026-09-08T01:00:10.280000+00:00",
+        "completed_at": "2026-09-08T01:01:53.116000+00:00",
+        "duration_seconds": 103,
+        "output": "マーケットウォッチを実行し、以下へ追記しました。\n\n[2026-09-08 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-08 マーケットウォッチ.md>)\n\n- 判定：Material Development\n- USD/JPY：Beari…"
       }
     },
     {
