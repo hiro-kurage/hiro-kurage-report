@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T04:00:06.051814+00:00",
+  "updated_at": "2026-09-08T04:15:05.732944+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788840000000,
+      "next_run": 1788926400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T04:00:07.484000+00:00",
-        "completed_at": "2026-09-07T04:02:53.046000+00:00",
-        "duration_seconds": 166,
-        "output": "ブリッジEAチェックが完了しました。\n\n**結果: USDJPY / EURUSD ともに「待ち」（新規エントリーなし）**\n\n- 両ペアともポジションなし、EA正常稼働中\n- USDJPY: 日足は全SMA下で中期下降トレンド、H1 SMCはCHoCh[up]のみでBOS未確認と日足/H1が対立。現値156.0付近はファンダ想定の反転売り帯(156.20-156.30)・反転買い帯(155.75…"
+        "started_at": "2026-09-08T04:00:10.673000+00:00",
+        "completed_at": "2026-09-08T04:04:19.552000+00:00",
+        "duration_seconds": 249,
+        "output": "ブリッジEAチェックとDiscord通知が完了しました。\n\n**判断サマリー(13:03 JST時点)**\n- **USDJPYmicro**: SELL 0.02lot保有継続(建値154.499、現在153.361、含み益+23)。BOJ利上げ観測(確率98%)・GDP/賃金上方修正・CHoCH down確定の3根拠一致で継続。ただしH1 RSI14=12.0(極度の売られ過ぎ)＋円ネットショ…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788840000000,
+      "next_run": 1788843600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T03:00:10.496000+00:00",
-        "completed_at": "2026-09-08T03:01:25.895000+00:00",
-        "duration_seconds": 75,
-        "output": "2026-09-08 12:01 JST時点、重要な変化はありません（NO MATERIAL CHANGE）。Obsidianは更新していません。USD/JPYは153.51付近まで円高が進みましたが、前回判断の範囲内です。[Reuters](https://au.marketscreener.com/news/asia-stocks-waver-as-yen-surges-iran-warns-…"
+        "started_at": "2026-09-08T04:00:10.730000+00:00",
+        "completed_at": "2026-09-08T04:01:10.432000+00:00",
+        "duration_seconds": 60,
+        "output": "13:00 JSTにマーケットウォッチを実行しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY: 153.54円（前回153.71円から約-17pips）。153.50割れは未確認。\n- EUR/USD: 1.1627（前回1.1628、ほぼ横ばい）。\n- 新たな介入・中央銀行政策変更は確認されず。今後はECB（9/9–10）、FOMC（9/15–1…"
       }
     },
     {
