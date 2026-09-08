@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T06:00:06.450513+00:00",
+  "updated_at": "2026-09-08T06:15:06.561594+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788847200000,
+      "next_run": 1788850800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T05:00:10.823000+00:00",
-        "completed_at": "2026-09-08T05:01:03.754000+00:00",
-        "duration_seconds": 53,
-        "output": "マーケットウォッチを実行しました（2026-09-08 14:01 JST）。\n\n**NO MATERIAL CHANGE**\n\n- USD/JPY：153.75、前回153.71からほぼ横ばい\n- EUR/USD：1.1625、前回1.1628からほぼ横ばい\n- BOJ・Fed・ECBの新たな政策変更や介入確認なし\n- ECB会合・米FOMCを控える状況も前回判断から不変\n\n今回は重要な変化がな…"
+        "started_at": "2026-09-08T06:00:10.949000+00:00",
+        "completed_at": "2026-09-08T06:00:55.626000+00:00",
+        "duration_seconds": 45,
+        "output": "15:00 JST時点のマーケットウォッチ結果：\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：Bearish維持。BOJ利上げ期待・介入警戒が継続。\n- EUR/USD：Neutral維持。ECB会合待ちで方向感に大きな変化なし。\n- EA Risk：EXTREME維持。\n- 新たな政策変更・介入・価格異常は確認できませんでした。\n\n前回記録から判断変更…"
       }
     },
     {
