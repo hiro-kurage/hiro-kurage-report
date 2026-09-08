@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T03:45:06.074217+00:00",
+  "updated_at": "2026-09-08T04:00:06.051814+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -142,13 +142,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788839100000,
+      "next_run": 1788925500000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T03:45:07.448000+00:00",
-        "completed_at": "2026-09-07T03:49:53.794000+00:00",
-        "duration_seconds": 286,
-        "output": "[本日のマーケット分析](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-07マーケット状況.md>)をObsidianに上書きしました。\n\n短期は反転確認待ち、スイングはECB・米CPI後の方向確認を優先する内容です。\n\nDiscordへ「codex:マーケット分析完了…"
+        "started_at": "2026-09-08T03:45:10.628000+00:00",
+        "completed_at": "2026-09-08T03:49:26.672000+00:00",
+        "duration_seconds": 256,
+        "output": "マーケット分析を完了しました。\n\n- [Obsidianレポート](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-08マーケット状況.md>)を上書き保存\n- USD/JPYは戻り売り優先、EUR/USDはイベント前のレンジ想定\n- ECB・米CPI・FOMC・日銀会合…"
       }
     },
     {
