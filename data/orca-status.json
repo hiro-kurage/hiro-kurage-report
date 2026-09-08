@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T09:00:06.259597+00:00",
+  "updated_at": "2026-09-08T09:15:06.120261+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788858000000,
+      "next_run": 1788944400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-07T09:00:08.258000+00:00",
-        "completed_at": "2026-09-07T09:02:44.726000+00:00",
-        "duration_seconds": 156,
-        "output": "ブリッジEAチェックとDiscord通知が完了しました。\n\n**結論: 両ペアとも「待ち」（新規エントリーなし）**\n\n- ポジション: USDJPYmicro / EURUSDmicroとも保有なし、EA正常稼働\n- 直近1時間でドル円が155円割れ→154.30台まで急落（円買い＋ドル売り、ホルムズ海峡情勢・日銀利上げ前倒し観測が背景）。ユーロドルはその波及で1.1636まで上昇\n- この急落…"
+        "started_at": "2026-09-08T09:00:11.323000+00:00",
+        "completed_at": "2026-09-08T09:03:07.542000+00:00",
+        "duration_seconds": 176,
+        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**結果サマリー（18:00 JST時点）**\n- **USDJPYmicro**: SELL 0.02lot 保有継続（entry 154.499 / SL 155.406 / TP 152.706）。BoJタカ派再評価・日足全SMA下・SMC構造がCHoCH down→BOS down（9/8 05:00確定）で下降継続の信頼度が上…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788858000000,
+      "next_run": 1788861600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T08:00:11.198000+00:00",
-        "completed_at": "2026-09-08T08:01:48.934000+00:00",
-        "duration_seconds": 98,
-        "output": "マーケットウォッチを実行し、以下へ追記しました。\n\n[2026-09-08 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-08 マーケットウォッチ.md>)\n\n- 重要度: ★★★★★\n- USD/JPY: Bearishを強化（152.89…"
+        "started_at": "2026-09-08T09:00:11.394000+00:00",
+        "completed_at": "2026-09-08T09:02:28.134000+00:00",
+        "duration_seconds": 137,
+        "output": "マーケットウォッチを実行し、重要な変化をObsidianへ追記しました。\n\n- 保存先: [2026-09-08 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-08 マーケットウォッチ.md>)\n- 重要度: ★★★★★\n- USD/JPY:…"
       }
     },
     {
