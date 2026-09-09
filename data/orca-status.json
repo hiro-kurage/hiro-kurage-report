@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:00:06.542252+00:00",
+  "updated_at": "2026-09-09T20:15:06.527383+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788984000000,
+      "next_run": 1789070400000,
       "last_run": {
-        "status": "skipped_unavailable",
-        "started_at": "2026-09-09T00:35:24.750000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "status": "completed",
+        "started_at": "2026-09-09T20:00:54.684000+00:00",
+        "completed_at": "2026-09-09T20:03:26.669000+00:00",
+        "duration_seconds": 152,
+        "output": "ブリッジEAチェックが完了し、Discordに通知を送りました。\n\n**結果サマリー（05:01 JST時点）**\n- **USDJPYmicro**: SELL 0.02lot保有継続、変更なし（entry=154.499, SL=154.500建値化, TP=152.706, 含み益+17）。日足は深い下降トレンド不変だが、H1で新規CHoCH upが出現（未確定の短期反発シグナル）\n- **…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788984000000,
+      "next_run": 1788987600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T19:00:54.551000+00:00",
-        "completed_at": "2026-09-09T19:02:39.346000+00:00",
-        "duration_seconds": 105,
-        "output": "マーケットウォッチを実行し、重要な変化を確認したためObsidianへ追記しました。\n\n- [2026-09-10 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-10 マーケットウォッチ.md>)\n- 重要度: ★★★★☆\n- USD/JPY…"
+        "started_at": "2026-09-09T20:00:54.744000+00:00",
+        "completed_at": "2026-09-09T20:01:33.119000+00:00",
+        "duration_seconds": 38,
+        "output": "2026-09-10 05:01 JST時点で確認しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n前回記録の判断（USD/JPYはNeutral、EUR/USDはNeutral、EA RiskはHIGH）を変更する新たな材料は確認できなかったため、Obsidianは更新していません。"
       }
     },
     {
