@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T23:00:05.628756+00:00",
+  "updated_at": "2026-09-09T23:15:06.378434+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788994800000,
+      "next_run": 1788998400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T22:00:55.038000+00:00",
-        "completed_at": "2026-09-09T22:01:29.031000+00:00",
-        "duration_seconds": 34,
-        "output": "2026-09-10 07:01 JST時点で確認しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：約153.46〜153.65円。前回の153.54円前後から小幅変動。\n- EUR/USD：約1.1631〜1.1633。方向感に大きな変化なし。\n- ECB政策決定、米PPI、FOMC、BOJを控えた高イベントリスクは継続。\n- 前回判断（USD/…"
+        "started_at": "2026-09-09T23:00:55.188000+00:00",
+        "completed_at": "2026-09-09T23:01:34.665000+00:00",
+        "duration_seconds": 39,
+        "output": "2026-09-10 08:01 JST時点でマーケットウォッチを実行しました。\n\nUSD/JPY・EUR/USDともに前回判断を変更するほどの新たな材料は確認されませんでした。ECB政策決定を控え、イベントリスクとEA Risk「HIGH」は継続です。\n\n判定: **NO MATERIAL CHANGE**  \nObsidianは更新していません。"
       }
     },
     {
@@ -292,13 +292,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788995400000,
+      "next_run": 1789081800000,
       "last_run": {
-        "status": "skipped_missed",
-        "started_at": "2026-09-09T00:35:24.994000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "status": "completed",
+        "started_at": "2026-09-09T23:10:55.202000+00:00",
+        "completed_at": "2026-09-09T23:12:32.304000+00:00",
+        "duration_seconds": 97,
+        "output": "朝のブリーフィング資料を作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-10 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-10 ブリーフィング.md>)\n\n主な焦点は、原油100ドル台、米金利上昇、米PPI/CPI、来…"
       }
     },
     {
