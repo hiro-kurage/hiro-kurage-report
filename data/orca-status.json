@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T14:00:06.757773+00:00",
+  "updated_at": "2026-09-09T14:15:05.597372+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788963000000,
+      "next_run": 1789049400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T14:10:11.938000+00:00",
-        "completed_at": "2026-09-08T14:13:15.903000+00:00",
-        "duration_seconds": 184,
-        "output": "ブリッジEAチェック完了、Discordに「Claude：EAチェック完了」を送信しました。\n\n**判断サマリー（23:10 JST）**\n- **USDJPYmicro**: SELL 0.02lot保有継続（ticket 130675907, entry 154.499, current 153.903, profit +12）。BoJタカ派・介入警戒＋日足全SMA下＋SMC(CHoCH do…"
+        "started_at": "2026-09-09T14:10:53.852000+00:00",
+        "completed_at": "2026-09-09T14:13:20.382000+00:00",
+        "duration_seconds": 147,
+        "output": "ブリッジEAチェック完了、Discordにも通知送信しました。\n\n**結果サマリー（23:12 JST時点）**\n- **USDJPYmicro**: SELL 0.02lot保有継続（entry=154.499, SL=154.500建値化, TP=152.706, 含み益+27）。BOJ利上げ観測・キャリー巻き戻し（ファンダ）＋日足全SMA下（テクニカル）＋BOS down4本連続（SMC構造…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788962400000,
+      "next_run": 1788966000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T13:00:26.021000+00:00",
-        "completed_at": "2026-09-09T13:01:35.076000+00:00",
-        "duration_seconds": 69,
-        "output": "マーケットウォッチを実行し、重要な変化を確認しました。\n\n[2026-09-09 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-09 マーケットウォッチ.md>) に22:01 JSTの記録を追記済みです。\n\n- 重要度：★★★★☆／EA R…"
+        "started_at": "2026-09-09T14:00:53.827000+00:00",
+        "completed_at": "2026-09-09T14:02:19.095000+00:00",
+        "duration_seconds": 85,
+        "output": "マーケットウォッチを実行し、Obsidianへ追記しました。\n\n- [2026-09-09 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-09 マーケットウォッチ.md>)\n- 重要度: ★★★★☆／EA Risk: HIGH\n- USD/J…"
       }
     },
     {
@@ -277,13 +277,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788962400000,
+      "next_run": 1789048800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T14:00:12.001000+00:00",
-        "completed_at": "2026-09-08T14:01:04.507000+00:00",
-        "duration_seconds": 53,
-        "output": "本日の成績を更新しました。\n\n- 推定残高：1,988,744円\n- 本日増減：+1,056円\n- Discord送信：完了\n\n[2026-09-08 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-08 Real Trade 成績.m…"
+        "started_at": "2026-09-09T14:00:53.893000+00:00",
+        "completed_at": "2026-09-09T14:01:40.410000+00:00",
+        "duration_seconds": 47,
+        "output": "本日の口座成績を更新しました。\n\n- 本日増減：+21,836円／+1.57 USD\n- 推定残高：2,010,831円\n- Discord通知：送信完了"
       }
     },
     {
