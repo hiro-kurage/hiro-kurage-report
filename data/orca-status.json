@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T09:00:05.803173+00:00",
+  "updated_at": "2026-09-09T09:15:06.127384+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788944400000,
+      "next_run": 1789030800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T09:00:11.323000+00:00",
-        "completed_at": "2026-09-08T09:03:07.542000+00:00",
-        "duration_seconds": 176,
-        "output": "ブリッジEAチェック完了、Discordにも通知しました。\n\n**結果サマリー（18:00 JST時点）**\n- **USDJPYmicro**: SELL 0.02lot 保有継続（entry 154.499 / SL 155.406 / TP 152.706）。BoJタカ派再評価・日足全SMA下・SMC構造がCHoCH down→BOS down（9/8 05:00確定）で下降継続の信頼度が上…"
+        "started_at": "2026-09-09T09:00:25.549000+00:00",
+        "completed_at": "2026-09-09T09:03:25.173000+00:00",
+        "duration_seconds": 180,
+        "output": "ブリッジEAチェックが完了しました。\n\n**判断サマリー（18:02時点）**\n- **USDJPYmicro**: SELL 0.02lot保有継続、SL/TP変更なし（建値付近154.500 / TP152.706）。ファンダ(BOJタカ派・キャリー巻き戻し)＋テクニカル(日足全SMA下)＋SMC(CHoCH down後BOS down 3本連続)の下降根拠が13時時点よりさらに強化されており…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788944400000,
+      "next_run": 1788948000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T08:00:25.443000+00:00",
-        "completed_at": "2026-09-09T08:01:42.231000+00:00",
-        "duration_seconds": 77,
-        "output": "マーケットウォッチを実行し、重要な変化を追記しました。\n\n- USD/JPY：153.31円前後 → 153.7円台へ反発。ただしBearish維持\n- EUR/USD：1.1631前後 → 1.164前後。Neutral維持\n- ECB・FOMC・BOJ連続開催を踏まえ、重要度★★★★☆／EA Risk HIGH\n\n保存先：[2026-09-09 マーケットウォッチ.md](</Users/hi…"
+        "started_at": "2026-09-09T09:00:25.603000+00:00",
+        "completed_at": "2026-09-09T09:01:39.702000+00:00",
+        "duration_seconds": 74,
+        "output": "マーケットウォッチを実行し、以下へ追記しました。\n\n[2026-09-09 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-09 マーケットウォッチ.md>)\n\n- 重要度: ★★★★☆／EA Risk: HIGH\n- USD/JPY: 153…"
       }
     },
     {
