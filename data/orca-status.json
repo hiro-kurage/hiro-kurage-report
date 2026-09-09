@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T13:00:06.150417+00:00",
+  "updated_at": "2026-09-09T13:15:06.436194+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788958800000,
+      "next_run": 1788962400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T12:00:25.925000+00:00",
-        "completed_at": "2026-09-09T12:01:14.379000+00:00",
-        "duration_seconds": 48,
-        "output": "マーケットウォッチを実行しました（2026-09-09 21:01 JST）。\n\n**判定：NO MATERIAL CHANGE**\n\n- USD/JPY：153.3〜153.6円近辺。前回記録の153.44円から大きな変化なし。Bearish維持。\n- EUR/USD：1.164ドル前後。前回の1.1639ドルからほぼ横ばい。Neutral維持。\n- ECB（9/10）、FOMC（9/15–16…"
+        "started_at": "2026-09-09T13:00:26.021000+00:00",
+        "completed_at": "2026-09-09T13:01:35.076000+00:00",
+        "duration_seconds": 69,
+        "output": "マーケットウォッチを実行し、重要な変化を確認しました。\n\n[2026-09-09 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-09 マーケットウォッチ.md>) に22:01 JSTの記録を追記済みです。\n\n- 重要度：★★★★☆／EA R…"
       }
     },
     {
