@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T04:00:06.042581+00:00",
+  "updated_at": "2026-09-09T04:15:06.431662+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788926400000,
+      "next_run": 1789012800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-08T04:00:10.673000+00:00",
-        "completed_at": "2026-09-08T04:04:19.552000+00:00",
-        "duration_seconds": 249,
-        "output": "ブリッジEAチェックとDiscord通知が完了しました。\n\n**判断サマリー(13:03 JST時点)**\n- **USDJPYmicro**: SELL 0.02lot保有継続(建値154.499、現在153.361、含み益+23)。BOJ利上げ観測(確率98%)・GDP/賃金上方修正・CHoCH down確定の3根拠一致で継続。ただしH1 RSI14=12.0(極度の売られ過ぎ)＋円ネットショ…"
+        "started_at": "2026-09-09T04:00:24.868000+00:00",
+        "completed_at": "2026-09-09T04:10:26.274000+00:00",
+        "duration_seconds": 601,
+        "output": "ブリッジEAチェックが完了し、Discordに「Claude：EAチェック完了」を送信しました。\n\n**判断内容:**\n- **USDJPYmicro**（SELL 0.02lot保有中）: BOJタカ派・キャリー巻き戻し・SMC下降構造(CHoCH→BOS down)の3根拠一致で保有継続。ただし本日152.89円まで急落後154.14円へ反発する乱高下（EA Risk HIGH、CFTC円ショ…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788926400000,
+      "next_run": 1788930000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T03:00:24.732000+00:00",
-        "completed_at": "2026-09-09T03:01:36.536000+00:00",
-        "duration_seconds": 72,
-        "output": "マーケットウォッチを実行し、重要な変化をObsidianへ追記しました。\n\n[2026-09-09 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-09 マーケットウォッチ.md>)\n\n- USD/JPY: 153.31、Bearish維持。1…"
+        "started_at": "2026-09-09T04:00:24.929000+00:00",
+        "completed_at": "2026-09-09T04:01:03.403000+00:00",
+        "duration_seconds": 38,
+        "output": "マーケットウォッチを実行しました。\n\n確認時刻：2026-09-09 23:42 JST  \n判定：**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：153.52円前後。前回記録153.31円から小幅反発。\n- EUR/USD：1.1631前後。前回記録からほぼ横ばい。\n- 円高・原油高・中東情勢、9月11日米CPI、9月15–16日FOMC、9月17–18日B…"
       }
     },
     {
