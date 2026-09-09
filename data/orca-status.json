@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T21:00:05.579903+00:00",
+  "updated_at": "2026-09-09T21:15:06.221479+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788987600000,
+      "next_run": 1788991200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T20:00:54.744000+00:00",
-        "completed_at": "2026-09-09T20:01:33.119000+00:00",
-        "duration_seconds": 38,
-        "output": "2026-09-10 05:01 JST時点で確認しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n前回記録の判断（USD/JPYはNeutral、EUR/USDはNeutral、EA RiskはHIGH）を変更する新たな材料は確認できなかったため、Obsidianは更新していません。"
+        "started_at": "2026-09-09T21:00:54.879000+00:00",
+        "completed_at": "2026-09-09T21:01:30.376000+00:00",
+        "duration_seconds": 35,
+        "output": "2026-09-10 06:01 JST時点でマーケットウォッチを実行しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：約153.68円。前回153.54円から小幅上昇も、154円回復には未達。\n- EUR/USD：約1.1629。前回からほぼ横ばい。\n- ECB会合・中東情勢・原油高・BOJ/FOMC観測による高ボラティリティ警戒は継続。\n- 方…"
       }
     },
     {
