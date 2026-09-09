@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T07:00:06.078035+00:00",
+  "updated_at": "2026-09-09T07:15:06.284093+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1788937200000,
+      "next_run": 1788940800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T06:00:25.171000+00:00",
-        "completed_at": "2026-09-09T06:01:03.413000+00:00",
-        "duration_seconds": 38,
-        "output": "マーケットウォッチを実行しました（2026年9月9日 15:00 JST）。\n\n重要な変化はありません。Obsidianは更新していません。\n\n- USD/JPY: 153.34、前回記録153.31から小幅上昇。Bearish維持\n- EUR/USD: 1.1635、前回記録1.1631から小幅上昇。Neutral維持\n- 引き続き、9月11日の米CPI、9月15–16日のFOMC、原油・中東情…"
+        "started_at": "2026-09-09T07:00:25.323000+00:00",
+        "completed_at": "2026-09-09T07:00:57.688000+00:00",
+        "duration_seconds": 32,
+        "output": "2026-09-09 16:00 JST時点でマーケットウォッチを実行しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：約153.7円。前回記録の153.31円から小幅反発ですが、Bearish判断を変更する水準ではありません。\n- EUR/USD：約1.1631。Neutral維持。\n- BOJ利上げ観測、9/11米CPI、9/15–16 FOM…"
       }
     },
     {
