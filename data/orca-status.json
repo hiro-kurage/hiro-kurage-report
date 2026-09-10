@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T14:00:06.805546+00:00",
+  "updated_at": "2026-09-10T14:15:05.264831+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789049400000,
+      "next_run": 1789135800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T14:10:53.852000+00:00",
-        "completed_at": "2026-09-09T14:13:20.382000+00:00",
-        "duration_seconds": 147,
-        "output": "ブリッジEAチェック完了、Discordにも通知送信しました。\n\n**結果サマリー（23:12 JST時点）**\n- **USDJPYmicro**: SELL 0.02lot保有継続（entry=154.499, SL=154.500建値化, TP=152.706, 含み益+27）。BOJ利上げ観測・キャリー巻き戻し（ファンダ）＋日足全SMA下（テクニカル）＋BOS down4本連続（SMC構造…"
+        "started_at": "2026-09-10T14:10:37.714000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789048800000,
+      "next_run": 1789052400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T13:00:37.691000+00:00",
-        "completed_at": "2026-09-10T13:01:56.650000+00:00",
-        "duration_seconds": 79,
-        "output": "マーケットウォッチを実行し、重要変化をObsidianへ追記しました。\n\n[2026-09-10 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-10 マーケットウォッチ.md>)\n\n- 重要度: ★★★★☆／EA Risk: HIGH\n- E…"
+        "started_at": "2026-09-10T14:00:37.655000+00:00",
+        "completed_at": "2026-09-10T14:01:27.905000+00:00",
+        "duration_seconds": 50,
+        "output": "マーケットウォッチを実行しました。\n\n確認時刻：2026年9月10日 23:01 JST  \n判定：**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：約153.60円。前回記録の153.49円から小幅反発。\n- EUR/USD：約1.1639。前回記録からほぼ変化なし。\n- ECB利上げ、原油高、日米欧の政策リスクは既に反映済み。\n- 方向判断・EA Riskを…"
       }
     },
     {
@@ -277,13 +277,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789048800000,
+      "next_run": 1789135200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T14:00:53.893000+00:00",
-        "completed_at": "2026-09-09T14:01:40.410000+00:00",
-        "duration_seconds": 47,
-        "output": "本日の口座成績を更新しました。\n\n- 本日増減：+21,836円／+1.57 USD\n- 推定残高：2,010,831円\n- Discord通知：送信完了"
+        "started_at": "2026-09-10T14:00:37.717000+00:00",
+        "completed_at": "2026-09-10T14:01:23.449000+00:00",
+        "duration_seconds": 46,
+        "output": "本日の成績を更新しました。\n\n- 本日増減：+6,460円\n- 推定残高：2,017,291円\n- Discord通知：送信完了"
       }
     },
     {
