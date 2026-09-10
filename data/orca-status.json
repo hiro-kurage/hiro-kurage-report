@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T17:00:05.209010+00:00",
+  "updated_at": "2026-09-10T17:15:05.548287+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789059600000,
+      "next_run": 1789063200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T16:00:38.011000+00:00",
-        "completed_at": "2026-09-10T16:02:23.830000+00:00",
-        "duration_seconds": 106,
-        "output": "マーケットウォッチを実行し、Obsidianへ保存しました。\n\n- [2026-09-11 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 マーケットウォッチ.md>)\n- 判定: Material Development\n- 重要度: …"
+        "started_at": "2026-09-10T17:00:38.234000+00:00",
+        "completed_at": "2026-09-10T17:01:18.953000+00:00",
+        "duration_seconds": 41,
+        "output": "2026-09-11 02:01 JSTにマーケットウォッチを実行しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n前回判断（USD/JPY・EUR/USDともNeutral、EA Risk HIGH）を変更する新材料は確認できませんでした。米8月CPI発表前で、原油高・米金利・中東情勢による高ボラティリティ警戒は継続しています。[BLS](https://www.b…"
       }
     },
     {
