@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T04:00:07.123826+00:00",
+  "updated_at": "2026-09-10T04:15:06.606959+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789012800000,
+      "next_run": 1789099200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T04:00:24.868000+00:00",
-        "completed_at": "2026-09-09T04:10:26.274000+00:00",
-        "duration_seconds": 601,
-        "output": "ブリッジEAチェックが完了し、Discordに「Claude：EAチェック完了」を送信しました。\n\n**判断内容:**\n- **USDJPYmicro**（SELL 0.02lot保有中）: BOJタカ派・キャリー巻き戻し・SMC下降構造(CHoCH→BOS down)の3根拠一致で保有継続。ただし本日152.89円まで急落後154.14円へ反発する乱高下（EA Risk HIGH、CFTC円ショ…"
+        "started_at": "2026-09-10T04:00:53.829000+00:00",
+        "completed_at": "2026-09-10T04:03:57.761000+00:00",
+        "duration_seconds": 184,
+        "output": "ブリッジEAチェックとDiscord通知が完了しました。\n\n**判断サマリー（13:01 JST時点）**\n- **USDJPYmicro**：SELL 0.02lot保有継続（含み益+22、SL建値化済み154.500・TP152.706は変更なし）。日足は下降トレンド継続、H1のCHoCH upはBOSが追随せず反転根拠として弱いまま。\n- **EURUSDmicro**：ノーポジション・引き…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789012800000,
+      "next_run": 1789016400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T03:00:53.761000+00:00",
-        "completed_at": "2026-09-10T03:01:56.725000+00:00",
-        "duration_seconds": 63,
-        "output": "マーケットウォッチを実行し、Obsidianへ保存しました。\n\n[2026-09-10 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-10 マーケットウォッチ.md:12>)\n\n- 重要度: ★★★★☆\n- USD/JPY: Neutral維…"
+        "started_at": "2026-09-10T04:00:53.902000+00:00",
+        "completed_at": "2026-09-10T04:01:26.534000+00:00",
+        "duration_seconds": 33,
+        "output": "2026年9月10日 13:01 JST時点でマーケットウォッチを実行しました。\n\n現時点では、前回12:01 JSTの判断を変更する重要な変化はありません。\n\n- USD/JPY：約153.69円、Neutral維持\n- EUR/USD：約1.1631、Neutral維持\n- ECB政策発表は本日21:15 JST予定\n- 原油高・中東情勢・米インフレ指標を背景に、EA RiskはHIGH継続\n…"
       }
     },
     {
