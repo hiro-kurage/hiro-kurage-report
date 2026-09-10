@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T01:00:06.407340+00:00",
+  "updated_at": "2026-09-10T01:15:06.252324+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789002000000,
+      "next_run": 1789005600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T00:00:55.330000+00:00",
-        "completed_at": "2026-09-10T00:02:11.747000+00:00",
-        "duration_seconds": 76,
-        "output": "マーケットウォッチを実行し、Obsidianへ追記しました。\n\n[2026-09-10 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-10 マーケットウォッチ.md>)\n\n- 重要度：★★★★☆\n- EA Risk：HIGH\n- USD/JP…"
+        "started_at": "2026-09-10T01:00:55.476000+00:00",
+        "completed_at": "2026-09-10T01:01:34.480000+00:00",
+        "duration_seconds": 39,
+        "output": "2026年9月10日 10:01 JST時点で確認しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：153円台後半。中立、介入リスク上昇の判断を維持\n- EUR/USD：ECB政策決定前で方向感なし\n- ECB決定・会見、米PPI、翌日の米CPIを引き続き警戒\n- EA Risk：HIGHを維持\n\n今回は前回判断を変更する材料がないため、Obsid…"
       }
     },
     {
