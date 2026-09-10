@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T23:00:05.161297+00:00",
+  "updated_at": "2026-09-10T23:15:05.048256+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789081200000,
+      "next_run": 1789084800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T22:00:38.933000+00:00",
-        "completed_at": "2026-09-10T22:01:44.861000+00:00",
-        "duration_seconds": 66,
-        "output": "マーケットウォッチを実行し、以下へ追記しました。\n\n[2026-09-11 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 マーケットウォッチ.md>)\n\n- 重要度: ★★★★☆\n- ECBが25bp利上げ。EUR/USDの下値をやや支…"
+        "started_at": "2026-09-10T23:00:39.150000+00:00",
+        "completed_at": "2026-09-10T23:01:13.625000+00:00",
+        "duration_seconds": 34,
+        "output": "2026-09-11 08:01 JSTにマーケットウォッチを実行しました。\n\nUSD/JPY・EUR/USDともに前回判断を変える重要な変化は確認できませんでした。米8月CPIは本日21:30 JST発表予定で、発表前のためイベントリスクは継続しています。[BLS](https://www.bls.gov/cpi/)\n\n判定：**NO MATERIAL CHANGE**  \nObsidianは更…"
       }
     },
     {
@@ -292,13 +292,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789081800000,
+      "next_run": 1789168200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T23:10:55.202000+00:00",
-        "completed_at": "2026-09-09T23:12:32.304000+00:00",
-        "duration_seconds": 97,
-        "output": "朝のブリーフィング資料を作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-10 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-10 ブリーフィング.md>)\n\n主な焦点は、原油100ドル台、米金利上昇、米PPI/CPI、来…"
+        "started_at": "2026-09-10T23:10:39.176000+00:00",
+        "completed_at": "2026-09-10T23:12:14.232000+00:00",
+        "duration_seconds": 95,
+        "output": "朝のブリーフィングを作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-11 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 ブリーフィング.md>)\n\n主な注目点は、米CPI、米長期金利4.95%、原油高、来週のFOM…"
       }
     },
     {
