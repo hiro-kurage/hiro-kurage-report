@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T23:30:04.847603+00:00",
+  "updated_at": "2026-09-10T23:45:05.044370+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -97,13 +97,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789083000000,
+      "next_run": 1789169400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-09T23:30:55.252000+00:00",
-        "completed_at": "2026-09-09T23:33:09.578000+00:00",
-        "duration_seconds": 134,
-        "output": "ブリッジEAチェック完了、Discordに通知済みです。\n\n**結果サマリー（08:31 JST時点）**\n- **USDJPYmicro**: SELL 0.02lot保有継続（entry=154.499, SL=154.500建値化, TP=152.706, 現在153.370, 含み益+23）。日足は深い下降トレンド不変、H1のCHoCH upはBOS未追随で反転未確定 → **保有継続、S…"
+        "started_at": "2026-09-10T23:30:39.218000+00:00",
+        "completed_at": "2026-09-10T23:33:29.124000+00:00",
+        "duration_seconds": 170,
+        "output": "ブリッジEAチェック完了、Discordに「Claude：EAチェック完了」を送信しました。\n\n**現状（08:32 JST時点、両ポジション保有継続・変更なし）**\n- **USDJPYmicro** SELL 0.02lot（entry 153.918, SL 154.617, TP 152.417）: 含み損-14。現在値154.588でSLまで残り約3pips。日足の下降トレンドは崩れてい…"
       }
     },
     {
