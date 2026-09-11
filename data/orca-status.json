@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T14:00:06.486721+00:00",
+  "updated_at": "2026-09-11T14:15:05.578102+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -82,13 +82,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789135800000,
+      "next_run": 1789395000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T14:10:37.714000+00:00",
-        "completed_at": "2026-09-10T14:19:27.528000+00:00",
-        "duration_seconds": 530,
-        "output": "ブリッジEAチェック完了、Discordに「Claude：EAチェック完了」を送信しました。\n\n**サマリー（23:15〜23:17 JST）**\n- **USDJPYmicro旧ポジション（ticket 130675907）が消滅を検知**：21:30 JST米PPI上振れ(+5.4%)でUSDJPYが一時154.661まで急伸し、建値化SL(154.500)にヒットしたと推定（ほぼ損益ゼロで決…"
+        "started_at": "2026-09-11T14:10:59.832000+00:00",
+        "completed_at": "2026-09-11T14:14:42.325000+00:00",
+        "duration_seconds": 222,
+        "output": "ブリッジEAチェックが完了し、Discordに「Claude：EAチェック完了」を送信しました。\n\n**主な結果:**\n- **EURUSDmicro**: 保有していたSELL(ticket130833939)がCPI発表直後(21:30-22:00 JST頃)に**TP_HIT濃厚**で手仕舞い(+44.8pips推定)。trade_log.csv・Trade日記に記録済み\n- **USDJP…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789135200000,
+      "next_run": 1789311600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-11T13:00:59.636000+00:00",
-        "completed_at": "2026-09-11T13:02:12.512000+00:00",
-        "duration_seconds": 73,
-        "output": "マーケットウォッチを実行し、Obsidianへ追記しました。\n\n[2026-09-11 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 マーケットウォッチ.md>)\n\n- USD/JPY：約154.50円 → 153.46円\n- EUR/…"
+        "started_at": "2026-09-11T14:00:59.812000+00:00",
+        "completed_at": "2026-09-11T14:02:22.328000+00:00",
+        "duration_seconds": 83,
+        "output": "マーケットウォッチを実行し、重要変化をObsidianへ追記しました。\n\n[2026-09-11 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 マーケットウォッチ.md>)\n\n- 重要度: ★★★★★\n- USD/JPY: Neutra…"
       }
     },
     {
@@ -277,13 +277,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789135200000,
+      "next_run": 1789221600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T14:00:37.717000+00:00",
-        "completed_at": "2026-09-10T14:01:23.449000+00:00",
-        "duration_seconds": 46,
-        "output": "本日の成績を更新しました。\n\n- 本日増減：+6,460円\n- 推定残高：2,017,291円\n- Discord通知：送信完了"
+        "started_at": "2026-09-11T14:00:59.872000+00:00",
+        "completed_at": "2026-09-11T14:01:57.052000+00:00",
+        "duration_seconds": 57,
+        "output": "本日の成績を更新し、Discordへ送信しました。\n\n推定残高：2,019,646円  \n本日増減：+2,355円"
       }
     },
     {
