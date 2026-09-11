@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T04:00:05.728327+00:00",
+  "updated_at": "2026-09-11T04:15:04.838051+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -52,13 +52,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789099200000,
+      "next_run": 1789358400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T04:00:53.829000+00:00",
-        "completed_at": "2026-09-10T04:03:57.761000+00:00",
-        "duration_seconds": 184,
-        "output": "ブリッジEAチェックとDiscord通知が完了しました。\n\n**判断サマリー（13:01 JST時点）**\n- **USDJPYmicro**：SELL 0.02lot保有継続（含み益+22、SL建値化済み154.500・TP152.706は変更なし）。日足は下降トレンド継続、H1のCHoCH upはBOSが追随せず反転根拠として弱いまま。\n- **EURUSDmicro**：ノーポジション・引き…"
+        "started_at": "2026-09-11T04:00:39.863000+00:00",
+        "completed_at": "2026-09-11T04:03:51.618000+00:00",
+        "duration_seconds": 192,
+        "output": "Discordへ「Claude：EAチェック完了」を送信しました。\n\n**チェック結果サマリー**\n- USDJPYmicro: ノーポジション、新規エントリーは見送り(待ち)。本日21:30 JST米CPI(最重要材料)まで約8.5時間、日足の深い下降トレンドとH1/SMCの短期上昇構造が対立、直近2ポジションが至近距離でSL到達した経緯を踏まえた判断\n- EURUSDmicro: SELL 0…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789099200000,
+      "next_run": 1789102800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-11T03:00:39.711000+00:00",
-        "completed_at": "2026-09-11T03:01:23.022000+00:00",
-        "duration_seconds": 43,
-        "output": "2026-09-11 12:01 JST時点で確認しました。\n\n前回（10:01 JST）から、USD/JPY・EUR/USDの方向判断を変更する重要な変化はありません。米8月CPI（21:30 JST）、FOMC、日銀会合を控えた高ボラティリティ警戒は継続です。\n\n**NO MATERIAL CHANGE**  \nObsidianは更新していません。"
+        "started_at": "2026-09-11T04:00:39.939000+00:00",
+        "completed_at": "2026-09-11T04:01:15.605000+00:00",
+        "duration_seconds": 36,
+        "output": "2026年9月11日 13:01 JST時点で確認しました。\n\n**NO MATERIAL CHANGE（重要な変化なし）**\n\n- USD/JPY：約154.04円で、10:01時点から大きな変化なし。[Investing.com](https://jp.investing.com/currencies/usd-jpy)\n- EUR/USD：方向転換を示す新材料なし。\n- 米8月CPIは本日21…"
       }
     },
     {
