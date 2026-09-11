@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T14:30:05.189281+00:00",
+  "updated_at": "2026-09-11T14:45:05.989163+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -7,13 +7,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789137000000,
+      "next_run": 1789223400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T14:30:37.752000+00:00",
-        "completed_at": "2026-09-10T14:31:31.246000+00:00",
-        "duration_seconds": 53,
-        "output": "全口座・全EAのEA-PO実績を更新しました。\n\n- 対象：10口座・49 EA/Magic No.\n- JPY合計：+607,780円\n- USD合計：+90.73 USD\n- 未割当ポジション：なし\n- ファイル：[2026-09-10 EA-PO実績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/…"
+        "started_at": "2026-09-11T14:30:59.775000+00:00",
+        "completed_at": "2026-09-11T14:31:45.902000+00:00",
+        "duration_seconds": 46,
+        "output": "全口座・全EAのEA-PO実績を更新しました。\n\n- [2026-09-11 EA-PO実績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 EA-PO実績.md>)\n- 10口座・49 EA/Magic No.\n- JPY合計：+610,194円\n- US…"
       }
     },
     {
