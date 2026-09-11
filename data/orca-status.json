@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T19:45:05.582518+00:00",
+  "updated_at": "2026-09-11T20:00:05.848828+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789156800000,
+      "next_run": 1789243200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T20:00:38.669000+00:00",
-        "completed_at": "2026-09-10T20:05:00.446000+00:00",
-        "duration_seconds": 262,
-        "output": "ブリッジEAチェック完了、Discordに通知も送信しました。\n\n**サマリー（05:01 JST時点）**\n- **USDJPYmicro**: SELL 0.02lot 保有継続（entry=153.918, SL=154.617, TP=152.417, 含み損-9）。日足は深い下降トレンド不変だが、H1はCHoCH+BOS連続で短期上方モメンタムがやや強め。現在値はエントリー根拠のbear…"
+        "started_at": "2026-09-11T20:00:00.601000+00:00",
+        "completed_at": "2026-09-11T20:00:01.756000+00:00",
+        "duration_seconds": 1,
+        "output": "ordに「Claude：EAチェック完了」と送って'"
       }
     },
     {
