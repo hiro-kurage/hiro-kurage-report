@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T23:15:05.154637+00:00",
+  "updated_at": "2026-09-11T23:30:05.116733+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -99,11 +99,11 @@
       "schedule": "",
       "next_run": 1789169400000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-10T23:30:39.218000+00:00",
-        "completed_at": "2026-09-10T23:33:29.124000+00:00",
-        "duration_seconds": 170,
-        "output": "ブリッジEAチェック完了、Discordに「Claude：EAチェック完了」を送信しました。\n\n**現状（08:32 JST時点、両ポジション保有継続・変更なし）**\n- **USDJPYmicro** SELL 0.02lot（entry 153.918, SL 154.617, TP 152.417）: 含み損-14。現在値154.588でSLまで残り約3pips。日足の下降トレンドは崩れてい…"
+        "status": "dispatched",
+        "started_at": "2026-09-11T23:30:01.201000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
@@ -172,13 +172,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789168500000,
+      "next_run": 1789254900000,
       "last_run": {
-        "status": "dispatched",
+        "status": "completed",
         "started_at": "2026-09-11T23:15:01.149000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": ""
+        "completed_at": "2026-09-11T23:18:01.910000+00:00",
+        "duration_seconds": 181,
+        "output": "最新のマーケット状況を分析し、Obsidianディレクトリへレポートを保存（上書き）しました。また、ご指定の通りDiscordへの通知送信も完了しました。\n\n---\n\n### レポートの保存先\n- [2026-09-12マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/icl…"
       }
     },
     {
