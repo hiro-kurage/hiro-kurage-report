@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T10:00:05.053182+00:00",
+  "updated_at": "2026-09-11T10:15:05.084104+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789120800000,
+      "next_run": 1789124400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-11T09:00:38.578000+00:00",
-        "completed_at": "2026-09-11T09:01:34.016000+00:00",
-        "duration_seconds": 55,
-        "output": "マーケットウォッチを実行しました。\n\n18:01 JST時点では、USD/JPY・EUR/USDともに前回判断を変更するほどの新たな材料は確認されませんでした。米8月CPI発表前で、イベントリスクとEA Risk（HIGH）は継続です。\n\n判定：NO MATERIAL CHANGE  \nObsidianファイルは更新していません。CPI発表後に再確認が必要です。 [BLS発表予定](https:/…"
+        "started_at": "2026-09-11T10:00:40.655000+00:00",
+        "completed_at": "2026-09-11T10:01:51.753000+00:00",
+        "duration_seconds": 71,
+        "output": "マーケットウォッチを実行し、最新確認結果をObsidianへ追記しました。\n\n- 保存先: [2026-09-11 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 マーケットウォッチ.md>)\n- 重要度: ★★★★☆\n- USD/JPY…"
       }
     },
     {
@@ -262,13 +262,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789120800000,
+      "next_run": 1789207200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-10T10:00:56.813000+00:00",
-        "completed_at": "2026-09-10T10:01:54.157000+00:00",
-        "duration_seconds": 57,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n- 本日増減：+3,069円\n- 含み損益：−219円\n- 推定残高：2,013,681円\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-10 Real Trade 成績.md>)\n\nDiscordへの送…"
+        "started_at": "2026-09-11T10:00:40.723000+00:00",
+        "completed_at": "2026-09-11T10:01:41.695000+00:00",
+        "duration_seconds": 61,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n- 本日増減：+2,924円\n- 含み損益：−128円\n- 推定残高：2,020,087円\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 Real Trade 成績.md>)\n\nDiscordへの送…"
       }
     },
     {
