@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T09:45:04.956054+00:00",
+  "updated_at": "2026-09-12T10:00:05.276327+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -264,11 +264,11 @@
       "schedule": "",
       "next_run": 1789207200000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-11T10:00:40.723000+00:00",
-        "completed_at": "2026-09-11T10:01:41.695000+00:00",
-        "duration_seconds": 61,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n- 本日増減：+2,924円\n- 含み損益：−128円\n- 推定残高：2,020,087円\n- [更新ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 Real Trade 成績.md>)\n\nDiscordへの送…"
+        "status": "dispatch_failed",
+        "started_at": "2026-09-12T10:00:02.648000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
