@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T23:45:05.530446+00:00",
+  "updated_at": "2026-09-12T00:00:05.531404+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -217,13 +217,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789171200000,
+      "next_run": 1789257600000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-11T00:00:39.367000+00:00",
-        "completed_at": "2026-09-11T00:01:39.522000+00:00",
-        "duration_seconds": 60,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n- 含み損益：−83円\n- 推定残高：2,017,381円\n- 記録：[2026-09-11 Real Trade 成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 Real Trade 成績.md>)\n\nDi…"
+        "status": "dispatching",
+        "started_at": "2026-09-12T00:00:01.288000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": ""
       }
     },
     {
@@ -322,13 +322,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789171200000,
+      "next_run": 1789776000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-05T00:00:35.309000+00:00",
-        "completed_at": "2026-09-05T00:01:13.998000+00:00",
-        "duration_seconds": 39,
-        "output": "[2026-W36 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W36 週次成績.md>)をObsidianに作成しました。対象は **8/31〜9/4**、既存の日次記録から集計しています。\n\n- 円建て週次損益：**+6,473円**\n- USD建て：…"
+        "started_at": "2026-09-12T00:00:01.358000+00:00",
+        "completed_at": "2026-09-12T00:00:01.726000+00:00",
+        "duration_seconds": 0,
+        "output": "hiro@yasuhironoMacBook-Air Orca % codex '--dangerously-bypass-approvals-and-sandbox' '今週の口座の週成績W○○を作成して'\n╭───────────────────────────────────────╮│ >_ OpenAI Codex (v0.153.0)            ││            …"
       }
     }
   ]
