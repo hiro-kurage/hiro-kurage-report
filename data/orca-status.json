@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:00:05.175198+00:00",
+  "updated_at": "2026-09-12T23:15:04.796155+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -292,13 +292,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789254600000,
+      "next_run": 1789341000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-11T23:10:01.149000+00:00",
-        "completed_at": "2026-09-11T23:11:26.057000+00:00",
-        "duration_seconds": 85,
-        "output": "朝のブリーフィングを作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-12 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-12 ブリーフィング.md>)\n\n主な注目点は、原油・米長期金利の上昇、来週のFOMC・BOJ、週明…"
+        "started_at": "2026-09-12T23:10:05.047000+00:00",
+        "completed_at": "2026-09-12T23:11:39.078000+00:00",
+        "duration_seconds": 94,
+        "output": "朝のブリーフィング資料を作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-13 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-13 ブリーフィング.md>)\n\n主な注目点は、FOMC、原油高・地政学、日経225の急落、AI…"
       }
     },
     {
