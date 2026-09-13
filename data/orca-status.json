@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T15:00:04.868890+00:00",
+  "updated_at": "2026-09-13T15:15:05.099131+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789311600000,
+      "next_run": 1789318800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-11T14:00:59.812000+00:00",
-        "completed_at": "2026-09-11T14:02:22.328000+00:00",
-        "duration_seconds": 83,
-        "output": "マーケットウォッチを実行し、重要変化をObsidianへ追記しました。\n\n[2026-09-11 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-11 マーケットウォッチ.md>)\n\n- 重要度: ★★★★★\n- USD/JPY: Neutra…"
+        "started_at": "2026-09-13T15:00:06.886000+00:00",
+        "completed_at": "2026-09-13T15:01:22.265000+00:00",
+        "duration_seconds": 75,
+        "output": "マーケットウォッチを実行し、以下へ保存しました。\n\n[2026-09-14 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-14 マーケットウォッチ.md>)\n\n重要度は★★★★★、EA RiskはEXTREMEです。FOMC・BOJ・ECBの…"
       }
     },
     {
