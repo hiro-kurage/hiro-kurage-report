@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T20:00:05.236427+00:00",
+  "updated_at": "2026-09-13T20:15:05.113553+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -37,13 +37,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789329600000,
+      "next_run": 1789416000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-12T20:00:04.600000+00:00",
-        "completed_at": "2026-09-12T20:01:28.516000+00:00",
-        "duration_seconds": 84,
-        "output": "ブリッジEAチェックとDiscord通知が完了しました。\n\n**結果サマリー**\n- USDJPYmicro / EURUSDmicro ともにノーポジション、EA正常稼働(RUNNING)\n- 市場は週末クローズ中で、確定足・ポジション状況とも前回チェック（09/12）から変化なし\n- 前回の分析（インフレ再加速懸念、中東情勢、来週9/15-16 FOMC・9/17-18 BOJ会合前のロット抑…"
+        "started_at": "2026-09-13T20:00:07.586000+00:00",
+        "completed_at": "2026-09-13T20:04:17.263000+00:00",
+        "duration_seconds": 250,
+        "output": "ブリッジEAチェックが完了し、Discordに通知しました。\n\n**結果サマリー（05:00 JST）**\n- USDJPYmicro / EURUSDmicroともノーポジション、EAは正常稼働中\n- ヒストリー更新: 週末クローズのため7ペアとも新規確定足なし（追記0件）\n- ファンダ: 9/16 FOMC、9/18見込みBOJ会合と中銀イベントが連続する週。マーケットウォッチは両ペア「Neu…"
       }
     },
     {
