@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T09:00:05.552028+00:00",
+  "updated_at": "2026-09-14T09:15:05.807091+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -67,13 +67,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789376400000,
+      "next_run": 1789462800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-11T09:00:38.514000+00:00",
-        "completed_at": "2026-09-11T09:03:29.990000+00:00",
-        "duration_seconds": 171,
-        "output": "ブリッジEAチェックが完了し、Discordに「Claude：EAチェック完了」を送信しました。\n\n**結果サマリー（18:01 JST時点）**\n- **USDJPYmicro**: ノーポジション。新規エントリーは見送り（待ち）。理由: 日足の深い下降トレンド（BOJ来週利上げ観測がReuters報道でほぼ織り込み済み化＝円高地合い強化）とH1短期構造(up)の対立が続き、154.66レジスタ…"
+        "started_at": "2026-09-14T09:00:09.275000+00:00",
+        "completed_at": "2026-09-14T09:03:12.194000+00:00",
+        "duration_seconds": 183,
+        "output": "ブリッジEAチェック完了、Discordに通知も送信済みです。\n\n**結論: 両ペアとも新規エントリー見送り(待ち)**\n\n- ポジション: USDJPY/EURUSDともノーポジション継続、EA正常稼働(RUNNING)\n- 7ペア全ての価格ヒストリー更新済み\n- USDJPYはFOMC利上げ観測(80%超)を背景に154円台へ急速に戻したが、日足は依然下降トレンドで乖離大、SMC構造判定も直近…"
       }
     },
     {
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789376400000,
+      "next_run": 1789383600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T07:00:08.879000+00:00",
-        "completed_at": "2026-09-14T07:00:23.032000+00:00",
-        "duration_seconds": 14,
-        "output": "2026-09-14 16:00 JST時点で確認しました。\n\n前回08:00 JSTから重要な新規変化はありません（NO MATERIAL CHANGE）。Obsidianは更新していません。"
+        "started_at": "2026-09-14T09:00:09.343000+00:00",
+        "completed_at": "2026-09-14T09:00:40.717000+00:00",
+        "duration_seconds": 31,
+        "output": "2026-09-14 18:00 JST時点で確認しました。\n\n前回16:00 JSTから重要な新規変化はありません（NO MATERIAL CHANGE）。Obsidianは更新していません。"
       }
     },
     {
