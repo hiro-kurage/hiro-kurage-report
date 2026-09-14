@@ -249,8 +249,11 @@ function classify(a) {
   if (!a.enabled) return 'disabled';
   const lr = a.last_run || {};
   if (lr.status === 'running') return 'running';
+  // completedでも内部失敗を検出した場合は失敗列へ
+  if (lr.status === 'completed' && lr.inferred_failure && isToday(lr.started_at)) return 'failed';
   if (lr.status === 'completed' && isToday(lr.started_at)) return 'completed';
-  if ((lr.status === 'failed' || lr.status === 'error') && isToday(lr.started_at)) return 'failed';
+  // skipped_unavailable も失敗として扱う
+  if ((lr.status === 'failed' || lr.status === 'error' || lr.status === 'skipped_unavailable') && isToday(lr.started_at)) return 'failed';
   return 'waiting';
 }
 
