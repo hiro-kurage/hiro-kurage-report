@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T03:00:05.470301+00:00",
+  "updated_at": "2026-09-14T03:15:05.594675+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -127,13 +127,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789354800000,
+      "next_run": 1789362000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T01:00:08.253000+00:00",
-        "completed_at": "2026-09-14T01:00:24.046000+00:00",
+        "started_at": "2026-09-14T03:00:08.432000+00:00",
+        "completed_at": "2026-09-14T03:00:24.444000+00:00",
         "duration_seconds": 16,
-        "output": "2026-09-14 10:00 JST時点で確認しました。\n\n前回08:00 JSTから重要な新規変化はありません（NO MATERIAL CHANGE）。Obsidianは更新していません。"
+        "output": "2026-09-14 12:00 JST時点で確認しました。\n\n前回08:00 JSTから重要な新規変化はありません（NO MATERIAL CHANGE）。Obsidianは更新していません。"
       }
     },
     {
@@ -232,13 +232,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789354800000,
+      "next_run": 1789441200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-13T03:00:05.530000+00:00",
-        "completed_at": "2026-09-13T03:01:10.821000+00:00",
-        "duration_seconds": 65,
-        "output": "本日の成績を含み損益込みで更新しました。\n\n- 含み損益：0円\n- 推定残高：2,019,646円\n- Discord通知：送信完了\n- [記録ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-13 Real Trade 成績.md>)"
+        "started_at": "2026-09-14T03:00:08.502000+00:00",
+        "completed_at": "2026-09-14T03:01:09.831000+00:00",
+        "duration_seconds": 61,
+        "output": "本日の成績を含み損益込みで更新しました。\n\n- 含み損益：−132円\n- 推定残高：2,019,514円\n- Discord通知：送信完了\n- [記録ファイル](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-14 Real Trade 成績.md>)"
       }
     },
     {
