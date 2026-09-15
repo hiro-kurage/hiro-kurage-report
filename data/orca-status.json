@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T23:00:05.368950+00:00",
+  "updated_at": "2026-09-15T23:15:05.031185+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -135,13 +135,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789513200000,
+      "next_run": 1789520400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-15T21:00:27.889000+00:00",
-        "completed_at": "2026-09-15T21:00:43.807000+00:00",
-        "duration_seconds": 16,
-        "output": "確認時刻：2026-09-16 06:00 JST\n\n**NO MATERIAL CHANGE**\n\nFOMC決定・声明の新規発表は信頼できる最新ソースで確認できず、USD/JPY・EUR/USDの方向やBOJ・介入リスクにも前回02:00 JSTから重要な変化は確認できませんでした。Obsidianは更新していません。",
+        "started_at": "2026-09-15T23:00:28.355000+00:00",
+        "completed_at": "2026-09-15T23:01:48.964000+00:00",
+        "duration_seconds": 81,
+        "output": "ケットウォッチを実行し、9月16日08:00 JSTの記録をObsidianへ追記しました。\n\n[2026-09-16 マーケットウォッチ.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-16 マーケットウォッチ.md>)\n\n- USD/JPY：155円近辺へ上昇、Bullish継続\n- EUR/USD：約1.1538、Bearish継続\n- 155円接近による介入・急反落リスク：上昇\n- FOMC正式結果：確認時点で未公表\n- EA Risk：EXTREME",
         "inferred_failure": false
       }
     },
@@ -311,13 +311,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789513800000,
+      "next_run": 1789600200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T23:10:11.032000+00:00",
-        "completed_at": "2026-09-14T23:11:36.934000+00:00",
-        "duration_seconds": 86,
-        "output": "朝のブリーフィング資料を作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-15 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-15 ブリーフィング.md>)\n\n主な注目点は、FOMC・日銀会合、原油高と米金利上昇、AI株調整です。",
+        "started_at": "2026-09-15T23:10:28.362000+00:00",
+        "completed_at": "2026-09-15T23:12:02.299000+00:00",
+        "duration_seconds": 94,
+        "output": "朝のブリーフィングを作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-16 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-16 ブリーフィング.md>)\n\n本日の最重要テーマは、FOMC政策決定・米10年債5%台・原油高・AI安全性議論です。",
         "inferred_failure": false
       }
     },
