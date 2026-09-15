@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T03:45:04.848316+00:00",
+  "updated_at": "2026-09-15T04:00:04.760445+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -151,13 +151,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789443900000,
+      "next_run": 1789530300000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T03:45:08.575000+00:00",
-        "completed_at": "2026-09-14T03:47:24.551000+00:00",
-        "duration_seconds": 136,
-        "output": "ECBを反映）\n- OANDAオーダーブックを確認（USD/JPY 154.10付近、12:30更新）\n- Discordへ「codex:マーケット分析完了」を送信済み\n\n主な参照：[Fed](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)、[日銀](https://www.boj.or.jp/en/mopo/mpmsche_minu/)、[ECB](https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html)",
+        "started_at": "2026-09-15T03:45:11.630000+00:00",
+        "completed_at": "2026-09-15T03:47:32.945000+00:00",
+        "duration_seconds": 141,
+        "output": "Discordへ「codex:マーケット分析完了」を送信済みです。\n\n既存のOANDA画像も確認済みです：\n\n- [USDJPY画像](</Users/hiro/Library/CloudStorage/GoogleDrive-hiro.fujii@hiro-kurage.info/マイドライブ/2026-09-15 0637 USDJPY.jpg>)\n- [EURUSD画像](</Users/hiro/Library/CloudStorage/GoogleDrive-hiro.fujii@hiro-kurage.info/マイドライブ/2026-09-15 0638 EURUSD.jpg>)",
         "inferred_failure": false
       }
     },
