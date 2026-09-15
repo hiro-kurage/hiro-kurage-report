@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T14:45:05.249464+00:00",
+  "updated_at": "2026-09-15T15:00:05.887335+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -23,13 +23,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789483500000,
+      "next_run": 1789569900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T14:45:10.002000+00:00",
-        "completed_at": "2026-09-14T14:45:25.451000+00:00",
-        "duration_seconds": 15,
-        "output": "EA-PO推移グラフの更新とDiscord通知、両方完了しました。\n\n- グラフデータ: 49 EA分・42日分を更新しGitHub Pagesにpush済み（https://hiro-kurage.github.io/hiro-kurage-report/ea-po.html）\n- Discord通知: 「Claude：EAグラフ更新完了」送信済み",
+        "started_at": "2026-09-15T14:45:12.952000+00:00",
+        "completed_at": "2026-09-15T14:46:12.146000+00:00",
+        "duration_seconds": 59,
+        "output": "EA-POグラフの更新自体は完了しています（49 EA、43日分をGitHubにpush済み）。ただしDiscordへの通知は、複数回・時間を空けて試しても一貫して429（レート制限）エラーが続いています。これはこのWebhook自体がDiscord側で継続的にレート制限を受けている可能性があります。\n\nしばらく時間を置いて再送するか、Webhook URLの状態を確認したいですが、いかがしますか？",
         "inferred_failure": false
       }
     },
@@ -327,13 +327,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789484100000,
+      "next_run": 1789570500000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T14:55:10.035000+00:00",
-        "completed_at": "2026-09-14T14:55:20.327000+00:00",
-        "duration_seconds": 10,
-        "output": "2026年9月分の残高推移グラフを作成し、Obsidianフォルダ（iclouddriver）に `2026-09 残高推移.jpg` として保存しました。\n\n- 対象期間: 9/1〜9/14\n- 前日比: +0.32%\n- 単月比: +3.72%",
+        "started_at": "2026-09-15T14:55:12.998000+00:00",
+        "completed_at": "2026-09-15T14:55:25.791000+00:00",
+        "duration_seconds": 13,
+        "output": "2026年9月の残高推移グラフを生成し、Obsidianフォルダに保存しました。\n\n- 保存先: `iclouddriver/2026-09 残高推移.jpg`\n- 単月比: **+3.78%**（前日比 +0.06%）\n- 9/1〜9/15のデータで、9/7前後に大きく伸びています",
         "inferred_failure": false
       }
     },
