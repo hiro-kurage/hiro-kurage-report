@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T14:00:05.091353+00:00",
+  "updated_at": "2026-09-15T14:15:05.798342+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -87,13 +87,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789481400000,
+      "next_run": 1789567800000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T14:10:09.945000+00:00",
-        "completed_at": "2026-09-14T14:14:50.321000+00:00",
-        "duration_seconds": 280,
-        "output": "USD**: 本日新規のCHoCH down(11:00)で下方構造は確認されたが、RSI14=15.6の極度の売られ過ぎで反発リスクが高く根拠不足。加えてUSDJPY買いと組み合わせると「ドル高」への二重ベットになるため、この観点からも見送り\n- **重要な気付き**: 当日付「マーケット状況.md」記載のUSDJPY水準(153.52円)が実勢(154.90円台)と1.4円以上乖離していたため、WebSearchで裏取りしブローカー実勢を優先しました。この乖離はTrade日記にも教訓として記録済み\n- 7ペア全ての価格ヒストリーを更新、Trade日記に23:13時点のチェック内容を追記済み",
+        "started_at": "2026-09-15T14:10:12.895000+00:00",
+        "completed_at": "2026-09-15T14:12:26.691000+00:00",
+        "duration_seconds": 134,
+        "output": "**: FOMC結果発表（9/17 03:00頃JST、約28時間後）とBOJ会合（9/17-18）が保有想定期間内に確実に跨ぐため、イベント跨ぎ新規停止の安全装置を優先。ユーザーのマーケットウォッチもEA Risk★5(EXTREME)を継続表示、WebSearchでも利上げ予想が機関ごとに割れる「読みにくい」相場と確認\n- **テクニカル補足**: USDJPYはRSI14=73.7でなお過熱気味・155円手前のbearish FVGで上値重い。EURUSDはRSI中立に回復したがSMC構造はdown基調で決め手不足\n- トレード日記（Obsidian）に本日5回目のチェックとして記録済み",
         "inferred_failure": false
       }
     },
@@ -295,13 +295,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789480800000,
+      "next_run": 1789567200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T14:00:09.913000+00:00",
-        "completed_at": "2026-09-14T14:00:53.409000+00:00",
-        "duration_seconds": 43,
-        "output": "本日の成績を更新しました。\n\n- 推定残高：2,026,051円\n- Discord通知：送信完了",
+        "started_at": "2026-09-15T14:00:12.883000+00:00",
+        "completed_at": "2026-09-15T14:00:58.179000+00:00",
+        "duration_seconds": 45,
+        "output": "本日の成績を更新しました。\n\n- 推定残高：2,027,264円\n- Discord通知：送信完了",
         "inferred_failure": false
       }
     },
