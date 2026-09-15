@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T09:00:05.443204+00:00",
+  "updated_at": "2026-09-15T09:15:05.389203+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -71,13 +71,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789462800000,
+      "next_run": 1789549200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T09:00:09.275000+00:00",
-        "completed_at": "2026-09-14T09:03:12.194000+00:00",
-        "duration_seconds": 183,
-        "output": "済み\n- USDJPYはFOMC利上げ観測(80%超)を背景に154円台へ急速に戻したが、日足は依然下降トレンドで乖離大、SMC構造判定も直近の戻りを捉えられておらずフレーム間対立\n- EURUSDはH1 RSIが極度の売られ過ぎ(11.8)で新規売り追随は分が悪い\n- 最大の判断材料: 9/15-16 FOMC・9/17-18 BOJという中銀イベント週で、今日の市況ノート自身が「新規エントリー停止/縮小」を明記しており、これを最優先して見送り\n- Trade日記(Obsidian)に18:02の記録として追記済み。次回チェックではUSDJPYの154.60レジスタンス突破可否を優先確認予定",
+        "started_at": "2026-09-15T09:00:12.338000+00:00",
+        "completed_at": "2026-09-15T09:03:28.853000+00:00",
+        "duration_seconds": 197,
+        "output": "=82.1と強い過熱感、155円手前でbearish FVG/OB抵抗が厚い。日足は下降トレンド継続\n- EURUSD: 1.1532、H1 RSI14=27.7と売られ過ぎだがSMC構造は錯綜、日足も方向感なし\n- **判断: 新規エントリーなし・見送り継続**。FOMC結果（9/17未明JST、約33時間後）・BOJ会合（9/18）が保有期間内に跨ぐため「イベント跨ぎ新規停止」を優先。加えてUSDJPYは過熱感+155円接近の介入警戒も重なる\n- トレード日記・ポジション状況を更新済み\n\n本日4回目のチェックで、今日の他3回（05:02, 08:32, 13:02）と一貫して待ち判断です。",
         "inferred_failure": false
       }
     },
@@ -135,13 +135,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789462800000,
+      "next_run": 1789470000000,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-15T07:00:12.089000+00:00",
-        "completed_at": "2026-09-15T07:00:27.010000+00:00",
-        "duration_seconds": 15,
-        "output": "2026-09-15 16:00 JST時点で確認しました。\n\nUSD/JPYは154.7円前後、EUR/USDは1.154円前後で、前回14:00 JSTから重要な新規変化はありません（NO MATERIAL CHANGE）。Obsidianは更新していません。",
+        "status": "dispatch_failed",
+        "started_at": "2026-09-15T09:00:12.410000+00:00",
+        "completed_at": "2026-09-15T09:02:12.676000+00:00",
+        "duration_seconds": 120,
+        "output": "ing • ng   g                   3      W  Wo  •Wor  •Work   •Worki  Workin • Working • Working  Working • Working • orking  •rking4   •king  •ing  ng  g\n\n⚠ Selected model is at capacity. Please try a different model.  › Ask Codex to do anything   gpt-5.6-luna low · ~/Orca/workspaces/Orca/test-codex",
         "inferred_failure": false
       }
     },
