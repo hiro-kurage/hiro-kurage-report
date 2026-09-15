@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T23:15:05.031185+00:00",
+  "updated_at": "2026-09-15T23:30:05.042937+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -183,13 +183,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789514100000,
+      "next_run": 1789600500000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-14T23:15:11.033000+00:00",
-        "completed_at": "2026-09-14T23:25:48.854000+00:00",
-        "duration_seconds": 638,
-        "output": "⣟  Loading\n\n\n⡿  Loading.\n\n\n⢿  Loading..\n\n\n⣻  Loading...\n\n\n⣽  Loading\n\n\n⣾  Loading.\n\n\n⣷  Loading...\n\n\n⣯ \n\n\n⣟ \n\n\n⡿ \n\n\n⢿ \n\n\n⣻ \n\n\n⣽  L\n\n\n⣾  Lo\n\n\n⣷  Load\n\n\n⣯  Loadi\n\n\n⣟  Loadin\n\n\n⡿  Loading\n\n\n⢿  Generating...\n\n Genera\n\n\n⣻  Generat\n\n\n⣽  Generati\n\n\n⣾  Generatin\n\n\n⣷  Generating.\n\n\n⣯  Generating..\n\ning...",
+        "started_at": "2026-09-15T23:15:28.378000+00:00",
+        "completed_at": "2026-09-15T23:17:11.572000+00:00",
+        "duration_seconds": 103,
+        "output": "D/JPY** | スイング | 戻り売り | 155.50 - 156.00 | 156.80 | 152.50 |\n| **EUR/USD** | スキャルピング | 戻り売り | 1.1560 - 1.1575 | 1.1595 | 1.1520 |\n| **EUR/USD** | スイング | 戻り売り | 1.1580 - 1.1610 | 1.1660 | 1.1450 |\n\n---\n\n### Discord送信結果\n- **送信ステータス**: 送信完了（200 OK）\n- **送信内容**: `gemini:マーケット分析完了` および分析サマリー・推奨マトリクス（Embed）",
         "inferred_failure": false
       }
     },
