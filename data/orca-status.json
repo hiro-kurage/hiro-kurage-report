@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T15:30:05.600044+00:00",
+  "updated_at": "2026-09-16T15:45:05.359128+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -309,15 +309,15 @@
       "id": "7289b23c-f07d-4743-bdfc-02aa73583fb9",
       "name": "朝のブリーフィング",
       "provider": "",
-      "enabled": false,
+      "enabled": true,
       "schedule": "",
       "next_run": 1789600200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-15T23:10:28.362000+00:00",
-        "completed_at": "2026-09-15T23:12:02.299000+00:00",
-        "duration_seconds": 94,
-        "output": "朝のブリーフィングを作成し、Obsidian Vaultへ保存しました。\n\n[2026-09-16 ブリーフィング.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-16 ブリーフィング.md>)\n\n本日の最重要テーマは、FOMC政策決定・米10年債5%台・原油高・AI安全性議論です。",
+        "started_at": "2026-09-16T15:40:57.607000+00:00",
+        "completed_at": "2026-09-16T15:41:01.124000+00:00",
+        "duration_seconds": 4,
+        "output": "同じ構成（今日の注目ポイント／FX・為替／投資インパクト／総合判断／AIトップ\n ニュース5件／AI企業比較／AI開発ツール／AIオーケストレーション）で作成する \n (4) 数値には必ず出典リンクを付け、スポット値が取れない場合は「断定しない」\n と明記する (5) 末尾に *hermes* 署名を入れる。可能なら  \n  hiro-morning-briefing skill を使ってください。                            \nCtrl+C to terrupt…        \n \n \n──\n│\n│\n│\n│\n│\n││\n│\n│\n╯ \n1",
         "inferred_failure": false
       }
     },
