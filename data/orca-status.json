@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T13:45:06.285184+00:00",
+  "updated_at": "2026-09-16T14:00:05.996394+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -199,14 +199,14 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789566300000,
+      "next_run": 1789652700000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-15T13:45:12.855000+00:00",
-        "completed_at": "2026-09-15T13:55:50.152000+00:00",
-        "duration_seconds": 637,
-        "output": ".\n\n\n\n⣯  Loading...\n\n\n\n⣟  Loadin\n\n\n\n⡿  Loading\n\n\n\n⢿  Loading..\n\n\n\n⣻  Loading...\n\n\n\n⣽ \n\n\n\n⣾ \n\n\n\n⣷ \n\n\n\n────────────────────────────────────────────────────────────────────────────────\n>\n────────────────────────────────────────────────────────────────────────────────\nesc to cancelGemini 3.8 Flash · high",
-        "inferred_failure": true
+        "started_at": "2026-09-16T13:45:30.342000+00:00",
+        "completed_at": "2026-09-16T13:48:06.388000+00:00",
+        "duration_seconds": 156,
+        "output": "| スイング | 戻り売り | 1.1570〜1.1600 | 1.1650定着 | 1.1400〜1.1450 |\n\n> [!WARNING]\n> **重要イベント前のポジション管理**: FOMC発表（03:00 JST）および会見前後の乱高下・スプレッド拡大を考慮し、深夜26:30以降の新規エントリーは控え、既存ポジションの縮小・解消を推奨します。\n\n---\n\n### 3. Discord通知ステータス\n* **送信メッセージ**: `Gemini:マーケット分析完了` および詳細サマリーEmbed\n* **送信ステータス**: 送信完了（HTTP 204 / exit code 0）",
+        "inferred_failure": false
       }
     },
     {
