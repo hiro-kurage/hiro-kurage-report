@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T23:45:18.349872+09:00",
+  "updated_at": "2026-09-16T23:45:37.570753+09:00",
   "base_date": "2026-08-01",
   "dates": [
     "2026-08-01",
@@ -44,7 +44,8 @@
     "2026-09-12",
     "2026-09-13",
     "2026-09-14",
-    "2026-09-15"
+    "2026-09-15",
+    "2026-09-16"
   ],
   "eas": [
     {
@@ -227,6 +228,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": -3599
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": -3599
         }
       ]
@@ -412,6 +417,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -595,6 +604,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 0
         }
       ]
@@ -780,6 +793,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -963,6 +980,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 815
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 815
         }
       ]
@@ -1148,6 +1169,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -1331,6 +1356,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": -1123
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": -1123
         }
       ]
@@ -1516,6 +1545,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -1526,7 +1559,7 @@
       "currency": "JPY",
       "magic": "20260522",
       "ea_name": "PO10P GOLD 15m",
-      "win_rate": 57.58,
+      "win_rate": 57.57,
       "pf": 3.87,
       "series": [
         {
@@ -1700,6 +1733,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 3830
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 3944
         }
       ]
     },
@@ -1710,8 +1747,8 @@
       "currency": "JPY",
       "magic": "20260523",
       "ea_name": "PO10P EURUSD 15m",
-      "win_rate": 54.35,
-      "pf": 0.88,
+      "win_rate": 54.26,
+      "pf": 0.89,
       "series": [
         {
           "date": "2026-08-01",
@@ -1884,6 +1921,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 272
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 284
         }
       ]
     },
@@ -1894,8 +1935,8 @@
       "currency": "JPY",
       "magic": "20260524",
       "ea_name": "PO10P USDJPY 15m",
-      "win_rate": 59.44,
-      "pf": 2.24,
+      "win_rate": 59.59,
+      "pf": 2.25,
       "series": [
         {
           "date": "2026-08-01",
@@ -2068,6 +2109,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 584
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 597
         }
       ]
     },
@@ -2078,8 +2123,8 @@
       "currency": "JPY",
       "magic": "20260525",
       "ea_name": "PO10P GOLD 1m",
-      "win_rate": 57.12,
-      "pf": 1.17,
+      "win_rate": 57.22,
+      "pf": 1.18,
       "series": [
         {
           "date": "2026-08-01",
@@ -2252,6 +2297,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 40942
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 41649
         }
       ]
     },
@@ -2436,6 +2485,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": -25
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": -25
         }
       ]
     },
@@ -2446,8 +2499,8 @@
       "currency": "JPY",
       "magic": "20260705",
       "ea_name": "DWV1P USDJPY1h",
-      "win_rate": 53.85,
-      "pf": 1.5,
+      "win_rate": 50.0,
+      "pf": 1.18,
       "series": [
         {
           "date": "2026-08-01",
@@ -2620,6 +2673,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 39
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 14
         }
       ]
     },
@@ -2803,6 +2860,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": -11
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": -11
         }
       ]
@@ -2988,6 +3049,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": -14
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": -14
         }
       ]
     },
@@ -3171,6 +3236,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 0
         }
       ]
@@ -3356,6 +3425,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": -7548
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": -7548
         }
       ]
     },
@@ -3539,6 +3612,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 0
         }
       ]
@@ -3724,6 +3801,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -3907,6 +3988,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 0
         }
       ]
@@ -4092,6 +4177,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -4276,6 +4365,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -4286,7 +4379,7 @@
       "currency": "JPY",
       "magic": "20251124",
       "ea_name": "Sagitarius6p EURUSD 15m",
-      "win_rate": 75.2,
+      "win_rate": 75.4,
       "pf": 1.32,
       "series": [
         {
@@ -4460,6 +4553,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 1206
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 1326
         }
       ]
     },
@@ -4470,8 +4567,8 @@
       "currency": "JPY",
       "magic": "20261123",
       "ea_name": "Sagitarius6p GOLD 15m",
-      "win_rate": 75.28,
-      "pf": 2.82,
+      "win_rate": 74.73,
+      "pf": 2.64,
       "series": [
         {
           "date": "2026-08-01",
@@ -4644,6 +4741,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 8382
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 12406
         }
       ]
     },
@@ -4828,6 +4929,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -4838,7 +4943,7 @@
       "currency": "JPY",
       "magic": "20201009",
       "ea_name": "Sagitarius6P GOLD 15m",
-      "win_rate": 67.19,
+      "win_rate": 66.93,
       "pf": 1.48,
       "series": [
         {
@@ -5012,6 +5117,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 7682
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 8501
         }
       ]
     },
@@ -5022,8 +5131,8 @@
       "currency": "JPY",
       "magic": "20201008",
       "ea_name": "Sagitarius6P Gold 15min",
-      "win_rate": 65.39,
-      "pf": 1.7,
+      "win_rate": 65.25,
+      "pf": 1.68,
       "series": [
         {
           "date": "2026-08-01",
@@ -5196,6 +5305,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 25600
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 26780
         }
       ]
     },
@@ -5379,6 +5492,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": -7948
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": -7948
         }
       ]
@@ -5564,6 +5681,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 19517
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 19517
         }
       ]
     },
@@ -5747,6 +5868,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": -7948
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": -7948
         }
       ]
@@ -5932,6 +6057,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -6115,6 +6244,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 3585
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 3585
         }
       ]
@@ -6300,6 +6433,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -6483,6 +6620,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 0
         }
       ]
@@ -6668,6 +6809,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": -11428
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": -11428
         }
       ]
     },
@@ -6851,6 +6996,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": -1036
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": -1036
         }
       ]
@@ -7036,6 +7185,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": -5421
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": -5421
         }
       ]
     },
@@ -7219,6 +7372,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 0
         }
       ]
@@ -7404,6 +7561,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -7414,8 +7575,8 @@
       "currency": "JPY",
       "magic": "20251019",
       "ea_name": "GMMA6P EURUSD 15min",
-      "win_rate": 79.17,
-      "pf": 2.18,
+      "win_rate": 79.38,
+      "pf": 2.2,
       "series": [
         {
           "date": "2026-08-01",
@@ -7588,6 +7749,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 2044
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 2178
         }
       ]
     },
@@ -7771,6 +7936,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": -150
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": -150
         }
       ]
@@ -7956,6 +8125,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -8139,6 +8312,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 1283
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 1283
         }
       ]
@@ -8324,6 +8501,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 0
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 0
         }
       ]
     },
@@ -8508,6 +8689,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 866
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 866
         }
       ]
     },
@@ -8518,8 +8703,8 @@
       "currency": "USD",
       "magic": "20261123",
       "ea_name": "Sagitarius6P GOLD 15m",
-      "win_rate": 63.83,
-      "pf": 1.61,
+      "win_rate": 63.27,
+      "pf": 1.6,
       "series": [
         {
           "date": "2026-08-01",
@@ -8692,6 +8877,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 2659
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 2998
         }
       ]
     },
@@ -8702,7 +8891,7 @@
       "currency": "JPY",
       "magic": "20201008",
       "ea_name": "Sagitarius6P EURUSD 15m",
-      "win_rate": 64.52,
+      "win_rate": 64.06,
       "pf": 1.47,
       "series": [
         {
@@ -8876,6 +9065,10 @@
         {
           "date": "2026-09-15",
           "cumulative_jpy": 3478
+        },
+        {
+          "date": "2026-09-16",
+          "cumulative_jpy": 3775
         }
       ]
     },
@@ -9059,6 +9252,10 @@
         },
         {
           "date": "2026-09-15",
+          "cumulative_jpy": 1103
+        },
+        {
+          "date": "2026-09-16",
           "cumulative_jpy": 1103
         }
       ]
