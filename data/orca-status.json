@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T14:45:04.501688+00:00",
+  "updated_at": "2026-09-17T15:00:06.048683+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -23,13 +23,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789656300000,
+      "next_run": 1789742700000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-16T14:45:30.559000+00:00",
-        "completed_at": "2026-09-16T14:45:48.994000+00:00",
-        "duration_seconds": 18,
-        "output": "EA-PO推移グラフの更新（49 EA、44日分、GitHub Pagesへpush済み）とDiscord通知の送信、両方完了しました。",
+        "started_at": "2026-09-17T14:45:47.665000+00:00",
+        "completed_at": "2026-09-17T14:46:00.529000+00:00",
+        "duration_seconds": 13,
+        "output": "EA-PO推移グラフを更新（49 EA、45日分）してGitHub Pagesにプッシュ済みです。Discordへの通知も送信完了しました。",
         "inferred_failure": false
       }
     },
@@ -327,13 +327,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789656900000,
+      "next_run": 1789743300000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-16T14:55:30.587000+00:00",
-        "completed_at": "2026-09-16T14:55:40.351000+00:00",
-        "duration_seconds": 10,
-        "output": "今月（2026年9月）の残高推移グラフを生成し、Obsidianフォルダに保存しました。\n\n- 保存先: `iclouddriver/2026-09 残高推移.jpg`\n- 月初比: **+4.17%**（前日比 +0.38%）\n- 集計期間: 9/1〜9/16（16日分のデータ）",
+        "started_at": "2026-09-17T14:55:47.713000+00:00",
+        "completed_at": "2026-09-17T14:55:58.780000+00:00",
+        "duration_seconds": 11,
+        "output": "今月（9月1〜17日）の残高推移グラフをObsidianフォルダに保存しました。\n\n`iclouddriver/2026-09 残高推移.jpg`\n\n- 月初比: **+4.48%**\n- 前日比: +0.29%\n- 直近残高: 2,040,964円（9/17時点）",
         "inferred_failure": false
       }
     },
