@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T14:00:04.480148+00:00",
+  "updated_at": "2026-09-17T14:15:04.638256+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -87,13 +87,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789654200000,
+      "next_run": 1789740600000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-16T14:10:30.447000+00:00",
-        "completed_at": "2026-09-16T14:12:15.239000+00:00",
-        "duration_seconds": 105,
-        "output": "）**\n\n- Step1: USDJPY/EURUSDともノーポジション継続、EA正常稼働\n- Step2: 全7ペアのH1ヒストリーを追記\n- Step3: 市況3ソースが揃って「FOMC発表(9/17 03:00 JST、会見03:30)まで約3時間50分」「EA Risk EXTREME・新規建て禁止」と警告\n- Step4: SMC構造は両ペアともCHoCHの頻繁な反転が続き方向感一致せず、RSIも両ペア中立\n- 主要根拠2つ以上の一致がなく、FOMC跨ぎリスクの安全装置を優先して見送りを継続\n\nTrade日記に記録し、Discordに「Claude：EAチェック完了」を送信しました。",
+        "started_at": "2026-09-17T14:10:47.601000+00:00",
+        "completed_at": "2026-09-17T14:12:55.630000+00:00",
+        "duration_seconds": 128,
+        "output": "造が\"up\"→\"down\"へ転換したがBOS未確認、H1 SMA10/30がほぼフラットで方向感薄\n- EURUSD: SMC構造が\"down\"→\"up\"へ転換もCHoCH単独で信頼度低く、方向が数時間毎に反転しノイズが多い\n- **最大の理由**: 9/18 15:30(JST)の日銀会合・植田総裁会見（約16時間後、1.25%利上げがほぼ織り込み済み）が想定保有期間内に確実に跨ぐため、イベント跨ぎ新規停止の安全装置を適用し見送り継続（前回15:21・18:00チェックと同じ結論）\n\nObsidianのトレード日記に記録済み、Discordに「Claude：EAチェック完了」を送信しました。",
         "inferred_failure": false
       }
     },
@@ -295,13 +295,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789653600000,
+      "next_run": 1789740000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-16T14:00:30.341000+00:00",
-        "completed_at": "2026-09-16T14:01:11.432000+00:00",
-        "duration_seconds": 41,
-        "output": "本日の成績を更新しました。\n\n- 推定残高：2,034,991円\n- Discord通知：送信完了",
+        "started_at": "2026-09-17T14:00:47.591000+00:00",
+        "completed_at": "2026-09-17T14:02:54.785000+00:00",
+        "duration_seconds": 127,
+        "output": "▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n1\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁",
         "inferred_failure": false
       }
     },
