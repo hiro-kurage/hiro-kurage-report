@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T11:00:04.990166+00:00",
+  "updated_at": "2026-09-17T11:15:04.916666+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -135,13 +135,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789642800000,
+      "next_run": 1789650000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-17T09:00:15.537000+00:00",
-        "completed_at": "2026-09-17T09:02:28.116000+00:00",
-        "duration_seconds": 133,
-        "output": "0 JST）も控え、イベント跨ぎの新規ポジション/grid/martingale追加/breakout追随は停止検討。EA設定変更・停止は実行していません\n\n**ソース**: Yahoo Financeがキャッシュを返すため、最新のSMBCリアルタイムレート（17:35時点）を主ソースとして明記しました。日銀公定PDF（fx260917.pdf）は未公開（404）のままです。\n\n保存先: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-17 マーケットウォッチ.md`",
+        "started_at": "2026-09-17T11:00:15.770000+00:00",
+        "completed_at": "2026-09-17T11:03:50.111000+00:00",
+        "duration_seconds": 214,
+        "output": "148（Yahoo 20:00 1.1481）。下げ一服から小反発\n- **市場判断**: ★5/EXTREME。明日9/18の日銀決定会合・植田会見が最大焦点。21:30 JSTの米指標も控える\n\n保存先: `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-17 マーケットウォッチ.md`\n\nなお、次の更新（22:00頃）では21:30 JSTの米新規失業保険申請・フィラデルフィア連銀景気指数の結果を反映できる見込みです。必要であれば、その時点で追記・差し替えします。",
         "inferred_failure": false
       }
     },
