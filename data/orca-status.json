@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T15:15:08.449963+00:00",
+  "updated_at": "2026-09-18T15:30:08.789215+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -367,8 +367,8 @@
       "name": "マーケットウオッチ(hermes/ling-fin)",
       "provider": "multica",
       "enabled": true,
-      "schedule": "0 */3 * * *",
-      "next_run": "2026-09-18T18:00:00Z",
+      "schedule": "0 */4 * * *",
+      "next_run": "2026-09-18T19:00:00Z",
       "last_run": {
         "status": "completed",
         "started_at": "2026-09-18T15:00:15Z",
