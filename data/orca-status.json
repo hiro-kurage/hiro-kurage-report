@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T23:30:10.532125+00:00",
+  "updated_at": "2026-09-19T23:45:10.068055+00:00",
   "automations": [
     {
       "id": "7dc30a8c-9f0a-44f2-ab9b-78af1d4bbbca",
@@ -7,13 +7,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-09-19T23:30:00Z",
+      "next_run": "2026-09-20T04:00:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-19T14:00:22Z",
-        "completed_at": "2026-09-19T14:02:54Z",
-        "duration_seconds": 152,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-09-19T23:30:21Z",
+        "completed_at": "2026-09-19T23:30:25Z",
+        "duration_seconds": 4,
+        "output": "Failed to authenticate: OAuth session expired and could not be refreshed",
         "inferred_failure": false
       }
     },
@@ -55,12 +55,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8,12,15,18,22 * * *",
-      "next_run": "2026-09-19T23:30:00Z",
+      "next_run": "2026-09-20T03:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-19T13:30:25Z",
-        "completed_at": "2026-09-19T13:32:10Z",
-        "duration_seconds": 105,
+        "started_at": "2026-09-19T23:30:25Z",
+        "completed_at": "2026-09-19T23:33:54Z",
+        "duration_seconds": 209,
         "output": "",
         "inferred_failure": false
       }
