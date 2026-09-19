@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-19T10:00:08.892573+00:00",
+  "updated_at": "2026-09-19T10:15:11.055135+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
       "name": "EA別損益集計(codex)",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1789828200000,
       "last_run": {
@@ -229,7 +229,7 @@
       "id": "9fe0afed-1d44-474f-9b4f-619e9fa6e1aa",
       "name": "口座別収益集計(codex)09:00",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1789862400000,
       "last_run": {
@@ -245,7 +245,7 @@
       "id": "3d653a4a-2e5b-4d29-a99c-d3614895822f",
       "name": "口座別収益集計(codex)12:00",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1789873200000,
       "last_run": {
@@ -261,7 +261,7 @@
       "id": "99888acb-b93d-4ef7-9e89-0fd0e799028a",
       "name": "口座別収益集計(codex)15:00",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1789884900000,
       "last_run": {
@@ -277,15 +277,15 @@
       "id": "96730b9a-eb30-4b38-85f8-292e6de02259",
       "name": "口座別収益集計(codex)19:00",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
-      "next_run": 1789812000000,
+      "next_run": 1789898400000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-18T10:00:50.244000+00:00",
-        "completed_at": "2026-09-18T10:02:52.680000+00:00",
-        "duration_seconds": 122,
-        "output": "▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁\n1\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁\n▁▁▁\n▁▁▁\n▁▁▁\n▁▁▁\n▁▁\n▁▁▁",
+        "started_at": "2026-09-19T10:00:52.976000+00:00",
+        "completed_at": "2026-09-19T10:02:40.694000+00:00",
+        "duration_seconds": 108,
+        "output": "円 | 68.81% |\n| 9 | NanGan(朝スキャ） | JPY | 49,252円 | 16.54% |\n| 10 | Sagitariusマイクロ | JPY | 76,926円 | 5,330.98% |\n\n**JPY合計：637,937円 ／ USD合計：124.49 USD**\n\n## 本日増減（vs 9/18）\n- JPY：**+124円**（NanGan(朝スキャ）のみ +124円、他は ±0）\n- USD：±0 USD\n- 前日推定残高（9/18）：2,052,666円\n- **本日推定残高（9/19）：2,052,790円**\n\n含み損益は方針どおり算出対象外です。",
         "inferred_failure": false
       }
     },
@@ -293,7 +293,7 @@
       "id": "78608daa-b39b-4d8c-9a2f-b22ebd3d2bf1",
       "name": "口座別損益集計(codex)23:00",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1789826400000,
       "last_run": {
@@ -352,6 +352,24 @@
         "output": "今週の週次成績を作成しました。\n\n[2026-W38 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W38 週次成績.md>)\n\n- 期間：9/14〜9/18\n- 円建て増減：+27,743円\n- USD建て：+33.76 USD\n- 推定残高増減：+33,144円\n- ベストデー：9/18（金）+11,826円",
         "inferred_failure": false
       }
+    },
+    {
+      "id": "e215716d-e7bd-4178-878a-2f7a7b338d6d",
+      "name": "Real Trade 成績(hermes/longcat)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "30 8,12,15,18,22 * * *",
+      "next_run": "2026-09-19T13:30:00Z",
+      "last_run": null
+    },
+    {
+      "id": "cdf42764-b7e4-4209-af28-8548e206055d",
+      "name": "EA-PO実績(hermes/longcat)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "30 23 * * *",
+      "next_run": "2026-09-19T14:30:00Z",
+      "last_run": null
     },
     {
       "id": "697b872e-d70b-4fcb-8183-7bc5573dd7ba",
