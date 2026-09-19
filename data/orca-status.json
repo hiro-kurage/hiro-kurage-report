@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T13:45:14.657515+00:00",
+  "updated_at": "2026-09-19T14:00:14.385034+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -199,13 +199,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1789825500000,
+      "next_run": 1789911900000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-18T13:45:50.602000+00:00",
-        "completed_at": "2026-09-18T13:48:16.474000+00:00",
-        "duration_seconds": 146,
-        "output": "ian保存先**:\n  [2026-09-18マーケット状況.md](file:///Users/hiro/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-09-18%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E7%8A%B6%E6%B3%81.md) （上書き完了）\n- **Discord通知**:\n  「**Gemini:マーケット分析完了**」および上記取引サマリーをDiscordチャンネルへ正常に送信しました（ステータス: ✅ 送信完了）。",
+        "started_at": "2026-09-19T13:45:53.299000+00:00",
+        "completed_at": "2026-09-19T13:47:20.630000+00:00",
+        "duration_seconds": 87,
+        "output": "* | スイング | 戻り売り | 158.50 - 159.00（介入警戒ゾーン） | 159.60 | 155.50 / 154.80 |\n| **EUR/USD** | スキャルピング | 戻り売り | 1.1485 - 1.1500（節目戻り） | 1.1525 | 1.1440 / 1.1420 |\n| **EUR/USD** | スイング | 押し目買い | 1.1400 - 1.1430（主要支持帯） | 1.1360 | 1.1560 / 1.1620 |\n\n---\n\n### 外部連携\n- **Discord通知**: `Gemini:マーケット分析完了` を送信完了しました。",
         "inferred_failure": false
       }
     },
