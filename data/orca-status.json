@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T12:45:13.722585+00:00",
+  "updated_at": "2026-09-19T13:00:14.197651+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -352,6 +352,15 @@
         "output": "今週の週次成績を作成しました。\n\n[2026-W38 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W38 週次成績.md>)\n\n- 期間：9/14〜9/18\n- 円建て増減：+27,743円\n- USD建て：+33.76 USD\n- 推定残高増減：+33,144円\n- ベストデー：9/18（金）+11,826円",
         "inferred_failure": false
       }
+    },
+    {
+      "id": "7dc30a8c-9f0a-44f2-ab9b-78af1d4bbbca",
+      "name": "ブリッジEAチェック(sonnet)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "30 8 * * *",
+      "next_run": "2026-09-19T14:00:00Z",
+      "last_run": null
     },
     {
       "id": "9f5533c0-f5df-46e0-b080-7a7f01acc4b4",
