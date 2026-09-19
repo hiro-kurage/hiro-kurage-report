@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T12:30:10.595070+00:00",
+  "updated_at": "2026-09-19T12:45:13.722585+00:00",
   "automations": [
     {
       "id": "8bee4cde-8c60-407a-b380-c11a10026613",
@@ -21,7 +21,7 @@
       "id": "7c25ab4f-11b6-424a-9dfd-acd4d8aca37d",
       "name": "EA推移グラフ更新（Claude）",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1789829100000,
       "last_run": {
@@ -325,7 +325,7 @@
       "id": "34c3aedc-1660-4f78-a9fd-a7944f4854c8",
       "name": "残高推移グラフの作成(claude)",
       "provider": "",
-      "enabled": true,
+      "enabled": false,
       "schedule": "",
       "next_run": 1789829700000,
       "last_run": {
@@ -352,6 +352,24 @@
         "output": "今週の週次成績を作成しました。\n\n[2026-W38 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W38 週次成績.md>)\n\n- 期間：9/14〜9/18\n- 円建て増減：+27,743円\n- USD建て：+33.76 USD\n- 推定残高増減：+33,144円\n- ベストデー：9/18（金）+11,826円",
         "inferred_failure": false
       }
+    },
+    {
+      "id": "9f5533c0-f5df-46e0-b080-7a7f01acc4b4",
+      "name": "残高推移グラフ更新(sonnet)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "0 23 * * *",
+      "next_run": "2026-09-19T14:00:00Z",
+      "last_run": null
+    },
+    {
+      "id": "52f70532-6a7a-4858-9e0c-2770689f6c31",
+      "name": "EA-PO推移グラフ更新(sonnet)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "50 23 * * *",
+      "next_run": "2026-09-19T14:50:00Z",
+      "last_run": null
     },
     {
       "id": "e215716d-e7bd-4178-878a-2f7a7b338d6d",
