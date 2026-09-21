@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T11:00:11.497088+00:00",
+  "updated_at": "2026-09-21T11:15:11.528719+00:00",
   "automations": [
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
@@ -112,13 +112,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-09-21T11:00:00Z",
+      "next_run": "2026-09-21T15:00:00Z",
       "last_run": {
-        "status": "running",
+        "status": "failed",
         "started_at": "2026-09-21T11:00:10Z",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": "",
+        "completed_at": "2026-09-21T11:00:14Z",
+        "duration_seconds": 4,
+        "output": "hermes session/new failed: session/new: Internal error (code=-32603, data={\"details\":\"No LLM provider configured. Run `hermes model` to select a provider, or run `hermes setup` for first-time configuration.\"}) [multica] hermes did not read the HERMES_HOME your shell uses: this task ran against a per-task overlay, seeded from the home the daemon process resolved. The daemon log line \"hermes home resolved\" for this task names that source home — if your hermes config lives somewhere else, set HERMES_HOME in the agent's custom_env to point at it.",
         "inferred_failure": false
       }
     }
