@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T13:15:11.771656+00:00",
+  "updated_at": "2026-09-21T13:28:16.321144+00:00",
   "automations": [
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
@@ -119,6 +119,38 @@
         "completed_at": "2026-09-21T11:00:14Z",
         "duration_seconds": 4,
         "output": "hermes session/new failed: session/new: Internal error (code=-32603, data={\"details\":\"No LLM provider configured. Run `hermes model` to select a provider, or run `hermes setup` for first-time configuration.\"}) [multica] hermes did not read the HERMES_HOME your shell uses: this task ran against a per-task overlay, seeded from the home the daemon process resolved. The daemon log line \"hermes home resolved\" for this task names that source home — if your hermes config lives somewhere else, set HERMES_HOME in the agent's custom_env to point at it.",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "gc-selftest",
+      "name": "定刻実行の疎通テスト",
+      "provider": "gc",
+      "enabled": false,
+      "schedule": "16 16 * * *",
+      "next_run": null,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-09-20T07:16:08+00:00",
+        "completed_at": "2026-09-20T07:16:20+00:00",
+        "duration_seconds": 12,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "ainews",
+      "name": "本日の AIニュース",
+      "provider": "gc",
+      "enabled": true,
+      "schedule": "0 7 * * *",
+      "next_run": null,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-09-21T05:37:52+00:00",
+        "completed_at": "2026-09-21T05:48:30+00:00",
+        "duration_seconds": 638,
+        "output": "",
         "inferred_failure": false
       }
     }

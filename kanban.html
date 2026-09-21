@@ -182,6 +182,11 @@
     border-color: #388e3c;
     color: #81c784;
   }
+  .pill-gc {
+    background: #1e1a2e;
+    border-color: #7e57c2;
+    color: #b39ddb;
+  }
   .card-time {
     font-size: 10px;
     color: var(--muted);
@@ -307,7 +312,7 @@ function makeCard(a, colKey) {
   card.innerHTML = `
     <div class="card-name">${escHtml(a.name)}</div>
     <div class="card-meta">
-      <span class="pill${a.provider === 'multica' ? ' pill-multica' : ''}">${escHtml(a.provider || '')}</span>
+      <span class="pill${a.provider === 'multica' ? ' pill-multica' : a.provider === 'gc' ? ' pill-gc' : ''}">${escHtml(a.provider || '')}</span>
       ${dur ? `<span class="pill">${dur}</span>` : ''}
     </div>
     ${nextRunStr ? `<div class="card-time">次回: ${nextRunStr}</div>` : ''}
