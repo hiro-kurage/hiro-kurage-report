@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T03:00:12.405298+00:00",
+  "updated_at": "2026-09-22T03:15:11.686750+00:00",
   "automations": [
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
@@ -112,13 +112,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-09-22T03:00:00Z",
+      "next_run": "2026-09-22T07:00:00Z",
       "last_run": {
-        "status": "running",
+        "status": "failed",
         "started_at": "2026-09-22T03:00:11Z",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": "",
+        "completed_at": "2026-09-22T03:01:04Z",
+        "duration_seconds": 53,
+        "output": "hermes provider error: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
         "inferred_failure": false
       }
     },
