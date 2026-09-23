@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T19:00:11.384815+00:00",
+  "updated_at": "2026-09-23T19:15:12.108451+00:00",
   "automations": [
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
@@ -112,13 +112,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-09-23T19:00:00Z",
+      "next_run": "2026-09-23T23:00:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-23T15:00:18Z",
-        "completed_at": "2026-09-23T15:02:51Z",
-        "duration_seconds": 153,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-09-23T19:00:18Z",
+        "completed_at": "2026-09-23T19:00:55Z",
+        "duration_seconds": 37,
+        "output": "hermes provider error: Error code: 404 - [{'error': {'code': 404, 'message': 'models/inclusionai/ling-3.0-flash-fin:free is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}]",
         "inferred_failure": false
       }
     },
