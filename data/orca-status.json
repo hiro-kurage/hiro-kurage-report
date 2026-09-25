@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T03:30:12.000616+00:00",
+  "updated_at": "2026-09-25T03:45:11.807270+00:00",
   "automations": [
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
@@ -64,13 +64,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8,12,15,18,22 * * *",
-      "next_run": "2026-09-25T03:30:00Z",
+      "next_run": "2026-09-25T06:30:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-24T23:30:14Z",
-        "completed_at": "2026-09-24T23:33:50Z",
-        "duration_seconds": 216,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-09-25T03:36:54Z",
+        "completed_at": "2026-09-25T03:37:11Z",
+        "duration_seconds": 17,
+        "output": "hermes provider error: Error code: 404 - {'status': 404, 'message': \"This model is no longer free. To continue using the paid variant, switch to 'meituan/longcat-2.0'.\"}",
         "inferred_failure": false
       }
     },
