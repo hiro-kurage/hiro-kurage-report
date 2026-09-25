@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T14:15:13.557852+00:00",
+  "updated_at": "2026-09-25T14:30:12.591997+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -226,10 +226,10 @@
       "schedule": "30 23 * * *",
       "next_run": "2026-09-25T14:30:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-24T14:30:07Z",
-        "completed_at": "2026-09-24T14:31:58Z",
-        "duration_seconds": 111,
+        "status": "running",
+        "started_at": "2026-09-25T14:30:07Z",
+        "completed_at": null,
+        "duration_seconds": null,
         "output": "",
         "inferred_failure": false
       }
