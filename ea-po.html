@@ -361,7 +361,6 @@ function buildSidebar() {
 
     eas.forEach(ea => {
       const last = getLastValue(ea);
-      if (last === 0) return;  // 累計0は非表示
       const item = document.createElement('label');
       item.className = 'ea-item';
       item.innerHTML = [
