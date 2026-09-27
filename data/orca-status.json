@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T09:30:13.275569+00:00",
+  "updated_at": "2026-09-27T09:45:12.497435+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -215,12 +215,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8,12,15,18,22 * * *",
-      "next_run": "2026-09-27T09:30:00Z",
+      "next_run": "2026-09-27T13:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-09-27T06:30:14Z",
-        "completed_at": "2026-09-27T06:33:35Z",
-        "duration_seconds": 201,
+        "started_at": "2026-09-27T09:30:15Z",
+        "completed_at": "2026-09-27T09:31:54Z",
+        "duration_seconds": 99,
         "output": "",
         "inferred_failure": false
       }
@@ -297,11 +297,11 @@
       "schedule": "0 7 * * *",
       "next_run": null,
       "last_run": {
-        "status": "failed",
-        "started_at": "2026-09-27T09:16:29+00:00",
-        "completed_at": "2026-09-27T09:20:10+00:00",
-        "duration_seconds": 221,
-        "output": "grokがエラーを返しました: Not signed in. To authenticate without a browser, run:\n  grok login --device-code\n\nAlternatively, set the XAI_API_KEY environment variable or run `grok login` on a machine with a browser.",
+        "status": "waiting_model",
+        "started_at": "2026-09-27T09:32:09+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
         "inferred_failure": false
       }
     }
