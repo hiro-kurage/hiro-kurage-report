@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T09:15:15.885194+00:00",
+  "updated_at": "2026-09-27T09:30:13.275569+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -297,11 +297,11 @@
       "schedule": "0 7 * * *",
       "next_run": null,
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-09-26T22:00:21+00:00",
-        "completed_at": "2026-09-26T22:08:30+00:00",
-        "duration_seconds": 489,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-09-27T09:16:29+00:00",
+        "completed_at": "2026-09-27T09:20:10+00:00",
+        "duration_seconds": 221,
+        "output": "grokがエラーを返しました: Not signed in. To authenticate without a browser, run:\n  grok login --device-code\n\nAlternatively, set the XAI_API_KEY environment variable or run `grok login` on a machine with a browser.",
         "inferred_failure": false
       }
     }
