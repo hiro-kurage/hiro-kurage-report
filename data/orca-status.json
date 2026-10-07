@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T19:00:11.613000+00:00",
+  "updated_at": "2026-10-07T19:15:10.719683+00:00",
   "automations": [
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
@@ -119,7 +119,7 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-10-07T19:00:00Z",
+      "next_run": "2026-10-07T23:00:00Z",
       "last_run": {
         "status": "running",
         "started_at": "2026-10-07T19:00:10Z",
