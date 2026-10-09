@@ -1,6 +1,150 @@
 {
-  "updated_at": "2026-10-09T14:30:12.190423+00:00",
+  "updated_at": "2026-10-09T14:45:13.409063+00:00",
   "automations": [
+    {
+      "id": "bb76daca-919c-46ef-af05-f7610e688192",
+      "name": "ブログ記事の作成(claude)",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1791595800000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-03T01:47:18.947000+00:00",
+        "completed_at": "2026-10-03T01:48:50.089000+00:00",
+        "duration_seconds": 91,
+        "output": "稿前に一度見てください。\n- **所感のない曜日:** 9/28〜10/1の所感はありましたが、金曜10/2の所感はありませんでした。金曜は日次増減の数字だけ書いています。\n- **Sagitariusマイクロの好調理由:** 10/1のEUR/USD急落の波を拾った、と書きました。これは私の推測なので、実際と違えば直してください。\n- **来週の注目:** ISM非製造業（10/5）、FOMC議事要旨と毎月勤労統計（10/7）、フィスコの予想レンジ155〜161円を使っています。「個人的な注目」の段落は私が書いた文面です。\n\nWordPressへの下書き投稿が必要でしたら、続けて対応します。",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "e674caa9-15af-4d73-a119-6c308dc54feb",
+      "name": "マーケットウォッチ",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1789916400000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-09-18T13:00:50.559000+00:00",
+        "completed_at": "2026-09-18T13:05:09.376000+00:00",
+        "duration_seconds": 259,
+        "output": "22:30ボウマンFRB副議長・23:00米景気先行指数・翌0:45シュミット連銀総裁とイベント続く\n- 158円台は8月の日米協調介入水準に接近＋シルバーウィーク薄商いで介入リスク警戒。イベント跨ぎ・週末持ち越しの新規ポジション・grid/martingale追加・breakout追随は停止検討（設定変更・停止は実行していない旨明記）\n\n見出しは `22:00 → 20:00 → 18:00 → 16:00 → 15:00 → 14:00 → 12:00 → 10:00 → 08:00 → 06:00 → 04:00 → 02:00 → 00:00 JST` の逆時系列で、重複はありません。",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "9d165f15-fd17-46cc-98be-fa71b2f4b0a8",
+      "name": "マーケット分析(codex)12:45",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790394300000,
+      "last_run": {
+        "status": "skipped_unavailable",
+        "started_at": "2026-09-25T08:29:45.236000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "45a69dc1-9b13-4634-b45d-5fdcfb5373ef",
+      "name": "マーケット分析(codex)17:45",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790325900000,
+      "last_run": {
+        "status": "skipped_unavailable",
+        "started_at": "2026-09-24T12:19:37.408000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "7a991f80-fa02-4886-8e6d-b592c7f2e92e",
+      "name": "マーケット分析(gemini)08:15",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790378100000,
+      "last_run": {
+        "status": "skipped_unavailable",
+        "started_at": "2026-09-25T08:29:45.329000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "bc3cf731-5735-4072-b05d-8c49886857b4",
+      "name": "マーケット分析(Gemini)22:45",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790343900000,
+      "last_run": {
+        "status": "skipped_missed",
+        "started_at": "2026-09-25T08:29:45.422000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "2d4a2789-ba67-4eb8-a363-882f889aebbc",
+      "name": "今週のチャート作成(claude)",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1791592200000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-03T01:44:58.068000+00:00",
+        "completed_at": "2026-10-03T01:45:36.614000+00:00",
+        "duration_seconds": 39,
+        "output": "で上書きしています。ファイルサイズは前回と同じでした。\n- **データの時点:** 今日は土曜でマーケットが休場のため、最新は金曜10/2 22:00（サーバー時間）のH1足です。履歴を更新しましたが、USDJPYとEURUSDに追加されたバーはありませんでした。\n- **チャートの中身:** H1と日足を左右に並べた1枚です。H1はSMA10とSMA30、日足はSMA20とSMA200を重ねています。USDJPYの画像は目視で確認しました。EURUSDは同じスクリプトで作っていますが、画像は見ていません。\n\n保存先を `iclouddriver/` フォルダにしたい場合は、そちらへ移します。",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "34c3aedc-1660-4f78-a9fd-a7944f4854c8",
+      "name": "残高推移グラフの作成(claude)",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1789829700000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-09-18T15:12:47.755000+00:00",
+        "completed_at": "2026-09-18T15:12:57.844000+00:00",
+        "duration_seconds": 10,
+        "output": "2026年9月の残高推移グラフを生成し、Obsidianフォルダに保存しました。\n\n- 保存先: `iclouddriver/2026-09 残高推移.jpg`\n- 月初比: +5.09%（月初 1,953,450円 → 直近 2,052,790円）\n- 前日比: +0.58%",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "6caaeeb1-5578-43db-88f0-3e0df02da1fc",
+      "name": "週次成績の取りまとめ(claude)",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1791590400000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-03T01:19:03.620000+00:00",
+        "completed_at": "2026-10-03T01:19:04.134000+00:00",
+        "duration_seconds": 1,
+        "output": "model:     loading   /model to change ││ directory: loading                    │╰───────────────────────────────────────╯ › Ask Codex to do anything ? for shortcuts╭──╮  │  │  loading  /model to change │  ~/Orca  ││ permissions: YOLO mode                  │╰─────────────────────────────────────────╯",
+        "inferred_failure": false
+      }
+    },
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
       "name": "口座別週次成績集計",
@@ -87,12 +231,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 23 * * *",
-      "next_run": "2026-10-09T14:30:00Z",
+      "next_run": "2026-10-10T14:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-08T14:30:12Z",
-        "completed_at": "2026-10-08T14:31:27Z",
-        "duration_seconds": 75,
+        "started_at": "2026-10-09T14:30:11Z",
+        "completed_at": "2026-10-09T14:31:41Z",
+        "duration_seconds": 90,
         "output": "",
         "inferred_failure": false
       }
