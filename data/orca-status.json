@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T00:30:12.564768+00:00",
+  "updated_at": "2026-10-10T00:45:13.378603+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -103,13 +103,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1791592200000,
+      "next_run": 1792197000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-03T01:44:58.068000+00:00",
-        "completed_at": "2026-10-03T01:45:36.614000+00:00",
-        "duration_seconds": 39,
-        "output": "で上書きしています。ファイルサイズは前回と同じでした。\n- **データの時点:** 今日は土曜でマーケットが休場のため、最新は金曜10/2 22:00（サーバー時間）のH1足です。履歴を更新しましたが、USDJPYとEURUSDに追加されたバーはありませんでした。\n- **チャートの中身:** H1と日足を左右に並べた1枚です。H1はSMA10とSMA30、日足はSMA20とSMA200を重ねています。USDJPYの画像は目視で確認しました。EURUSDは同じスクリプトで作っていますが、画像は見ていません。\n\n保存先を `iclouddriver/` フォルダにしたい場合は、そちらへ移します。",
+        "started_at": "2026-10-10T00:30:05.896000+00:00",
+        "completed_at": "2026-10-10T00:30:26.256000+00:00",
+        "duration_seconds": 20,
+        "output": "RUSD.png`\n\n保管先は `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/` です。\n\n各チャートは、左がH1(SMA10/30)、右が日足(SMA20/200)の並びです。\n\n元データは蓄積済みのH1ヒストリーを使いました。最終バーは、USDJPYが10/09 22:00、EURUSDが10/09 16:00です。今日(10/10)は土曜で市場が閉まっています。EURUSDの最終バーが22:00でなく16:00なのは、ヒストリーの追記がそこで止まっているためです。ヒストリーの更新はしていません。",
         "inferred_failure": false
       }
     },
@@ -151,12 +151,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 9 * * 6",
-      "next_run": "2026-10-10T00:30:00Z",
+      "next_run": "2026-10-17T00:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-03T00:30:07Z",
-        "completed_at": "2026-10-03T00:32:18Z",
-        "duration_seconds": 131,
+        "started_at": "2026-10-10T00:30:06Z",
+        "completed_at": "2026-10-10T00:31:33Z",
+        "duration_seconds": 87,
         "output": "",
         "inferred_failure": false
       }
