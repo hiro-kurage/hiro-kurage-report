@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T06:00:17.439751+00:00",
+  "updated_at": "2026-10-10T06:15:21.496313+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -142,6 +142,134 @@
         "completed_at": "2026-10-10T00:00:17.394000+00:00",
         "duration_seconds": 12,
         "output": "認しました。\n\n- 期間：10月5日（月）〜10月9日（金）\n- 推定残高ベース週次増減：**−698,139円**\n- 円建て口座の週次増減：−651,005円\n- USD建て口座（X-MGR）：−294.59 USD\n- 最大利益口座：Sagitariusマイクロ（+12,727円）\n- 最大損失口座：H-Sagitarius（−218,431円）\n\n記録先：[2026-W41 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W41 週次成績.md>)",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
+      "name": "口座別週次成績集計",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "30 9 * * 6",
+      "next_run": "2026-10-17T00:30:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-10T00:30:06Z",
+        "completed_at": "2026-10-10T00:31:33Z",
+        "duration_seconds": 87,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "7dc30a8c-9f0a-44f2-ab9b-78af1d4bbbca",
+      "name": "ブリッジEAチェック(sonnet)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "30 8 * * *",
+      "next_run": "2026-10-10T09:00:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-10T04:00:17Z",
+        "completed_at": "2026-10-10T04:04:12Z",
+        "duration_seconds": 235,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "9f5533c0-f5df-46e0-b080-7a7f01acc4b4",
+      "name": "残高推移グラフ更新(sonnet)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "0 23 * * *",
+      "next_run": "2026-10-10T14:00:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-09T14:00:20Z",
+        "completed_at": "2026-10-09T14:00:48Z",
+        "duration_seconds": 28,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "52f70532-6a7a-4858-9e0c-2770689f6c31",
+      "name": "EA-PO推移グラフ更新(sonnet)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "50 23 * * *",
+      "next_run": "2026-10-10T14:50:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-09T14:50:15Z",
+        "completed_at": "2026-10-09T14:50:28Z",
+        "duration_seconds": 13,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "e215716d-e7bd-4178-878a-2f7a7b338d6d",
+      "name": "Real Trade 成績(hermes/longcat)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "30 8,12,15,18,22 * * *",
+      "next_run": "2026-10-10T06:30:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-10T03:30:21Z",
+        "completed_at": "2026-10-10T03:31:35Z",
+        "duration_seconds": 74,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "cdf42764-b7e4-4209-af28-8548e206055d",
+      "name": "EA-PO実績(hermes/longcat)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "30 23 * * *",
+      "next_run": "2026-10-10T14:30:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-09T14:30:11Z",
+        "completed_at": "2026-10-09T14:31:41Z",
+        "duration_seconds": 90,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "697b872e-d70b-4fcb-8183-7bc5573dd7ba",
+      "name": "朝のブリーフィング(hermes/longcat)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "40 7 * * *",
+      "next_run": "2026-10-10T22:40:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-09T22:40:12Z",
+        "completed_at": "2026-10-09T22:47:25Z",
+        "duration_seconds": 433,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "68bf8647-9742-4535-8536-66d5071b9ccc",
+      "name": "マーケットウオッチ(hermes/ling-fin)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "0 */4 * * *",
+      "next_run": "2026-10-10T07:00:00Z",
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-10-10T03:00:10Z",
+        "completed_at": "2026-10-10T03:03:31Z",
+        "duration_seconds": 201,
+        "output": "",
         "inferred_failure": false
       }
     },
