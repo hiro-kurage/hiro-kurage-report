@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T23:50:23.749465+09:00",
+  "updated_at": "2026-10-11T23:50:29.300747+09:00",
   "base_date": "2026-09-01",
   "dates": [
     "2026-09-01",
@@ -41,7 +41,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
   ],
   "eas": [
     {
@@ -212,6 +213,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -385,6 +390,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": null
         }
       ]
     },
@@ -556,6 +565,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -729,6 +742,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 1117
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 1117
         }
       ]
     },
@@ -900,6 +917,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -1073,6 +1094,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": null
         }
       ]
     },
@@ -1244,6 +1269,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -1417,6 +1446,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 3346
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 3346
         }
       ]
     },
@@ -1588,6 +1621,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 440
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 440
         }
       ]
@@ -1761,6 +1798,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 690
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 690
         }
       ]
     },
@@ -1932,6 +1973,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 48914
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 48914
         }
       ]
@@ -2105,6 +2150,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 50
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 50
         }
       ]
     },
@@ -2276,6 +2325,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 80
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 80
         }
       ]
@@ -2449,6 +2502,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": -13
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": -13
         }
       ]
     },
@@ -2620,6 +2677,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": -31
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": -31
         }
       ]
@@ -2793,6 +2854,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 44
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 44
         }
       ]
     },
@@ -2964,6 +3029,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 32
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 32
         }
       ]
@@ -3137,6 +3206,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": -13
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": -13
         }
       ]
     },
@@ -3308,6 +3381,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -3481,6 +3558,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": -2810
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": -2810
         }
       ]
     },
@@ -3652,6 +3733,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -3825,6 +3910,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": null
         }
       ]
     },
@@ -3996,6 +4085,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -4169,6 +4262,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": null
         }
       ]
     },
@@ -4340,6 +4437,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -4513,6 +4614,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 807
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 807
         }
       ]
     },
@@ -4684,6 +4789,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": -266061
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": -266061
         }
       ]
@@ -4857,6 +4966,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": null
         }
       ]
     },
@@ -5028,6 +5141,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": -119877
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": -119877
         }
       ]
@@ -5201,6 +5318,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 11574
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 11574
         }
       ]
     },
@@ -5372,6 +5493,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 15653
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 15653
         }
       ]
@@ -5545,6 +5670,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 31198
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 31198
         }
       ]
     },
@@ -5716,6 +5845,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 10000
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 10000
         }
       ]
@@ -5889,6 +6022,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": -3060
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": -3060
         }
       ]
     },
@@ -6060,6 +6197,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 3585
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 3585
         }
       ]
@@ -6233,6 +6374,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": null
         }
       ]
     },
@@ -6404,6 +6549,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -6577,6 +6726,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 6750
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 6750
         }
       ]
     },
@@ -6748,6 +6901,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": -2536
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": -2536
         }
       ]
@@ -6921,6 +7078,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 4015
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 4015
         }
       ]
     },
@@ -7092,6 +7253,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -7265,6 +7430,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": null
         }
       ]
     },
@@ -7436,6 +7605,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 1144
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 1144
         }
       ]
@@ -7609,6 +7782,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": -873
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": -873
         }
       ]
     },
@@ -7780,6 +7957,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -7953,6 +8134,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 1976
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 1976
         }
       ]
     },
@@ -8124,6 +8309,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": null
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": null
         }
       ]
@@ -8297,6 +8486,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": 262
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": 262
         }
       ]
     },
@@ -8468,6 +8661,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": -40362
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": -40362
         }
       ]
@@ -8641,6 +8838,10 @@
         {
           "date": "2026-10-10",
           "cumulative_jpy": -212889
+        },
+        {
+          "date": "2026-10-11",
+          "cumulative_jpy": -212889
         }
       ]
     },
@@ -8812,6 +9013,10 @@
         },
         {
           "date": "2026-10-10",
+          "cumulative_jpy": 208
+        },
+        {
+          "date": "2026-10-11",
           "cumulative_jpy": 208
         }
       ]
