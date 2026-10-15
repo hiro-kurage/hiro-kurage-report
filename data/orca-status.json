@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T14:00:13.587105+00:00",
+  "updated_at": "2026-10-15T14:15:10.992027+00:00",
   "automations": [
     {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
@@ -23,12 +23,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-10-15T14:00:00Z",
+      "next_run": "2026-10-15T23:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-15T09:00:31Z",
-        "completed_at": "2026-10-15T09:07:08Z",
-        "duration_seconds": 397,
+        "started_at": "2026-10-15T14:00:24Z",
+        "completed_at": "2026-10-15T14:14:33Z",
+        "duration_seconds": 849,
         "output": "",
         "inferred_failure": false
       }
@@ -39,13 +39,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 23 * * *",
-      "next_run": "2026-10-15T14:00:00Z",
+      "next_run": "2026-10-16T14:00:00Z",
       "last_run": {
-        "status": "failed",
-        "started_at": "2026-10-14T14:00:33Z",
-        "completed_at": "2026-10-14T14:01:06Z",
-        "duration_seconds": 33,
-        "output": "start task failed: Post \"https://api.multica.ai/api/daemon/tasks/01a13ab6-ff45-776f-8a64-13cdb01a01e6/start\": context deadline exceeded",
+        "status": "completed",
+        "started_at": "2026-10-15T14:00:27Z",
+        "completed_at": "2026-10-15T14:00:56Z",
+        "duration_seconds": 29,
+        "output": "",
         "inferred_failure": false
       }
     },
