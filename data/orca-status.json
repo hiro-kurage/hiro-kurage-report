@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T00:00:13.681274+00:00",
+  "updated_at": "2026-10-17T00:15:13.038671+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -135,13 +135,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1792195200000,
+      "next_run": 1792800000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-10T00:00:05.889000+00:00",
-        "completed_at": "2026-10-10T00:00:17.394000+00:00",
-        "duration_seconds": 12,
-        "output": "認しました。\n\n- 期間：10月5日（月）〜10月9日（金）\n- 推定残高ベース週次増減：**−698,139円**\n- 円建て口座の週次増減：−651,005円\n- USD建て口座（X-MGR）：−294.59 USD\n- 最大利益口座：Sagitariusマイクロ（+12,727円）\n- 最大損失口座：H-Sagitarius（−218,431円）\n\n記録先：[2026-W41 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W41 週次成績.md>)",
+        "started_at": "2026-10-17T00:00:32.685000+00:00",
+        "completed_at": "2026-10-17T00:00:45.694000+00:00",
+        "duration_seconds": 13,
+        "output": "2026-W42の週次成績を作成し、内容を確認しました。\n\n- 期間：2026/10/12〜10/16\n- 推定残高ベース：**+29,807円**\n- 円建て口座：**+29,645円**、USD建て口座：**+1.01 USD**\n- 最大利益：XTRDスタンダード **+30,145円**\n- 最大損失：H-Sagitarius **−9,841円**\n\n[2026-W42 週次成績.md](</Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/2026-W42 週次成績.md>)",
         "inferred_failure": false
       }
     },
