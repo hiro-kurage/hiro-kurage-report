@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T07:45:13.224204+00:00",
+  "updated_at": "2026-10-18T08:00:14.559323+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -146,6 +146,15 @@
       }
     },
     {
+      "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
+      "name": "口座別集計",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "0 9 * * *",
+      "next_run": "2026-10-19T00:00:00Z",
+      "last_run": null
+    },
+    {
       "id": "18ba6397-fe80-46c0-bb48-7e52803e32e1",
       "name": "口座別週次成績集計",
       "provider": "multica",
@@ -213,7 +222,7 @@
       "id": "e215716d-e7bd-4178-878a-2f7a7b338d6d",
       "name": "Real Trade 成績(hermes/longcat)",
       "provider": "multica",
-      "enabled": true,
+      "enabled": false,
       "schedule": "30 8,12,15,18,22 * * *",
       "next_run": "2026-10-18T09:30:00Z",
       "last_run": {
@@ -229,7 +238,7 @@
       "id": "cdf42764-b7e4-4209-af28-8548e206055d",
       "name": "EA-PO実績(hermes/longcat)",
       "provider": "multica",
-      "enabled": true,
+      "enabled": false,
       "schedule": "30 23 * * *",
       "next_run": "2026-10-18T14:30:00Z",
       "last_run": {
