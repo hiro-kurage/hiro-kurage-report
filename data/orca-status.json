@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:00:14.559323+00:00",
+  "updated_at": "2026-10-18T08:15:14.625890+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -150,8 +150,8 @@
       "name": "口座別集計",
       "provider": "multica",
       "enabled": true,
-      "schedule": "0 9 * * *",
-      "next_run": "2026-10-19T00:00:00Z",
+      "schedule": "0 */2 * * *",
+      "next_run": "2026-10-18T09:00:00Z",
       "last_run": null
     },
     {
