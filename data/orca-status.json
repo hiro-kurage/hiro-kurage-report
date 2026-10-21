@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T14:45:12.694757+00:00",
+  "updated_at": "2026-10-21T15:00:12.389763+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -71,13 +71,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "50 23 * * *",
-      "next_run": "2026-10-21T14:50:00Z",
+      "next_run": "2026-10-22T14:50:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-10-20T14:50:14Z",
-        "completed_at": "2026-10-20T14:50:25Z",
-        "duration_seconds": 11,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-10-21T14:50:29Z",
+        "completed_at": "2026-10-21T14:50:33Z",
+        "duration_seconds": 4,
+        "output": "Failed to authenticate: OAuth session expired and could not be refreshed",
         "inferred_failure": false
       }
     },
