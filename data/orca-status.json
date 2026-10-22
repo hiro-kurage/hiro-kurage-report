@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T07:00:12.121916+00:00",
+  "updated_at": "2026-10-22T07:15:13.112937+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -7,12 +7,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-10-22T07:00:00Z",
+      "next_run": "2026-10-22T09:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-22T05:00:28Z",
-        "completed_at": "2026-10-22T05:01:45Z",
-        "duration_seconds": 77,
+        "started_at": "2026-10-22T07:00:16Z",
+        "completed_at": "2026-10-22T07:01:38Z",
+        "duration_seconds": 82,
         "output": "",
         "inferred_failure": false
       }
@@ -135,12 +135,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-10-22T07:00:00Z",
+      "next_run": "2026-10-22T11:00:00Z",
       "last_run": {
         "status": "failed",
-        "started_at": "2026-10-22T03:00:25Z",
-        "completed_at": "2026-10-22T03:00:33Z",
-        "duration_seconds": 8,
+        "started_at": "2026-10-22T07:00:11Z",
+        "completed_at": "2026-10-22T07:00:18Z",
+        "duration_seconds": 7,
         "output": "hermes provider error: <html>",
         "inferred_failure": false
       }
