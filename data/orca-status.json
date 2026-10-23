@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:00:13.643562+00:00",
+  "updated_at": "2026-10-23T03:15:12.762851+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -7,12 +7,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-10-23T03:00:00Z",
+      "next_run": "2026-10-23T05:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-23T01:00:42Z",
-        "completed_at": "2026-10-23T01:01:36Z",
-        "duration_seconds": 54,
+        "started_at": "2026-10-23T03:00:29Z",
+        "completed_at": "2026-10-23T03:01:51Z",
+        "duration_seconds": 82,
         "output": "",
         "inferred_failure": false
       }
@@ -135,11 +135,11 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-10-23T03:00:00Z",
+      "next_run": "2026-10-23T07:00:00Z",
       "last_run": {
         "status": "failed",
-        "started_at": "2026-10-22T23:00:08Z",
-        "completed_at": "2026-10-22T23:00:15Z",
+        "started_at": "2026-10-23T03:00:25Z",
+        "completed_at": "2026-10-23T03:00:32Z",
         "duration_seconds": 7,
         "output": "hermes provider error: <html>",
         "inferred_failure": false
