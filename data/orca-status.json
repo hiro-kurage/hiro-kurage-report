@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T09:00:13.091615+00:00",
+  "updated_at": "2026-10-24T09:15:14.472667+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -7,12 +7,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-10-24T09:00:00Z",
+      "next_run": "2026-10-24T11:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-24T07:00:13Z",
-        "completed_at": "2026-10-24T07:02:46Z",
-        "duration_seconds": 153,
+        "started_at": "2026-10-24T09:00:23Z",
+        "completed_at": "2026-10-24T09:01:47Z",
+        "duration_seconds": 84,
         "output": "",
         "inferred_failure": false
       }
@@ -39,12 +39,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-10-24T09:00:00Z",
+      "next_run": "2026-10-24T14:00:00Z",
       "last_run": {
         "status": "failed",
-        "started_at": "2026-10-24T04:00:29Z",
-        "completed_at": "2026-10-24T04:00:31Z",
-        "duration_seconds": 2,
+        "started_at": "2026-10-24T09:00:28Z",
+        "completed_at": "2026-10-24T09:00:31Z",
+        "duration_seconds": 3,
         "output": "Failed to authenticate: OAuth session expired and could not be refreshed",
         "inferred_failure": false
       }
