@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T12:00:14.937993+00:00",
+  "updated_at": "2026-10-24T12:15:14.676138+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -137,11 +137,11 @@
       "schedule": "0 */4 * * *",
       "next_run": "2026-10-24T15:00:00Z",
       "last_run": {
-        "status": "failed",
-        "started_at": "2026-10-24T11:00:20Z",
-        "completed_at": "2026-10-24T11:00:28Z",
-        "duration_seconds": 8,
-        "output": "hermes provider error: <html>",
+        "status": "completed",
+        "started_at": "2026-10-24T12:10:33Z",
+        "completed_at": "2026-10-24T12:12:41Z",
+        "duration_seconds": 128,
+        "output": "",
         "inferred_failure": false
       }
     },
