@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T14:00:15.148677+00:00",
+  "updated_at": "2026-10-25T14:15:10.472694+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -39,12 +39,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-10-25T14:00:00Z",
+      "next_run": "2026-10-25T23:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-25T09:00:20Z",
-        "completed_at": "2026-10-25T09:00:40Z",
-        "duration_seconds": 20,
+        "started_at": "2026-10-25T14:00:29Z",
+        "completed_at": "2026-10-25T14:01:15Z",
+        "duration_seconds": 46,
         "output": "",
         "inferred_failure": false
       }
@@ -55,12 +55,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 23 * * *",
-      "next_run": "2026-10-25T14:00:00Z",
+      "next_run": "2026-10-26T14:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-10-24T14:00:25Z",
-        "completed_at": "2026-10-24T14:00:35Z",
-        "duration_seconds": 10,
+        "started_at": "2026-10-25T14:00:30Z",
+        "completed_at": "2026-10-25T14:00:50Z",
+        "duration_seconds": 20,
         "output": "",
         "inferred_failure": false
       }
@@ -77,38 +77,6 @@
         "started_at": "2026-10-24T14:50:27Z",
         "completed_at": "2026-10-24T14:50:39Z",
         "duration_seconds": 12,
-        "output": "",
-        "inferred_failure": false
-      }
-    },
-    {
-      "id": "e215716d-e7bd-4178-878a-2f7a7b338d6d",
-      "name": "Real Trade 成績(hermes/longcat)",
-      "provider": "multica",
-      "enabled": false,
-      "schedule": "30 8,12,15,18,22 * * *",
-      "next_run": "2026-10-18T09:30:00Z",
-      "last_run": {
-        "status": "completed",
-        "started_at": "2026-10-18T06:30:24Z",
-        "completed_at": "2026-10-18T06:31:04Z",
-        "duration_seconds": 40,
-        "output": "",
-        "inferred_failure": false
-      }
-    },
-    {
-      "id": "cdf42764-b7e4-4209-af28-8548e206055d",
-      "name": "EA-PO実績(hermes/longcat)",
-      "provider": "multica",
-      "enabled": false,
-      "schedule": "30 23 * * *",
-      "next_run": "2026-10-18T14:30:00Z",
-      "last_run": {
-        "status": "completed",
-        "started_at": "2026-10-17T14:30:12Z",
-        "completed_at": "2026-10-17T14:31:08Z",
-        "duration_seconds": 56,
         "output": "",
         "inferred_failure": false
       }
