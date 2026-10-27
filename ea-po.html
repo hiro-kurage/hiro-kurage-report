@@ -538,7 +538,7 @@ function fmtPL(v) {
 }
 
 function eaLabel(ea) {
-  return ea.ea_name || `magic:${ea.magic}`;
+  return ea.ea_name ? `${ea.ea_name} (${ea.magic})` : ea.magic;
 }
 
 function escHtml(s) {
