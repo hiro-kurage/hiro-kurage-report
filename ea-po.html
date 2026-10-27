@@ -366,7 +366,7 @@ function buildSidebar() {
       item.innerHTML = [
         '<input type="checkbox" class="ea-checkbox" checked data-key="' + ea.key + '" onchange="onCheck()">',
         '<span class="ea-swatch" style="background:' + colorMap[ea.key] + '"></span>',
-        '<span class="ea-label">' + escHtml(ea.ea_name) + '</span>',
+        '<span class="ea-label">' + escHtml(eaLabel(ea)) + '</span>',
         '<span class="ea-pl ' + (last >= 0 ? 'pos' : 'neg') + '">' + fmtPL(last) + '</span>',
       ].join('');
       list.appendChild(item);
@@ -396,7 +396,7 @@ function buildChart() {
   const datasets = allData.eas
     .filter(ea => checked.has(ea.key))
     .map(ea => ({
-      label: ea.ea_name,
+      label: eaLabel(ea),
       data: ea.series.map(s => s.cumulative_jpy),
       borderColor: colorMap[ea.key],
       backgroundColor: colorMap[ea.key] + '22',
@@ -511,7 +511,7 @@ function buildTable() {
     const pfClass = ea.pf == null ? '' : ea.pf >= 1.0 ? 'pf-good' : 'pf-bad';
     tr.innerHTML = [
       '<td><div class="swatch-cell"><div class="tbl-swatch" style="background:' + colorMap[ea.key] + '"></div></div></td>',
-      '<td>' + escHtml(ea.ea_name) + '</td>',
+      '<td>' + escHtml(eaLabel(ea)) + '</td>',
       '<td style="color:var(--text-sub);font-size:0.75rem">' + escHtml(ea.account_name) + '</td>',
       '<td class="num" style="color:var(--text-sub)">' + wr + '</td>',
       '<td class="num ' + pfClass + '">' + pf + '</td>',
@@ -535,6 +535,10 @@ function fmtPL(v) {
   if (v == null) return '—';
   const s = Math.round(v).toLocaleString('ja-JP');
   return (v >= 0 ? '+' : '') + s + '円';
+}
+
+function eaLabel(ea) {
+  return ea.ea_name || `magic:${ea.magic}`;
 }
 
 function escHtml(s) {
