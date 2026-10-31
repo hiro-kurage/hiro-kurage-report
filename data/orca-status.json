@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T00:30:12.199126+00:00",
+  "updated_at": "2026-10-31T00:45:11.647664+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -103,13 +103,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1793406600000,
+      "next_run": 1794011400000,
       "last_run": {
-        "status": "skipped_missed",
-        "started_at": "2026-10-31T00:05:28.959000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": "",
+        "status": "completed",
+        "started_at": "2026-10-31T00:30:28.450000+00:00",
+        "completed_at": "2026-10-31T00:30:51.932000+00:00",
+        "duration_seconds": 23,
+        "output": "Documents/iCloud~md~obsidian/Documents/iclouddriver/` です。各ファイルは H1(左)と日足(右)を横に並べた1枚の画像です。\n\nデータは10/30(金)21:00のH1足までです。今日は土曜でマーケットが閉まっているため、これが最新になります。\n\n画像で確認したのはUSDJPYだけです。EURUSDは生成と保存まで行いましたが、中身は見ていません。\n\nObsidianフォルダは、他のスキルが使っている上記のiCloudのパスを使いました。`/Volumes/share/Obsidian` は「バックアップ」と書かれていたので使っていません。",
         "inferred_failure": false
       }
     },
@@ -167,13 +167,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 9 * * 6",
-      "next_run": "2026-10-31T00:30:00Z",
+      "next_run": "2026-11-07T00:30:00Z",
       "last_run": {
-        "status": "failed",
-        "started_at": "2026-10-24T00:30:19Z",
-        "completed_at": "2026-10-24T00:30:21Z",
-        "duration_seconds": 2,
-        "output": "Failed to authenticate: OAuth session expired and could not be refreshed",
+        "status": "completed",
+        "started_at": "2026-10-31T00:30:05Z",
+        "completed_at": "2026-10-31T00:30:25Z",
+        "duration_seconds": 20,
+        "output": "",
         "inferred_failure": false
       }
     },
