@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T23:50:38.484385+09:00",
+  "updated_at": "2026-10-31T23:50:32.505058+09:00",
   "base_date": "2026-10-25",
   "dates": [
     "2026-10-25",
@@ -7,7 +7,8 @@
     "2026-10-27",
     "2026-10-28",
     "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
   "eas": [
     {
@@ -48,6 +49,11 @@
         },
         {
           "date": "2026-10-30",
+          "daily_jpy": null,
+          "cumulative_jpy": 213.0
+        },
+        {
+          "date": "2026-10-31",
           "daily_jpy": null,
           "cumulative_jpy": 213.0
         }
@@ -93,6 +99,11 @@
           "date": "2026-10-30",
           "daily_jpy": null,
           "cumulative_jpy": 19.0
+        },
+        {
+          "date": "2026-10-31",
+          "daily_jpy": null,
+          "cumulative_jpy": 19.0
         }
       ]
     },
@@ -105,7 +116,7 @@
       "ea_name": null,
       "win_rate": 0.0,
       "pf": 0.0,
-      "total_trades": 1,
+      "total_trades": 2,
       "series": [
         {
           "date": "2026-10-25",
@@ -136,6 +147,11 @@
           "date": "2026-10-30",
           "daily_jpy": null,
           "cumulative_jpy": -4.0
+        },
+        {
+          "date": "2026-10-31",
+          "daily_jpy": -5.0,
+          "cumulative_jpy": -9.0
         }
       ]
     }
