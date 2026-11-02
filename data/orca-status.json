@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T09:00:10.193223+00:00",
+  "updated_at": "2026-11-02T09:15:10.394363+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -7,11 +7,11 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-11-02T09:00:00Z",
+      "next_run": "2026-11-02T11:00:00Z",
       "last_run": {
         "status": "failed",
-        "started_at": "2026-11-02T07:00:29Z",
-        "completed_at": "2026-11-02T07:00:30Z",
+        "started_at": "2026-11-02T09:00:31Z",
+        "completed_at": "2026-11-02T09:00:32Z",
         "duration_seconds": 1,
         "output": "local_directory: read \"/Users/hiro/Documents/cloude/AccountReport\": open /Users/hiro/Documents/cloude/AccountReport: operation not permitted",
         "inferred_failure": false
@@ -39,12 +39,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-11-02T09:00:00Z",
+      "next_run": "2026-11-02T14:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-02T04:00:26Z",
-        "completed_at": "2026-11-02T04:03:54Z",
-        "duration_seconds": 208,
+        "started_at": "2026-11-02T09:00:39Z",
+        "completed_at": "2026-11-02T09:01:11Z",
+        "duration_seconds": 32,
         "output": "",
         "inferred_failure": false
       }
