@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T14:00:10.581041+00:00",
+  "updated_at": "2026-11-02T14:15:13.283285+00:00",
   "automations": [
     {
       "id": "c71a662f-8bf2-4d2b-b0ed-1a1bdfcc290d",
@@ -39,12 +39,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-11-02T14:00:00Z",
+      "next_run": "2026-11-02T23:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-02T13:52:27Z",
-        "completed_at": "2026-11-02T13:56:22Z",
-        "duration_seconds": 235,
+        "started_at": "2026-11-02T14:00:34Z",
+        "completed_at": "2026-11-02T14:01:21Z",
+        "duration_seconds": 47,
         "output": "",
         "inferred_failure": false
       }
@@ -55,12 +55,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 23 * * *",
-      "next_run": "2026-11-02T14:00:00Z",
+      "next_run": "2026-11-03T14:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-01T14:00:33Z",
-        "completed_at": "2026-11-01T14:00:53Z",
-        "duration_seconds": 20,
+        "started_at": "2026-11-02T14:00:37Z",
+        "completed_at": "2026-11-02T14:00:50Z",
+        "duration_seconds": 13,
         "output": "",
         "inferred_failure": false
       }
