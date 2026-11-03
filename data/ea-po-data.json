@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T23:50:40.459066+09:00",
+  "updated_at": "2026-11-03T14:01:03.058153+09:00",
   "base_date": "2026-10-25",
   "dates": [
     "2026-10-25",
@@ -10,7 +10,8 @@
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
   "eas": [
     {
@@ -20,9 +21,9 @@
       "currency": "JPY",
       "magic": "20260522",
       "ea_name": null,
-      "win_rate": 47.8,
-      "pf": 2.26,
-      "total_trades": 23,
+      "win_rate": 50.0,
+      "pf": 2.31,
+      "total_trades": 24,
       "series": [
         {
           "date": "2026-10-25",
@@ -68,6 +69,11 @@
           "date": "2026-11-02",
           "daily_jpy": null,
           "cumulative_jpy": 213.0
+        },
+        {
+          "date": "2026-11-03",
+          "daily_jpy": 9.0,
+          "cumulative_jpy": 222.0
         }
       ]
     },
@@ -126,6 +132,11 @@
           "date": "2026-11-02",
           "daily_jpy": null,
           "cumulative_jpy": 19.0
+        },
+        {
+          "date": "2026-11-03",
+          "daily_jpy": null,
+          "cumulative_jpy": 19.0
         }
       ]
     },
@@ -182,6 +193,11 @@
         },
         {
           "date": "2026-11-02",
+          "daily_jpy": null,
+          "cumulative_jpy": -9.0
+        },
+        {
+          "date": "2026-11-03",
           "daily_jpy": null,
           "cumulative_jpy": -9.0
         }
