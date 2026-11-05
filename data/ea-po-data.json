@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T10:01:25.066640+09:00",
+  "updated_at": "2026-11-05T23:50:23.778812+09:00",
   "base_date": "2026-10-25",
   "dates": [
     "2026-10-25",
@@ -23,9 +23,9 @@
       "currency": "JPY",
       "magic": "20260522",
       "ea_name": null,
-      "win_rate": 50.0,
-      "pf": 1.99,
-      "total_trades": 60,
+      "win_rate": 52.9,
+      "pf": 2.04,
+      "total_trades": 70,
       "series": [
         {
           "date": "2026-10-25",
@@ -84,8 +84,8 @@
         },
         {
           "date": "2026-11-05",
-          "daily_jpy": 276.0,
-          "cumulative_jpy": 4318.0
+          "daily_jpy": 537.0,
+          "cumulative_jpy": 4579.0
         }
       ]
     },
