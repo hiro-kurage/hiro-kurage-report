@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T23:50:28.560947+09:00",
+  "updated_at": "2026-11-05T10:01:25.066640+09:00",
   "base_date": "2026-10-25",
   "dates": [
     "2026-10-25",
@@ -12,7 +12,8 @@
     "2026-11-01",
     "2026-11-02",
     "2026-11-03",
-    "2026-11-04"
+    "2026-11-04",
+    "2026-11-05"
   ],
   "eas": [
     {
@@ -22,9 +23,9 @@
       "currency": "JPY",
       "magic": "20260522",
       "ea_name": null,
-      "win_rate": 56.1,
-      "pf": 2.94,
-      "total_trades": 41,
+      "win_rate": 50.0,
+      "pf": 1.99,
+      "total_trades": 60,
       "series": [
         {
           "date": "2026-10-25",
@@ -78,8 +79,13 @@
         },
         {
           "date": "2026-11-04",
-          "daily_jpy": 229.0,
-          "cumulative_jpy": 487.0
+          "daily_jpy": 3784.0,
+          "cumulative_jpy": 4042.0
+        },
+        {
+          "date": "2026-11-05",
+          "daily_jpy": 276.0,
+          "cumulative_jpy": 4318.0
         }
       ]
     },
@@ -146,6 +152,11 @@
         },
         {
           "date": "2026-11-04",
+          "daily_jpy": null,
+          "cumulative_jpy": 19.0
+        },
+        {
+          "date": "2026-11-05",
           "daily_jpy": null,
           "cumulative_jpy": 19.0
         }
@@ -215,6 +226,11 @@
         {
           "date": "2026-11-04",
           "daily_jpy": -5.0,
+          "cumulative_jpy": -5.0
+        },
+        {
+          "date": "2026-11-05",
+          "daily_jpy": null,
           "cumulative_jpy": -5.0
         }
       ]
