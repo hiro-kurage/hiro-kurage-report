@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T03:00:13.810900+00:00",
+  "updated_at": "2026-11-07T03:15:13.137407+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -151,12 +151,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */3 * * *",
-      "next_run": "2026-11-07T03:00:00Z",
+      "next_run": "2026-11-07T06:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-07T00:00:27Z",
-        "completed_at": "2026-11-07T00:01:47Z",
-        "duration_seconds": 80,
+        "started_at": "2026-11-07T03:00:24Z",
+        "completed_at": "2026-11-07T03:01:53Z",
+        "duration_seconds": 89,
         "output": "",
         "inferred_failure": false
       }
@@ -167,13 +167,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-11-07T03:00:00Z",
+      "next_run": "2026-11-07T05:00:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-11-07T01:00:40Z",
-        "completed_at": "2026-11-07T01:01:49Z",
-        "duration_seconds": 69,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-11-07T03:00:23Z",
+        "completed_at": "2026-11-07T03:00:25Z",
+        "duration_seconds": 2,
+        "output": "local_directory: read \"/Users/hiro/Documents/cloude/AccountReport\": open /Users/hiro/Documents/cloude/AccountReport: operation not permitted",
         "inferred_failure": false
       }
     },
@@ -263,12 +263,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-11-07T03:00:00Z",
+      "next_run": "2026-11-07T07:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-06T23:00:19Z",
-        "completed_at": "2026-11-06T23:02:29Z",
-        "duration_seconds": 130,
+        "started_at": "2026-11-07T03:00:18Z",
+        "completed_at": "2026-11-07T03:02:18Z",
+        "duration_seconds": 120,
         "output": "",
         "inferred_failure": false
       }
