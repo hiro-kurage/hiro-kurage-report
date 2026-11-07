@@ -1,6 +1,150 @@
 {
-  "updated_at": "2026-11-07T02:30:11.731258+00:00",
+  "updated_at": "2026-11-07T02:45:13.775876+00:00",
   "automations": [
+    {
+      "id": "bb76daca-919c-46ef-af05-f7610e688192",
+      "name": "ブログ記事の作成(claude)",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1794619800000,
+      "last_run": {
+        "status": "skipped_unavailable",
+        "started_at": "2026-11-07T02:40:19.982000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "e674caa9-15af-4d73-a119-6c308dc54feb",
+      "name": "マーケットウォッチ",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1789916400000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-09-18T13:00:50.559000+00:00",
+        "completed_at": "2026-09-18T13:05:09.376000+00:00",
+        "duration_seconds": 259,
+        "output": "22:30ボウマンFRB副議長・23:00米景気先行指数・翌0:45シュミット連銀総裁とイベント続く\n- 158円台は8月の日米協調介入水準に接近＋シルバーウィーク薄商いで介入リスク警戒。イベント跨ぎ・週末持ち越しの新規ポジション・grid/martingale追加・breakout追随は停止検討（設定変更・停止は実行していない旨明記）\n\n見出しは `22:00 → 20:00 → 18:00 → 16:00 → 15:00 → 14:00 → 12:00 → 10:00 → 08:00 → 06:00 → 04:00 → 02:00 → 00:00 JST` の逆時系列で、重複はありません。",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "9d165f15-fd17-46cc-98be-fa71b2f4b0a8",
+      "name": "マーケット分析(codex)12:45",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790394300000,
+      "last_run": {
+        "status": "skipped_unavailable",
+        "started_at": "2026-09-25T08:29:45.236000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "45a69dc1-9b13-4634-b45d-5fdcfb5373ef",
+      "name": "マーケット分析(codex)17:45",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790325900000,
+      "last_run": {
+        "status": "skipped_unavailable",
+        "started_at": "2026-09-24T12:19:37.408000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "7a991f80-fa02-4886-8e6d-b592c7f2e92e",
+      "name": "マーケット分析(gemini)08:15",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790378100000,
+      "last_run": {
+        "status": "skipped_unavailable",
+        "started_at": "2026-09-25T08:29:45.329000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "bc3cf731-5735-4072-b05d-8c49886857b4",
+      "name": "マーケット分析(Gemini)22:45",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1790343900000,
+      "last_run": {
+        "status": "skipped_missed",
+        "started_at": "2026-09-25T08:29:45.422000+00:00",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "2d4a2789-ba67-4eb8-a363-882f889aebbc",
+      "name": "今週のチャート作成(claude)",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1794616200000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-11-07T02:40:20.340000+00:00",
+        "completed_at": "2026-11-07T02:40:42.959000+00:00",
+        "duration_seconds": 23,
+        "output": "- 保存先は `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/` です。\n- ファイル名は `2026-11-07-USDJPY.png` と `2026-11-07-EURUSD.png` です。\n- 各チャートは、左にH1（SMA10/30）、右に日足（SMA20/200）を並べた横長の画像です。\n- データは11/6(金) 22:00のH1足までです。今日は土曜で市場が休みなので、これが最新です。\n- 元の画像は `RemoteBridgeEA/charts/` にもあります。",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "34c3aedc-1660-4f78-a9fd-a7944f4854c8",
+      "name": "残高推移グラフの作成(claude)",
+      "provider": "",
+      "enabled": false,
+      "schedule": "",
+      "next_run": 1789829700000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-09-18T15:12:47.755000+00:00",
+        "completed_at": "2026-09-18T15:12:57.844000+00:00",
+        "duration_seconds": 10,
+        "output": "2026年9月の残高推移グラフを生成し、Obsidianフォルダに保存しました。\n\n- 保存先: `iclouddriver/2026-09 残高推移.jpg`\n- 月初比: +5.09%（月初 1,953,450円 → 直近 2,052,790円）\n- 前日比: +0.58%",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "6caaeeb1-5578-43db-88f0-3e0df02da1fc",
+      "name": "週次成績の取りまとめ(claude)",
+      "provider": "",
+      "enabled": true,
+      "schedule": "",
+      "next_run": 1794614400000,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-11-07T02:40:20.835000+00:00",
+        "completed_at": "2026-11-07T02:40:43.378000+00:00",
+        "duration_seconds": 23,
+        "output": "今週は**2026年W45**（11月2日〜6日）ですが、週次成績を作成できませんでした。集計に必要な日次記録が見つかりません。\n\n不足している記録：2026-10-30、2026-11-02〜2026-11-06の「Real Trade 成績.md」。元データがないため、数値の推定はしていません。\n\n記録を作成した後、再実行できます。",
+        "inferred_failure": false
+      }
+    },
     {
       "id": "8f703505-6d94-4404-8a1c-7ec28c4fe72c",
       "name": "Obsidian当日ノートをGoogle Driveへ同期",
