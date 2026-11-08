@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T09:00:12.063161+00:00",
+  "updated_at": "2026-11-08T09:15:11.713538+00:00",
   "automations": [
     {
       "id": "8f703505-6d94-4404-8a1c-7ec28c4fe72c",
@@ -7,12 +7,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */3 * * *",
-      "next_run": "2026-11-08T09:00:00Z",
+      "next_run": "2026-11-08T12:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-08T06:00:24Z",
-        "completed_at": "2026-11-08T06:02:04Z",
-        "duration_seconds": 100,
+        "started_at": "2026-11-08T09:00:26Z",
+        "completed_at": "2026-11-08T09:01:57Z",
+        "duration_seconds": 91,
         "output": "",
         "inferred_failure": false
       }
@@ -23,13 +23,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-11-08T09:00:00Z",
+      "next_run": "2026-11-08T11:00:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-11-08T07:00:22Z",
-        "completed_at": "2026-11-08T07:03:41Z",
-        "duration_seconds": 199,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-11-08T09:00:26Z",
+        "completed_at": "2026-11-08T09:00:27Z",
+        "duration_seconds": 1,
+        "output": "local_directory: read \"/Users/hiro/Documents/cloude/AccountReport\": open /Users/hiro/Documents/cloude/AccountReport: operation not permitted",
         "inferred_failure": false
       }
     },
@@ -55,12 +55,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-11-08T09:00:00Z",
+      "next_run": "2026-11-08T14:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-08T04:00:33Z",
-        "completed_at": "2026-11-08T04:32:50Z",
-        "duration_seconds": 1937,
+        "started_at": "2026-11-08T09:00:33Z",
+        "completed_at": "2026-11-08T09:00:59Z",
+        "duration_seconds": 26,
         "output": "",
         "inferred_failure": false
       }
