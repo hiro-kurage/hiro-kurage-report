@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T23:50:41.617334+09:00",
+  "updated_at": "2026-11-08T23:50:34.227033+09:00",
   "base_date": "2026-10-25",
   "dates": [
     "2026-10-25",
@@ -15,7 +15,8 @@
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "eas": [
     {
@@ -96,6 +97,11 @@
         },
         {
           "date": "2026-11-07",
+          "daily_jpy": null,
+          "cumulative_jpy": 7164.0
+        },
+        {
+          "date": "2026-11-08",
           "daily_jpy": null,
           "cumulative_jpy": 7164.0
         }
@@ -181,6 +187,11 @@
           "date": "2026-11-07",
           "daily_jpy": null,
           "cumulative_jpy": 19.0
+        },
+        {
+          "date": "2026-11-08",
+          "daily_jpy": null,
+          "cumulative_jpy": 19.0
         }
       ]
     },
@@ -264,6 +275,11 @@
           "date": "2026-11-07",
           "daily_jpy": null,
           "cumulative_jpy": 9.0
+        },
+        {
+          "date": "2026-11-08",
+          "daily_jpy": null,
+          "cumulative_jpy": 9.0
         }
       ]
     },
@@ -345,6 +361,11 @@
         },
         {
           "date": "2026-11-07",
+          "daily_jpy": null,
+          "cumulative_jpy": -21.0
+        },
+        {
+          "date": "2026-11-08",
           "daily_jpy": null,
           "cumulative_jpy": -21.0
         }
