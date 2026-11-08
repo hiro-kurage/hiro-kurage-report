@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T15:00:11.811705+00:00",
+  "updated_at": "2026-11-08T15:15:12.326318+00:00",
   "automations": [
     {
       "id": "8f703505-6d94-4404-8a1c-7ec28c4fe72c",
@@ -7,12 +7,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */3 * * *",
-      "next_run": "2026-11-08T15:00:00Z",
+      "next_run": "2026-11-08T18:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-08T12:00:25Z",
-        "completed_at": "2026-11-08T12:01:43Z",
-        "duration_seconds": 78,
+        "started_at": "2026-11-08T15:00:25Z",
+        "completed_at": "2026-11-08T15:01:29Z",
+        "duration_seconds": 64,
         "output": "",
         "inferred_failure": false
       }
@@ -23,11 +23,11 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-11-08T15:00:00Z",
+      "next_run": "2026-11-08T17:00:00Z",
       "last_run": {
         "status": "failed",
-        "started_at": "2026-11-08T13:00:24Z",
-        "completed_at": "2026-11-08T13:00:25Z",
+        "started_at": "2026-11-08T15:00:24Z",
+        "completed_at": "2026-11-08T15:00:25Z",
         "duration_seconds": 1,
         "output": "local_directory: read \"/Users/hiro/Documents/cloude/AccountReport\": open /Users/hiro/Documents/cloude/AccountReport: operation not permitted",
         "inferred_failure": false
@@ -119,12 +119,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-11-08T15:00:00Z",
+      "next_run": "2026-11-08T19:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-08T11:00:19Z",
-        "completed_at": "2026-11-08T11:01:50Z",
-        "duration_seconds": 91,
+        "started_at": "2026-11-08T15:00:19Z",
+        "completed_at": "2026-11-08T15:01:45Z",
+        "duration_seconds": 86,
         "output": "",
         "inferred_failure": false
       }
