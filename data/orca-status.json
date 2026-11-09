@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T12:00:11.750213+00:00",
+  "updated_at": "2026-11-09T12:15:11.320112+00:00",
   "automations": [
     {
       "id": "8f703505-6d94-4404-8a1c-7ec28c4fe72c",
@@ -7,13 +7,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */3 * * *",
-      "next_run": "2026-11-09T12:00:00Z",
+      "next_run": "2026-11-09T15:00:00Z",
       "last_run": {
-        "status": "failed",
-        "started_at": "2026-11-09T09:00:29Z",
-        "completed_at": "2026-11-09T09:01:58Z",
-        "duration_seconds": 89,
-        "output": "Selected model is at capacity. Please try a different model.",
+        "status": "completed",
+        "started_at": "2026-11-09T12:00:28Z",
+        "completed_at": "2026-11-09T12:01:55Z",
+        "duration_seconds": 87,
+        "output": "",
         "inferred_failure": false
       }
     },
