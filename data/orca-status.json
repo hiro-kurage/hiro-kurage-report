@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:00:11.583871+00:00",
+  "updated_at": "2026-11-10T03:15:11.633050+00:00",
   "automations": [
     {
       "id": "8f703505-6d94-4404-8a1c-7ec28c4fe72c",
@@ -7,12 +7,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */3 * * *",
-      "next_run": "2026-11-10T03:00:00Z",
+      "next_run": "2026-11-10T06:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-10T00:00:27Z",
-        "completed_at": "2026-11-10T00:01:36Z",
-        "duration_seconds": 69,
+        "started_at": "2026-11-10T03:00:19Z",
+        "completed_at": "2026-11-10T03:01:51Z",
+        "duration_seconds": 92,
         "output": "",
         "inferred_failure": false
       }
@@ -23,13 +23,13 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-11-10T03:00:00Z",
+      "next_run": "2026-11-10T05:00:00Z",
       "last_run": {
-        "status": "completed",
-        "started_at": "2026-11-10T01:00:40Z",
-        "completed_at": "2026-11-10T01:02:37Z",
-        "duration_seconds": 117,
-        "output": "",
+        "status": "failed",
+        "started_at": "2026-11-10T03:00:18Z",
+        "completed_at": "2026-11-10T03:00:19Z",
+        "duration_seconds": 1,
+        "output": "local_directory: read \"/Users/hiro/Documents/cloude/AccountReport\": open /Users/hiro/Documents/cloude/AccountReport: operation not permitted",
         "inferred_failure": false
       }
     },
@@ -119,12 +119,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */4 * * *",
-      "next_run": "2026-11-10T03:00:00Z",
+      "next_run": "2026-11-10T07:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-09T23:00:18Z",
-        "completed_at": "2026-11-09T23:01:53Z",
-        "duration_seconds": 95,
+        "started_at": "2026-11-10T03:00:14Z",
+        "completed_at": "2026-11-10T03:02:31Z",
+        "duration_seconds": 137,
         "output": "",
         "inferred_failure": false
       }
