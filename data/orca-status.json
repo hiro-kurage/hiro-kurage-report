@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T13:45:11.338506+00:00",
+  "updated_at": "2026-11-10T14:00:11.984191+00:00",
   "automations": [
     {
       "id": "8f703505-6d94-4404-8a1c-7ec28c4fe72c",
@@ -25,11 +25,11 @@
       "schedule": "0 */2 * * *",
       "next_run": "2026-11-10T15:00:00Z",
       "last_run": {
-        "status": "failed",
-        "started_at": "2026-11-10T13:00:29Z",
-        "completed_at": "2026-11-10T13:00:30Z",
-        "duration_seconds": 1,
-        "output": "local_directory: read \"/Users/hiro/Documents/cloude/AccountReport\": open /Users/hiro/Documents/cloude/AccountReport: operation not permitted",
+        "status": "issue_created",
+        "started_at": "2026-11-10T13:59:12Z",
+        "completed_at": null,
+        "duration_seconds": null,
+        "output": "",
         "inferred_failure": false
       }
     },
