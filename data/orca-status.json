@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T00:00:14.223501+00:00",
+  "updated_at": "2026-11-14T00:15:14.270371+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -135,13 +135,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1794614400000,
+      "next_run": 1795219200000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-07T02:40:20.835000+00:00",
-        "completed_at": "2026-11-07T02:40:43.378000+00:00",
-        "duration_seconds": 23,
-        "output": "今週は**2026年W45**（11月2日〜6日）ですが、週次成績を作成できませんでした。集計に必要な日次記録が見つかりません。\n\n不足している記録：2026-10-30、2026-11-02〜2026-11-06の「Real Trade 成績.md」。元データがないため、数値の推定はしていません。\n\n記録を作成した後、再実行できます。",
+        "started_at": "2026-11-14T00:00:12.187000+00:00",
+        "completed_at": "2026-11-14T00:00:30.362000+00:00",
+        "duration_seconds": 18,
+        "output": "2026-W46（11月9日〜13日）の週成績は、必要な日次記録が揃っていないため作成できませんでした。週次の数値は算出していません。\n\n不足している記録は、比較日の11月6日と、11月9日〜13日の6ファイルです。日次記録を揃えた後、もう一度作成できます。",
         "inferred_failure": false
       }
     },
@@ -151,12 +151,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */3 * * *",
-      "next_run": "2026-11-14T00:00:00Z",
+      "next_run": "2026-11-14T03:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-13T21:00:29Z",
-        "completed_at": "2026-11-13T21:01:21Z",
-        "duration_seconds": 52,
+        "started_at": "2026-11-14T00:00:26Z",
+        "completed_at": "2026-11-14T00:01:51Z",
+        "duration_seconds": 85,
         "output": "",
         "inferred_failure": false
       }
