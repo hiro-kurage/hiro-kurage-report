@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:30:14.830212+00:00",
+  "updated_at": "2026-11-14T01:45:14.378199+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -7,13 +7,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1794619800000,
+      "next_run": 1795224600000,
       "last_run": {
-        "status": "skipped_unavailable",
-        "started_at": "2026-11-07T02:40:19.982000+00:00",
-        "completed_at": null,
-        "duration_seconds": null,
-        "output": "",
+        "status": "completed",
+        "started_at": "2026-11-14T01:30:12.275000+00:00",
+        "completed_at": "2026-11-14T01:31:31.465000+00:00",
+        "duration_seconds": 79,
+        "output": "定さ、11/11 のスイングEA の TP 決済、ドル円が 160 円に接近した話を入れています。\n\n**価格の一部はチャートからの読み取りです。** 終値は USDJPY が 159.80 円前後、EURUSD が 1.1022 前後です。\n\n- USDJPY の週安値 157.70 円前後と EURUSD の週レンジ（1.1020前後〜1.1250）は、チャートの目視です。\n- USDJPY の高値 160.18 円は、マーケットアローの 11/13 東京為替概況から取りました。\n- 気になる数値があれば直します。\n\nWordPress に下書きとして上げる場合は、続けて依頼してください。",
         "inferred_failure": false
       }
     },
