@@ -1,1610 +1,1681 @@
 {
-  "updated_at": "2026-11-13T23:50:46.207234+09:00",
-  "base_date": "2026-10-25",
-  "dates": [
-    "2026-10-25",
-    "2026-10-26",
-    "2026-10-27",
-    "2026-10-28",
-    "2026-10-29",
-    "2026-10-30",
-    "2026-10-31",
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-04",
-    "2026-11-05",
-    "2026-11-06",
-    "2026-11-07",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-10",
-    "2026-11-11",
-    "2026-11-12",
-    "2026-11-13"
-  ],
-  "eas": [
+ "updated_at": "2026-11-14T23:50:25.757285+09:00",
+ "base_date": "2026-10-25",
+ "dates": [
+  "2026-10-25",
+  "2026-10-26",
+  "2026-10-27",
+  "2026-10-28",
+  "2026-10-29",
+  "2026-10-30",
+  "2026-10-31",
+  "2026-11-01",
+  "2026-11-02",
+  "2026-11-03",
+  "2026-11-04",
+  "2026-11-05",
+  "2026-11-06",
+  "2026-11-07",
+  "2026-11-08",
+  "2026-11-09",
+  "2026-11-10",
+  "2026-11-11",
+  "2026-11-12",
+  "2026-11-13",
+  "2026-11-14"
+ ],
+ "eas": [
+  {
+   "key": "103578_20201008",
+   "account_name": "GWJPNstandard",
+   "account_id": "103578",
+   "currency": "JPY",
+   "magic": "20201008",
+   "ea_name": "SagitariusMusdjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
     {
-      "key": "103578_20201008",
-      "account_name": "GWJPNstandard",
-      "account_id": "103578",
-      "currency": "JPY",
-      "magic": "20201008",
-      "ea_name": "SagitariusMusdjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 699.0,
-          "cumulative_jpy": 699.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 699.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 699.0
-        }
-      ]
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "103578_20231120",
-      "account_name": "GWJPNstandard",
-      "account_id": "103578",
-      "currency": "JPY",
-      "magic": "20231120",
-      "ea_name": "SagitariusSusdjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 508.0,
-          "cumulative_jpy": 508.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 508.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 508.0
-        }
-      ]
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "103578_20260622",
-      "account_name": "GWJPNstandard",
-      "account_id": "103578",
-      "currency": "JPY",
-      "magic": "20260622",
-      "ea_name": null,
-      "win_rate": 50.0,
-      "pf": 2.29,
-      "total_trades": 2,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 508.0,
-          "cumulative_jpy": 508.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 508.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": -222.0,
-          "cumulative_jpy": 286.0
-        }
-      ]
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "103578_20260705",
-      "account_name": "GWJPNstandard",
-      "account_id": "103578",
-      "currency": "JPY",
-      "magic": "20260705",
-      "ea_name": "DWV-EAusdjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 598.0,
-          "cumulative_jpy": 598.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 598.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 598.0
-        }
-      ]
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_20231119",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "20231119",
-      "ea_name": "SagitariusMusdjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 21.0,
-          "cumulative_jpy": 21.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 21.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 21.0
-        }
-      ]
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_20231120",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "20231120",
-      "ea_name": "SagitariusSusdjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 15.0,
-          "cumulative_jpy": 15.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 15.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 15.0
-        }
-      ]
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_20260522",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "20260522",
-      "ea_name": "PO10Pgold1M",
-      "win_rate": 56.4,
-      "pf": 1.94,
-      "total_trades": 369,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": 193.0,
-          "cumulative_jpy": 193.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 193.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": 20.0,
-          "cumulative_jpy": 213.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 213.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 213.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 213.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 213.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": 45.0,
-          "cumulative_jpy": 258.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": 3784.0,
-          "cumulative_jpy": 4042.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": 559.0,
-          "cumulative_jpy": 4601.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": 2563.0,
-          "cumulative_jpy": 7164.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 7164.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 7164.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 7164.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": 2269.0,
-          "cumulative_jpy": 9433.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 16746.0,
-          "cumulative_jpy": 26179.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": 6589.0,
-          "cumulative_jpy": 32768.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": 1950.0,
-          "cumulative_jpy": 34718.0
-        }
-      ]
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_20260705",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "20260705",
-      "ea_name": "DWV-EAusdjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 30.0,
-          "cumulative_jpy": 30.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 30.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 30.0
-        }
-      ]
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_2026070778",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "2026070778",
-      "ea_name": "BridgeEAeurusd1H",
-      "win_rate": 50.0,
-      "pf": 1.46,
-      "total_trades": 2,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": 19.0,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 19.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": -13.0,
-          "cumulative_jpy": 6.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": null,
-          "cumulative_jpy": 6.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 6.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 6.0
-        }
-      ]
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_20260777",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "20260777",
-      "ea_name": "BridgeEAusdjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": 12.0,
-          "cumulative_jpy": 12.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 12.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 12.0
-        }
-      ]
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_20260910",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "20260910",
-      "ea_name": null,
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": 147.0,
-          "cumulative_jpy": 147.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 147.0
-        }
-      ]
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_20260922",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "20260922",
-      "ea_name": "BridgeEAaudjpy1H",
-      "win_rate": 100.0,
-      "pf": null,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": 9.0,
-          "cumulative_jpy": 9.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 9.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 9.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 9.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 9.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": null,
-          "cumulative_jpy": 9.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": 9.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": 9.0
-        }
-      ]
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_202610069",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "202610069",
-      "ea_name": "kagiashiEAusdjpy1H",
-      "win_rate": 22.2,
-      "pf": 0.38,
-      "total_trades": 9,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": -4.0,
-          "cumulative_jpy": -4.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": -4.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": -5.0,
-          "cumulative_jpy": -9.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": -9.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": -9.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": 9.0,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": -5.0,
-          "cumulative_jpy": -5.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": -5.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": -16.0,
-          "cumulative_jpy": -21.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": -21.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": -21.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": -21.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": 0.0,
-          "cumulative_jpy": -21.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": null,
-          "cumulative_jpy": -21.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": null,
-          "cumulative_jpy": -21.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": -21.0
-        }
-      ]
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
     },
     {
-      "key": "1619363_202611001",
-      "account_name": "SagitariusMicro",
-      "account_id": "1619363",
-      "currency": "JPY",
-      "magic": "202611001",
-      "ea_name": "swingD01EAeurusd1H",
-      "win_rate": 0.0,
-      "pf": 0.0,
-      "total_trades": 1,
-      "series": [
-        {
-          "date": "2026-10-25",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-29",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-10-31",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-01",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-02",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-03",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-04",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-05",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-06",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-07",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-08",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-09",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-10",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-11",
-          "daily_jpy": null,
-          "cumulative_jpy": 0.0
-        },
-        {
-          "date": "2026-11-12",
-          "daily_jpy": -4.0,
-          "cumulative_jpy": -4.0
-        },
-        {
-          "date": "2026-11-13",
-          "daily_jpy": null,
-          "cumulative_jpy": -4.0
-        }
-      ]
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 699.0,
+     "cumulative_jpy": 699.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 699.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 699.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 699.0
     }
-  ]
+   ]
+  },
+  {
+   "key": "103578_20231120",
+   "account_name": "GWJPNstandard",
+   "account_id": "103578",
+   "currency": "JPY",
+   "magic": "20231120",
+   "ea_name": "SagitariusSusdjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 508.0,
+     "cumulative_jpy": 508.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 508.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 508.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 508.0
+    }
+   ]
+  },
+  {
+   "key": "103578_20260622",
+   "account_name": "GWJPNstandard",
+   "account_id": "103578",
+   "currency": "JPY",
+   "magic": "20260622",
+   "ea_name": "DWV-EAusdjpy1H",
+   "win_rate": 50.0,
+   "pf": 2.29,
+   "total_trades": 2,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 508.0,
+     "cumulative_jpy": 508.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 508.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 508.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": -222.0,
+     "cumulative_jpy": 286.0
+    }
+   ]
+  },
+  {
+   "key": "103578_20260705",
+   "account_name": "GWJPNstandard",
+   "account_id": "103578",
+   "currency": "JPY",
+   "magic": "20260705",
+   "ea_name": "DWV-EAusdjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 598.0,
+     "cumulative_jpy": 598.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 598.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 598.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 598.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_20231119",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "20231119",
+   "ea_name": "SagitariusMusdjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 21.0,
+     "cumulative_jpy": 21.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 21.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 21.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 21.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_20231120",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "20231120",
+   "ea_name": "SagitariusSusdjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 15.0,
+     "cumulative_jpy": 15.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 15.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 15.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 15.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_20260522",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "20260522",
+   "ea_name": "PO10Pgold1M",
+   "win_rate": 56.4,
+   "pf": 1.94,
+   "total_trades": 369,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": 193.0,
+     "cumulative_jpy": 193.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 193.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": 20.0,
+     "cumulative_jpy": 213.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 213.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 213.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 213.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 213.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": 45.0,
+     "cumulative_jpy": 258.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": 3784.0,
+     "cumulative_jpy": 4042.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": 559.0,
+     "cumulative_jpy": 4601.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": 2563.0,
+     "cumulative_jpy": 7164.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 7164.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 7164.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 7164.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": 2269.0,
+     "cumulative_jpy": 9433.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 16746.0,
+     "cumulative_jpy": 26179.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": 6589.0,
+     "cumulative_jpy": 32768.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": 1950.0,
+     "cumulative_jpy": 34718.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 34718.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_20260705",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "20260705",
+   "ea_name": "DWV-EAusdjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 30.0,
+     "cumulative_jpy": 30.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 30.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 30.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 30.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_2026070778",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "2026070778",
+   "ea_name": "BridgeEAeurusd1H",
+   "win_rate": 50.0,
+   "pf": 1.46,
+   "total_trades": 2,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": 19.0,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 19.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": -13.0,
+     "cumulative_jpy": 6.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": null,
+     "cumulative_jpy": 6.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 6.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 6.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 6.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_20260777",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "20260777",
+   "ea_name": "BridgeEAusdjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": 12.0,
+     "cumulative_jpy": 12.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 12.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 12.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 12.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_20260910",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "20260910",
+   "ea_name": null,
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": 147.0,
+     "cumulative_jpy": 147.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 147.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": 147.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_20260922",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "20260922",
+   "ea_name": "BridgeEAaudjpy1H",
+   "win_rate": 100.0,
+   "pf": null,
+   "total_trades": 2,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": 9.0,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": null,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": 9.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": 8.0,
+     "cumulative_jpy": 17.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_202610069",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "202610069",
+   "ea_name": "kagiashiEAusdjpy1H",
+   "win_rate": 20.0,
+   "pf": 0.35,
+   "total_trades": 10,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": -4.0,
+     "cumulative_jpy": -4.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": -4.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": -5.0,
+     "cumulative_jpy": -9.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": -9.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": -9.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": 9.0,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": -5.0,
+     "cumulative_jpy": -5.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": -5.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": -16.0,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": 0.0,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": null,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": null,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": -21.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": -3.0,
+     "cumulative_jpy": -24.0
+    }
+   ]
+  },
+  {
+   "key": "1619363_202611001",
+   "account_name": "SagitariusMicro",
+   "account_id": "1619363",
+   "currency": "JPY",
+   "magic": "202611001",
+   "ea_name": "swingD01EAeurusd1H",
+   "win_rate": 0.0,
+   "pf": 0.0,
+   "total_trades": 1,
+   "series": [
+    {
+     "date": "2026-10-25",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "daily_jpy": null,
+     "cumulative_jpy": 0.0
+    },
+    {
+     "date": "2026-11-12",
+     "daily_jpy": -4.0,
+     "cumulative_jpy": -4.0
+    },
+    {
+     "date": "2026-11-13",
+     "daily_jpy": null,
+     "cumulative_jpy": -4.0
+    },
+    {
+     "date": "2026-11-14",
+     "daily_jpy": null,
+     "cumulative_jpy": -4.0
+    }
+   ]
+  }
+ ]
 }
