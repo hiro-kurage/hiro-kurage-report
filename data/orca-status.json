@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T00:30:14.787976+00:00",
+  "updated_at": "2026-11-14T00:45:14.047331+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -103,13 +103,13 @@
       "provider": "",
       "enabled": true,
       "schedule": "",
-      "next_run": 1794616200000,
+      "next_run": 1795221000000,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-07T02:40:20.340000+00:00",
-        "completed_at": "2026-11-07T02:40:42.959000+00:00",
+        "started_at": "2026-11-14T00:30:12.249000+00:00",
+        "completed_at": "2026-11-14T00:30:35.324000+00:00",
         "duration_seconds": 23,
-        "output": "- 保存先は `/Users/hiro/Library/Mobile Documents/iCloud~md~obsidian/Documents/iclouddriver/` です。\n- ファイル名は `2026-11-07-USDJPY.png` と `2026-11-07-EURUSD.png` です。\n- 各チャートは、左にH1（SMA10/30）、右に日足（SMA20/200）を並べた横長の画像です。\n- データは11/6(金) 22:00のH1足までです。今日は土曜で市場が休みなので、これが最新です。\n- 元の画像は `RemoteBridgeEA/charts/` にもあります。",
+        "output": "完了」を送信済みです。\n\n- **チャートの内容:** 各ペアとも、左がH1(SMA10/30)、右が日足(SMA20/200)です。\n- **データ:** H1データの最終足は11/13(金)22:00です。今日は土曜でマーケットが閉まっているため、これが「今時点」の最新です。\n- **保存先:** Obsidianフォルダに、既存ファイルと同じ「日付-ペア名」の形式で保存しました。\n  - `2026-11-14-USDJPY.png`\n  - `2026-11-14-EURUSD.png`\n\nどちらも1枚の画像にH1と日足を並べています。ペアごとに別々の画像にしたい場合は、作り直します。",
         "inferred_failure": false
       }
     },
@@ -183,12 +183,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 9 * * 6",
-      "next_run": "2026-11-14T00:30:00Z",
+      "next_run": "2026-11-21T00:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-07T00:30:11Z",
-        "completed_at": "2026-11-07T00:30:31Z",
-        "duration_seconds": 20,
+        "started_at": "2026-11-14T00:30:12Z",
+        "completed_at": "2026-11-14T00:30:34Z",
+        "duration_seconds": 22,
         "output": "",
         "inferred_failure": false
       }
