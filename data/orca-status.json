@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T04:00:15.255939+00:00",
+  "updated_at": "2026-11-22T04:15:14.212553+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -199,11 +199,11 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-11-22T04:00:00Z",
+      "next_run": "2026-11-22T09:00:00Z",
       "last_run": {
         "status": "failed",
-        "started_at": "2026-11-21T23:30:19Z",
-        "completed_at": "2026-11-21T23:30:22Z",
+        "started_at": "2026-11-22T04:00:22Z",
+        "completed_at": "2026-11-22T04:00:25Z",
         "duration_seconds": 3,
         "output": "Failed to authenticate: this login reached its time limit and cannot be renewed. Run `claude auth login` to sign in again, or use `claude setup-token` and set CLAUDE_CODE_OAUTH_TOKEN for unattended jobs",
         "inferred_failure": false
