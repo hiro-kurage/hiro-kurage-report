@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:15:15.816890+00:00",
+  "updated_at": "2026-11-24T14:30:15.166869+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -150,8 +150,8 @@
       "name": "bridge69サイン判断・試運転(sonnet)",
       "provider": "multica",
       "enabled": true,
-      "schedule": "",
-      "next_run": null,
+      "schedule": "10 1,9,13,17,21 * * *",
+      "next_run": "2026-11-24T16:10:00Z",
       "last_run": {
         "status": "completed",
         "started_at": "2026-11-24T13:53:21Z",
