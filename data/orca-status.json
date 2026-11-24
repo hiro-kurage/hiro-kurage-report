@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T13:45:14.620777+00:00",
+  "updated_at": "2026-11-24T14:00:16.049523+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -142,6 +142,22 @@
         "completed_at": "2026-11-14T00:00:30.362000+00:00",
         "duration_seconds": 18,
         "output": "2026-W46（11月9日〜13日）の週成績は、必要な日次記録が揃っていないため作成できませんでした。週次の数値は算出していません。\n\n不足している記録は、比較日の11月6日と、11月9日〜13日の6ファイルです。日次記録を揃えた後、もう一度作成できます。",
+        "inferred_failure": false
+      }
+    },
+    {
+      "id": "d307296b-8922-4698-8ff4-483f0ed4398f",
+      "name": "bridge69サイン判断・試運転(sonnet)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "",
+      "next_run": null,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-11-24T13:53:21Z",
+        "completed_at": "2026-11-24T13:53:30Z",
+        "duration_seconds": 9,
+        "output": "",
         "inferred_failure": false
       }
     },
