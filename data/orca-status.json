@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:30:15.166869+00:00",
+  "updated_at": "2026-11-24T14:45:17.590631+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -146,12 +146,28 @@
       }
     },
     {
+      "id": "20ca0259-9f2c-4ae2-a7d6-af7bd7854733",
+      "name": "bridge69サイン判断・並行記録(haiku)",
+      "provider": "multica",
+      "enabled": true,
+      "schedule": "",
+      "next_run": null,
+      "last_run": {
+        "status": "completed",
+        "started_at": "2026-11-24T14:42:34Z",
+        "completed_at": "2026-11-24T14:42:46Z",
+        "duration_seconds": 12,
+        "output": "",
+        "inferred_failure": false
+      }
+    },
+    {
       "id": "d307296b-8922-4698-8ff4-483f0ed4398f",
       "name": "bridge69サイン判断・試運転(sonnet)",
       "provider": "multica",
       "enabled": true,
-      "schedule": "10 1,9,13,17,21 * * *",
-      "next_run": "2026-11-24T16:10:00Z",
+      "schedule": "40 21 * * *",
+      "next_run": "2026-11-25T12:40:00Z",
       "last_run": {
         "status": "completed",
         "started_at": "2026-11-24T13:53:21Z",
