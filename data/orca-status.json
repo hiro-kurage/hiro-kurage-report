@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T05:00:14.989089+00:00",
+  "updated_at": "2026-11-24T05:15:14.789832+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -167,12 +167,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 */2 * * *",
-      "next_run": "2026-11-24T05:00:00Z",
+      "next_run": "2026-11-24T07:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-24T03:00:33Z",
-        "completed_at": "2026-11-24T03:02:12Z",
-        "duration_seconds": 99,
+        "started_at": "2026-11-24T05:00:35Z",
+        "completed_at": "2026-11-24T05:02:46Z",
+        "duration_seconds": 131,
         "output": "",
         "inferred_failure": false
       }
