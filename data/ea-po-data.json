@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T23:50:29.792465+09:00",
+  "updated_at": "2026-11-25T23:50:35.373565+09:00",
   "base_date": "2026-10-25",
   "dates": [
     "2026-10-25",
@@ -32,7 +32,8 @@
     "2026-11-21",
     "2026-11-22",
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-25"
   ],
   "eas": [
     {
@@ -198,6 +199,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": 5.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": 5.0
         }
@@ -368,6 +374,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": -646.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": -646.0
         }
       ]
     },
@@ -534,6 +545,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": -145.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": -145.0
         }
@@ -704,6 +720,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": 598.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": 598.0
         }
       ]
     },
@@ -870,6 +891,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": 0.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": 0.0
         }
@@ -1040,6 +1066,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": -22.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": -22.0
         }
       ]
     },
@@ -1050,9 +1081,9 @@
       "currency": "JPY",
       "magic": "20260522",
       "ea_name": null,
-      "win_rate": 53.9,
-      "pf": 0.68,
-      "total_trades": 736,
+      "win_rate": 54.0,
+      "pf": 0.69,
+      "total_trades": 792,
       "series": [
         {
           "date": "2026-10-25",
@@ -1208,6 +1239,11 @@
           "date": "2026-11-24",
           "daily_jpy": 2222.0,
           "cumulative_jpy": -52898.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": 587.0,
+          "cumulative_jpy": -52311.0
         }
       ]
     },
@@ -1374,6 +1410,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": 30.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": 30.0
         }
@@ -1544,6 +1585,11 @@
           "date": "2026-11-24",
           "daily_jpy": -14.0,
           "cumulative_jpy": -1.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": -1.0
         }
       ]
     },
@@ -1712,6 +1758,11 @@
           "date": "2026-11-24",
           "daily_jpy": -6.0,
           "cumulative_jpy": 6.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": 6.0
         }
       ]
     },
@@ -1878,6 +1929,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": 147.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": 147.0
         }
@@ -2048,6 +2104,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": 26.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": 26.0
         }
       ]
     },
@@ -2214,6 +2275,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": -15.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": -15.0
         }
@@ -2384,6 +2450,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": -7.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": -7.0
         }
       ]
     },
@@ -2550,6 +2621,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": 11.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": 11.0
         }
@@ -2720,6 +2796,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": 110.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": 110.0
         }
       ]
     },
@@ -2888,6 +2969,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": -10.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": -10.0
         }
       ]
     },
@@ -2898,9 +2984,9 @@
       "currency": "JPY",
       "magic": "73001",
       "ea_name": null,
-      "win_rate": 0.0,
-      "pf": 0.0,
-      "total_trades": 2,
+      "win_rate": 33.3,
+      "pf": 0.4,
+      "total_trades": 3,
       "series": [
         {
           "date": "2026-10-25",
@@ -3056,6 +3142,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": -15.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": 6.0,
+          "cumulative_jpy": -9.0
         }
       ]
     },
@@ -3224,6 +3315,11 @@
           "date": "2026-11-24",
           "daily_jpy": null,
           "cumulative_jpy": 1998.0
+        },
+        {
+          "date": "2026-11-25",
+          "daily_jpy": null,
+          "cumulative_jpy": 1998.0
         }
       ]
     },
@@ -3390,6 +3486,11 @@
         },
         {
           "date": "2026-11-24",
+          "daily_jpy": null,
+          "cumulative_jpy": -602.0
+        },
+        {
+          "date": "2026-11-25",
           "daily_jpy": null,
           "cumulative_jpy": -602.0
         }
