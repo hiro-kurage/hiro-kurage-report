@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T14:00:17.130017+00:00",
+  "updated_at": "2026-11-27T14:15:18.584872+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -154,9 +154,9 @@
       "next_run": null,
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-27T13:03:08Z",
-        "completed_at": "2026-11-27T13:04:00Z",
-        "duration_seconds": 52,
+        "started_at": "2026-11-27T14:03:08Z",
+        "completed_at": "2026-11-27T14:03:50Z",
+        "duration_seconds": 42,
         "output": "",
         "inferred_failure": false
       }
@@ -170,9 +170,9 @@
       "next_run": "2026-11-28T12:40:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-27T13:03:08Z",
-        "completed_at": "2026-11-27T13:03:35Z",
-        "duration_seconds": 27,
+        "started_at": "2026-11-27T14:03:07Z",
+        "completed_at": "2026-11-27T14:03:31Z",
+        "duration_seconds": 24,
         "output": "",
         "inferred_failure": false
       }
@@ -231,12 +231,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "30 8 * * *",
-      "next_run": "2026-11-27T14:00:00Z",
+      "next_run": "2026-11-27T23:30:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-27T09:00:35Z",
-        "completed_at": "2026-11-27T09:01:21Z",
-        "duration_seconds": 46,
+        "started_at": "2026-11-27T14:00:40Z",
+        "completed_at": "2026-11-27T14:04:19Z",
+        "duration_seconds": 219,
         "output": "",
         "inferred_failure": false
       }
@@ -247,12 +247,12 @@
       "provider": "multica",
       "enabled": true,
       "schedule": "0 23 * * *",
-      "next_run": "2026-11-27T14:00:00Z",
+      "next_run": "2026-11-28T14:00:00Z",
       "last_run": {
         "status": "completed",
-        "started_at": "2026-11-26T14:00:37Z",
-        "completed_at": "2026-11-26T14:00:52Z",
-        "duration_seconds": 15,
+        "started_at": "2026-11-27T14:00:44Z",
+        "completed_at": "2026-11-27T14:00:55Z",
+        "duration_seconds": 11,
         "output": "",
         "inferred_failure": false
       }
