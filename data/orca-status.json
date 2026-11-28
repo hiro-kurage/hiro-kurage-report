@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T09:30:18.336736+00:00",
+  "updated_at": "2026-11-28T09:45:18.224344+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -163,7 +163,7 @@
     },
     {
       "id": "d307296b-8922-4698-8ff4-483f0ed4398f",
-      "name": "bridge69サイン判断・試運転(sonnet)",
+      "name": "bridge69サイン判断・本番(sonnet・実取引)",
       "provider": "multica",
       "enabled": true,
       "schedule": "40 21 * * *",
