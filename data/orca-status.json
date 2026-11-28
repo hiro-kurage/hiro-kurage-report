@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T11:15:18.590420+00:00",
+  "updated_at": "2026-11-28T11:30:18.155879+00:00",
   "automations": [
     {
       "id": "bb76daca-919c-46ef-af05-f7610e688192",
@@ -201,10 +201,10 @@
       "schedule": "0 */2 * * *",
       "next_run": "2026-11-28T13:00:00Z",
       "last_run": {
-        "status": "issue_created",
+        "status": "completed",
         "started_at": "2026-11-28T11:15:07Z",
-        "completed_at": null,
-        "duration_seconds": null,
+        "completed_at": "2026-11-28T11:17:59Z",
+        "duration_seconds": 172,
         "output": "",
         "inferred_failure": false
       }
